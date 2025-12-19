@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="43019">AutoGatherfood</name>
+		<type>AutoGather</type>
+		<persistent>1</persistent>
+		<active>1</active>
+		<Rate type ='Food'>1.000000</Rate>
+	</action>
+	<action>
+		<name stringid="43019">AutoGatherwood</name>
+		<type>AutoGather</type>
+		<persistent>1</persistent>
+		<active>1</active>
+		<Rate type ='wood'>1.000000</Rate>
+	</action>
+	<action>
+		<name stringid="43019">AutoGathercoin</name>
+		<type>AutoGather</type>
+		<persistent>1</persistent>
+		<active>1</active>
+		<Rate type ='gold'>1.000000</Rate>
+	</action>
+	<tactic>
+		Normal
+		<action>AutoGatherFood</action>
+		<action>AutoGatherCoin</action>
+		<action>AutoGatherWood</action>
+	</tactic>
+</tactics>

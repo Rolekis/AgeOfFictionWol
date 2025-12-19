@@ -1,0 +1,2194 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<homecity>
+	<civ>Chileans</civ>
+	<name>$$600010$$</name>
+	<heroname>$$43033$$</heroname>
+	<gatherpointunit>HomeCityGatherFlag</gatherpointunit>
+	<visual>WoL\Chileans\chileans_homecity.xml</visual>
+	<watervisual>german\german_homecity_water.xml</watervisual>
+	<backgroundvisual>WoL\Chileans\chileans_sky.xml</backgroundvisual>
+	<pathdata>german\pathable_area_object.gr2</pathdata>
+	<camera>russian\russian_homecity_camera.cam</camera>
+	<widescreencamera>russian\russian_homecity_widescreencamera.cam</widescreencamera>
+	<transportroundtriptime>1</transportroundtriptime>
+	<transportactivationtime>0</transportactivationtime>
+	<level>10</level>
+	<skillpoints>9</skillpoints>
+	<lightset>London</lightset>
+	<watertype>Lisbon</watertype>
+	<numpropunlocksearned>0</numpropunlocksearned>
+	<ambientsounds>homecity\portugueseambientsounds.xml</ambientsounds>
+	<xsai>generic_city</xsai>
+	<coffers>
+		<current>
+			<food>0</food>
+			<wood>0</wood>
+			<gold>0</gold>
+			<fame>0</fame>
+			<ships>0</ships>
+			<skillpoints>0</skillpoints>
+			<xp>0</xp>
+		</current>
+		<maximum>
+			<food>0</food>
+			<wood>0</wood>
+			<gold>0</gold>
+			<fame>0</fame>
+			<ships>0</ships>
+			<skillpoints>-1</skillpoints>
+			<xp>-1</xp>
+		</maximum>
+	</coffers>
+	<cards>
+
+		<card>
+			<name>HCZuavosChilenos</name>
+			<maxcount>1</maxcount>
+			<prereqtech>-1</prereqtech>
+			<level>0</level>
+			<age>3</age>
+			<displayunitcount>14</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipRotos1</name>
+			<maxcount>-1</maxcount>
+			<prereqtech>-1</prereqtech>
+			<level>0</level>
+			<age>0</age>
+			<displayunitcount>2</displayunitcount>
+		</card>
+		<card>
+			<name>husaresdelamuertech</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<age>3</age>
+			<displayunitcount>8</displayunitcount>
+		</card>
+		<card>
+			<name>HCREVcharge</name>
+			<maxcount>2</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+			<name>HCShipRotos2</name>
+			<maxcount>-1</maxcount>
+			<prereqtech>HCShipRotos1</prereqtech>
+			<level>0</level>
+			<age>1</age>
+			<displayunitcount>4</displayunitcount>
+		</card>
+		<card>		
+			<name>HCShipRotos3</name>		<!-- Agregar -->
+			<maxcount>1</maxcount>
+			<prereqtech>HCShipRotos2</prereqtech>
+			<level>0</level>
+			<age>0</age>
+			<displayunitcount>3</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>	
+		<card>		
+			<name>HCShipRotos4</name>		<!-- Agregar -->
+			<maxcount>1</maxcount>
+			<prereqtech>HCShipRotos3</prereqtech>
+			<level>0</level>
+			<age>1</age>
+			<displayunitcount>5</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipFoodCratesChile1</name>
+			<maxcount>-1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>0</age>
+			<displayunitcount>400</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipFoodCratesChile2</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipFoodCratesChile1</prereqtech>
+			<age>1</age>
+			<infiniteinlastage>1</infiniteinlastage>
+			<displayunitcount>700</displayunitcount>
+		</card>
+		<card>
+			<name>HCShipFoodCratesChile3</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipFoodCratesChile2</prereqtech>
+			<age>1</age>
+			<infiniteinlastage>1</infiniteinlastage>
+			<displayunitcount>800</displayunitcount>
+		</card>
+		<card>
+			<name>HCShipFoodCratesChile4</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipFoodCratesChile3</prereqtech>
+			<age>2</age>
+			<infiniteinlastage>1</infiniteinlastage>
+			<displayunitcount>1100</displayunitcount>
+		</card>
+		<card>
+			<name>HCShipFoodCratesChile5</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipFoodCratesChile4</prereqtech>
+			<age>3</age>
+			<infiniteinlastage>1</infiniteinlastage>
+			<displayunitcount>1700</displayunitcount>
+		</card>
+		<card>
+			<name>HCShipWoodCratesChile1</name>
+			<maxcount>-1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>0</age>
+			<displayunitcount>400</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipWoodCratesChile2</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipWoodCratesChile1</prereqtech>
+			<age>1</age>
+			<displayunitcount>700</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipWoodCratesChile3</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipwoodCratesChile2</prereqtech>
+			<age>1</age>
+			<displayunitcount>800</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipWoodCratesChile4</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipwoodCratesChile3</prereqtech>
+			<age>2</age>
+			<displayunitcount>1100</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipWoodCratesChile5</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipwoodCratesChile4</prereqtech>
+			<age>3</age>
+			<displayunitcount>1700</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipCoinCratesChile1</name>
+			<maxcount>-1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>0</age>
+			<displayunitcount>400</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipCoinCratesChile2</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipCoinCratesChile1</prereqtech>
+			<age>1</age>
+			<displayunitcount>700</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipCoinCratesChile3</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipCoinCratesChile2</prereqtech>
+			<age>1</age>
+			<displayunitcount>800</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipCoinCratesChile4</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipCoinCratesChile3</prereqtech>
+			<age>2</age>
+			<displayunitcount>1100</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipCoinCratesChile5</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipCoinCratesChile4</prereqtech>
+			<age>3</age>
+			<displayunitcount>1700</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCShipPigsRepeat</name>
+			<maxcount>-1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>0</age>
+			<displayunitcount>7</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipPigs2</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>WOLHCShipPigsRepeat</prereqtech>
+			<age>2</age>
+			<displayunitcount>15</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipCows</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>WOLHCShipPigsRepeat</prereqtech>
+			<age>1</age>
+			<displayunitcount>7</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCCorderoMagallanico</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipCows</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>HCShipCostumbrismoChile</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>2</age>
+			<displayunitcount>1</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCSilverRushChile</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCSilversmithChile</prereqtech>
+			<age>0</age>
+			<displayunitcount>2</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		
+		<card>
+			<name>HCShipCivicos1</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+			<displayunitcount>6</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipCivicos2</name>
+			<maxcount>-1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipCivicos1</prereqtech>
+			<age>2</age>
+			<displayunitcount>8</displayunitcount>
+		</card>
+		<card>
+			<name>HCShipCivicos3</name>
+			<maxcount>-1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipCivicos2</prereqtech>
+			<age>3</age>
+			<displayunitcount>14</displayunitcount>
+		</card>
+		<card>
+			<name>HCShipCivicos4</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipCivicos3</prereqtech>
+			<age>2</age>
+			<displayunitcount>9</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipCivicos5</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipCivicos4</prereqtech>
+			<age>3</age>
+			<displayunitcount>15</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCDesertDamageChile</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipCivicos2</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>HCDesertHitPointsChile</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCDesertDamageChile</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>HCDesertCombatChile</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCDesertHitPointsChile</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+			<name>WOLHCShipVivanderasChile1</name>
+			<maxcount>-1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>2</age>
+			<displayunitcount>7</displayunitcount>
+		</card>
+		<card>
+			<name>WOLHCShipVivanderasChile2</name>
+			<maxcount>-1</maxcount>
+			<level>0</level>
+			<prereqtech>WOLHCShipVivanderasChile1</prereqtech>
+			<age>3</age>
+			<displayunitcount>9</displayunitcount>
+		</card>
+		<card>
+			<name>WOLHCShipVivanderasChile3</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>WOLHCShipVivanderasChile2</prereqtech>
+			<age>2</age>
+			<displayunitcount>8</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCShipVivanderasChile4</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>WOLHCShipVivanderasChile3</prereqtech>
+			<age>3</age>
+			<displayunitcount>12</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipEscopeterosChile1</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+			<displayunitcount>8</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipEscopeterosChile2</name>
+			<maxcount>-1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipEscopeterosChile1</prereqtech>
+			<age>2</age>
+			<displayunitcount>10</displayunitcount>
+		</card>
+		<card>
+			<name>HCShipEscopeterosChile3</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipEscopeterosChile2</prereqtech>
+			<age>2</age>
+			<displayunitcount>12</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipEscopeterosChile4</name>
+			<maxcount>-1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipEscopeterosChile3</prereqtech>
+			<age>3</age>
+			<displayunitcount>20</displayunitcount>
+		</card>
+		<card>
+			<name>HCShipEscopeterosChile5</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipEscopeterosChile4</prereqtech>
+			<age>3</age>
+			<displayunitcount>24</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipFrontierCavalry1</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>2</age>
+			<displayunitcount>9</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipFrontierCavalry2</name>
+			<maxcount>-1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipFrontierCavalry1</prereqtech>
+			<age>3</age>
+			<displayunitcount>13</displayunitcount>
+		</card>
+		<card>
+			<name>HCShipFrontierCavalry3</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipFrontierCavalry2</prereqtech>
+			<age>3</age>
+			<displayunitcount>17</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCFrontierCombatChile</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipFrontierCavalry2</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+			<name>HCShipYungayosChile1</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+			<infiniteinlastage>1</infiniteinlastage>
+			<displayunitcount>5</displayunitcount>
+		</card>
+		<card>
+			<name>HCShipYungayosChile2</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipYungayosChile1</prereqtech>
+			<age>2</age>
+			<displayunitcount>7</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipYungayosChile3</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipYungayosChile2</prereqtech>
+			<age>3</age>
+			<displayunitcount>12</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipBacamarterosChile1</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+			<infiniteinlastage>1</infiniteinlastage>
+			<displayunitcount>5</displayunitcount>
+		</card>
+		<card>
+			<name>HCShipBacamarterosChile2</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipBacamarterosChile1</prereqtech>
+			<age>2</age>
+			<displayunitcount>8</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipBacamarterosChile3</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipBacamarterosChile2</prereqtech>
+			<age>3</age>
+			<displayunitcount>12</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipLancerosChile1</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+			<infiniteinlastage>1</infiniteinlastage>
+			<displayunitcount>3</displayunitcount>
+		</card>
+		<card>
+			<name>HCShipLancerosChile2</name>
+			<maxcount>-1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipLancerosChile1</prereqtech>
+			<age>2</age>
+			<displayunitcount>4</displayunitcount>
+		</card>
+		<card>
+			<name>HCShipLancerosChile3</name>
+			<maxcount>-1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipLancerosChile2</prereqtech>
+			<age>3</age>
+			<displayunitcount>7</displayunitcount>
+		</card>
+		<card>
+			<name>HCShipLancerosChile4</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipLancerosChile3</prereqtech>
+			<age>2</age>
+			<displayunitcount>5</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipLancerosChile5</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipLancerosChile4</prereqtech>
+			<age>3</age>
+			<displayunitcount>8</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCPalomeo</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipLancerosChile5</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+			<name>HCShipEscoltaChile1</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>2</age>
+			<displayunitcount>3</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		    </card>
+			<card>
+			<name>HCShipEscoltaChile2</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipEscoltaChile1</prereqtech>
+			<age>3</age>
+			<displayunitcount>5</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>						
+		</card>
+		<card>
+			<name>HCNativelawChile</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>HCMisionesChile</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCNativelawChile</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>HCMestizajeChile</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCMisionesChile</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>HCCofradiasChile</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>HCImprovedBuildingsChile</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCUtiPossidetisChile</prereqtech>
+			<age>3</age>
+		</card>
+		<card>
+			<name>HCFrontierDefensesChile</name>
+			<maxcount>-1</maxcount>
+			<level>0</level>
+			<prereqtech>HCCofradiasChile</prereqtech>
+			<age>1</age>
+			<displayunitcount>2</displayunitcount>
+		</card>
+		<card>
+			<name>HCFrontierDefensesChile2</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCFrontierDefensesChile</prereqtech>
+			<age>2</age>
+			<displayunitcount>4</displayunitcount>
+		</card>
+		<card>
+			<name>HCWeightOfNight</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>WOLHCParliamentarism</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>WOLHCParliamentarism</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCCaudillismoChile</prereqtech>
+			<age>3</age>
+		</card>
+		<card>
+			<name>HCCaudillismoChile</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>HCFencingSchoolChile</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>HCRidingSchoolChile</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCFencingSchoolChile</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>HCUtiPossidetisChile</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCCofradiasChile</prereqtech>
+			<age>0</age>
+		</card>	
+		
+		<card>
+			<name>HCAdvancedArsenalChile</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCAdvancedDockChile</prereqtech>
+			<age>1</age>
+		</card>		
+		<card>
+			<name>HCAdvancedMillChile</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCVolantin</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>HCAdvancedPlantationsChile</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCAdvancedMillChile</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>HCAdvancedDockChile</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCAdvancedPlantationsChile</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>HCFishMarketChile</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCEconomicTheoryChile</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>HCRenderingPlantChile</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCFishMarketChile</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>HCSchoonersChile</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCRenderingPlantChile</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>HCSawmillsChile</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCEconomicTheoryChile</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>HCExoticHardwoodsChile</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCSawmillsChile</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>HCIronmongerChile</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCRoyalMintChile</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>HCSilversmithChile</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCIronmongerChile</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>HCRoyalMintChile</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCEconomicTheoryChile</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+			<name>HCEconomicTheoryChile</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>HCFoodSilosChile</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCRefrigerationChile</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>HCSustainableAgricultureChile</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCFoodSilosChile</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>HCWheatCycle</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<displayunitcount>1</displayunitcount>
+			<prereqtech>HCLarmahueWheel</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>HCRefrigerationChile</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCEconomicTheoryChile</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+			<name>HCFurrierChile</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCRefrigerationChile</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>HCSpiceTrade</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCFurrier</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>HCMedicineChile</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCSociedaddelaIgualdad</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>HCPiscoDistilleryChile</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCRoyalMintChile</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>HCCigarRollerChile</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCPiscoDistilleryChile</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>HCTextileMillsChile</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCCigarRollerChile</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+			<name>HCFincaChile</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>HCShipCorvetteRepeat1</name>
+			<maxcount>-1</maxcount>
+			<level>0</level>
+			<prereqtech>HCEscuadraNacional</prereqtech>
+			<age>1</age>
+			<displayunitcount>1</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipCorvettesChile2</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipCorvetteRepeat1</prereqtech>
+			<age>1</age>
+			<displayunitcount>2</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipCorvetteRepeat2</name>
+			<maxcount>-1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipCorvettesChile2</prereqtech>
+			<age>2</age>
+			<displayunitcount>2</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipCorvetteRepeat3</name>
+			<maxcount>-1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipCorvetteRepeat2</prereqtech>
+			<age>3</age>
+			<displayunitcount>3</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipFrigateRepeat1</name>
+			<maxcount>-1</maxcount>
+			<level>0</level>
+			<prereqtech>HCEscuadraNacional</prereqtech>
+			<age>2</age>
+			<displayunitcount>1</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipFrigatesChile</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipFrigateRepeat1</prereqtech>
+			<age>2</age>
+			<displayunitcount>2</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCNavalCombatChile</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+			<name>HCShipBombardasChile</name>
+			<maxcount>-1</maxcount>
+			<level>0</level>
+			<prereqtech>HCEscuadraNacional</prereqtech>
+			<age>3</age>
+			<displayunitcount>1</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipAspidesChile1</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+			<displayunitcount>2</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipAspidesChile2</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipAspidesChile1</prereqtech>
+			<age>2</age>
+			<displayunitcount>3</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipAspidesChile3</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipAspidesChile2</prereqtech>
+			<age>3</age>
+			<displayunitcount>5</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipPasavolantesChile1</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipAspidesChile3</prereqtech>
+			<age>2</age>
+			<displayunitcount>2</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>		
+			<name>HCElPrincipeRojo</name>
+			<maxcount>1</maxcount>
+			<prereqtech>-1</prereqtech>
+			<level>0</level>
+			<age>0</age>
+		</card>
+		<card>
+			<name>HCShipPasavolantesChile2</name>
+			<maxcount>-1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipPasavolantesChile1</prereqtech>
+			<age>3</age>
+			<displayunitcount>3</displayunitcount>
+		</card>
+		<card>
+			<name>HCShipPasavolantesChile3</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipPasavolantesChile2</prereqtech>
+			<age>3</age>
+			<displayunitcount>4</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipPedrerosChile1</name>
+			<maxcount>-1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>3</age>
+			<displayunitcount>3</displayunitcount>
+		</card>
+		<card>
+			<name>HCShipPedrerosChile2</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipPedrerosChile1</prereqtech>
+			<age>3</age>
+			<displayunitcount>4</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCLlanquihueArtisans</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>HCDesembarcoPisagua</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipBacamarterosChile3</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>HCSoldadosdeMar</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCDesembarcoPisagua</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>HCCamasCalientes</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCImprovedBuildingsChile</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>HCCombateIquique</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipCorvettesChile2</prereqtech>
+			<age>3</age>
+		</card>
+		<card>
+			<name>HCEscuadraNacional</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCAdmiralityChile</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>HCPanamaCrisis</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipBombardasChile</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>HCAnimita</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCAscensor</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>HCCuasimodo</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<displayunitcount>3</displayunitcount>
+			<age>0</age>
+		</card>
+		<card>
+			<name>HCCuestiondelSacristan</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCExplorerChile</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>HCUnlockFortChile</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCFrontierDefensesChile2</prereqtech>
+			<age>2</age>
+			<displayunitcount>1</displayunitcount>
+		</card>
+		<card>
+			<name>HCFortBulnes</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCUnlockFortChile</prereqtech>
+			<age>3</age>
+		</card>
+		<card>
+			<name>HCEasterIsland</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCExoticHardwoodsChile</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>HCVolantin</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCCofradiasChile</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>HCAscensor</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>HCIsidoraGoyenechea</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCImprovedBuildingsChile</prereqtech>
+			<age>3</age>
+			<displayunitcount>1</displayunitcount>
+		</card>
+		<card>
+			<name>HCLarmahueWheel</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCSustainableAgricultureChile</prereqtech>
+			<age>3</age>
+		</card>
+		<card>
+			<name>HCPortales</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>HCExplorerChile</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>HCMinga</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>WOLHCShipCowCoveredWagon1</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>HCPatriaVieja</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>HCPatriaNueva</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCPatriaVieja</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>HCMorroDeArica</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCDesertCombatChile</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>HCBaltimoreCrisis</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCCombateIquique</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+			<name>HCInquilinaje</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCWheatCycle</prereqtech>
+			<age>3</age>
+		</card>
+		<card>
+			<name>HCHuaso</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCRefrigerationChile</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>HCSociedaddelaIgualdad</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+			<name>HCChinchinero</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+			<name>HCYeguaSuelta</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCWheatCycle</prereqtech>
+			<displayunitcount>1</displayunitcount>
+			<age>0</age>
+		</card>
+		<card>
+			<name>HCAdmiralityChile</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCNavalCombatChile</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>HCMercsJagunco</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCMercsZuavoBaiano</prereqtech>
+			<age>2</age>
+			<displayunitcount>10</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCMercsBlandengue</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+			<displayunitcount>3</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCMercsZuavoBaiano2</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCMercsZuavoBaiano</prereqtech>
+			<age>2</age>
+			<displayunitcount>13</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCSalitre</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+			<name>HCPirateAllies1</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+			<displayunitcount>9</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCPirateAllies2</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCPirateAllies1</prereqtech>
+			<age>3</age>
+			<displayunitcount>24</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCPirateAlliesRepeat</name>
+			<maxcount>-1</maxcount>
+			<level>0</level>
+			<prereqtech>HCPirateAllies2</prereqtech>
+			<age>3</age>
+			<displayunitcount>30</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipSurgeons</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+			<displayunitcount>3</displayunitcount>
+		</card>
+		<card>
+			<name>HCREVShipColonialMilitia</name>
+			<maxcount>-1</maxcount>
+			<level>0</level>
+			<prereqtech>XPRevolution</prereqtech>
+			<age>2</age>
+			<displayunitcount>20</displayunitcount>
+			<revoltcard/>
+		</card>
+		<card>
+			<name>HCREVShipGatlingGuns</name>
+			<maxcount>-1</maxcount>
+			<level>0</level>
+			<prereqtech>XPRevolution</prereqtech>
+			<age>2</age>
+			<displayunitcount>2</displayunitcount>
+			<revoltcard/>
+		</card>
+		<card>
+			<name>HCREVShipFortWagon</name>
+			<maxcount>-1</maxcount>
+			<level>0</level>
+			<prereqtech>XPRevolution</prereqtech>
+			<age>2</age>
+			<displayunitcount>1</displayunitcount>
+			<revoltcard/>
+		</card>
+		<card>
+			<name>HCREVShipIronclads</name>
+			<maxcount>-1</maxcount>
+			<level>0</level>
+			<prereqtech>XPRevolution</prereqtech>
+			<age>2</age>
+			<displayunitcount>2</displayunitcount>
+			<revoltcard/>
+		</card>
+		<card>
+			<name>HCXPShipMixedCratesChile6</name>
+			<maxcount>-1</maxcount>
+			<level>0</level>
+			<prereqtech>XPRevolution</prereqtech>
+			<age>2</age>
+			<displayunitcount>1800</displayunitcount>
+			<revoltcard/>
+		</card>
+		<card>
+			<name>HCMercsGueniChile</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>3</age>
+			<displayunitcount>9</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCMercsTauraChile</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCMercsGueniChile</prereqtech>
+			<age>3</age>
+			<displayunitcount>9</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCMercsAndeanChile</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCMercsTauraChile</prereqtech>
+			<age>3</age>
+			<displayunitcount>16</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipGuaitequerosChile1</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+			<displayunitcount>10</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipGuaitequerosChile2</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipGuaitequerosChile1</prereqtech>
+			<age>3</age>
+			<displayunitcount>24</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipGuaitequerosChile3</name>
+			<maxcount>-1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipGuaitequerosChile2</prereqtech>
+			<age>3</age>
+			<displayunitcount>27</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCAdvancedImmigrantsChile</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCAdvancedArsenalLAChile</prereqtech>
+			<age>0</age>
+		</card>
+	</cards>
+	<decks>
+		<deck>
+			<name>$$41681$$</name>
+			<cards>
+				<card dbid ="51385">HCShipRotos3</card>
+				<card dbid ="55297">HCShipCoinCratesChile2</card>
+				<card dbid ="55295">HCShipWoodCratesChile3</card>
+				<card dbid ="55294">HCShipWoodCratesChile2</card>
+				<card dbid ="55298">HCShipCoinCratesChile3</card>
+				<card dbid ="53304">HCShipRotos4</card>
+				<card dbid ="55322">HCDesertHitPointsChile</card>
+				<card dbid ="55321">HCDesertDamageChile</card>
+				<card dbid ="55317">HCShipYungayosChile1</card>
+				<card dbid ="55312">HCShipEscopeterosChile1</card>
+				<card dbid ="55355">HCAdvancedArsenalChile</card>
+				<card dbid ="55296">HCShipWoodCratesChile4</card>
+				<card dbid ="55299">HCShipCoinCratesChile4</card>
+				<card dbid ="51444">HCSalitre</card>
+				<card dbid ="55323">HCDesertCombatChile</card>
+				<card dbid ="55324">HCFrontierCombatChile</card>
+				<card dbid ="55335">HCShipPasavolantesChile1</card>
+				<card dbid ="51391">HCShipFrontierCavalry1</card>
+				<card dbid ="55310">WOLHCShipVivanderasChile3</card>
+				<card dbid ="55352">HCUnlockFortChile</card>
+				<card dbid ="55339">HCShipPedrerosChile2</card>
+				<card dbid ="55301">HCShipWoodCratesChile5</card>
+				<card dbid ="55359">HCFincaChile</card>
+				<card dbid ="51397">HCSociedaddelaIgualdad</card>
+				<card dbid ="55373">HCInquilinaje</card>
+			</cards>
+		</deck>
+		<revoltdeck>
+			<name>$$45518$$</name>
+			<cards>
+				<card>HCREVShipGatlingGuns</card>
+				<card>HCREVShipColonialMilitia</card>
+				<card>HCREVShipIronclads</card>
+				<card>HCREVShipFortWagon</card>
+				<card>HCXPShipMixedCratesChile6</card>
+			</cards>
+		</revoltdeck>
+	</decks>
+	<building>
+		<name>Estate</name>
+		<visual>
+			<file>spanish\spanish estate.xml</file>
+			<bone>bone_estate</bone>
+		</visual>
+		<uix>150</uix>
+		<uiy>200</uiy>
+		<camera>spanish\spanish_homecity_estate_camera.cam</camera>
+		<widescreencamera>spanish\spanish_homecity_estate_camera.cam</widescreencamera>
+		<unlocklevel>0</unlocklevel>
+		<portrait>homecity\buildings_west\estate_icon</portrait>
+		<displaynamestringid>24968</displaynamestringid>
+		<rolloverstringid>25537</rolloverstringid>
+		<obtainabletechs/>
+		<activetechs/>
+		<validunits/>
+		<units/>
+		<trainbuilding>1</trainbuilding>
+		<mercbuilding>1</mercbuilding>
+	</building>
+	<building>
+		<name>Market</name>
+		<visual>
+			<file>british\british_nwtc.xml</file>
+			<bone>bone_market</bone>
+		</visual>
+		<uix>250</uix>
+		<uiy>375</uiy>
+		<camera>german\germany_homecity_market_camera.cam</camera>
+		<widescreencamera>german\germany_homecity_market_widescreencamera.cam</widescreencamera>
+		<unlocklevel>0</unlocklevel>
+		<portrait>homecity\buildings_west\market_icon</portrait>
+		<displaynamestringid>710412</displaynamestringid>
+		<rolloverstringid>25536</rolloverstringid>
+		<obtainabletechs>
+			<tech x="0.0" y="1.0">HCShipRotos1</tech>
+			<tech x="0.0" y="2.0">HCShipRotos2</tech>
+			<tech x="0.0" y="3.0">HCShipRotos3</tech>
+			<tech x="0.0" y="4.0">HCShipRotos4</tech>
+			<tech x="1.0" y="1.0">HCShipFoodCratesChile1</tech>
+			<tech x="1.0" y="2.0">HCShipFoodCratesChile2</tech>
+			<tech x="1.0" y="3.0">HCShipFoodCratesChile3</tech>
+			<tech x="1.0" y="4.0">HCShipFoodCratesChile4</tech>
+			<tech x="1.0" y="5.0">HCShipFoodCratesChile5</tech>
+			<tech x="1.7" y="1.0">HCShipWoodCratesChile1</tech>
+			<tech x="1.7" y="2.0">HCShipWoodCratesChile2</tech>
+			<tech x="1.7" y="3.0">HCShipWoodCratesChile3</tech>
+			<tech x="1.7" y="4.0">HCShipWoodCratesChile4</tech>
+			<tech x="1.7" y="5.0">HCShipWoodCratesChile5</tech>
+			<tech x="2.4" y="1.0">HCShipCoinCratesChile1</tech>
+			<tech x="2.4" y="2.0">HCShipCoinCratesChile2</tech>
+			<tech x="2.4" y="3.0">HCShipCoinCratesChile3</tech>
+			<tech x="2.4" y="4.0">HCShipCoinCratesChile4</tech>
+			<tech x="2.4" y="5.0">HCShipCoinCratesChile5</tech>
+			<tech x="3.75" y="1.0">WOLHCShipPigsRepeat</tech>
+			<tech x="3.4" y="2.0">HCShipPigs2</tech>
+			<tech x="4.1" y="2.0">HCShipCows</tech>
+			<tech x="4.1" y="3.0">HCCorderoMagallanico</tech>
+			<tech x="5.1" y="1.0">HCAscensor</tech>
+			<!-- <tech x="5.1" y="2.0">HCAnimita</tech> -->
+			<tech x="6.1" y="1.0">HCCuestiondelSacristan</tech>
+			<tech x="6.1" y="2.0">HCExplorerChile</tech>
+			<tech x="6.1" y="7.0">HCShipCostumbrismoChile</tech>
+			<tech x="0.0" y="7.0">HCSalitre</tech>
+		</obtainabletechs>
+		<activetechs>
+			<tech x="0.0" y="1.0">HCShipRotos1</tech>
+			<tech x="0.0" y="2.0">HCShipRotos2</tech>
+			<tech x="0.0" y="3.0">HCShipRotos3</tech>
+			<tech x="0.0" y="4.0">HCShipRotos4</tech>
+			<tech x="1.0" y="1.0">HCShipFoodCratesChile1</tech>
+			<tech x="1.0" y="2.0">HCShipFoodCratesChile2</tech>
+			<tech x="1.0" y="3.0">HCShipFoodCratesChile3</tech>
+			<tech x="1.0" y="4.0">HCShipFoodCratesChile4</tech>
+			<tech x="1.0" y="5.0">HCShipFoodCratesChile5</tech>
+			<tech x="1.7" y="1.0">HCShipWoodCratesChile1</tech>
+			<tech x="1.7" y="2.0">HCShipWoodCratesChile2</tech>
+			<tech x="1.7" y="3.0">HCShipWoodCratesChile3</tech>
+			<tech x="1.7" y="4.0">HCShipWoodCratesChile4</tech>
+			<tech x="1.7" y="5.0">HCShipWoodCratesChile5</tech>
+			<tech x="2.4" y="1.0">HCShipCoinCratesChile1</tech>
+			<tech x="2.4" y="2.0">HCShipCoinCratesChile2</tech>
+			<tech x="2.4" y="3.0">HCShipCoinCratesChile3</tech>
+			<tech x="2.4" y="4.0">HCShipCoinCratesChile4</tech>
+			<tech x="2.4" y="5.0">HCShipCoinCratesChile5</tech>
+			<tech x="3.75" y="1.0">WOLHCShipPigsRepeat</tech>
+			<tech x="3.4" y="2.0">HCShipPigs2</tech>
+			<tech x="4.1" y="2.0">HCShipCows</tech>
+			<tech x="4.1" y="3.0">HCCorderoMagallanico</tech>
+			<tech x="5.1" y="1.0">HCAscensor</tech>
+			<!-- <tech x="5.1" y="2.0">HCAnimita</tech> -->
+			<tech x="6.1" y="1.0">HCCuestiondelSacristan</tech>
+			<tech x="6.1" y="2.0">HCExplorerChile</tech>
+			<tech x="6.1" y="7.0">HCShipCostumbrismoChile</tech>
+			<tech x="0.0" y="7.0">HCSalitre</tech>
+		</activetechs>
+		<validunits/>
+		<units/>
+		<trainbuilding>1</trainbuilding>
+	</building>
+	<building>
+		<name>Academy</name>
+		<visual>
+			<file>EqBas\RepChile\FuerteEsmeralda.xml</file>
+			<bone>bone_academy</bone>
+		</visual>
+		<uix>460</uix>
+		<uiy>125</uiy>
+		<camera>german\germany_homecity_academy_camera.cam</camera>
+		<widescreencamera>german\germany_homecity_academy_widescreencamera.cam</widescreencamera>
+		<unlocklevel>0</unlocklevel>
+		<portrait>homecity\buildings_west\academy_icon</portrait>
+		<displaynamestringid>710413</displaynamestringid>
+		<rolloverstringid>29002</rolloverstringid>
+		<obtainabletechs>
+			<tech x="0.0" y="1.0">HCShipEscopeterosChile1</tech>
+			<tech x="0.0" y="2.0">HCShipEscopeterosChile2</tech>
+			<tech x="0.0" y="3.0">HCShipEscopeterosChile3</tech>
+			<tech x="0.0" y="4.0">HCShipEscopeterosChile4</tech>
+			<tech x="0.0" y="5.0">HCShipEscopeterosChile5</tech>
+			<tech x="0.0" y="6.0">HCREVcharge</tech>
+			<tech x="0.0" y="7.0">husaresdelamuertech</tech>
+			<tech x="1.05" y="1.0">HCShipCivicos1</tech>
+			<tech x="1.05" y="2.0">HCShipCivicos2</tech>
+			<tech x="0.7" y="3.0">HCShipCivicos3</tech>
+			<tech x="0.7" y="4.0">HCShipCivicos4</tech>
+			<tech x="0.7" y="5.0">HCShipCivicos5</tech>
+			<tech x="1.4" y="3.0">HCDesertDamageChile</tech>
+			<tech x="1.4" y="4.0">HCDesertHitPointsChile</tech>
+			<tech x="1.4" y="5.0">HCDesertCombatChile</tech>
+			<tech x="1.4" y="6.0">HCMorroDeArica</tech>
+			<tech x="2.1" y="2.0">WOLHCShipVivanderasChile1</tech>
+			<tech x="2.1" y="3.0">WOLHCShipVivanderasChile2</tech>
+			<tech x="2.1" y="4.0">WOLHCShipVivanderasChile3</tech>
+			<tech x="2.1" y="5.0">WOLHCShipVivanderasChile4</tech>
+			<tech x="2.1" y="6.0">WOLHCShipVivanderasChile5</tech>
+			<tech x="3.1" y="1.0">HCShipLancerosChile1</tech>
+			<tech x="3.1" y="2.0">HCShipLancerosChile2</tech>
+			<tech x="3.1" y="3.0">HCShipLancerosChile3</tech>
+			<tech x="3.1" y="4.0">HCShipLancerosChile4</tech>
+			<tech x="3.1" y="5.0">HCShipLancerosChile5</tech>
+			<tech x="3.1" y="6.0">HCPalomeo</tech>
+			<tech x="3.1" y="7.0">HCZuavosChilenos</tech>
+			<tech x="4.15" y="2.0">HCShipFrontierCavalry1</tech>
+			<tech x="4.15" y="3.0">HCShipFrontierCavalry2</tech>
+			<tech x="3.8" y="4.0">HCShipFrontierCavalry3</tech>
+			<tech x="4.5" y="4.0">HCFrontierCombatChile</tech>
+			<tech x="5.15" y="1.0">HCShipYungayosChile1</tech>
+			<tech x="5.15" y="2.0">HCShipYungayosChile2</tech>
+			<tech x="5.15" y="3.0">HCShipYungayosChile3</tech>
+			<tech x="5.85" y="1.0">HCShipAspidesChile1</tech>
+			<tech x="5.85" y="2.0">HCShipAspidesChile2</tech>
+			<tech x="5.85" y="3.0">HCShipAspidesChile3</tech>
+			<tech x="5.85" y="7.0">HCElPrincipeRojo</tech>
+			<tech x="5.85" y="4.0">HCShipPasavolantesChile1</tech>
+			<tech x="5.85" y="5.0">HCShipPasavolantesChile2</tech>
+			<tech x="5.85" y="6.0">HCShipPasavolantesChile3</tech>
+			<tech x="6.55" y="3.0">HCShipPedrerosChile1</tech>
+			<tech x="6.55" y="4.0">HCShipPedrerosChile2</tech>
+		</obtainabletechs>
+		<activetechs>
+			<tech x="0.0" y="1.0">HCShipEscopeterosChile1</tech>
+			<tech x="0.0" y="2.0">HCShipEscopeterosChile2</tech>
+			<tech x="0.0" y="3.0">HCShipEscopeterosChile3</tech>
+			<tech x="0.0" y="4.0">HCShipEscopeterosChile4</tech>
+			<tech x="0.0" y="5.0">HCShipEscopeterosChile5</tech>
+			<tech x="0.0" y="6.0">HCREVcharge</tech>
+			<tech x="0.0" y="7.0">husaresdelamuertech</tech>
+			<tech x="1.05" y="1.0">HCShipCivicos1</tech>
+			<tech x="1.05" y="2.0">HCShipCivicos2</tech>
+			<tech x="0.7" y="3.0">HCShipCivicos3</tech>
+			<tech x="0.7" y="4.0">HCShipCivicos4</tech>
+			<tech x="0.7" y="5.0">HCShipCivicos5</tech>
+			<tech x="1.4" y="3.0">HCDesertDamageChile</tech>
+			<tech x="1.4" y="4.0">HCDesertHitPointsChile</tech>
+			<tech x="1.4" y="5.0">HCDesertCombatChile</tech>
+			<tech x="1.4" y="6.0">HCMorroDeArica</tech>
+			<tech x="2.1" y="2.0">WOLHCShipVivanderasChile1</tech>
+			<tech x="2.1" y="3.0">WOLHCShipVivanderasChile2</tech>
+			<tech x="2.1" y="4.0">WOLHCShipVivanderasChile3</tech>
+			<tech x="2.1" y="5.0">WOLHCShipVivanderasChile4</tech>
+			<tech x="2.1" y="6.0">WOLHCShipVivanderasChile5</tech>
+			<tech x="3.1" y="1.0">HCShipLancerosChile1</tech>
+			<tech x="3.1" y="2.0">HCShipLancerosChile2</tech>
+			<tech x="3.1" y="3.0">HCShipLancerosChile3</tech>
+			<tech x="3.1" y="4.0">HCShipLancerosChile4</tech>
+			<tech x="3.1" y="5.0">HCShipLancerosChile5</tech>
+			<tech x="3.1" y="6.0">HCPalomeo</tech>
+			<tech x="3.1" y="7.0">HCZuavosChilenos</tech>
+			<tech x="4.15" y="2.0">HCShipFrontierCavalry1</tech>
+			<tech x="4.15" y="3.0">HCShipFrontierCavalry2</tech>
+			<tech x="3.8" y="4.0">HCShipFrontierCavalry3</tech>
+			<tech x="4.5" y="4.0">HCFrontierCombatChile</tech>
+			<tech x="5.15" y="1.0">HCShipYungayosChile1</tech>
+			<tech x="5.15" y="2.0">HCShipYungayosChile2</tech>
+			<tech x="5.15" y="3.0">HCShipYungayosChile3</tech>
+			<tech x="5.85" y="1.0">HCShipAspidesChile1</tech>
+			<tech x="5.85" y="2.0">HCShipAspidesChile2</tech>
+			<tech x="5.85" y="3.0">HCShipAspidesChile3</tech>
+			<tech x="5.85" y="7.0">HCElPrincipeRojo</tech>
+			<tech x="5.85" y="4.0">HCShipPasavolantesChile1</tech>
+			<tech x="5.85" y="5.0">HCShipPasavolantesChile2</tech>
+			<tech x="5.85" y="6.0">HCShipPasavolantesChile3</tech>
+			<tech x="6.55" y="3.0">HCShipPedrerosChile1</tech>
+			<tech x="6.55" y="4.0">HCShipPedrerosChile2</tech>
+		</activetechs>
+		<validunits/>
+		<units/>
+		<trainbuilding>1</trainbuilding>
+	</building>
+	<building>
+		<name>Cathedral</name>
+		<visual>
+			<file>EqBas\RepChile\IglesiaDeLaMatriz.xml</file>
+			<bone>bone_cathedral</bone>
+		</visual>
+		<uix>80</uix>
+		<uiy>475</uiy>
+		<camera>german\germany_homecity_cathedral_camera.cam</camera>
+		<widescreencamera>german\germany_homecity_cathedral_widescreencamera.cam</widescreencamera>
+		<unlocklevel>0</unlocklevel>
+		<portrait>homecity\buildings_west\cathedral_icon</portrait>
+		<displaynamestringid>710414</displaynamestringid>
+		<rolloverstringid>25538</rolloverstringid>
+		<obtainabletechs>
+			<tech x="0.0" y="1.0">HCNativelawChile</tech>
+			<tech x="0.0" y="2.0">HCMisionesChile</tech>
+			<tech x="0.0" y="3.0">HCMestizajeChile</tech>
+			<tech x="1.0" y="1.0">HCFencingSchoolChile</tech>
+			<tech x="1.0" y="2.0">HCRidingSchoolChile</tech>
+			<tech x="2.7" y="1.0">HCCofradiasChile</tech>
+			<tech x="2.7" y="2.0">HCVolantin</tech>
+			<tech x="2.0" y="2.0">HCUtiPossidetisChile</tech>
+			<tech x="2.0" y="3.0">HCImprovedBuildingsChile</tech>
+			<tech x="2.0" y="4.0">HCIsidoraGoyenechea</tech>
+			<tech x="2.7" y="3.0">HCAdvancedMillChile</tech>
+			<tech x="2.7" y="4.0">HCAdvancedPlantationsChile</tech>
+			<tech x="2.7" y="5.0">HCAdvancedDockChile</tech>
+			<tech x="2.7" y="6.0">HCAdvancedArsenalChile</tech>
+			<tech x="2.7" y="7.0">WOLHCAdvancedImmigrantsChile</tech>
+			<tech x="3.4" y="2.0">HCFrontierDefensesChile</tech>
+			<tech x="3.4" y="3.0">HCFrontierDefensesChile2</tech>
+			<tech x="3.4" y="4.0">HCUnlockFortChile</tech>
+			<tech x="3.4" y="5.0">HCFortBulnes</tech>
+			<tech x="4.4" y="1.0">HCCaudillismoChile</tech>
+			<tech x="4.4" y="2.0">WOLHCParliamentarism</tech>
+			<tech x="4.4" y="3.0">HCWeightOfNight</tech>
+			<tech x="5.4" y="1.0">HCCuasimodo</tech>
+			<tech x="6.4" y="1.0">HCPatriaVieja</tech>
+			<tech x="6.4" y="2.0">HCPatriaNueva</tech>
+		</obtainabletechs>
+		<activetechs>
+			<tech x="0.0" y="1.0">HCNativelawChile</tech>
+			<tech x="0.0" y="2.0">HCMisionesChile</tech>
+			<tech x="0.0" y="3.0">HCMestizajeChile</tech>
+			<tech x="1.0" y="1.0">HCFencingSchoolChile</tech>
+			<tech x="1.0" y="2.0">HCRidingSchoolChile</tech>
+			<tech x="2.7" y="1.0">HCCofradiasChile</tech>
+			<tech x="2.7" y="2.0">HCVolantin</tech>
+			<tech x="2.0" y="2.0">HCUtiPossidetisChile</tech>
+			<tech x="2.0" y="3.0">HCImprovedBuildingsChile</tech>
+			<tech x="2.0" y="4.0">HCIsidoraGoyenechea</tech>
+			<tech x="2.7" y="3.0">HCAdvancedMillChile</tech>
+			<tech x="2.7" y="4.0">HCAdvancedPlantationsChile</tech>
+			<tech x="2.7" y="5.0">HCAdvancedDockChile</tech>
+			<tech x="2.7" y="6.0">HCAdvancedArsenalChile</tech>
+			<tech x="2.7" y="7.0">WOLHCAdvancedImmigrantsChile</tech>
+			<tech x="3.4" y="2.0">HCFrontierDefensesChile</tech>
+			<tech x="3.4" y="3.0">HCFrontierDefensesChile2</tech>
+			<tech x="3.4" y="4.0">HCUnlockFortChile</tech>
+			<tech x="3.4" y="5.0">HCFortBulnes</tech>
+			<tech x="4.4" y="1.0">HCCaudillismoChile</tech>
+			<tech x="4.4" y="2.0">WOLHCParliamentarism</tech>
+			<tech x="4.4" y="3.0">HCWeightOfNight</tech>
+			<tech x="5.4" y="1.0">HCCuasimodo</tech>
+			<tech x="6.4" y="1.0">HCPatriaVieja</tech>
+			<tech x="6.4" y="2.0">HCPatriaNueva</tech>
+		</activetechs>
+		<validunits/>
+		<units/>
+		<trainbuilding>1</trainbuilding>
+	</building>
+	<building>
+		<name>ManufacturingPlant</name>
+		<visual>
+			<file>british\british_manufacturing_plant.xml</file>
+			<bone>bone_plant</bone>
+		</visual>
+		<uix>450</uix>
+		<uiy>275</uiy>
+		<camera>german\germany_homecity_manufacturing_plant_camera.cam</camera>
+		<widescreencamera>german\germany_homecity_plant_widescreencamera.cam</widescreencamera>
+		<unlocklevel>0</unlocklevel>
+		<portrait>homecity\buildings_west\manufacturing_plant_icon</portrait>
+		<displaynamestringid>710415</displaynamestringid>
+		<rolloverstringid>25535</rolloverstringid>
+		<obtainabletechs>
+			<tech x="0.0" y="1.0">HCChinchinero</tech>
+			<tech x="3.725" y="1.0">HCEconomicTheoryChile</tech>
+			<tech x="1.0" y="2.0">HCSawmillsChile</tech>
+			<tech x="1.0" y="3.0">HCExoticHardwoodsChile</tech>
+			<tech x="1.0" y="4.0">HCEasterIsland</tech>
+			<tech x="2.7" y="2.0">HCRefrigerationChile</tech>
+			<tech x="2.0" y="3.0">HCHuaso</tech>
+			<tech x="2.7" y="3.0">HCFurrierChile</tech>
+			<tech x="3.4" y="3.0">HCFoodSilosChile</tech>
+			<tech x="3.4" y="4.0">HCSustainableAgricultureChile</tech>
+			<tech x="3.4" y="5.0">HCLarmahueWheel</tech>
+			<tech x="3.4" y="6.0">HCWheatCycle</tech>
+			<tech x="3.05" y="7.0">HCInquilinaje</tech>
+			<tech x="3.75" y="7.0">HCYeguaSuelta</tech>
+			<tech x="4.75" y="2.0">HCRoyalMintChile</tech>
+			<tech x="4.4" y="3.0">HCPiscoDistilleryChile</tech>
+			<tech x="4.4" y="4.0">HCCigarRollerChile</tech>
+			<tech x="4.4" y="5.0">HCTextileMillsChile</tech>
+			<tech x="5.1" y="3.0">HCIronmongerChile</tech>
+			<tech x="5.1" y="4.0">HCSilversmithChile</tech>
+			<tech x="5.1" y="5.0">HCSilverRushChile</tech>
+			<tech x="6.1" y="2.0">HCFishMarketChile</tech>
+			<tech x="0.0" y="7.0">HCFincaChile</tech>
+			<tech x="7.1" y="7.0">HCSociedaddelaIgualdad</tech>
+		</obtainabletechs>
+		<activetechs>
+			<tech x="0.0" y="1.0">HCChinchinero</tech>
+			<tech x="3.725" y="1.0">HCEconomicTheoryChile</tech>
+			<tech x="1.0" y="2.0">HCSawmillsChile</tech>
+			<tech x="1.0" y="3.0">HCExoticHardwoodsChile</tech>
+			<tech x="1.0" y="4.0">HCEasterIsland</tech>
+			<tech x="2.7" y="2.0">HCRefrigerationChile</tech>
+			<tech x="2.0" y="3.0">HCHuaso</tech>
+			<tech x="2.7" y="3.0">HCFurrierChile</tech>
+			<tech x="3.4" y="3.0">HCFoodSilosChile</tech>
+			<tech x="3.4" y="4.0">HCSustainableAgricultureChile</tech>
+			<tech x="3.4" y="5.0">HCLarmahueWheel</tech>
+			<tech x="3.4" y="6.0">HCWheatCycle</tech>
+			<tech x="3.05" y="7.0">HCInquilinaje</tech>
+			<tech x="3.75" y="7.0">HCYeguaSuelta</tech>
+			<tech x="4.75" y="2.0">HCRoyalMintChile</tech>
+			<tech x="4.4" y="3.0">HCPiscoDistilleryChile</tech>
+			<tech x="4.4" y="4.0">HCCigarRollerChile</tech>
+			<tech x="4.4" y="5.0">HCTextileMillsChile</tech>
+			<tech x="5.1" y="3.0">HCIronmongerChile</tech>
+			<tech x="5.1" y="4.0">HCSilversmithChile</tech>
+			<tech x="5.1" y="5.0">HCSilverRushChile</tech>
+			<tech x="6.1" y="2.0">HCFishMarketChile</tech>
+			<tech x="0.0" y="7.0">HCFincaChile</tech>
+			<tech x="7.1" y="7.0">HCSociedaddelaIgualdad</tech>
+		</activetechs>
+		<validunits/>
+		<trainbuilding>1</trainbuilding>
+	</building>
+	<building>
+		<name>Dock</name>
+		<visual>
+			<file>german\german_dock.xml</file>
+			<bone>bone_dock</bone>
+		</visual>
+		<uix>200</uix>
+		<uiy>250</uiy>
+		<camera>german\germany_homecity_dock_camera.cam</camera>
+		<widescreencamera>german\germany_homecity_dock_widescreencamera.cam</widescreencamera>
+		<unlocklevel>0</unlocklevel>
+		<portrait>homecity\buildings_west\dock_icon</portrait>
+		<displaynamestringid>710416</displaynamestringid>
+		<rolloverstringid>35746</rolloverstringid>
+		<obtainabletechs>
+			<tech x="0.0" y="7.0">HCLlanquihueArtisans</tech>
+			<tech x="0.0" y="1.0">HCShipBacamarterosChile1</tech>
+			<tech x="0.0" y="2.0">HCShipBacamarterosChile2</tech>
+			<tech x="0.0" y="3.0">HCShipBacamarterosChile3</tech>
+			<tech x="0.0" y="4.0">HCDesembarcoPisagua</tech>
+			<tech x="0.0" y="5.0">HCSoldadosdeMar</tech>
+			<tech x="1.7" y="1.0">HCNavalCombatChile</tech>
+			<tech x="1.7" y="2.0">HCAdmiralityChile</tech>
+			<tech x="1.7" y="3.0">HCEscuadraNacional</tech>
+
+			<tech x="1.0" y="4.0">HCShipCorvetteRepeat1</tech>
+			<tech x="1.0" y="5.0">HCShipCorvettesChile2</tech>
+			<tech x="0.65" y="6.0">HCShipCorvetteRepeat2</tech>
+			<tech x="0.65" y="7.0">HCShipCorvetteRepeat3</tech>
+
+			<tech x="1.35" y="6.0">HCCombateIquique</tech>
+
+			<tech x="1.7" y="4.0">HCShipFrigateRepeat1</tech>
+			<tech x="1.7" y="5.0">HCShipFrigatesChile</tech>
+
+			<tech x="2.4" y="4.0">HCShipBombardasChile</tech>
+
+			<tech x="2.4" y="5.0">HCPanamaCrisis</tech>
+			<tech x="3.4" y="1.0">HCMercsGueniChile</tech>
+			<tech x="3.4" y="2.0">HCMercsTauraChile</tech>
+			<tech x="3.4" y="3.0">HCMercsAndeanChile</tech>
+
+			<tech x="4.4" y="1.0">HCShipGuaitequerosChile1</tech>
+			<tech x="4.4" y="2.0">HCShipGuaitequerosChile2</tech>
+			<tech x="4.4" y="3.0">HCShipGuaitequerosChile3</tech>
+		</obtainabletechs>
+		<activetechs>
+			<tech x="0.0" y="7.0">HCLlanquihueArtisans</tech>
+			<tech x="0.0" y="1.0">HCShipBacamarterosChile1</tech>
+			<tech x="0.0" y="2.0">HCShipBacamarterosChile2</tech>
+			<tech x="0.0" y="3.0">HCShipBacamarterosChile3</tech>
+			<tech x="0.0" y="4.0">HCDesembarcoPisagua</tech>
+			<tech x="0.0" y="5.0">HCSoldadosdeMar</tech>
+			<tech x="1.7" y="1.0">HCNavalCombatChile</tech>
+			<tech x="1.7" y="2.0">HCAdmiralityChile</tech>
+			<tech x="1.7" y="3.0">HCEscuadraNacional</tech>
+
+			<tech x="1.0" y="4.0">HCShipCorvetteRepeat1</tech>
+			<tech x="1.0" y="5.0">HCShipCorvettesChile2</tech>
+			<tech x="0.65" y="6.0">HCShipCorvetteRepeat2</tech>
+			<tech x="0.65" y="7.0">HCShipCorvetteRepeat3</tech>
+
+			<tech x="1.35" y="6.0">HCCombateIquique</tech>
+
+			<tech x="1.7" y="4.0">HCShipFrigateRepeat1</tech>
+			<tech x="1.7" y="5.0">HCShipFrigatesChile</tech>
+
+			<tech x="2.4" y="4.0">HCShipBombardasChile</tech>
+
+			<tech x="2.4" y="5.0">HCPanamaCrisis</tech>
+			<tech x="3.4" y="1.0">HCMercsGueniChile</tech>
+			<tech x="3.4" y="2.0">HCMercsTauraChile</tech>
+			<tech x="3.4" y="3.0">HCMercsAndeanChile</tech>
+
+			<tech x="4.4" y="1.0">HCShipGuaitequerosChile1</tech>
+			<tech x="4.4" y="2.0">HCShipGuaitequerosChile2</tech>
+			<tech x="4.4" y="3.0">HCShipGuaitequerosChile3</tech>
+		</activetechs>
+		<validunits/>
+		<units/>
+		<trainbuilding>1</trainbuilding>
+		<mercbuilding>1</mercbuilding>
+	</building>
+	<building>
+		<name>Customization</name>
+		<camera>spanish\spanish_homecity_camera.cam</camera>
+		<widescreencamera>spanish\spanish_homecity_widescreencamera.cam</widescreencamera>
+		<unlocklevel>0</unlocklevel>
+		<portrait>homecity\buildings_west\dock_icon</portrait>
+		<displaynamestringid>24966</displaynamestringid>
+		<rolloverstringid>25540</rolloverstringid>
+		<customizationbuilding>1</customizationbuilding>
+	</building>
+	<waypoints>
+		<waypoint>
+			<bone>bone_pathnode_01</bone>
+			<exit>1</exit>
+			<vendorentry>1</vendorentry>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode_02</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode_03</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode_04</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode_05</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode_06</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode_07</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode_08</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode_09</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode_10</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode_11</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode_12</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode_14</bone>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode_17</bone>
+			<exit>1</exit>
+			<vendorentry>1</vendorentry>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode_18</bone>
+			<exit>1</exit>
+			<vendorentry>1</vendorentry>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode_19</bone>
+			<exit>1</exit>
+			<vendorentry>1</vendorentry>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode_20</bone>
+			<exit>1</exit>
+			<vendorentry>1</vendorentry>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode_21</bone>
+			<exit>1</exit>
+			<vendorentry>1</vendorentry>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode_22</bone>
+			<exit>1</exit>
+			<vendorentry>1</vendorentry>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode_23</bone>
+			<exit>1</exit>
+			<vendorentry>1</vendorentry>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode_24</bone>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode_25</bone>
+			<exit>1</exit>
+			<vendorentry>1</vendorentry>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode_26</bone>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode_28</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode_29</bone>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode_30</bone>
+			<illreputearea>1</illreputearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode_31</bone>
+			<exit>1</exit>
+			<vendorentry>1</vendorentry>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode_32</bone>
+			<illreputearea>1</illreputearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode_33</bone>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode_34</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode_35</bone>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode_36</bone>
+			<dock>1</dock>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode_37</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_fishing01</bone>
+			<fishingarea>1</fishingarea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_fishing02</bone>
+			<fishingarea>1</fishingarea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_fishing03</bone>
+			<fishingarea>1</fishingarea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_shipment_start</bone>
+			<shipmentstart>1</shipmentstart>
+		</waypoint>
+		<waypoint>
+			<bone>bone_shipment_end</bone>
+			<shipmentend>1</shipmentend>
+		</waypoint>
+		<waypoint>
+			<bone>bone_dregs01</bone>
+			<illreputearea>1</illreputearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_dregs02</bone>
+			<illreputearea>1</illreputearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_dregs03</bone>
+			<illreputearea>1</illreputearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_dregs04</bone>
+			<illreputearea>1</illreputearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_dregs05</bone>
+			<illreputearea>1</illreputearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_dregs06</bone>
+			<illreputearea>1</illreputearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_vendor01</bone>
+			<vendorarea><![CDATA[
+				1>
+			]]></vendorarea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_vendor02</bone>
+			<vendorarea><![CDATA[
+				1>
+			]]></vendorarea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_vendor03</bone>
+			<vendorarea><![CDATA[
+				1>
+			]]></vendorarea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_vendor04</bone>
+			<vendorarea><![CDATA[
+				1>
+			]]></vendorarea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_vendor05</bone>
+			<vendorarea><![CDATA[
+				1>
+			]]></vendorarea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_vendor06</bone>
+			<vendorarea><![CDATA[
+				1>
+			]]></vendorarea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_vendor07</bone>
+			<vendorarea><![CDATA[
+				1>
+			]]></vendorarea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_vendor08</bone>
+			<vendorarea><![CDATA[
+				1>
+			]]></vendorarea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_firework01</bone>
+			<fireworks>1</fireworks>
+		</waypoint>
+		<waypoint>
+			<bone>bone_firework02</bone>
+			<fireworks>1</fireworks>
+		</waypoint>
+		<waypoint>
+			<bone>bone_firework03</bone>
+			<fireworks>1</fireworks>
+		</waypoint>
+		<waypoint>
+			<bone>bone_firework04</bone>
+			<fireworks>1</fireworks>
+		</waypoint>
+		<waypoint>
+			<bone>bone_firework05</bone>
+			<fireworks>1</fireworks>
+		</waypoint>
+		<waypoint>
+			<bone>bone_firework06</bone>
+			<fireworks>1</fireworks>
+		</waypoint>
+	</waypoints>
+	<obtainableprops>
+		<prop active="1">Torchy</prop>
+		<prop active="1">Juggler</prop>
+		<prop active="1">PeasantVendor</prop>
+		<prop active="1">MiddleClassMusician</prop>
+		<prop active="1">MiddleClassPreacher</prop>
+		<prop active="1">PeasantPainter</prop>
+		<prop active="1">Drunk</prop>
+		<prop active="1">NiceLady</prop>
+		<prop active="1">Thug</prop>
+		<prop active="1">PeasantFisherman</prop>
+		<prop>Spanish_LightSet2</prop>
+		<prop>Spanish_AcadProp01</prop>
+		<prop>Spanish_AcadProp02</prop>
+		<prop>Spanish_AcadProp03</prop>
+		<prop>Spanish_AcadProp04</prop>
+		<prop>Church_RiderStatueProp</prop>
+		<prop>Spanish_CathProp01</prop>
+		<prop>Spanish_NWCTProp01</prop>
+		<prop>Spanish_NWCTProp02</prop>
+		<prop>Spanish_NWCTProp03</prop>
+		<prop>Spn_FactProp01</prop>
+		<prop>Spn_FactProp02</prop>
+		<prop>Spn_DockProp01</prop>
+		<prop>Spn_DockProp02</prop>
+		<prop>Spn_DockProp03</prop>
+		<prop>Spn_DockProp04</prop>
+		<prop>Spn_DockProp05</prop>
+		<prop active="1">Spanish_NWTCTexture0</prop>
+		<prop>Spanish_NWTCTexture1</prop>
+		<prop>Spanish_NWTCTexture2</prop>
+		<prop>Spanish_NWTCTexture3</prop>
+		<prop>Spanish_NWTCTexture4</prop>
+		<prop>Spanish_NWTCTexture5</prop>
+		<prop>Spanish_NWTCTexture6</prop>
+		<prop>Spanish_NWTCTexture7</prop>
+		<prop active="1">Spanish_AcademyTexture0</prop>
+		<prop>Spanish_AcademyTexture1</prop>
+		<prop>Spanish_AcademyTexture2</prop>
+		<prop>Spanish_AcademyTexture3</prop>
+		<prop active="1">Spanish_ManuPlantTexture0</prop>
+		<prop>Spanish_ManuPlantTexture1</prop>
+		<prop>Spanish_ManuPlantTexture2</prop>
+		<prop>Spanish_ManuPlantTexture3</prop>
+		<prop>Spanish_ManuPlantTexture4</prop>
+		<prop>Spanish_ManuPlantTexture5</prop>
+		<prop>Spanish_ManuPlantTexture6</prop>
+		<prop>Spanish_ManuPlantTexture7</prop>
+		<prop active="1">Spanish_CathedralTexture0</prop>
+		<prop>Spanish_CathedralTexture1</prop>
+		<prop>Spanish_CathedralTexture2</prop>
+		<prop>Spanish_CathedralTexture3</prop>
+		<prop active="1">Spanish_DockTexture0</prop>
+		<prop>Spanish_DockTexture1</prop>
+		<prop>Spanish_DockTexture2</prop>
+		<prop>Spanish_DockTexture3</prop>
+		<prop>Spanish_DockTexture4</prop>
+		<prop>Spanish_DockTexture5</prop>
+		<prop>Spanish_DockTexture6</prop>
+		<prop>Spanish_DockTexture7</prop>
+		<prop active="1">BuffaloJuggler</prop>
+		<prop active="1">SpanishPriest</prop>
+		<prop active="1">Ahuiani</prop>
+		<prop active="1">RugPorter</prop>
+		<prop active="1">VasePorter</prop>
+		<prop active="1">UnitChats</prop>
+	</obtainableprops>
+</homecity>

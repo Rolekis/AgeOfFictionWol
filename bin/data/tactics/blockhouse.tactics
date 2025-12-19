@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="38133">RangedAttack</name>
+		<type>Attack</type>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<anim>RangedAttack</anim>
+		<maxheight>0</maxheight>
+		<accuracy>1.0</accuracy>
+		<accuracyreductionfactor>0.5</accuracyreductionfactor>
+		<aimbonus>0</aimbonus>
+		<maxspread>5</maxspread>
+		<spreadfactor>0.25</spreadfactor>
+		<trackrating>12</trackrating>
+		<unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+		<projectile>InvisibleProjectile</projectile>
+		<impacteffect>effects\impacts\gun</impacteffect>
+		<rate type="Unit">1.0 </rate>
+		<rate type="Building">1.0 </rate>
+		<instantballistics>1</instantballistics>
+	</action>
+	<action>
+		<name stringid="38119">CannonAttack</name>
+		<type>Attack</type>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<anim>RangedAttackShip</anim>
+		<maxheight>0</maxheight>
+		<accuracy>1.0</accuracy>
+		<aimbonus>0</aimbonus>
+		<maxspread>5</maxspread>
+		<spreadfactor>0.25</spreadfactor>
+		<trackrating>12</trackrating>
+		<unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+		<projectile>Cannonball</projectile>
+		<impacteffect>effects\impacts\cannon</impacteffect>
+		<rate type="Unit">1.0 </rate>
+		<rate type="Building">1.0 </rate>
+		<active>0</active>
+		<throw>1</throw>
+		<outerdamageareadistance>.25</outerdamageareadistance>
+		<outerdamageareafactor>.20</outerdamageareafactor>
+		<areasortmode>Directional</areasortmode>
+		<perfectaccuracy>1</perfectaccuracy>
+		<targetground>1</targetground>
+		<numberbounces>1</numberbounces>
+		<basedamagecap>1</basedamagecap>
+	</action>
+	<action>
+		<name stringid="38121">AntiShipAttack</name>
+		<type>Attack</type>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<anim>RangedAttackShip</anim>
+		<maxheight>0</maxheight>
+		<accuracy>1.0</accuracy>
+		<accuracyreductionfactor>0.5</accuracyreductionfactor>
+		<aimbonus>0</aimbonus>
+		<maxspread>5</maxspread>
+		<spreadfactor>0.25</spreadfactor>
+		<trackrating>12</trackrating>
+		<unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+		<projectile>Cannonball</projectile>
+		<impacteffect>effects\impacts\cannon</impacteffect>
+		<rate type="AbstractWarship">1.0 </rate>
+		<basedamagecap>1</basedamagecap>
+	</action>
+	<action>
+		<name stringid="69157">SpawnStrelet</name>
+		<type>Maintain</type>
+		<rate type="Strelet">5.0 </rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="82589">SpawnKlepht1</name>
+		<type>Maintain</type>
+		<rate type="Klepht">2.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="82589">SpawnKlepht2</name>
+		<type>Maintain</type>
+		<rate type="Klepht">2.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="48955">ExtraSpeedKoreanNavy</name>
+		<type>AutoRangedModify</type>
+		<targetenemy>1</targetenemy>
+		<modifyprotoid>WOLHyeopseon</modifyprotoid>
+		<active>1</active>
+		<maxrange>4096</maxrange>
+		<persistent>1</persistent>
+		<modifytype>Speed</modifytype>
+		<modifymultiplier>1.005</modifymultiplier>
+	</action>
+	<action>
+		<name stringid="68961">EconomicAuraKoreanNavy</name>
+		<type>AutoRangedModify</type>
+		<targetenemy>1</targetenemy>
+		<modifyprotoid>WOLHyeopseon</modifyprotoid>
+		<active>1</active>
+		<maxrange>4096</maxrange>
+		<persistent>1</persistent>
+		<modifytype>GatherRate</modifytype>
+		<modifymultiplier>1.01</modifymultiplier>
+	</action>
+	<action>
+		<name stringid="48958">ExtraDamageKoreanNavy</name>
+		<type>AutoRangedModify</type>
+		<targetenemy>1</targetenemy>
+		<modifyprotoid>WOLPanokseon</modifyprotoid>
+		<active>1</active>
+		<maxrange>4096</maxrange>
+		<persistent>1</persistent>
+		<modifytype>Damage</modifytype>
+		<modifymultiplier>1.01</modifymultiplier>
+	</action>
+	<action>
+		<name stringid="48954">GreatHeartKoreanNavy</name>
+		<type>AutoRangedModify</type>
+		<targetenemy>1</targetenemy>
+		<modifyprotoid>WOLGeobukseon</modifyprotoid>
+		<active>1</active>
+		<maxrange>4096</maxrange>
+		<persistent>1</persistent>
+		<modifytype>MaxHP</modifytype>
+		<modifymultiplier>1.01</modifymultiplier>
+	</action>
+	<tactic>
+		Normal
+		<action>EconomicAuraKoreanNavy</action>
+		<action>ExtraDamageKoreanNavy</action>
+		<action>GreatHeartKoreanNavy</action>
+		<action>ExtraSpeedKoreanNavy</action>
+		<action>SpawnKlepht1</action>
+		<action>SpawnKlepht2</action>
+		<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
+		<autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype>
+		<attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype>
+		<action priority="100">AntiShipAttack</action>
+		<action priority="75">CannonAttack</action>
+		<action priority="25">RangedAttack</action>
+		<action priority="15">SpawnStrelet</action>
+	</tactic>
+</tactics>

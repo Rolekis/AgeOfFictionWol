@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="38127">CannonAttack</name>
+		<reloadanim>Bombard_reload</reloadanim>
+		<type>Attack</type>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<anim>Bombard_ranged_attack</anim>
+		<idleanim>Bombard_ranged_idle</idleanim>
+		<boredanim>Bombard_bored</boredanim>
+		<accuracy>0.3</accuracy>
+		<accuracyreductionfactor>1.5</accuracyreductionfactor>
+		<aimbonus>0</aimbonus>
+		<maxspread>10</maxspread>
+		<spreadfactor>2.8</spreadfactor>
+		<trackrating>12</trackrating>
+		<unintentionaldamagemultiplier>1.0</unintentionaldamagemultiplier>
+		<projectile>Catapultball</projectile>
+		<impacteffect>effects\impacts\cannon</impacteffect>
+		<rate type="All">1.0 </rate>
+		<throw>1</throw>
+		<impactforcemin>500.0f</impactforcemin>
+		<impactforcemax>800.0f</impactforcemax>
+		<outerdamageareadistance>.25</outerdamageareadistance>
+		<outerdamageareafactor>.20</outerdamageareafactor>
+		<impactlaunchangle>10.0</impactlaunchangle>
+		<areasortmode>Radial</areasortmode>
+		<targetground>1</targetground>
+		<numberbounces>1</numberbounces>
+		<basedamagecap>1</basedamagecap>
+		<numberprojectiles>1</numberprojectiles>
+	</action>
+	<tactic>
+		Catapult
+		<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
+		<autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype>
+		<attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype>
+		<runaway>1</runaway>
+		<autoretarget>1</autoretarget>
+		<action>CannonAttack</action>
+		<throw>1</throw>
+		<idleanim>Bombard_ranged_idle</idleanim>
+		<boredanim>Bombard_bored</boredanim>
+		<walkanim>Bombard_Walk</walkanim>
+		<joganim>Bombard_Jog</joganim>
+		<runanim>Bombard_Run</runanim>
+		<deathanim>Bombard_Death</deathanim>
+	</tactic>
+</tactics>

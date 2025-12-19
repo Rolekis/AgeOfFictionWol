@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+    <action>
+		<name stringid="38133">RangedAttack</name>
+		<type>Attack</type>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<anim>RangedAttack</anim>
+		<idleanim>Idle</idleanim>
+		<maxheight>0</maxheight>
+		<accuracy>1.0</accuracy>
+		<accuracyreductionfactor>0.5</accuracyreductionfactor>
+		<aimbonus>0</aimbonus>
+		<maxspread>5</maxspread>
+		<spreadfactor>0.25</spreadfactor>
+		<trackrating>12</trackrating>
+		<unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+		<projectile>InvisibleProjectileNoTracer</projectile>
+		<impacteffect>effects\impacts\gun</impacteffect>
+		<rate type="AbstractVillager">1.0 </rate>
+		<rate type="AbstractInfantry">1.0 </rate>
+		<rate type="AbstractCavalry">1.0 </rate>
+		<rate type="Guardian">1.0 </rate>
+		<rate type="AbstractWagon">1.0 </rate>
+		<outerdamageareadistance>.25</outerdamageareadistance>
+		<outerdamageareafactor>.20</outerdamageareafactor>
+		<impactlaunchangle>12.0</impactlaunchangle>
+		<areasortmode>Directional</areasortmode>
+		<targetground>1</targetground>
+		<basedamagecap>1</basedamagecap>
+		<perfectaccuracy>1</perfectaccuracy>
+	</action>
+	<action>
+		<name stringid="38119">MortarAttack</name>
+		<type>Attack</type>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<anim>MortarAttack</anim>
+        <reloadanim>Reload</reloadanim>
+		<idleanim>Idle</idleanim>
+		<projectile>Tankshell</projectile>
+		<maxheight>0</maxheight>
+		<numberprojectiles>1</numberprojectiles>
+		<impacteffect>units\Great War\effects\impacts\ww1</impacteffect>
+		<accuracy>1.0</accuracy>
+		<aimbonus>0</aimbonus>
+		<rate type="AbstractArtillery">1.0 </rate>
+		<rate type="AbstractMechanized">1.0 </rate>
+		<rate type="LogicalTypeShipsAndBuildings">1.0 </rate>
+		<areasortmode>Directional</areasortmode>
+		<impactforcemin>400.0f</impactforcemin>
+		<impactforcemax>600.0f</impactforcemax>
+		<impactlaunchangle>12.0</impactlaunchangle>
+		<perfectaccuracy>1</perfectaccuracy>
+		<targetground>1</targetground>
+		<basedamagecap>1</basedamagecap>
+	</action>
+	<action>
+		<name stringid="38142">TrampleHandAttack</name>
+		<type>TruckAttack</type>
+		<maxrange>0</maxrange>
+		<rate type="All">1.0 </rate>
+		<attackaction>1</attackaction>
+		<handlogic>1</handlogic>
+		<speedboost>1</speedboost>
+		<anim>Walk</anim>
+		<idleanim>Idle</idleanim>
+		<damage>0.0</damage>
+		<rof>0.0</rof>
+		<targetspeedboost>1</targetspeedboost>
+		<basedamagecap>1</basedamagecap>
+		<persistent>1</persistent>
+		<projectile>InvisibleProjectileNoTracer</projectile>
+		<throw>1</throw>
+	</action>
+	<tactic>
+		Bombard
+		<speedmodifier>1.0</speedmodifier>
+		<action priority="100">MortarAttack</action>
+		<action priority="75">RangedAttack</action>
+		<action priority="25">TrampleHandAttack</action>
+		<moveanim>Walk</moveanim>
+		<transition>
+			<tactic>Limber</tactic>
+			<action>Limber</action>
+			<exit>1</exit>
+		</transition>
+		<deathanim>Death</deathanim>
+		<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
+		<autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype>
+		<attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype>
+		<runaway>1</runaway>
+		<exclusive>1</exclusive>
+		<throw>1</throw>
+		<autoretarget>1</autoretarget>
+	</tactic>
+	<tactic>
+		Limber
+		<speedmodifier>1.0</speedmodifier>
+		<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
+		<autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype>
+		<attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype>
+		<action priority="100">MortarAttack</action>
+		<action priority="75">RangedAttack</action>
+		<action priority="25">TrampleHandAttack</action>
+		<transition>
+			<tactic>Normal</tactic>
+			<action>Limber</action>
+			<exit>1</exit>
+			<commandautomatic>1</commandautomatic>
+			<automatic>1</automatic>
+		</transition>
+		<moveanim>Walk</moveanim>
+		<runaway>1</runaway>
+		<exclusive>1</exclusive>
+		<throw>1</throw>
+		<autoretarget>1</autoretarget>
+	</tactic>
+</tactics>

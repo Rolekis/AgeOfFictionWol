@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="38119">CannonAttack</name>
+		<reloadanim>Bombard_reload</reloadanim>
+		<type>Attack</type>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<anim>Bombard_ranged_attack</anim>
+		<idleanim>Bombard_ranged_idle</idleanim>
+		<boredanim>Bombard_bored</boredanim>
+		<maxheight>0</maxheight>
+		<accuracy>1.0</accuracy>
+		<accuracyreductionfactor>0.5</accuracyreductionfactor>
+		<aimbonus>0</aimbonus>
+		<maxspread>5</maxspread>
+		<spreadfactor>0.25</spreadfactor>
+		<trackrating>12</trackrating>
+		<unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+		<numberprojectiles>1</numberprojectiles>
+		<impacteffect>effects\incendio</impacteffect>
+		<projectile>InvisibleProjectileNoTracer</projectile>
+		<rate type="All">1.0 </rate>
+		<instantballistics>1</instantballistics>
+		<basedamagecap>1</basedamagecap>
+		<impactforcemax>1.0f</impactforcemax>
+	</action>
+	<tactic>
+		normal
+		<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
+		<autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype>
+		<attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype>
+		<action>CannonAttack</action>
+		<idleanim>Bombard_ranged_idle</idleanim>
+		<boredanim>Bombard_bored</boredanim>
+		<throw>0</throw>
+		<deathanim>Death_by_melee</deathanim>
+	</tactic>
+</tactics>

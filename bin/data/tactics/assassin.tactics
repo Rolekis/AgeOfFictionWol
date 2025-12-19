@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="38135">Assasination</name>
+		<type>Attack</type>
+		<maxrange>2</maxrange>
+		<rate type="Unit">1.0</rate>
+		<attackaction>1</attackaction>
+		<handlogic>1</handlogic>
+		<speedboost>1</speedboost>
+		<anim>Charge_attack</anim>
+		<impacteffect>effects\impacts\melee</impacteffect>
+		<targetspeedboost>1</targetspeedboost>
+		<selfdestruct>1</selfdestruct>
+	</action>
+	<action>
+		<name stringid="38118">BuildingAttack</name>
+		<type>Attack</type>
+		<rangedlogic>1</rangedlogic>
+		<maxrange>6</maxrange>
+		<rate type="LogicalTypeShipsAndBuildings">1.0</rate>
+		<attackaction>1</attackaction>
+		<speedboost>1</speedboost>
+		<anim>Raze_attack</anim>
+		<idleanim>Raze_idle</idleanim>
+		<impacteffect>effects\impacts\torch</impacteffect>
+		<projectile>TorchProjectile</projectile>
+	</action>
+	<action>
+		<name stringid="46491">Stealth</name>
+		<type>Stealth</type>
+		<maxrange>20.0</maxrange>
+		<active>1</active>
+		<persistent>1</persistent>
+	</action>
+	<tactic>
+		Melee
+		<action priority="100">BuildingAttack</action>
+		<action priority="25">Assasination</action>
+		<speedmodifier>1.0</speedmodifier>
+		<attacktype>LogicalTypeHandUnitsAttack</attacktype>
+		<autoattacktype>LogicalTypeHandUnitsAutoAttack</autoattacktype>
+		<attackresponsetype>LogicalTypeHandUnitsAttack</attackresponsetype>
+		<runaway>1</runaway>
+		<transition>
+			<tactic>Stealth</tactic>
+			<length>2</length>
+			<anim>Cover_bored</anim>
+			<exit>1</exit>
+		</transition>
+		<autoretarget>1</autoretarget>
+		<idleanim>Charge_idle</idleanim>
+		<boredanim>Charge_bored</boredanim>
+		<deathanim>Smokescreen</deathanim>
+		<walkanim>Charge_walk</walkanim>
+		<joganim>Charge_jog</joganim>
+		<runanim>Charge_run</runanim>
+	</tactic>
+	<tactic>
+		Stealth
+		<active>0</active>
+		<action>Stealth</action>
+		<action>AutoGatherCoin</action>
+		<action>GatherCodeHenry</action>
+		<checkifcanstealth range="20.0">1</checkifcanstealth>
+		<speedmodifier>0.5</speedmodifier>
+		<attacktype>LogicalTypeHandUnitsAttack</attacktype>
+		<autoretarget>0</autoretarget>
+		<transition>
+			<tactic>Melee</tactic>
+			<length>0.8</length>
+			<anim>Cover_idle</anim>
+			<exit>1</exit>
+			<automatic>1</automatic>
+			<commandautomatic>1</commandautomatic>
+		</transition>
+		<transition>
+			<tactic>Stagger</tactic>
+			<length>0.8</length>
+			<anim>Cover_idle</anim>
+			<exit>1</exit>
+			<automatic>1</automatic>
+			<commandautomatic>1</commandautomatic>
+		</transition>
+		<transition>
+			<tactic>Defend</tactic>
+			<length>0.8</length>
+			<anim>Cover_idle</anim>
+			<exit>1</exit>
+			<automatic>1</automatic>
+			<commandautomatic>1</commandautomatic>
+		</transition>
+		<transition>
+			<tactic>Volley</tactic>
+			<length>0.8</length>
+			<anim>Cover_idle</anim>
+			<exit>1</exit>
+			<automatic>1</automatic>
+			<commandautomatic>1</commandautomatic>
+		</transition>
+		<idleanim>Charge_idle</idleanim>
+		<boredanim>Charge_bored</boredanim>
+		<deathanim>Smokescreen</deathanim>
+		<walkanim>Charge_walk</walkanim>
+		<joganim>Charge_jog</joganim>
+		<runanim>Charge_run</runanim>
+	</tactic>
+</tactics>

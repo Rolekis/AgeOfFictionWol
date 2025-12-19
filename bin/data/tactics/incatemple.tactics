@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="69776">Spawn</name>
+		<type>Maintain</type>
+		<rate type="MancoHorseman">1.0</rate>
+		<active>1</active>
+		<persistent>0</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="69776">Spawn2</name>
+		<type>Maintain</type>
+		<rate type="MancoHorseman">2.0</rate>
+		<active>1</active>
+		<persistent>0</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="69776">Spawn3</name>
+		<type>Maintain</type>
+		<rate type="MancoHorseman">3.0</rate>
+		<active>1</active>
+		<persistent>0</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="48955">ExtraSpeedKoreanNavy</name>
+		<type>AutoRangedModify</type>
+		<targetenemy>1</targetenemy>
+		<modifyprotoid>WOLHyeopseon</modifyprotoid>
+		<active>1</active>
+		<maxrange>4096</maxrange>
+		<persistent>1</persistent>
+		<modifytype>Speed</modifytype>
+		<modifymultiplier>1.005</modifymultiplier>
+	</action>
+	<action>
+		<name stringid="68961">EconomicAuraKoreanNavy</name>
+		<type>AutoRangedModify</type>
+		<targetenemy>1</targetenemy>
+		<modifyprotoid>WOLHyeopseon</modifyprotoid>
+		<active>1</active>
+		<maxrange>4096</maxrange>
+		<persistent>1</persistent>
+		<modifytype>GatherRate</modifytype>
+		<modifymultiplier>1.01</modifymultiplier>
+	</action>
+	<action>
+		<name stringid="48958">ExtraDamageKoreanNavy</name>
+		<type>AutoRangedModify</type>
+		<targetenemy>1</targetenemy>
+		<modifyprotoid>WOLPanokseon</modifyprotoid>
+		<active>1</active>
+		<maxrange>4096</maxrange>
+		<persistent>1</persistent>
+		<modifytype>Damage</modifytype>
+		<modifymultiplier>1.01</modifymultiplier>
+	</action>
+	<action>
+		<name stringid="48954">GreatHeartKoreanNavy</name>
+		<type>AutoRangedModify</type>
+		<targetenemy>1</targetenemy>
+		<modifyprotoid>WOLGeobukseon</modifyprotoid>
+		<active>1</active>
+		<maxrange>4096</maxrange>
+		<persistent>1</persistent>
+		<modifytype>MaxHP</modifytype>
+		<modifymultiplier>1.01</modifymultiplier>
+	</action>
+	<tactic>
+		Normal
+		<action>EconomicAuraKoreanNavy</action>
+		<action>ExtraDamageKoreanNavy</action>
+		<action>GreatHeartKoreanNavy</action>
+		<action>ExtraSpeedKoreanNavy</action>
+		<action>Spawn</action>
+		<action>Spawn2</action>
+		<action>Spawn3</action>
+	</tactic>
+</tactics>

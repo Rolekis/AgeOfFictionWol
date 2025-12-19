@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="38134">HandAttack</name>
+		<type>HandAttack</type>
+		<maxrange>1.0</maxrange>
+		<rate type="Unit">1.0 </rate>
+		<attackaction>1</attackaction>
+		<handlogic>1</handlogic>
+		<anim>Attack</anim>
+		<impacteffect>effects\impacts\melee</impacteffect>
+	</action>
+		<action>
+		<name stringid="69151">Hunting</name>
+		<active>0</active>
+		<type>Hunting</type>
+		<maxrange>10</maxrange>
+		<rate type="Herdable">1.0</rate>
+		<typedmaxrange type="Herdable">0</typedmaxrange>
+		<attackaction>1</attackaction>
+		<handlogic>1</handlogic>
+		<anim>Attack</anim>
+		<impacteffect>effects\impacts\melee</impacteffect>
+	</action>
+	<action>
+		<name stringid="69155">Heal</name>
+		<type>Heal</type>
+		<maxrange>12</maxrange>
+		<rate type="LogicalTypeHealed">5.0 </rate>
+		<anim>Heal</anim>
+	</action>
+	<action>
+		<name stringid="48958">ExtraDamage</name>
+		<type>AutoRangedModify</type>
+		<active>0</active>
+		<maxrange>24</maxrange>
+		<persistent>1</persistent>
+		<modifytype>Damage</modifytype>
+		<modifymultiplier>1.05</modifymultiplier>
+		<modelattachment>effects\chiefpower\chiefpower.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+	</action>
+	<action>
+		<name stringid="48957">ConvertGuardian</name>
+		<type>ConvertGuardian</type>
+		<active>0</active>
+		<maxrange>16</maxrange>
+		<anim>AblBeastMaster</anim>
+		<rate type="Guardian">1.0</rate>
+		<rof>1.000000</rof>
+	</action>
+	<action>
+		<name stringid="444186">CondemnHeretic1</name>
+		<type>Attack</type>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<anim>DanceActive</anim>
+		<reloadanim>DanceIdle</reloadanim>
+		<idleanim>Idle</idleanim>
+		<maxheight>0</maxheight>
+		<accuracy>1.0</accuracy>
+		<accuracyreductionfactor>1.5</accuracyreductionfactor>
+		<aimbonus>1</aimbonus>
+		<trackrating>12</trackrating>
+		<impacteffect>War of the Triple Alliance\Units\Priest\holyblow</impacteffect>
+		<minrange>2</minrange>
+		<rate type="Unit">1.0 </rate>
+		<damage>1.000000</damage>
+		<maxrange>10.000000</maxrange>
+		<rof>1.000000</rof>
+		<projectile>InvisibleProjectilenoTracer</projectile>
+		<perfectaccuracy>1</perfectaccuracy>
+		<active>1</active>
+	</action>
+	<action>
+		<name stringid="444186">CondemnHeretic2</name>
+		<type>Attack</type>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<anim>DanceActive</anim>
+		<reloadanim>DanceIdle</reloadanim>
+		<idleanim>Idle</idleanim>
+		<maxheight>0</maxheight>
+		<accuracy>1.0</accuracy>
+		<accuracyreductionfactor>1.5</accuracyreductionfactor>
+		<aimbonus>1</aimbonus>
+		<trackrating>12</trackrating>
+		<impacteffect>War of the Triple Alliance\Units\Priest\holyblow</impacteffect>
+		<minrange>2</minrange>
+		<rate type="Unit">1.0 </rate>
+		<damage>1.000000</damage>
+		<maxrange>15.000000</maxrange>
+		<rof>1.000000</rof>
+		<projectile>InvisibleProjectilenoTracer</projectile>
+		<perfectaccuracy>1</perfectaccuracy>
+		<active>0</active>
+	</action>
+	<action>
+		<name stringid="444186">CondemnHeretic3</name>
+		<type>Attack</type>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<anim>DanceActive</anim>
+		<reloadanim>DanceIdle</reloadanim>
+		<idleanim>Idle</idleanim>
+		<maxheight>0</maxheight>
+		<accuracy>1.0</accuracy>
+		<accuracyreductionfactor>1.5</accuracyreductionfactor>
+		<aimbonus>1</aimbonus>
+		<trackrating>12</trackrating>
+		<impacteffect>War of the Triple Alliance\Units\Priest\holyblow</impacteffect>
+		<minrange>2</minrange>
+		<rate type="Unit">1.0 </rate>
+		<damage>1.000000</damage>
+		<maxrange>20.000000</maxrange>
+		<rof>1.000000</rof>
+		<projectile>InvisibleProjectilenoTracer</projectile>
+		<perfectaccuracy>1</perfectaccuracy>
+		<active>0</active>
+	</action>
+	<action>
+		<name stringid="444186">CondemnHeretic4</name>
+		<type>Attack</type>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<anim>DanceActive</anim>
+		<reloadanim>DanceIdle</reloadanim>
+		<idleanim>Idle</idleanim>
+		<maxheight>0</maxheight>
+		<accuracy>1.0</accuracy>
+		<accuracyreductionfactor>1.5</accuracyreductionfactor>
+		<aimbonus>1</aimbonus>
+		<trackrating>12</trackrating>
+		<impacteffect>War of the Triple Alliance\Units\Priest\holyblow</impacteffect>
+		<minrange>2</minrange>
+		<rate type="Unit">1.0 </rate>
+		<damage>1.000000</damage>
+		<maxrange>25.000000</maxrange>
+		<rof>1.000000</rof>
+		<projectile>InvisibleProjectilenoTracer</projectile>
+		<perfectaccuracy>1</perfectaccuracy>
+		<active>0</active>
+	</action>
+	<action>
+		<name stringid="444186">CondemnHeretic5</name>
+		<type>Attack</type>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<anim>DanceActive</anim>
+		<reloadanim>DanceIdle</reloadanim>
+		<idleanim>Idle</idleanim>
+		<maxheight>0</maxheight>
+		<accuracy>1.0</accuracy>
+		<accuracyreductionfactor>1.5</accuracyreductionfactor>
+		<aimbonus>1</aimbonus>
+		<trackrating>12</trackrating>
+		<impacteffect>War of the Triple Alliance\Units\Priest\holyblow</impacteffect>
+		<minrange>2</minrange>
+		<rate type="Unit">1.0 </rate>
+		<damage>1.000000</damage>
+		<maxrange>30.000000</maxrange>
+		<rof>1.000000</rof>
+		<projectile>InvisibleProjectilenoTracer</projectile>
+		<perfectaccuracy>1</perfectaccuracy>
+		<active>0</active>
+	</action>
+	<action>
+		<name stringid="444194">HeavenlyFireBomb</name>
+		<type>Attack</type>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<anim>HeavenlyFireBomb</anim>
+		<reloadanim>Reload</reloadanim>
+		<maxheight>0</maxheight>
+		<accuracy>1.0</accuracy>
+		<accuracyreductionfactor>0.001</accuracyreductionfactor>
+		<aimbonus>5</aimbonus>
+		<trackrating>12</trackrating>
+		<rate type="All">1.0 </rate>
+		<impacteffect>effects\impacts\mortar</impacteffect>
+		<projectile>Grenade</projectile>
+		<rof>1.000000</rof>
+		<throw>1</throw>
+		<impactforcemin>500.0f</impactforcemin>
+		<impactforcemax>800.0f</impactforcemax>
+		<outerdamageareadistance>1</outerdamageareadistance>
+		<outerdamageareafactor>1</outerdamageareafactor>
+		<impactlaunchangle>45</impactlaunchangle>
+		<areasortmode>Radial</areasortmode>
+		<targetground>1</targetground>
+		<numberbounces>2</numberbounces>
+		<basedamagecap>1</basedamagecap>
+		<perfectaccuracy>1</perfectaccuracy>
+	</action>
+	<action>
+		<name stringid="444194">HeavenlyFireBomb2</name>
+		<type>Attack</type>
+		<active>0</active>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<anim>HeavenlyFireBomb</anim>
+		<reloadanim>Reload</reloadanim>
+		<maxheight>0</maxheight>
+		<accuracy>1.0</accuracy>
+		<accuracyreductionfactor>0.001</accuracyreductionfactor>
+		<aimbonus>5</aimbonus>
+		<trackrating>12</trackrating>
+		<rate type="Building">1.0 </rate>
+		<impacteffect>War of the Triple Alliance\Units\Priest\holyblowBIG</impacteffect>
+		<projectile>Grenade</projectile>
+		<rof>1.000000</rof>
+		<throw>1</throw>
+		<impactforcemin>500.0f</impactforcemin>
+		<impactforcemax>800.0f</impactforcemax>
+		<outerdamageareadistance>1</outerdamageareadistance>
+		<outerdamageareafactor>1</outerdamageareafactor>
+		<impactlaunchangle>45</impactlaunchangle>
+		<areasortmode>Radial</areasortmode>
+		<targetground>1</targetground>
+		<numberbounces>2</numberbounces>
+		<basedamagecap>1</basedamagecap>
+		<perfectaccuracy>1</perfectaccuracy>
+	</action>
+	<action>
+		<name stringid="48958">HOLYattack</name>
+		<type>AutoRangedModify</type>
+		<active>0</active>
+		<maxrange>6</maxrange>
+		<persistent>1</persistent>
+		<modifytype>Damage</modifytype>
+		<modifymultiplier>1.05</modifymultiplier>
+		<modelattachment>War of the Triple Alliance\Units\Priest\holyglow.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+	</action>
+	<action>
+		<name stringid="48958">HOLYhand</name>
+		<type>AutoRangedModify</type>
+		<active>0</active>
+		<maxrange>6</maxrange>
+		<persistent>1</persistent>
+		<modifyprotoid>Priest</modifyprotoid>
+		<modifytype>MaxHP</modifytype>
+		<modifymultiplier>1.20</modifymultiplier>
+		<modifyexponent>1.0</modifyexponent>
+		<modifybase>1.0</modifybase>
+		<modelattachment>War of the Triple Alliance\Units\Priest\chestglow.xml</modelattachment>
+		<modelattachmentbone>HEAD</modelattachmentbone>
+	</action>
+	<action>
+		<name stringid="38118">BuildingAttack</name>
+		<type>Attack</type>
+		<maxrange>1.0</maxrange>
+		<rate type="Building">1.0 </rate>
+		<attackaction>1</attackaction>
+		<speedboost>1</speedboost>
+		<handlogic>1</handlogic>
+		<anim>AttackBuilding</anim>
+		<idleanim>Idle</idleanim>
+		<impacteffect>War of the Triple Alliance\Units\Priest\holyblowBIG</impacteffect>
+	</action>
+	<tactic>
+		Normal
+		<action>Heal</action>
+		<action>Hunting</action>
+		<action>PowerConversion</action>
+		<action>ExtraDamage</action>
+		<action priority="99">CondemnHeretic5</action>
+		<action priority="90">CondemnHeretic4</action>
+		<action priority="80">CondemnHeretic3</action>
+		<action priority="70">CondemnHeretic2</action>
+		<action priority="60">CondemnHeretic1</action>
+		<action priority="57">Buildingattack</action>
+		<action priority="55">Heal</action>
+		<action priority="30">HeavenlyFireBomb2</action>
+		<action priority="50">HandAttack</action>
+		<action priority="1">HeavenlyFireBomb</action>
+		<attacktype>LogicalTypeHandUnitsAttack</attacktype>
+		<runaway>1</runaway>
+		<autoretarget>1</autoretarget>
+	</tactic>
+</tactics>

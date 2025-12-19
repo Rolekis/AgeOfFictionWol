@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name>SpawnBritania2</name>
+		<type>Spawn</type>
+		<rate type="Settler">1.0 </rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>SpawnScout</name>
+		<type>Spawn</type>
+		<rate type="Hussar">2.0 </rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>SpawnScoutRu</name>
+		<type>Spawn</type>
+		<rate type="Cossack">3.0 </rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<tactic>
+		Normal
+		<action>SpawnBritania2</action>
+		<action>SpawnScoutRu</action>
+		<action>SpawnScout</action>
+	</tactic>
+</tactics>

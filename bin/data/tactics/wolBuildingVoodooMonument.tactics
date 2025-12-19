@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="80498">ConvertUnitVoodooMonument</name>
+		<type>ConvertGuardian</type>
+		<active>1</active>
+		<maxrange>4096</maxrange>
+		<anim>AblBeastMaster</anim>
+		<rate type="Guardian">1.0</rate>
+		<rate type="UnitClass">1.0</rate>
+		<rof>1.000000</rof>
+	</action>
+	<tactic>
+		Normal
+		<action>ConvertUnitVoodooMonument</action>
+	</tactic>
+</tactics>

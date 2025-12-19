@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="68961">Eco</name>
+		<type>AutoRangedModify</type>
+		<active>1</active>
+		<maxrange>999</maxrange>
+		<persistent>1</persistent>
+		<ModifyExclusive>1</ModifyExclusive>
+		<ModifyProtoID>MexicanGrave</ModifyProtoID>
+		<modifytype>AutoGatherRate</modifytype>
+		<modifymultiplier>2.00</modifymultiplier>
+		<modelattachment>effects\ypack_auras\econpower.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+	</action>
+	<action>
+		<name stringid="68994">FrightenSpeed</name>
+		<type>AutoRangedModify</type>
+		<targetenemy>1</targetenemy>
+		<active>1</active>
+		<maxrange>90</maxrange>
+		<persistent>1</persistent>
+		<modifytype>Speed</modifytype>
+		<modifymultiplier>0.95</modifymultiplier>
+		<modelattachment>units\attachments\stun_stars.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+	</action>
+	<tactic>
+		Normal
+		<action>Eco</action>
+		<action>FrightenSpeed</action>
+	</tactic>
+</tactics>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="43019">AutoGather</name>
+		<type>AutoGather</type>
+		<persistent>1</persistent>
+		<active>1</active>
+	</action>
+	<tactic>
+		Normal
+		<action>AutoGather</action>
+	</tactic>
+</tactics>

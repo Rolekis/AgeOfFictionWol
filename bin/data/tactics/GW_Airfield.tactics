@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name>Heal</name>
+		<type>Heal</type>
+		<maxrange>30</maxrange>
+		<rate type="AbstractAircraft">10.0 </rate>
+		<anim>Heal</anim>
+	</action>
+	<tactic>
+		Normal
+		<action>Heal</action>
+	</tactic>
+</tactics>

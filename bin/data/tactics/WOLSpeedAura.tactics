@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name>GlobalSpeedAura</name>
+		<type>AutoRangedModify</type>
+		<active>1</active>
+		<maxrange>2147483647</maxrange>
+		<persistent>1</persistent>
+		<modifyabstracttype>Unit</modifyabstracttype>
+		<modifytype>Speed</modifytype>
+		<modifymultiplier>1.2</modifymultiplier>
+	</action>
+	<tactic>
+		Normal
+		<action>GlobalSpeedAura</action>
+	</tactic>
+</tactics>

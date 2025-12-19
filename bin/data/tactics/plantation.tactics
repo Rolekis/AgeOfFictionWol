@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="69182">SpawnCoronel</name>
+		<type>Maintain</type>
+		<rate type="WoLCachureco">3.0 </rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="69182">SpawnSkullKnight</name>
+		<type>Maintain</type>
+		<rate type="xpSkullKnight">1.0 </rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="69182">SpawnCanadianTrees</name>
+		<type>Maintain</type>
+		<rate type="TreeCanadian">3.0 </rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="68971">MaintainVoluntario</name>
+		<type>Maintain</type>
+		<rate type="Volunteer">3.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="700306">AutoGatherItalianBonus</name>
+		<type>AutoGather</type>
+		<active>0</active>
+		<persistent>1</persistent>
+		<Rate type ='Gold'>0.250001</Rate>
+	</action>
+	<action>
+		<name>SpawnCoinCrates</name>
+		<type>Spawn</type>
+		<rate type="CrateofCoin">4.0 </rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>SpawnCoinCrates2</name>
+		<type>Spawn</type>
+		<rate type="CrateofCoin">2.0 </rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="48954">IncaStrengh</name>
+		<type>AutoRangedModify</type>
+		<modifyprotoid>Unit</modifyprotoid>
+		<active>0</active>
+		<maxrange>24</maxrange>
+		<persistent>1</persistent>
+		<modifytype>Damage</modifytype>
+		<modifymultiplier>1.02</modifymultiplier>
+	</action>
+	<action>
+		<name stringid="48954">IncaHP</name>
+		<type>AutoRangedModify</type>
+		<modifyprotoid>Unit</modifyprotoid>
+		<active>0</active>
+		<maxrange>24</maxrange>
+		<persistent>1</persistent>
+		<modifytype>MaxHP</modifytype>
+		<modifymultiplier>1.02</modifymultiplier>
+	</action>
+	<action>
+		<name stringid="91260">SpawnSugarCane</name>
+		<type>Maintain</type>
+		<rate type="SugarCaneBush">1.0</rate>
+		<active>1</active>
+		<persistent>0</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="61766">AutoGatherXPNeoclassicalMedium</name>
+		<type>AutoGather</type>
+		<active>0</active>
+		<persistent>1</persistent>
+		<Rate type ='XP'>0.2500</Rate>
+	</action>
+	<action>
+		<name stringid="910257">Fermage</name>
+		<type>AutoRangedModify</type>
+		<modifyprotoid>WOLSevite</modifyprotoid>
+		<active>0</active>
+		<maxrange>10</maxrange>
+		<persistent>1</persistent>
+		<modifytype>Speed</modifytype>
+		<modifymultiplier>1.15</modifymultiplier>
+	</action>
+	<action>
+		<name stringid="910257">Fermage2</name>
+		<type>AutoRangedModify</type>
+		<modifyprotoid>WOLZombi</modifyprotoid>
+		<active>0</active>
+		<maxrange>10</maxrange>
+		<persistent>1</persistent>
+		<modifytype>Speed</modifytype>
+		<modifymultiplier>1.25</modifymultiplier>
+	</action>
+	<action>
+		<name stringid="68971">Ragamuffin</name>
+		<type>Maintain</type>
+		<rate type="IMFarrapo">1</rate>
+		<active>1</active>
+		<persistent>0</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="68971">JPIMM</name>
+		<type>Maintain</type>
+		<rate type="CrateofCoinLarge">1</rate>
+		<active>1</active>
+		<persistent>0</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="68971">FruitCompany</name>
+		<type>Maintain</type>
+		<rate type="IMFilibuster">3</rate>
+		<active>1</active>
+		<persistent>0</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<tactic>
+		Normal
+		<action>SpawnSkullKnight</action>
+		<action>JPIMM</action>
+		<action>SpawnCoronel</action>
+		<action>MaintainVoluntario</action>
+		<action>AutoGatherItalianBonus</action>
+		<action>IncaStrenght</action>
+		<action>IncaHP</action>
+		<action>SpawnSugarCane</action>
+		<action>AutoGatherXPNeoclassicalMedium</action>
+		<action>Fermage</action>
+		<action>Fermage2</action>
+		<action>Ragamuffin</action>
+		<action>SpawnCoinCrates</action>
+		<action>SpawnCoinCrates2</action>
+	</tactic>
+</tactics>

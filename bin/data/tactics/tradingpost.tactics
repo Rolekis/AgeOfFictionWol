@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="38133">RangedAttack</name>
+		<type>Attack</type>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<anim>RangedAttack</anim>
+		<maxheight>0</maxheight>
+		<accuracy>1.0</accuracy>
+		<accuracyreductionfactor>0.01</accuracyreductionfactor>
+		<aimbonus>0</aimbonus>
+		<maxspread>5</maxspread>
+		<spreadfactor>0.25</spreadfactor>
+		<trackrating>12</trackrating>
+		<unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+		<projectile>InvisibleProjectile</projectile>
+		<impacteffect>effects\impacts\gun</impacteffect>
+		<rate type="Unit">1.0</rate>
+		<instantballistics>1</instantballistics>
+		<active>0</active>
+	</action>
+	<action>
+		<name stringid="38133">RangedAttackKorean</name>
+		<type>Attack</type>
+		<active>0</active>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<anim>RangedAttack</anim>
+		<maxheight>0</maxheight>
+		<accuracy>1.0</accuracy>
+		<accuracyreductionfactor>0.01</accuracyreductionfactor>
+		<aimbonus>0</aimbonus>
+		<maxspread>5</maxspread>
+		<spreadfactor>0.25</spreadfactor>
+		<trackrating>12</trackrating>
+		<unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+		<projectile>InvisibleProjectile</projectile>
+		<impacteffect>effects\impacts\gun</impacteffect>
+		<rate type="Unit">1.0</rate>
+		<instantballistics>1</instantballistics>
+		<scalebycontainedunits>1</scalebycontainedunits>
+		<activeifcontainsunits>1</activeifcontainsunits>
+	</action>
+	<action>
+		<name stringid="38119">CannonAttack</name>
+		<type>Attack</type>
+		<active>0</active>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<anim>CannonAttack</anim>
+		<maxheight>0</maxheight>
+		<accuracy>1.0</accuracy>
+		<aimbonus>0</aimbonus>
+		<maxspread>5</maxspread>
+		<spreadfactor>0.25</spreadfactor>
+		<trackrating>12</trackrating>
+		<unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+		<projectile>Cannonball</projectile>
+		<impacteffect>effects\impacts\cannon</impacteffect>
+		<rate type="Unit">1.0</rate>
+		<throw>1</throw>
+		<outerdamageareadistance>.25</outerdamageareadistance>
+		<outerdamageareafactor>.20</outerdamageareafactor>
+		<areasortmode>Directional</areasortmode>
+		<perfectaccuracy>1</perfectaccuracy>
+		<targetground>1</targetground>
+		<numberbounces>1</numberbounces>
+		<basedamagecap>1</basedamagecap>
+	</action>
+	<action>
+		<name stringid="42914">MaintainNatBlackwoodArcher</name>
+		<type>Maintain</type>
+		<rate type="NatBlackwoodArcher">5.0 </rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="42915">MaintainNativeSharktoothBowman</name>
+		<type>Maintain</type>
+		<rate type="NatSharktoothBowman">5.0 </rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="42916">MaintainNatClubman</name>
+		<type>Maintain</type>
+		<rate type="NatClubman">5.0 </rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="42917">MaintainNatHolcanSpearman</name>
+		<type>Maintain</type>
+		<rate type="NatHolcanSpearman">5.0 </rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="42918">MaintainNatAxeRider</name>
+		<type>Maintain</type>
+		<rate type="NatAxeRider">2.0 </rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="42918">MaintainNatAxeRiderDogSoldier</name>
+		<type>Maintain</type>
+		<rate type="NatAxeRiderDogSoldier">1.0 </rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="42919">MaintainNatTomahawk</name>
+		<type>Maintain</type>
+		<rate type="NatTomahawk">3.0 </rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="42919">MaintainNatMantlet</name>
+		<type>Maintain</type>
+		<rate type="NatMantlet">2.0 </rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="42920">MaintainNatBolasWarrior</name>
+		<type>Maintain</type>
+		<rate type="NatBolasWarrior">3.0 </rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="42920">MaintainNatHuaminca</name>
+		<type>Maintain</type>
+		<rate type="NatHuaminca">2.0 </rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="42921">MaintainNatTracker</name>
+		<type>Maintain</type>
+		<rate type="NatTracker">4.0 </rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="42922">MaintainNatHorseArcher</name>
+		<type>Maintain</type>
+		<rate type="NatHorseArcher">3.0 </rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="42923">MaintainNatRifleman</name>
+		<type>Maintain</type>
+		<rate type="NatRifleman">4.0 </rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="42924">MaintainNatBlogunWarrior</name>
+		<type>Maintain</type>
+		<rate type="NatBlowgunWarrior">5.0 </rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="42925">MaintainNatJaguarWarrior</name>
+		<type>Maintain</type>
+		<rate type="NatJaguarWarrior">3.0 </rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="42925">MaintainNatEagleWarrior</name>
+		<type>Maintain</type>
+		<rate type="NatEagleWarrior">2.0 </rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="69182">SpawnCanadianTrees</name>
+		<type>Maintain</type>
+		<rate type="TreeCanadian">3.0 </rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="48954">BelgianBonus</name>
+		<type>AutoRangedModify</type>
+		<active>0</active>
+		<maxrange>30</maxrange>
+		<targetenemy>1</targetenemy>
+		<persistent>1</persistent>
+		<modifyprotoid>RailroadUnit</modifyprotoid>
+		<modifytype>Speed</modifytype>
+		<modifymultiplier>1.5</modifymultiplier>
+		<modelattachment>units\attachments\stun_stars.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+	</action>
+	<action>
+		<name stringid="48954">BelgianBonus2</name>
+		<type>AutoRangedModify</type>
+		<modifyprotoid>RailroadUnit</modifyprotoid>
+		<active>0</active>
+		<maxrange>24</maxrange>
+		<persistent>1</persistent>
+		<modifytype>Speed</modifytype>
+		<modifymultiplier>1.5</modifymultiplier>
+		<modelattachment>effects\ypack_auras\daimyopower.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+	</action>
+	<action>
+		<name stringid="700306">AutoGatherItalianBonus</name>
+		<type>AutoGather</type>
+		<active>0</active>
+		<persistent>1</persistent>
+		<Rate type ='Gold'>0.250001</Rate>
+	</action>
+	<action>
+		<name stringid="48954">IncaStrengh</name>
+		<type>AutoRangedModify</type>
+		<modifyprotoid>Unit</modifyprotoid>
+		<active>0</active>
+		<maxrange>24</maxrange>
+		<persistent>1</persistent>
+		<modifytype>Damage</modifytype>
+		<modifymultiplier>1.02</modifymultiplier>
+	</action>
+	<action>
+		<name stringid="48954">IncaHP</name>
+		<type>AutoRangedModify</type>
+		<modifyprotoid>Unit</modifyprotoid>
+		<active>0</active>
+		<maxrange>24</maxrange>
+		<persistent>1</persistent>
+		<modifytype>MaxHP</modifytype>
+		<modifymultiplier>1.02</modifymultiplier>
+	</action>
+	<action>
+		<name stringid="603174">SewingMachineGoldTrickle</name>
+		<type>AutoGather</type>
+		<active>0</active>
+		<persistent>1</persistent>
+		<Rate type ='Gold'>0.250001</Rate>
+	</action>
+	<action>
+		<name stringid="48954">GreatHeartRorkesDrift</name>
+		<type>AutoRangedModify</type>
+		<active>0</active>
+		<persistent>1</persistent>
+		<modifytype>MaxHP</modifytype>
+		<maxrange>24</maxrange>
+		<modifymultiplier>1.05</modifymultiplier>
+		<modelattachment>effects\chiefpower\chiefpower.xml</modelattachment>
+		<modelattachmentbone>bone_smoke</modelattachmentbone>
+	</action>
+	<action>
+		<name stringid="68971">SpawnRoto</name>
+		<type>Spawn</type>
+		<rate type="Roto">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="810275">SpawnMiquelet</name>
+		<type>Spawn</type>
+		<rate type="WOTTANatMercMiquelet">3.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>	
+	<action>
+		<name stringid="910281">SpawnPiedNoir</name>
+		<type>Spawn</type>
+		<rate type="WOLPiedNoir">1.0</rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="68994">BelgiumTerror</name>
+		<type>AutoRangedModify</type>
+		<targetenemy>1</targetenemy>
+		<active>0</active>
+		<maxrange>16</maxrange>
+		<persistent>1</persistent>
+		<modifyabstracttype>AbstractNativeWarrior</modifyabstracttype>
+		<modifytype>Damage</modifytype>
+		<modifymultiplier>0.90</modifymultiplier>
+		<modelattachment>effects\chiefpower\chiefpower.xml</modelattachment>
+		<modelattachmentbone>bone_smoke</modelattachmentbone>
+	</action>
+	<action>
+		<name stringid="77175">SpawnReindeer</name>
+		<type>Maintain</type>
+		<rate type="Reindeer">2</rate>
+		<active>1</active>
+		<persistent>0</persistent>
+		<singleuse>1</singleuse>
+	</action>
+		<action>
+		<name stringid="48958">ExtraDamage</name>
+		<type>AutoRangedModify</type>
+		<active>0</active>
+		<maxrange>30</maxrange>
+		<persistent>1</persistent>
+		<modifytype>MaxHP</modifytype>
+		<modifymultiplier>1.4</modifymultiplier>
+		<modelattachment>effects\chiefpower\chiefpower.xml</modelattachment>
+		<modelattachmentbone>bone_smoke</modelattachmentbone>
+	</action>
+		<action>
+		<name stringid="68961">EconomicAuraKM</name>
+		<type>AutoRangedModify</type>
+		<maxrange>20</maxrange>
+		<modifyabstracttype>AbstractVillager</modifyabstracttype>
+		<persistent>1</persistent>
+		<active>0</active>		
+		<modifytype>GatherRate</modifytype>
+		<modifymultiplier>1.2</modifymultiplier>
+		<modelattachment>effects\ypack_auras\econpower.xml</modelattachment>
+		<modelattachmentbone>bone_smoke</modelattachmentbone>
+	</action>
+	<action>
+		<name stringid="68994">FrightenSpeed</name>
+		<type>AutoRangedModify</type>
+		<targetenemy>1</targetenemy>
+		<active>0</active>
+		<maxrange>40</maxrange>
+		<modifyabstracttype>AbstractVillager</modifyabstracttype>
+		<persistent>1</persistent>
+		<modifytype>GatherRate</modifytype>
+		<modifymultiplier>0.0001</modifymultiplier>
+		<modelattachment>effects\aura_rahui.xml</modelattachment>
+		<modelattachmentbone>bone_smoke</modelattachmentbone>
+	</action>
+	<action>
+		<name>MaintainXPCrates</name>
+		<type>Maintain</type>
+		<rate type="FaleCrateofXP">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>MaintainFood</name>
+		<type>Maintain</type>
+		<rate type="CrateofFood">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>MaintainTradeCrates</name>
+		<type>Maintain</type>
+		<rate type="FaleCrateofTradeSmall">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<!-- <action>
+		<name>AutoConvert</name>
+		<type>AutoConvert</type>
+		<maxrange>12.0</maxrange>
+		<persistent>1</persistent>
+	</action> -->
+	<action>
+		<name>SpawnTrees</name>
+		<type>Maintain</type>
+		<rate type="TreeFale">1.0</rate>
+		<active>0</active>
+		<singleuse>1</singleuse>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>SpawnTrees2</name>
+		<type>Maintain</type>
+		<rate type="TreeFale">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name>SpawnTrees3</name>
+		<type>Maintain</type>
+		<rate type="TreeFale">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name>SpawnTrees4</name>
+		<type>Maintain</type>
+		<rate type="TreeFale">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name>SpawnTrees5</name>
+		<type>Maintain</type>
+		<rate type="TreeFale">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="400036">ExtraHPTacuacin</name>
+		<type>AutoRangedModify</type>
+		<active>1</active>
+		<maxrange>20</maxrange>
+		<persistent>1</persistent>
+		<modifytype>MaxHP</modifytype>
+		<modifymultiplier>2.00</modifymultiplier>
+		<modifyprotoid>WoLTacuazin</modifyprotoid>
+	</action>
+	
+	<action>
+		<name stringid="2040149">Spawn25Gold</name>
+		<type>Spawn</type>
+		<rate type="DutchgoldIV">1.0 </rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="2040149">Spawn50Gold</name>
+		<type>Spawn</type>
+		<rate type="DutchgoldIV">2.0 </rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="2030766">TimuridXPTrickle</name>
+		<type>AutoGather</type>
+		<active>0</active>
+		<persistent>1</persistent>
+		<Rate type ='XP'>0.10</Rate>
+	</action>
+	<tactic>
+		Normal
+		<action>AutoGatherItalianBonus</action>
+		<action>TimuridXPTrickle</action>
+		<action>MaintainXPCrates</action>
+		<action>MaintainFood</action>
+		<action>MaintainTradeCrates</action>
+		<action>ExtraHPTacuacin</action>
+		<action>SpawnTrees</action>
+		<action>SpawnTrees2</action>
+		<action>SpawnTrees3</action>
+		<action>SpawnTrees4</action>
+		<action>SpawnTrees5</action>		
+		<action>ExtraDamage</action>
+		<action>EconomicAuraKM</action>
+		<action>FrightenSpeed</action>
+		<action>BelgianBonus</action>
+		<action>BelgianBonus2</action>
+		<action>BelgiumTerror</action>
+		<action>SpawnCanadianTrees</action>
+		<action>MaintainNatBlackwoodArcher</action>
+		<action>MaintainNativeSharktoothBowman</action>
+		<action>MaintainNatClubman</action>
+		<action>MaintainNatHolcanSpearman</action>
+		<action>MaintainNatAxeRider</action>
+		<action>MaintainNatAxeRiderDogSoldier</action>
+		<action>MaintainNatTomahawk</action>
+		<action>MaintainNatMantlet</action>
+		<action>MaintainNatBolasWarrior</action>
+		<action>MaintainNatHuaminca</action>
+		<action>MaintainNatTracker</action>
+		<action>MaintainNatHorseArcher</action>
+		<action>MaintainNatRifleman</action>
+		<action>MaintainNatBlogunWarrior</action>
+		<action>MaintainNatJaguarWarrior</action>
+		<action>MaintainNatEagleWarrior</action>
+		<action>IncaStrenght</action>
+		<action>IncaHP</action>
+		<action>SewingMachineGoldTrickle</action>
+		<action>GreatHeartRorkesDrift</action>
+		<action>SpawnRoto</action>
+		<action>SpawnMiquelet</action>		
+		<action>SpawnPiedNoir</action>
+		<action>SpawnReindeer</action>
+		<action>Spawn25Gold</action>
+        <action>Spawn50Gold</action>
+		<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
+		<autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype>
+		<attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype>
+		<action priority="100">CannonAttack</action>
+		<action priority="75">RangedAttack</action>
+		<action priority="74">RangedAttackKorean</action>
+	</tactic>
+</tactics>

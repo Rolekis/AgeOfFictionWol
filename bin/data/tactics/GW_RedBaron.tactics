@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="38119">MortarAttack</name>
+		<type>Attack</type>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<anim>RangedAttack</anim>
+		<idleanim>Idle</idleanim>
+		<maxheight>0</maxheight>
+		<accuracy>1.0</accuracy>
+		<aimbonus>1</aimbonus>
+		<trackrating>12</trackrating>
+		<unintentionaldamagemultiplier>1.0</unintentionaldamagemultiplier>
+		<projectile>RocketAir</projectile>
+		<impacteffect>effects\impacts\mortar</impacteffect>
+		<rate type="All">1.0 </rate>
+		<throw>1</throw>
+		<targetground>1</targetground>
+		<basedamagecap>1</basedamagecap>
+		<perfectaccuracy>1</perfectaccuracy>
+	</action>
+	<tactic>
+		Normal
+		<speedmodifier>1.0</speedmodifier>
+		<action priority="100">MortarAttack</action>
+		<idleanim>Idle</idleanim>
+		<moveanim>Walk</moveanim>
+		<deathanim>Death</deathanim>
+		<attacktype>Unit</attacktype>
+		<autoattacktype>Unit</autoattacktype>
+		<attackresponsetype>Unit</attackresponsetype>
+		<runaway>1</runaway>
+		<autoretarget>1</autoretarget>
+	</tactic>
+</tactics>

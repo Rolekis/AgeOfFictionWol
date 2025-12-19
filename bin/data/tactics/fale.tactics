@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+		<action>
+		<name>MaintainXPCrates</name>
+		<type>Maintain</type>
+		<rate type="FaleCrateofXP">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>MaintainFameCrates</name>
+		<type>Maintain</type>
+		<rate type="FaleCrateofFameSmall">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>MaintainTradeCrates</name>
+		<type>Maintain</type>
+		<rate type="FaleCrateofTradeSmall">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>AutoConvert</name>
+		<type>AutoConvert</type>
+		<maxrange>12.0</maxrange>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>SpawnTrees</name>
+		<type>Maintain</type>
+		<rate type="TreeFale">1.0</rate>
+		<active>0</active>
+		<singleuse>1</singleuse>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>SpawnTrees2</name>
+		<type>Maintain</type>
+		<rate type="TreeFale">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name>SpawnTrees3</name>
+		<type>Maintain</type>
+		<rate type="TreeFale">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name>SpawnTrees4</name>
+		<type>Maintain</type>
+		<rate type="TreeFale">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name>SpawnTrees5</name>
+		<type>Maintain</type>
+		<rate type="TreeFale">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<tactic>
+		Normal
+		<action>MaintainXPCrates</action>
+		<action>AutoConvert</action>
+		<action>MaintainFameCrates</action>
+		<action>MaintainTradeCrates</action>
+		<action>SpawnTrees</action>
+		<action>SpawnTrees2</action>
+		<action>SpawnTrees3</action>
+		<action>SpawnTrees4</action>
+		<action>SpawnTrees5</action>
+	</tactic>
+</tactics>

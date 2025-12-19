@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="68971">MaintainYouth</name>
+		<type>Maintain</type>
+		<rate type="AFRICANyouth">1.0</rate>
+		<active>1</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="48954">GreatHeart</name>
+		<type>AutoRangedModify</type>
+		<active>1</active>
+		<maxrange>24</maxrange>
+		<persistent>1</persistent>
+		<modifytype>MaxHP</modifytype>
+		<modifyabstracttype>AbstractVillager</modifyabstracttype>
+		<modifymultiplier>1.5</modifymultiplier>
+	</action>
+	<action>
+		<name stringid="69149">AutoGatherTrade</name>
+		<type>AutoGather</type>
+		<donotautogatherunlessgathering>1</donotautogatherunlessgathering>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="69149">AutoGatherFaithItalian</name>
+		<type>AutoGather</type>
+		<donotautogatherunlessgathering>1</donotautogatherunlessgathering>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="69149">AutoGatherIncaGold</name>
+		<type>AutoGather</type>
+		<donotautogatherunlessgathering>1</donotautogatherunlessgathering>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<tactic>
+		Normal
+		<speedmodifier>1.0</speedmodifier>
+		<action>AutoGatherIncaGold</action>
+		<action>AutoGatherTrade</action>
+		<action>AutoGatherTradeItalian</action>
+		<action>GreatHeart</action>
+		<action>MaintainYouth</action>
+		<runaway>1</runaway>
+		<autoretarget>1</autoretarget>
+	</tactic>
+</tactics>

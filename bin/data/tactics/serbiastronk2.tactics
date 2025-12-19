@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="48958">ExtraDamage</name>
+		<type>AutoRangedModify</type>
+		<active>0</active>
+		<maxrange>24</maxrange>
+		<persistent>1</persistent>
+		<modifytype>Damage</modifytype>
+		<modifymultiplier>1.045</modifymultiplier>
+		<modelattachment>effects\SerbianPower\serbianPower.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+	</action>
+	<action>
+		<name stringid="48958">ExtraDamage2</name>
+		<type>AutoRangedModify</type>
+		<active>0</active>
+		<maxrange>24</maxrange>
+		<persistent>1</persistent>
+		<modifytype>Damage</modifytype>
+		<modifymultiplier>1.03</modifymultiplier>
+	</action>
+	<action>
+		<name stringid="48944">ExtraBounty</name>
+		<type>AutoRangedModify</type>
+		<active>0</active>
+		<maxrange>24</maxrange>
+		<persistent>1</persistent>
+		<modifytype>Bounty</modifytype>
+		<modifymultiplier>1.1</modifymultiplier>
+		<modelattachment>effects\chiefpower\chiefpower.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+		<TargetEnemy>1</TargetEnemy>
+	</action>
+	<action>
+		<name stringid="48958">ExtraDamageRecruit</name>
+		<type>AutoRangedModify</type>
+		<active>0</active>
+		<maxrange>24</maxrange>
+		<persistent>1</persistent>
+		<modifytype>Damage</modifytype>
+		<modifymultiplier>1.015</modifymultiplier>
+		<ModifyProtoID>Seimen</ModifyProtoID>
+	</action>
+	<action>
+		<name stringid="48954">ExtraHPRecruit</name>
+		<type>AutoRangedModify</type>
+		<active>0</active>
+		<maxrange>24</maxrange>
+		<persistent>1</persistent>
+		<modifytype>MaxHP</modifytype>
+		<modifymultiplier>1.015</modifymultiplier>
+		<ModifyProtoID>Seimen</ModifyProtoID>
+	</action>
+	<action>
+		<name stringid="2018532">AlawiteDamage</name>
+		<type>AutoRangedModify</type>
+		<active>0</active>
+		<maxrange>24</maxrange>
+		<persistent>1</persistent>
+		<modifytype>Damage</modifytype>
+		<modifymultiplier>1.07</modifymultiplier>
+		<modelattachment>effects\ypack_auras\daimyopower.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+		<ModifyProtoID>NatNusayri</ModifyProtoID>
+		<ModifyProtoID>NatMercNusayri</ModifyProtoID>
+	</action>
+	<tactic>
+		Normal
+		<action>ExtraDamage</action>
+		<action>ExtraDamage2</action>
+		<action>ExtraBounty</action>
+		<action>ExtraDamageRecruit</action>
+		<action>ExtraHPRecruit</action>
+		<action>AlawiteDamage</action>
+	</tactic>
+</tactics>

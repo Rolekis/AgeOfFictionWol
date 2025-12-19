@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name>Hunting</name>
+		<type>Hunting</type>
+		<maxrange>12.0</maxrange>
+		<rate type="Tree">1.0</rate>
+		<typedmaxrange type="Tree">0</typedmaxrange>
+		<impacteffect>effects\impacts\torch</impacteffect>
+		<projectile>TorchProjectile</projectile>
+		<attackaction>1</attackaction>
+		<anim>Raze_Attack</anim>
+		<idleanim>Raze_Idle</idleanim>
+	</action>
+	<tactic>
+		Normal
+		<action priority="100">hunting</action>
+		<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
+		<autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype>
+		<attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype>
+		<runaway>0</runaway>
+		<autoretarget>1</autoretarget>
+		<idleanim>Volley_standing_idle</idleanim>
+		<boredanim>Volley_standing_bored</boredanim>
+		<deathanim>Death_by_melee</deathanim>
+		<walkanim>Volley_walk</walkanim>
+		<joganim>Volley_jog</joganim>
+		<runanim>Volley_run</runanim>
+	</tactic>
+</tactics>

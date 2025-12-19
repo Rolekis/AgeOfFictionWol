@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name>Heal</name>
+		<type>Heal</type>
+		<maxrange>12</maxrange>
+		<rate type="LogicalTypeHealed">3.0</rate>
+		<anim>Idle</anim>
+		<active>0</active>
+	</action>
+	<action>
+		<name stringid="48955">Equestrian</name>
+		<type>AutoRangedModify</type>
+		<active>0</active>
+		<maxrange>20</maxrange>
+		<persistent>1</persistent>
+		<modifytype>Speed</modifytype>
+		<modifymultiplier>1.2</modifymultiplier>
+	</action>
+	<action>
+		<name stringid="48954">Memorial</name>
+		<type>AutoRangedModify</type>
+		<active>0</active>
+		<maxrange>20</maxrange>
+		<persistent>1</persistent>
+		<modifytype>MaxHP</modifytype>
+		<modifymultiplier>1.2</modifymultiplier>
+	</action>
+	<action>
+		<name stringid="48954">GreatHeart</name>
+		<type>AutoRangedModify</type>
+		<active>1</active>
+		<maxrange>24</maxrange>
+		<persistent>1</persistent>
+		<modifytype>MaxHP</modifytype>
+		<modifymultiplier>1.2</modifymultiplier>
+	</action>
+	<action>
+		<name stringid="48958">ExtraDamage</name>
+		<type>AutoRangedModify</type>
+		<active>0</active>
+		<maxrange>24</maxrange>
+		<persistent>1</persistent>
+		<modifytype>Damage</modifytype>
+		<modifymultiplier>1.1</modifymultiplier>
+	</action>
+	<tactic>
+		Normal
+		<action>ExtraDamage</action>
+		<action>GreatHeart</action>
+		<action>Heal</action>
+		<!-- action>Equestrian</action>
+		<action>Memorial</action -->
+	</tactic>
+</tactics>

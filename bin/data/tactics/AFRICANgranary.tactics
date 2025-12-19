@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+    <action>
+        <name stringid="68971">MaintainLots</name>
+        <type>Maintain</type>
+        <rate type="AFRICANlottravois">1.0</rate>
+        <active>0</active>
+        <persistent>1</persistent>
+    </action>
+    <action>
+        <name stringid="24102">BuildLot</name>
+        <type>Build</type>
+        <maxrange>22</maxrange>
+        <rate type="AFRICANlot">1.0</rate>
+    </action>
+    <tactic>
+        Normal
+        <action>MaintainLots</action>
+        <action>BuildLot</action>
+    </tactic>
+</tactics>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="38119">Attack</name>
+		<reloadanim>idle</reloadanim>
+		<type>Attack</type>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<anim>attack</anim>
+		<idleanim>idle</idleanim>
+		<boredanim>idle</boredanim>
+		<maxheight>10</maxheight>
+		<accuracy>0.5</accuracy>
+		<aimbonus>0</aimbonus>
+		<maxspread>5</maxspread>
+		<spreadfactor>0.25</spreadfactor>
+		<trackrating>12</trackrating>
+		<unintentionaldamagemultiplier>1.0</unintentionaldamagemultiplier>
+		<projectile>GreatBombardBall</projectile>
+		<impacteffect>effects\impacts\cannon</impacteffect>
+		<rate type="All">1.0 </rate>
+		<throw>1</throw>
+		<impactforcemin>50.0f</impactforcemin>
+		<impactforcemax>80.0f</impactforcemax>
+		<outerdamageareadistance>.25</outerdamageareadistance>
+		<outerdamageareafactor>.20</outerdamageareafactor>
+		<impactlaunchangle>45.0</impactlaunchangle>
+		<areasortmode>Directional</areasortmode>
+		<targetground>1</targetground>
+		<numberbounces>1</numberbounces>
+		<basedamagecap>1</basedamagecap>
+	</action>
+	<tactic>
+		normal
+		<action priority="100">Attack</action>
+		<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
+		<autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype>
+		<attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype>
+		<runaway>0</runaway>
+		<autoretarget>1</autoretarget>
+		<idleanim>Idle</idleanim>
+		<boredanim>idle</boredanim>
+		<deathanim>Death</deathanim>
+		<walkanim>Walk</walkanim>
+		<joganim>walk</joganim>
+		<runanim>walk</runanim>
+	</tactic>
+</tactics>

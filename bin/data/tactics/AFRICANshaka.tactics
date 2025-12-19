@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="69148">Discover</name>
+		<type>Discover</type>
+		<anim>Pickup</anim>
+		<maxrange>0.2</maxrange>
+		<rate type="AbstractNugget">1.0</rate>
+	</action>
+	<action>
+		<name stringid="69147">Build</name>
+		<type>Build</type>
+		<anim>Build</anim>
+		<maxrange>0.2</maxrange>
+		<rate type="Building">1.0</rate>
+	</action>
+	<action>
+		<name>Heal2</name>
+		<type>Heal</type>
+		<maxrange>12</maxrange>
+		<rate type="LogicalTypeHealed">4.0</rate>
+		<anim>Heal2</anim>
+		<active>0</active>
+	</action>
+	<action>
+		<name stringid="38134">HandAttack</name>
+		<type>Attack</type>
+		<attackaction>1</attackaction>
+		<handlogic>1</handlogic>
+		<anim>HandAttack</anim>
+		<idleanim>CombatIdle</idleanim>
+		<maxrange>1.75</maxrange>
+		<impacteffect>effects\impacts\melee</impacteffect>
+		<rate type="Unit">1.0</rate>
+		<targetspeedboost>1</targetspeedboost>
+	</action>
+	<action>
+		<name stringid="38134">CoverHandAttack</name>
+		<type>Attack</type>
+		<attackaction>1</attackaction>
+		<handlogic>1</handlogic>
+		<anim>HandAttack</anim>
+		<idleanim>CombatIdle</idleanim>
+		<maxrange>1.75</maxrange>
+		<impacteffect>effects\impacts\melee</impacteffect>
+		<rate type="Unit">1.0</rate>
+		<targetspeedboost>1</targetspeedboost>
+	</action>
+	<action>
+		<name stringid="38118">BuildingAttack</name>
+		<type>Attack</type>
+		<rangedlogic>1</rangedlogic>
+		<maxrange>6</maxrange>
+		<rate type="LogicalTypeShipsAndBuildings">1.0</rate>
+		<attackaction>1</attackaction>
+		<speedboost>1</speedboost>
+		<anim>Raze_Attack</anim>
+		<idleanim>Raze_Idle</idleanim>
+		<impacteffect>effects\impacts\torch</impacteffect>
+		<projectile>TorchProjectile</projectile>
+	</action>
+	<action>
+		<name stringid="38118">CoverBuildingAttack</name>
+		<type>Attack</type>
+		<rangedlogic>1</rangedlogic>
+		<maxrange>6</maxrange>
+		<rate type="LogicalTypeShipsAndBuildings">1.0</rate>
+		<attackaction>1</attackaction>
+		<speedboost>1</speedboost>
+		<anim>Raze_Attack</anim>
+		<idleanim>Raze_Idle</idleanim>
+		<impacteffect>effects\impacts\torch</impacteffect>
+		<projectile>TorchProjectile</projectile>
+	</action>
+	<action>
+		<name stringid="600967">ShieldBashAttack</name>
+		<type>Attack</type>
+		<attackaction>1</attackaction>
+		<handlogic>1</handlogic>
+		<anim>Swashbuckler</anim>
+		<idleanim>CombatIdle</idleanim>
+		<maxrange>2</maxrange>
+		<impacteffect>effects\impacts\melee</impacteffect>
+		<rate type="Unit">1.0</rate>
+		<basedamagecap>1</basedamagecap>
+	</action>
+	<action>
+		<name stringid="69155">Heal</name>
+		<type>Heal</type>
+		<active>0</active>
+		<maxrange>12</maxrange>
+		<rate type="LogicalTypeHealed">50.0</rate>
+		<anim>Heal</anim>
+	</action>
+	<action>
+		<name stringid="48957">ConvertGuardian</name>
+		<type>ConvertGuardian</type>
+		<active>0</active>
+		<maxrange>16</maxrange>
+		<anim>AblBeastMaster</anim>
+		<rate type="Guardian">1.0</rate>
+		<rof>1.000000</rof>
+	</action>
+	<action>
+		<name stringid="46491">Stealth</name>
+		<type>Stealth</type>
+		<maxrange>20.0</maxrange>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<tactic>
+		Melee
+		<action priority="100">BuildingAttack</action>
+		<action priority="75">HandAttack</action>
+		<action priority="1">ShieldBashAttack</action>
+		<action>Build</action>
+		<action>Discover</action>
+		<action>Heal</action>
+		<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
+		<autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype>
+		<attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype>
+		<runaway>0</runaway>
+		<autoretarget>1</autoretarget>
+	</tactic>
+	<tactic>
+		Defend
+		<action priority="75">BuildingAttack</action>
+		<action priority="25">HandAttack</action>
+		<action priority="1">ShieldBashAttack</action>
+		<action>Build</action>
+		<action>Discover</action>
+		<action>Heal</action>
+		<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
+		<autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype>
+		<attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype>
+		<runaway>0</runaway>
+		<autoretarget>1</autoretarget>
+		<idleanim>Defend_idle</idleanim>
+		<boredanim>Defend_bored</boredanim>
+		<deathanim>Death_by_melee</deathanim>
+		<joganim>Defend_jog</joganim>
+		<walkanim>Defend_walk</walkanim>
+		<runanim>Defend_run</runanim>
+	</tactic>
+	<!-- tactic>
+		Stagger
+		<action priority="75">BuildingAttack</action>
+		<action priority="25">HandAttack</action>
+		<action priority="1">ShieldBashAttack</action>
+		<action>Build</action>
+		<action>Discover</action>
+		<action>Heal</action>
+		<action>GreatHeart</action>
+		<action>ExtraDamage</action>
+		<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
+		<autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype>
+		<attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype>
+		<runaway>0</runaway>
+		<autoretarget>1</autoretarget>
+		<idleanim>Cover_ranged_idle</idleanim>
+		<boredanim>Cover_bored</boredanim>
+		<deathanim>Death_by_melee</deathanim>
+		<walkanim>Cover_walk</walkanim>
+		<joganim>Cover_jog</joganim>
+		<runanim>Cover_run</runanim>
+	</tactic -->
+	<tactic>
+		Cover
+		<speedmodifier>0.5</speedmodifier>
+		<action priority="75">CoverBuildingAttack</action>
+		<action priority="25">CoverHandAttack</action>
+		<action priority="1">ShieldBashAttack</action>
+		<action>Build</action>
+		<action>Discover</action>
+		<action>Heal</action>
+		<action>GreatHeart</action>
+		<action>ExtraDamage</action>
+		<attacktype>LogicalTypeHandUnitsAttack</attacktype>
+		<autoattacktype>LogicalTypeHandUnitsAutoAttack</autoattacktype>
+		<attackresponsetype>LogicalTypeHandUnitsAttack</attackresponsetype>
+		<runaway>0</runaway>
+		<autoretarget>1</autoretarget>
+		<idleanim>Cover_ranged_idle</idleanim>
+		<boredanim>Cover_bored</boredanim>
+		<deathanim>Death_by_melee</deathanim>
+		<walkanim>Cover_walk</walkanim>
+		<joganim>Cover_jog</joganim>
+		<runanim>Cover_run</runanim>
+	</tactic>
+</tactics>

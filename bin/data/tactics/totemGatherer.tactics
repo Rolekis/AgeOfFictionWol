@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name>Gather</name>
+		<type>Gather</type>
+		<maxrange>0.5</maxrange>
+		<rate type="WOLTotem">1.0</rate>
+		<active>0</active>
+	</action>
+	<action>
+		<name>AutoGatherFame</name>
+		<type>AutoGather</type>
+		<active>1</active>
+		<persistent>1</persistent>
+	</action>
+	<tactic>
+		Normal
+		<action>AutoGatherFame</action>
+		<action>Gather</action>
+	</tactic>
+</tactics>

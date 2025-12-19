@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="603168">LeatherShoesExtraSpeed</name>
+		<type>AutoRangedModify</type>
+		<active>0</active>
+		<persistent>1</persistent>
+		<modifyexclusive>1</modifyexclusive>
+		<modifyabstracttype>AbstractInfantry</modifyabstracttype>
+		<modifytype>Speed</modifytype>
+		<modifymultiplier>1.2</modifymultiplier>
+	</action>
+	<action>
+		<name stringid="710219">MaintainCows</name>
+		<type>Maintain</type>
+		<rate type="Cow">1.00</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="710239">MaintainFatCows</name>
+		<type>Maintain</type>
+		<rate type="FatCow">1.00</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>MaintainZebu</name>
+		<type>Maintain</type>
+		<rate type="Zebu">1.00</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="68971">Ragamuffin</name>
+		<type>Maintain</type>
+		<rate type="IMFarrapo">1</rate>
+		<active>1</active>
+		<persistent>0</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<tactic>
+		Normal
+		<action>LeatherShoesExtraSpeed</action>
+		<action>MaintainCows</action>	
+		<action>MaintainFatCows</action>
+		<action>MaintainZebu</action>
+		<action>Ragamuffin</action>	
+	</tactic>
+</tactics>

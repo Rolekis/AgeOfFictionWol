@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="1001214">AutoGatherXP</name>
+		<type>AutoGather</type>
+		<active>1</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>Spawn1</name>
+		<type>Spawn</type>
+		<rate type="Priest">1.0 </rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>Spawn2</name>
+		<type>Spawn</type>
+		<rate type="Priest">2.0 </rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>Spawn3</name>
+		<type>Spawn</type>
+		<rate type="Priest">3.0 </rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>Spawn5</name>
+		<type>Spawn</type>
+		<rate type="Priest">5.0 </rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>SpawnPriestAustralian</name>
+		<type>Spawn</type>
+		<rate type="WOLPriestAustralian">1.0 </rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="69149">AutoGatherCoin</name>
+		<type>AutoGather</type>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="68971">MaintainPriests</name>
+		<type>Maintain</type>
+		<rate type="Priest">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="68971">MaintainSettlerAsian</name>
+		<type>Maintain</type>
+		<rate type="ypSettlerAsian">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="68971">MaintainSettlerJapanese</name>
+		<type>Maintain</type>
+		<rate type="ypSettlerJapanese">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="69182">SpawnCanadianTrees</name>
+		<type>Maintain</type>
+		<rate type="TreeCanadian">3.0 </rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="69158">SpawnCoinCrates</name>
+		<type>Spawn</type>
+		<rate type="CrateofCoin">3.0 </rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="69155">Heal</name>
+		<type>Heal</type>
+		<maxrange>20</maxrange>
+		<rate type="LogicalTypeHealed">3.0 </rate>
+		<active>0</active>
+		<anim>Heal</anim>
+	</action>
+	<action>
+		<name stringid="603173">PianoXPTrickle</name>
+		<type>AutoGather</type>
+		<active>0</active>
+		<persistent>1</persistent>
+		<Rate type ='XP'>0.250001</Rate>
+	</action>
+	<action>
+		<name stringid="68994">FrightenDamage</name>
+		<type>AutoRangedModify</type>
+		<targetenemy>1</targetenemy>
+		<active>0</active>
+		<maxrange>24</maxrange>
+		<persistent>1</persistent>
+		<modifytype>Damage</modifytype>
+		<modifymultiplier>0.95</modifymultiplier>
+		<modelattachment>effects\ypack_auras\frightpower.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+	</action>
+	<action>
+		<name stringid="430010">GodsFlock</name>
+		<type>AutoRangedModify</type>
+		<maxrange>36</maxrange>
+		<modifyabstracttype>AbstractVillager</modifyabstracttype>
+		<persistent>1</persistent>
+		<modifytype>GatherRate</modifytype>
+		<modifymultiplier>1.15</modifymultiplier>
+		<active>0</active>
+		<modelattachment>effects\ypack_auras\econpower.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+	</action>
+	<action>
+		<name stringid="38133">RangedAttack</name>
+		<type>Attack</type>
+		<active>0</active>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<anim>RangedAttack</anim>
+		<maxheight>0</maxheight>
+		<accuracy>1.0</accuracy>
+		<accuracyreductionfactor>0.5</accuracyreductionfactor>
+		<aimbonus>0</aimbonus>
+		<maxspread>5</maxspread>
+		<spreadfactor>0.25</spreadfactor>
+		<trackrating>12</trackrating>
+		<unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+		<projectile>InvisibleProjectile</projectile>
+		<impacteffect>effects\impacts\gun</impacteffect>
+		<rate type="Unit">1.0</rate>
+		<instantballistics>1</instantballistics>
+	</action>
+	<action>
+		<name stringid="38133">RangedAttackKorean</name>
+		<type>Attack</type>
+		<active>0</active>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<anim>RangedAttack</anim>
+		<maxheight>0</maxheight>
+		<accuracy>1.0</accuracy>
+		<accuracyreductionfactor>0.01</accuracyreductionfactor>
+		<aimbonus>0</aimbonus>
+		<maxspread>5</maxspread>
+		<spreadfactor>0.25</spreadfactor>
+		<trackrating>12</trackrating>
+		<unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+		<projectile>InvisibleProjectile</projectile>
+		<impacteffect>effects\impacts\gun</impacteffect>
+		<rate type="Unit">1.0</rate>
+		<instantballistics>1</instantballistics>
+		<scalebycontainedunits>1</scalebycontainedunits>
+		<activeifcontainsunits>1</activeifcontainsunits>
+	</action>
+	<action>
+		<name stringid="38121">AntiShipAttack</name>
+		<type>Attack</type>
+		<active>0</active>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<anim>RangedAttackShip</anim>
+		<maxheight>0</maxheight>
+		<accuracy>1.0</accuracy>
+		<accuracyreductionfactor>0.5</accuracyreductionfactor>
+		<aimbonus>0</aimbonus>
+		<maxspread>5</maxspread>
+		<spreadfactor>0.25</spreadfactor>
+		<trackrating>12</trackrating>
+		<unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+		<projectile>Cannonball</projectile>
+		<impacteffect>effects\impacts\cannon</impacteffect>
+		<rate type="AbstractWarship">1.0</rate>
+		<basedamagecap>1</basedamagecap>
+	</action>
+	<action>
+		<name stringid="24102">BuildAnnex</name>
+		<type>Build</type>
+		<maxrange>5</maxrange>
+		<rate type="Building">1.0</rate>
+	</action>
+	<action>
+		<name stringid="61766">AutoGatherXPNeoclassicalMedium</name>
+		<type>AutoGather</type>
+		<active>0</active>
+		<persistent>1</persistent>
+		<Rate type ='XP'>0.2500</Rate>
+	</action>
+	<action>
+		<name stringid="68971">Maintaintrees</name>
+		<type>Maintain</type>
+		<rate type="TreeWhiteGum">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>	
+	<action>
+		<name stringid="800987">MaintainTigers</name>
+		<type>Maintain</type>
+		<rate type="YPPetTiger">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="68994">FrightenSpeed</name>
+		<type>AutoRangedModify</type>
+		<targetenemy>1</targetenemy>
+		<active>0</active>
+		<maxrange>16</maxrange>
+		<persistent>1</persistent>
+		<modifytype>Speed</modifytype>
+		<modifymultiplier>0.85</modifymultiplier>
+		<modelattachment>effects\ypack_auras\frightpower.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+	</action>
+	<action>
+		<name stringid="2030567">ExtraDamagePE</name>
+		<type>AutoRangedModify</type>
+		<active>0</active>
+		<maxrange>24</maxrange>
+		<persistent>1</persistent>
+		<modifytype>Damage</modifytype>
+		<modifymultiplier>1.10</modifymultiplier>
+		<modelattachment>effects\me_auras\aura_warlord.xml</modelattachment>
+	</action>
+	
+	<action>
+		<name stringid="2040149">Spawn25Gold</name>
+		<type>Spawn</type>
+		<rate type="DutchgoldIV">1.0 </rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="2040149">Spawn50Gold</name>
+		<type>Spawn</type>
+		<rate type="DutchgoldIV">2.0 </rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<!--Middle East-->
+	<action>
+		<name stringid="2018480">TiwafFood</name>
+		<type>Spawn</type>
+		<rate type="CrateofFood">1.0 </rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="2018481">TiwafWood</name>
+		<type>Spawn</type>
+		<rate type="CrateofWood">1.0 </rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="2018482">TiwafCoin</name>
+		<type>Spawn</type>
+		<rate type="CrateofCoin">1.0 </rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>SpawnServant</name>
+		<type>Spawn</type>
+		<rate type="SettlerME">3.0 </rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<tactic>
+		Normal
+		<action>AutoGatherXP</action>
+		<action>AutoGatherCoin</action>
+		<action>PianoXPTrickle</action>
+		<action>AutoGatherXPNeoclassicalMedium</action>
+		<action>MaintainPriests</action>
+		<action>MaintainSettlerAsian</action>
+		<action>MaintainSettlerJapanese</action>
+		<action>Maintaintrees</action>		
+		<action>Spawn1</action>
+		<action>Spawn2</action>
+		<action>Spawn3</action>
+		<action>Spawn5</action>
+		<action>SpawnCanadianTrees</action>
+		<action>SpawnPriestAustralian</action>
+		<action>Heal</action>
+		<action>GodsFlock</action>
+		<action>RangedAttack</action>
+		<action>AntiShipAttack</action>
+		<action>FrightenDamage</action>
+		<action>ExtraDamagePE</action>
+		<action>BuildAnnex</action>
+		<action>FrightenSpeed</action>
+		<action>SpawnCoinCrates</action>
+		<action>TiwafFood</action>
+		<action>TiwafWood</action>
+		<action>TiwafCoin</action>
+		<action>SpawnServant</action>
+		<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
+		<autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype>
+		<attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype>
+		<action priority="100">RangedAttackKorean</action>
+		<action priority="100">MaintainTigers</action>
+		<action>Spawn25Gold</action>
+        <action>Spawn50Gold</action>
+	</tactic>
+</tactics>

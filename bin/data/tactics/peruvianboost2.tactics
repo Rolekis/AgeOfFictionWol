@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="48954">IncreaseWorkRate</name>
+		<type>AutoRangedModify</type>
+		<active>1</active>
+		<maxrange>1000000</maxrange>
+		<persistent>1</persistent>
+		<modifytype>GatherRate</modifytype>
+		<modifymultiplier>1.35</modifymultiplier>
+		<modelattachment>effects\ypack_auras\econpower.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+		<modifyabstracttype>AbstractVillager</modifyabstracttype>
+	</action>
+	<action>
+		<name stringid="48954">IncreaseAutoWorkRate</name>
+		<type>AutoRangedModify</type>
+		<active>1</active>
+		<maxrange>1000000</maxrange>
+		<persistent>1</persistent>
+		<modifytype>AutoGatherRate</modifytype>
+		<modifymultiplier>1.35</modifymultiplier>
+	</action>
+	<action>
+		<name stringid="48954">IncreaseHPBuiding</name>
+		<type>AutoRangedModify</type>
+		<active>1</active>
+		<modifyabstracttype>Building</modifyabstracttype>
+		<persistent>1</persistent>
+		<modifytype>MaxHP</modifytype>
+		<modifymultiplier>1.50</modifymultiplier>
+	</action>
+	<action>
+		<name stringid="48954">IncreaseXP</name>
+		<type>AutoRangedModify</type>
+		<active>1</active>
+		<maxrange>1000000</maxrange>
+		<persistent>1</persistent>
+		<modifytype>Bounty</modifytype>
+		<modifymultiplier>1.5</modifymultiplier>
+	</action>
+	<tactic>
+		Normal
+		<action>IncreaseWorkRate</action>
+		<action>IncreaseAutoWorkRate</action>
+		<action>IncreaseHPBuiding</action>
+		<action>IncreaseHPUnit</action>
+		<action>IncreaseXP</action>
+		<action>IncreaseDamage</action>
+	</tactic>
+</tactics>

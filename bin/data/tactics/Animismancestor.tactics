@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="68961">AnimismAuraDamage</name>
+		<type>AutoRangedModify</type>
+		<maxrange>24</maxrange>
+		<persistent>1</persistent>
+		<modifytype>Damage</modifytype>
+		<modifymultiplier>1.035</modifymultiplier>
+		<active>0</active>
+	</action>
+	<action>
+		<name stringid="68961">AnimismAuraHealth</name>
+		<type>AutoRangedModify</type>
+		<maxrange>24</maxrange>
+		<persistent>1</persistent>
+		<modifytype>MaxHP</modifytype>
+		<modifymultiplier>1.035</modifymultiplier>
+		<active>0</active>
+	</action>
+	<action>
+		<name stringid="68961">AnimismAuraGatherRate</name>
+		<type>AutoRangedModify</type>
+		<maxrange>24</maxrange>
+		<persistent>1</persistent>
+		<modifytype>GatherRate</modifytype>
+		<modifymultiplier>1.035</modifymultiplier>
+		<active>0</active>
+		<modelattachment>effects\ypack_auras\econpower.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+	</action>
+	<action>
+		<name stringid="68961">AnimismAuraSpeed</name>
+		<type>AutoRangedModify</type>
+		<maxrange>24</maxrange>
+		<persistent>1</persistent>
+		<modifytype>Speed</modifytype>
+		<modifymultiplier>1.035</modifymultiplier>
+		<active>0</active>
+		<modelattachment>effects\ypack_auras\daimyopower.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+	</action>
+	<tactic>
+		Normal
+		<action>Nobounty</action>
+	</tactic>
+</tactics>

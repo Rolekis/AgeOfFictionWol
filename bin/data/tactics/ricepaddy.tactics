@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="43294">ModifyGatherCoin</name>
+		<type>ModifyGather</type>
+		<active>1</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="43295">ModifyGatherFood</name>
+		<type>ModifyGather</type>
+		<active>1</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="38133">RangedAttackKorean</name>
+		<type>Attack</type>
+		<active>0</active>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<anim>RangedAttack</anim>
+		<maxheight>0</maxheight>
+		<accuracy>1.0</accuracy>
+		<accuracyreductionfactor>0.01</accuracyreductionfactor>
+		<aimbonus>0</aimbonus>
+		<maxspread>5</maxspread>
+		<spreadfactor>0.25</spreadfactor>
+		<trackrating>12</trackrating>
+		<unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+		<projectile>InvisibleProjectile</projectile>
+		<impacteffect>effects\impacts\gun</impacteffect>
+		<rate type="Unit">1.0</rate>
+		<instantballistics>1</instantballistics>
+		<scalebycontainedunits>1</scalebycontainedunits>
+		<activeifcontainsunits>1</activeifcontainsunits>
+	</action>
+	<tactic>
+		PaddyFood
+		<action>ModifyGatherFood</action>
+		<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
+		<autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype>
+		<attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype>
+		<action priority="100">RangedAttackKorean</action>
+		<transition>
+			<tactic>PaddyCoin</tactic>
+			<length>2</length>
+			<exit>1</exit>
+		</transition>
+	</tactic>
+	<tactic>
+		PaddyCoin
+		<action>ModifyGatherCoin</action>
+		<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
+		<autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype>
+		<attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype>
+		<action priority="100">RangedAttackKorean</action>
+		<transition>
+			<tactic>PaddyFood</tactic>
+			<length>2</length>
+			<exit>1</exit>
+		</transition>
+	</tactic>
+</tactics>

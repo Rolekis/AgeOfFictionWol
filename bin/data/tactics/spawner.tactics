@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="68971">SpawnCazadores1</name>
+		<type>Maintain</type>
+		<rate type="WOLCazadordeIndios">4</rate>
+		<active>1</active>
+		<persistent>0</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="68971">SpawnCazadores2</name>
+		<type>Maintain</type>
+		<rate type="WOLCazadordeIndios">7</rate>
+		<active>1</active>
+		<persistent>0</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="68971">SpawnCazadores3</name>
+		<type>Maintain</type>
+		<rate type="WOLCazadordeIndios">10</rate>
+		<active>1</active>
+		<persistent>0</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="69182">SpawnCanadianTrees</name>
+		<type>Maintain</type>
+		<rate type="TreeCanadian">3.0 </rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="480312">SpawnCoinCratesAmericanParty</name>
+		<type>Maintain</type>
+		<rate type="CrateofCoin">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<tactic>
+		Normal
+		<action>SpawnCanadianTrees</action>
+		<action>SpawnCoinCratesAmericanParty</action>
+		<action>SpawnCazadores1</action>
+		<action>SpawnCazadores2</action>
+		<action>SpawnCanadianTrees</action>
+	</tactic>
+</tactics>

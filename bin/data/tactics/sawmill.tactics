@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name>AutoGatherWood</name>
+		<type>AutoGather</type>
+		<active>1</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>MaintainCratesOfWood</name>
+		<type>Maintain</type>
+		<rate type="CrateOfWood">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>MaintainCratesOfWoodLarge</name>
+		<type>Maintain</type>
+		<rate type="CrateOfWoodLarge">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="77076">SpawnNorwaySpruce1</name>
+		<type>Maintain</type>
+		<rate type="WOLTreeNorwaySpruce">2</rate>
+		<active>1</active>
+		<persistent>0</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="77076">SpawnNorwaySpruce2</name>
+		<type>Maintain</type>
+		<rate type="WOLTreeNorwaySpruce">4</rate>
+		<active>1</active>
+		<persistent>0</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="77076">SpawnNorwaySpruce3</name>
+		<type>Maintain</type>
+		<rate type="WOLTreeNorwaySpruce">5</rate>
+		<active>1</active>
+		<persistent>0</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="77076">SpawnNorwaySpruce4</name>
+		<type>Maintain</type>
+		<rate type="WOLTreeNorwaySpruce">8</rate>
+		<active>1</active>
+		<persistent>0</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="77076">SpawnNorwaySpruce5</name>
+		<type>Maintain</type>
+		<rate type="WOLTreeNorwaySpruce">12</rate>
+		<active>1</active>
+		<persistent>0</persistent>
+		<singleuse>1</singleuse>
+	</action>
+    <action>
+    <name stringid="91720">AreaGatherTree</name>
+    <type>AutoRangedModify</type>
+    <modifyabstracttype>Tree</modifyabstracttype>
+    <targetgaia>1</targetgaia>
+    <active>1</active>
+    <maxrange>6.2</maxrange>
+    <persistent>1</persistent>
+    <donotignoredead>1</donotignoredead>
+    <forceupdatemode>1</forceupdatemode>
+    <modifytype>UnitResource</modifytype>
+    <modifyamount>0.05</modifyamount>
+    <modifytargetlimit>5</modifytargetlimit>
+    <modelattachment>effects\ypack_auras\torpgatherpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+    </action>
+	<tactic>
+		Normal
+		<action>AreaGatherTree</action>
+		<action>AutoGatherWood</action>
+		<action>MaintainCratesOfWood</action>
+		<action>MaintainCratesOfWoodLarge</action>
+		<action>SpawnNorwaySpruce1</action>
+		<action>SpawnNorwaySpruce2</action>
+		<action>SpawnNorwaySpruce3</action>
+		<action>SpawnNorwaySpruce4</action>
+		<action>SpawnNorwaySpruce5</action>
+	</tactic>
+</tactics>

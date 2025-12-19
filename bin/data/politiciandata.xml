@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<politicians>
+	<politicianadmiral portraitfilename="WoL\ui\ingame\politicians\captainmerchant"/>
+
+	<politicianadmiralottoman portraitfilename="WoL\ui\ingame\politicians\politician_admiral_ot"/>
+	<politiciancavalierottoman portraitfilename="WoL\ui\ingame\politicians\politician_cavalier_ot"/>
+	<politiciangeneralottoman portraitfilename="WoL\ui\ingame\politicians\politician_general_ot"/>
+	<politicianmarksmanottoman portraitfilename="WoL\ui\ingame\politicians\politician_marksman_ot"/>
+	<politicianengineerottoman portraitfilename="WoL\ui\ingame\politicians\politician_engineer_ot"/>
+	<politiciangovernorottoman portraitfilename="WoL\ui\ingame\politicians\politician_governor_ot"/>
+	<politiciannaturalistottoman portraitfilename="WoL\ui\ingame\politicians\politician_naturalist_ot"/>
+	<politicianphilosopherprinceottoman portraitfilename="WoL\ui\ingame\politicians\politician_philosopher_prince_ot"/>
+	<politicianpresidenteottoman portraitfilename="WoL\ui\ingame\politicians\politician_el_presidente_ot"/>
+	<politicianscoutottoman portraitfilename="WoL\ui\ingame\politicians\politician_scout_ot"/>
+	<politiciantycoonottoman portraitfilename="WoL\ui\ingame\politicians\politician_tycoon_ot"/>
+	<politiciangrandvizier portraitfilename="WoL\ui\ingame\politicians\politician_grand_vizier"/>
+	<politicianquartermasterottoman portraitfilename="WoL\ui\ingame\politicians\politician_quartermaster_ot"/>
+	<politicianexiledprinceottoman portraitfilename="WoL\ui\ingame\politicians\politician_exiled_prince_ot"/>
+
+	<politicianadventurerbritish portraitfilename="WoL\ui\ingame\politicians\politician_adventurer"/>
+	<politicianadventurerrussian portraitfilename="WoL\ui\ingame\politicians\politician_adventurer"/>
+	<politicianadventurerspanish portraitfilename="WoL\ui\ingame\politicians\politician_adventurer"/>
+	<politicianbishop portraitfilename="WoL\ui\ingame\politicians\politician_bishop"/>
+	<politicianbishopgerman portraitfilename="WoL\ui\ingame\politicians\politician_bishop"/>
+	<WOLPoliticianBishopSpanish portraitfilename="WoL\ui\ingame\politicians\politician_bishop"/>
+	<politiciancavalierdutch portraitfilename="WoL\ui\ingame\politicians\equerry"/>
+	<politiciancavalierfrench portraitfilename="WoL\ui\ingame\politicians\equerry"/>
+	<politiciancavaliergerman portraitfilename="WoL\ui\ingame\politicians\equerry"/>
+	<politiciancavalierrussian portraitfilename="WoL\ui\ingame\politicians\equerry"/>
+	<politiciancavalierspanish portraitfilename="WoL\ui\ingame\politicians\equerry"/>
+	<politicianengineer portraitfilename="WoL\ui\ingame\politicians\politician_engineer"/>
+	<politicianengineerportuguese portraitfilename="WoL\ui\ingame\politicians\politician_engineer"/>
+	<politicianexiledprince portraitfilename="WoL\ui\ingame\politicians\exile"/>
+	<politiciangeneral portraitfilename="WoL\ui\ingame\politicians\fieldmarshall"/>
+	<politiciangeneralbritish portraitfilename="WoL\ui\ingame\politicians\fieldmarshall"/>
+	<politiciangeneralskirmisher portraitfilename="WoL\ui\ingame\politicians\fieldmarshall"/>
+	<politiciangovernor portraitfilename="WoL\ui\ingame\politicians\governor"/>
+	<politicianmarksman portraitfilename="WoL\ui\ingame\politicians\marksman"/>
+	<PoliticianMarksmanFrench portraitfilename="WoL\ui\ingame\politicians\marksman"/>
+	<politicianmarksmanportuguese portraitfilename="WoL\ui\ingame\politicians\marksman"/>
+	<politicianmohawk portraitfilename="WoL\ui\ingame\politicians\politician_mohawk_statesmen"/>
+	<politicianmusketeerbritish portraitfilename="WoL\ui\ingame\politicians\colonel"/>
+	<politicianmusketeerdutch portraitfilename="WoL\ui\ingame\politicians\colonel"/>
+	<politicianmusketeerfrench portraitfilename="WoL\ui\ingame\politicians\colonel"/>
+	<politicianmusketeerportuguese portraitfilename="WoL\ui\ingame\politicians\colonel"/>
+	<politicianmusketeerrussian portraitfilename="WoL\ui\ingame\politicians\colonel"/>
+	<politicianmusketeerspanish portraitfilename="WoL\ui\ingame\politicians\colonel"/>
+	<politiciannaturalist portraitfilename="WoL\ui\ingame\politicians\politician_naturalist"/>
+	<politicianphilosopherprince portraitfilename="WoL\ui\ingame\politicians\politician_philosopher_prince"/>
+	<politicianpirate portraitfilename="WoL\ui\ingame\politicians\politician_gentleman_pirate"/>
+	<politicianpresidente portraitfilename="WoL\ui\ingame\politicians\politician_el_presidente"/>
+	<politicianquartermaster portraitfilename="WoL\ui\ingame\politicians\artisan"/>
+	<politicianscout portraitfilename="WoL\ui\ingame\politicians\cornet"/>
+	<politicianscoutrussian portraitfilename="WoL\ui\ingame\politicians\cornet"/>
+	<politicianscoutspanish portraitfilename="WoL\ui\ingame\politicians\cornet"/>
+	<politiciansergeantdutch portraitfilename="WoL\ui\ingame\politicians\politician_sergeant_at_arms"/>
+	<politiciansergeantgerman portraitfilename="WoL\ui\ingame\politicians\politician_sergeant_at_arms"/>
+	<politiciansergeantspanish portraitfilename="WoL\ui\ingame\politicians\politician_sergeant_at_arms"/>
+	<politiciantycoon portraitfilename="WoL\ui\ingame\politicians\politician_tycoon"/>
+	<politicianviceroybritish portraitfilename="WoL\ui\ingame\politicians\politician_viceroy"/>
+	<politicianviceroydutch portraitfilename="WoL\ui\ingame\politicians\politician_viceroy"/>
+	<politicianviceroygerman portraitfilename="WoL\ui\ingame\politicians\politician_viceroy"/>
+	<politicianviceroyportuguese portraitfilename="WoL\ui\ingame\politicians\politician_viceroy"/>
+	<politicianwarministerrussian portraitfilename="WoL\ui\ingame\politicians\politician_war_minister"/>
+	<politicianwarministerspanish portraitfilename="WoL\ui\ingame\politicians\politician_war_minister"/>
+	<politiciantycoonact3 portraitfilename="WoL\ui\ingame\politicians\politician_tycoon"/>
+	<politicianwarministeract3 portraitfilename="WoL\ui\ingame\politicians\politician_war_minister"/>
+
+	<tribaliroquoischief2 portraitfilename="ui\ingame\politicians\politician_IR_chief" nativeciv="Iroquois" techslot="3"/>
+	<tribaliroquoischief3 portraitfilename="ui\ingame\politicians\politician_IR_chief" nativeciv="Iroquois" techslot="3"/>
+	<tribaliroquoischief4 portraitfilename="ui\ingame\politicians\politician_IR_chief" nativeciv="Iroquois" techslot="3"/>
+	<tribaliroquoischief5 portraitfilename="ui\ingame\politicians\politician_IR_chief" nativeciv="Iroquois" techslot="3"/>
+	<tribaliroquoisshaman2 portraitfilename="ui\ingame\politicians\politician_IR_shaman" nativeciv="Iroquois" techslot="1"/>
+	<tribaliroquoisshaman3 portraitfilename="ui\ingame\politicians\politician_IR_shaman" nativeciv="Iroquois" techslot="1"/>
+	<tribaliroquoisshaman4 portraitfilename="ui\ingame\politicians\politician_IR_shaman" nativeciv="Iroquois" techslot="1"/>
+	<tribaliroquoisshaman5 portraitfilename="ui\ingame\politicians\politician_IR_shaman" nativeciv="Iroquois" techslot="1"/>
+	<tribaliroquoiswisewoman2 portraitfilename="ui\ingame\politicians\politician_IR_wisewoman" nativeciv="Iroquois" techslot="4"/>
+	<tribaliroquoiswisewoman3 portraitfilename="ui\ingame\politicians\politician_IR_wisewoman" nativeciv="Iroquois" techslot="4"/>
+	<tribaliroquoiswisewoman4 portraitfilename="ui\ingame\politicians\politician_IR_wisewoman" nativeciv="Iroquois" techslot="4"/>
+	<tribaliroquoiswisewoman5 portraitfilename="ui\ingame\politicians\politician_IR_wisewoman" nativeciv="Iroquois" techslot="4"/>
+	<tribaliroquoiswarrior2 portraitfilename="ui\ingame\politicians\politician_IR_warleader" nativeciv="Iroquois" techslot="0"/>
+	<tribaliroquoiswarrior3 portraitfilename="ui\ingame\politicians\politician_IR_warleader" nativeciv="Iroquois" techslot="0"/>
+	<tribaliroquoiswarrior4 portraitfilename="ui\ingame\politicians\politician_IR_warleader" nativeciv="Iroquois" techslot="0"/>
+	<tribaliroquoiswarrior5 portraitfilename="ui\ingame\politicians\politician_IR_warleader" nativeciv="Iroquois" techslot="0"/>
+	<tribaliroquoisyouth2 portraitfilename="ui\ingame\politicians\politician_IR_messenger" nativeciv="Iroquois" techslot="2"/>
+	<tribaliroquoisyouth3 portraitfilename="ui\ingame\politicians\politician_IR_messenger" nativeciv="Iroquois" techslot="2"/>
+	<tribaliroquoisyouth4 portraitfilename="ui\ingame\politicians\politician_IR_messenger" nativeciv="Iroquois" techslot="2"/>
+	<tribaliroquoisyouth5 portraitfilename="ui\ingame\politicians\politician_IR_messenger" nativeciv="Iroquois" techslot="2"/>
+	<tribalsiouxchief2 portraitfilename="ui\ingame\politicians\politician_SX_chief" nativeciv="Sioux" techslot="3"/>
+	<tribalsiouxchief3 portraitfilename="ui\ingame\politicians\politician_SX_chief" nativeciv="Sioux" techslot="3"/>
+	<tribalsiouxchief4 portraitfilename="ui\ingame\politicians\politician_SX_chief" nativeciv="Sioux" techslot="3"/>
+	<tribalsiouxchief5 portraitfilename="ui\ingame\politicians\politician_SX_chief" nativeciv="Sioux" techslot="3"/>
+	<tribalsiouxshaman2 portraitfilename="ui\ingame\politicians\politician_SX_shaman" nativeciv="Sioux" techslot="1"/>
+	<tribalsiouxshaman3 portraitfilename="ui\ingame\politicians\politician_SX_shaman" nativeciv="Sioux" techslot="1"/>
+	<tribalsiouxshaman4 portraitfilename="ui\ingame\politicians\politician_SX_shaman" nativeciv="Sioux" techslot="1"/>
+	<tribalsiouxshaman5 portraitfilename="ui\ingame\politicians\politician_SX_shaman" nativeciv="Sioux" techslot="1"/>
+	<tribalsiouxwisewoman2 portraitfilename="ui\ingame\politicians\politician_SX_wisewoman" nativeciv="Sioux" techslot="4"/>
+	<tribalsiouxwisewoman3 portraitfilename="ui\ingame\politicians\politician_SX_wisewoman" nativeciv="Sioux" techslot="4"/>
+	<tribalsiouxwisewoman4 portraitfilename="ui\ingame\politicians\politician_SX_wisewoman" nativeciv="Sioux" techslot="4"/>
+	<tribalsiouxwisewoman5 portraitfilename="ui\ingame\politicians\politician_SX_wisewoman" nativeciv="Sioux" techslot="4"/>
+	<tribalsiouxwarrior2 portraitfilename="ui\ingame\politicians\politician_SX_warleader" nativeciv="Sioux" techslot="0"/>
+	<tribalsiouxwarrior3 portraitfilename="ui\ingame\politicians\politician_SX_warleader" nativeciv="Sioux" techslot="0"/>
+	<tribalsiouxwarrior4 portraitfilename="ui\ingame\politicians\politician_SX_warleader" nativeciv="Sioux" techslot="0"/>
+	<tribalsiouxwarrior5 portraitfilename="ui\ingame\politicians\politician_SX_warleader" nativeciv="Sioux" techslot="0"/>
+	<tribalsiouxyouth2 portraitfilename="ui\ingame\politicians\politician_SX_messenger" nativeciv="Sioux" techslot="2"/>
+	<tribalsiouxyouth3 portraitfilename="ui\ingame\politicians\politician_SX_messenger" nativeciv="Sioux" techslot="2"/>
+	<tribalsiouxyouth4 portraitfilename="ui\ingame\politicians\politician_SX_messenger" nativeciv="Sioux" techslot="2"/>
+	<tribalsiouxyouth5 portraitfilename="ui\ingame\politicians\politician_SX_messenger" nativeciv="Sioux" techslot="2"/>
+	<tribalaztecchief2 portraitfilename="ui\ingame\politicians\politician_AZ_chief" nativeciv="Aztec" techslot="3"/>
+	<tribalaztecchief3 portraitfilename="ui\ingame\politicians\politician_AZ_chief" nativeciv="Aztec" techslot="3"/>
+	<tribalaztecchief4 portraitfilename="ui\ingame\politicians\politician_AZ_chief" nativeciv="Aztec" techslot="3"/>
+	<tribalaztecchief5 portraitfilename="ui\ingame\politicians\politician_AZ_chief" nativeciv="Aztec" techslot="3"/>
+	<tribalaztecshaman2 portraitfilename="ui\ingame\politicians\politician_AZ_shaman" nativeciv="Aztec" techslot="1"/>
+	<tribalaztecshaman3 portraitfilename="ui\ingame\politicians\politician_AZ_shaman" nativeciv="Aztec" techslot="1"/>
+	<tribalaztecshaman4 portraitfilename="ui\ingame\politicians\politician_AZ_shaman" nativeciv="Aztec" techslot="1"/>
+	<tribalaztecshaman5 portraitfilename="ui\ingame\politicians\politician_AZ_shaman" nativeciv="Aztec" techslot="1"/>
+	<tribalaztecwisewoman2 portraitfilename="ui\ingame\politicians\politician_AZ_wisewoman" nativeciv="Aztec" techslot="4"/>
+	<tribalaztecwisewoman3 portraitfilename="ui\ingame\politicians\politician_AZ_wisewoman" nativeciv="Aztec" techslot="4"/>
+	<tribalaztecwisewoman4 portraitfilename="ui\ingame\politicians\politician_AZ_wisewoman" nativeciv="Aztec" techslot="4"/>
+	<tribalaztecwisewoman5 portraitfilename="ui\ingame\politicians\politician_AZ_wisewoman" nativeciv="Aztec" techslot="4"/>
+	<tribalaztecwarrior2 portraitfilename="ui\ingame\politicians\politician_AZ_warleader" nativeciv="Aztec" techslot="0"/>
+	<tribalaztecwarrior3 portraitfilename="ui\ingame\politicians\politician_AZ_warleader" nativeciv="Aztec" techslot="0"/>
+	<tribalaztecwarrior4 portraitfilename="ui\ingame\politicians\politician_AZ_warleader" nativeciv="Aztec" techslot="0"/>
+	<tribalaztecwarrior5 portraitfilename="ui\ingame\politicians\politician_AZ_warleader" nativeciv="Aztec" techslot="0"/>
+	<tribalaztecyouth2 portraitfilename="ui\ingame\politicians\politician_AZ_messenger" nativeciv="Aztec" techslot="2"/>
+	<tribalaztecyouth3 portraitfilename="ui\ingame\politicians\politician_AZ_messenger" nativeciv="Aztec" techslot="2"/>
+	<tribalaztecyouth4 portraitfilename="ui\ingame\politicians\politician_AZ_messenger" nativeciv="Aztec" techslot="2"/>
+	<tribalaztecyouth5 portraitfilename="ui\ingame\politicians\politician_AZ_messenger" nativeciv="Aztec" techslot="2"/>
+	<ypwonderchinesewhitepagoda2 wondername="ypWCWhitePagoda2" techslot="0" nativeciv="Chinese" portraitfilename="ui\ingame\politicians\politician_white_pagoda" destructiontech="YPWonderChineseWhitePagodaDisable"/>
+	<ypwonderchinesesummerpalace2 wondername="ypWCSummerPalace2" techslot="1" nativeciv="Chinese" portraitfilename="ui\ingame\politicians\politician_summer_palace" destructiontech="YPWonderChineseSummerPalaceDisable"/>
+	<ypwonderchineseconfucianacademy2 wondername="ypWCConfucianAcademy2" techslot="2" nativeciv="Chinese" portraitfilename="buildings\wonders\confucian_academy\confucian_academy_icon_politician" destructiontech="YPWonderChineseConfucianAcademyDisable"/>
+	<ypwonderchinesetempleofheaven2 wondername="ypWCTempleOfHeaven2" techslot="3" nativeciv="Chinese" portraitfilename="ui\ingame\politicians\politician_templeofheaven" destructiontech="YPWonderChineseTempleOfHeavenDisable"/>
+	<ypwonderchineseporcelaintower2 wondername="ypWCPorcelainTower2" techslot="4" nativeciv="Chinese" portraitfilename="buildings\wonders\porcelain_tower\porcelain_tower_icon_politician" destructiontech="YPWonderChinesePorcelainTowerDisable"/>
+	<ypwonderchinesewhitepagoda3 wondername="ypWCWhitePagoda3" techslot="0" nativeciv="Chinese" portraitfilename="ui\ingame\politicians\politician_white_pagoda" destructiontech="YPWonderChineseWhitePagodaDisable"/>
+	<ypwonderchinesesummerpalace3 wondername="ypWCSummerPalace3" techslot="1" nativeciv="Chinese" portraitfilename="ui\ingame\politicians\politician_summer_palace" destructiontech="YPWonderChineseSummerPalaceDisable"/>
+	<ypwonderchineseconfucianacademy3 wondername="ypWCConfucianAcademy3" techslot="2" nativeciv="Chinese" portraitfilename="buildings\wonders\confucian_academy\confucian_academy_icon_politician" destructiontech="YPWonderChineseConfucianAcademyDisable"/>
+	<ypwonderchinesetempleofheaven3 wondername="ypWCTempleOfHeaven3" techslot="3" nativeciv="Chinese" portraitfilename="ui\ingame\politicians\politician_templeofheaven" destructiontech="YPWonderChineseTempleOfHeavenDisable"/>
+	<ypwonderchineseporcelaintower3 wondername="ypWCPorcelainTower3" techslot="4" nativeciv="Chinese" portraitfilename="buildings\wonders\porcelain_tower\porcelain_tower_icon_politician" destructiontech="YPWonderChinesePorcelainTowerDisable"/>
+	<ypwonderchinesewhitepagoda4 wondername="ypWCWhitePagoda4" techslot="0" nativeciv="Chinese" portraitfilename="ui\ingame\politicians\politician_white_pagoda" destructiontech="YPWonderChineseWhitePagodaDisable"/>
+	<ypwonderchinesesummerpalace4 wondername="ypWCSummerPalace4" techslot="1" nativeciv="Chinese" portraitfilename="ui\ingame\politicians\politician_summer_palace" destructiontech="YPWonderChineseSummerPalaceDisable"/>
+	<ypwonderchineseconfucianacademy4 wondername="ypWCConfucianAcademy4" techslot="2" nativeciv="Chinese" portraitfilename="buildings\wonders\confucian_academy\confucian_academy_icon_politician" destructiontech="YPWonderChineseConfucianAcademyDisable"/>
+	<ypwonderchinesetempleofheaven4 wondername="ypWCTempleOfHeaven4" techslot="3" nativeciv="Chinese" portraitfilename="ui\ingame\politicians\politician_templeofheaven" destructiontech="YPWonderChineseTempleOfHeavenDisable"/>
+	<ypwonderchineseporcelaintower4 wondername="ypWCPorcelainTower4" techslot="4" nativeciv="Chinese" portraitfilename="buildings\wonders\porcelain_tower\porcelain_tower_icon_politician" destructiontech="YPWonderChinesePorcelainTowerDisable"/>
+	<ypwonderchinesewhitepagoda5 wondername="ypWCWhitePagoda5" techslot="0" nativeciv="Chinese" portraitfilename="ui\ingame\politicians\politician_white_pagoda" destructiontech="YPWonderChineseWhitePagodaDisable"/>
+	<ypwonderchinesesummerpalace5 wondername="ypWCSummerPalace5" techslot="1" nativeciv="Chinese" portraitfilename="ui\ingame\politicians\politician_summer_palace" destructiontech="YPWonderChineseSummerPalaceDisable"/>
+	<ypwonderchineseconfucianacademy5 wondername="ypWCConfucianAcademy5" techslot="2" nativeciv="Chinese" portraitfilename="buildings\wonders\confucian_academy\confucian_academy_icon_politician" destructiontech="YPWonderChineseConfucianAcademyDisable"/>
+	<ypwonderchinesetempleofheaven5 wondername="ypWCTempleOfHeaven5" techslot="3" nativeciv="Chinese" portraitfilename="ui\ingame\politicians\politician_templeofheaven" destructiontech="YPWonderChineseTempleOfHeavenDisable"/>
+	<ypwonderchineseporcelaintower5 wondername="ypWCPorcelainTower5" techslot="4" nativeciv="Chinese" portraitfilename="buildings\wonders\porcelain_tower\porcelain_tower_icon_politician" destructiontech="YPWonderChinesePorcelainTowerDisable"/>
+	<ypwonderindianagra2 wondername="ypWIAgraFort2" techslot="0" nativeciv="Indians" portraitfilename="buildings\wonders\agra_fort\agra_fort_icon_politician" destructiontech="YPWonderIndianAgraFortDisable"/>
+	<ypwonderindiancharminar2 wondername="ypWICharminarGate2" techslot="1" nativeciv="Indians" portraitfilename="buildings\wonders\charminar_gate\charminar_gate_icon_politician" destructiontech="YPWonderIndianCharminarDisable"/>
+	<ypwonderindiankarnimata2 wondername="ypWIKarniMata2" techslot="2" nativeciv="Indians" portraitfilename="buildings\wonders\karni_mata\karni_mata_icon_politician" destructiontech="YPWonderIndianKarniMataDisable"/>
+	<ypwonderindiantajmahal2 wondername="ypWITajMahal2" techslot="3" nativeciv="Indians" portraitfilename="ui\ingame\politicians\politician_tajmahal" destructiontech="YPWonderIndianTajMahalDisable"/>
+	<ypwonderindiantowerofvictory2 wondername="ypWITowerOfVictory2" techslot="4" nativeciv="Indians" portraitfilename="buildings\wonders\tower_of_victory\tower_of_victory_icon_politician" destructiontech="YPWonderIndianTowerOfVictoryDisable"/>
+	<ypwonderindianagra3 wondername="ypWIAgraFort3" techslot="0" nativeciv="Indians" portraitfilename="buildings\wonders\agra_fort\agra_fort_icon_politician" destructiontech="YPWonderIndianAgraFortDisable"/>
+	<ypwonderindiancharminar3 wondername="ypWICharminarGate3" techslot="1" nativeciv="Indians" portraitfilename="buildings\wonders\charminar_gate\charminar_gate_icon_politician" destructiontech="YPWonderIndianCharminarDisable"/>
+	<ypwonderindiankarnimata3 wondername="ypWIKarniMata3" techslot="2" nativeciv="Indians" portraitfilename="buildings\wonders\karni_mata\karni_mata_icon_politician" destructiontech="YPWonderIndianKarniMataDisable"/>
+	<ypwonderindiantajmahal3 wondername="ypWITajMahal3" techslot="3" nativeciv="Indians" portraitfilename="ui\ingame\politicians\politician_tajmahal" destructiontech="YPWonderIndianTajMahalDisable"/>
+	<ypwonderindiantowerofvictory3 wondername="ypWITowerOfVictory3" techslot="4" nativeciv="Indians" portraitfilename="buildings\wonders\tower_of_victory\tower_of_victory_icon_politician" destructiontech="YPWonderIndianTowerOfVictoryDisable"/>
+	<ypwonderindianagra4 wondername="ypWIAgraFort4" techslot="0" nativeciv="Indians" portraitfilename="buildings\wonders\agra_fort\agra_fort_icon_politician" destructiontech="YPWonderIndianAgraFortDisable"/>
+	<ypwonderindiancharminar4 wondername="ypWICharminarGate4" techslot="1" nativeciv="Indians" portraitfilename="buildings\wonders\charminar_gate\charminar_gate_icon_politician" destructiontech="YPWonderIndianCharminarDisable"/>
+	<ypwonderindiankarnimata4 wondername="ypWIKarniMata4" techslot="2" nativeciv="Indians" portraitfilename="buildings\wonders\karni_mata\karni_mata_icon_politician" destructiontech="YPWonderIndianKarniMataDisable"/>
+	<ypwonderindiantajmahal4 wondername="ypWITajMahal4" techslot="3" nativeciv="Indians" portraitfilename="ui\ingame\politicians\politician_tajmahal" destructiontech="YPWonderIndianTajMahalDisable"/>
+	<ypwonderindiantowerofvictory4 wondername="ypWITowerOfVictory4" techslot="4" nativeciv="Indians" portraitfilename="buildings\wonders\tower_of_victory\tower_of_victory_icon_politician" destructiontech="YPWonderIndianTowerOfVictoryDisable"/>
+	<ypwonderindianagra5 wondername="ypWIAgraFort5" techslot="0" nativeciv="Indians" portraitfilename="buildings\wonders\agra_fort\agra_fort_icon_politician" destructiontech="YPWonderIndianAgraFortDisable"/>
+	<ypwonderindiancharminar5 wondername="ypWICharminarGate5" techslot="1" nativeciv="Indians" portraitfilename="buildings\wonders\charminar_gate\charminar_gate_icon_politician" destructiontech="YPWonderIndianCharminarDisable"/>
+	<ypwonderindiankarnimata5 wondername="ypWIKarniMata5" techslot="2" nativeciv="Indians" portraitfilename="buildings\wonders\karni_mata\karni_mata_icon_politician" destructiontech="YPWonderIndianKarniMataDisable"/>
+	<ypwonderindiantajmahal5 wondername="ypWITajMahal5" techslot="3" nativeciv="Indians" portraitfilename="ui\ingame\politicians\politician_tajmahal" destructiontech="YPWonderIndianTajMahalDisable"/>
+	<ypwonderindiantowerofvictory5 wondername="ypWITowerOfVictory5" techslot="4" nativeciv="Indians" portraitfilename="buildings\wonders\tower_of_victory\tower_of_victory_icon_politician" destructiontech="YPWonderIndianTowerOfVictoryDisable"/>
+	<ypwonderjapanesegiantbuddha2 wondername="ypWJGiantBuddha2" techslot="0" nativeciv="Japanese" portraitfilename="buildings\wonders\giant_buddha\giant_buddha_icon_politician" destructiontech="YPWonderJapaneseGiantBuddhaDisable"/>
+	<ypwonderjapanesegoldenpavillion2 wondername="ypWJGoldenPavillion2" techslot="1" nativeciv="Japanese" portraitfilename="buildings\wonders\golden_pavillion\golden_pavillion_icon_politician" destructiontech="YPWonderJapaneseGoldenPavillionDisable"/>
+	<ypwonderjapaneseshogunate2 wondername="ypWJShogunate2" techslot="2" nativeciv="Japanese" portraitfilename="buildings\wonders\imperial_palace\shogunate_icon_politician" destructiontech="YPWonderJapaneseShogunateDisable"/>
+	<ypwonderjapanesetoriigates2 wondername="ypWJToriiGates2" techslot="3" nativeciv="Japanese" portraitfilename="buildings\wonders\torii_gates\torii_gates_icon_politician" destructiontech="YPWonderJapaneseToriiGatesDisable"/>
+	<ypwonderjapanesetoshogushrine2 wondername="ypWJToshoguShrine2" techslot="4" nativeciv="Japanese" portraitfilename="buildings\wonders\toshogu_shrine\toshogu_shrine_icon_politician" destructiontech="YPWonderJapaneseToshoguShrineDisable"/>
+	<ypwonderjapanesegiantbuddha3 wondername="ypWJGiantBuddha3" techslot="0" nativeciv="Japanese" portraitfilename="buildings\wonders\giant_buddha\giant_buddha_icon_politician" destructiontech="YPWonderJapaneseGiantBuddhaDisable"/>
+	<ypwonderjapanesegoldenpavillion3 wondername="ypWJGoldenPavillion3" techslot="1" nativeciv="Japanese" portraitfilename="buildings\wonders\golden_pavillion\golden_pavillion_icon_politician" destructiontech="YPWonderJapaneseGoldenPavillionDisable"/>
+	<ypwonderjapaneseshogunate3 wondername="ypWJShogunate3" techslot="2" nativeciv="Japanese" portraitfilename="buildings\wonders\imperial_palace\shogunate_icon_politician" destructiontech="YPWonderJapaneseShogunateDisable"/>
+	<ypwonderjapanesetoriigates3 wondername="ypWJToriiGates3" techslot="3" nativeciv="Japanese" portraitfilename="buildings\wonders\torii_gates\torii_gates_icon_politician" destructiontech="YPWonderJapaneseToriiGatesDisable"/>
+	<ypwonderjapanesetoshogushrine3 wondername="ypWJToshoguShrine3" techslot="4" nativeciv="Japanese" portraitfilename="buildings\wonders\toshogu_shrine\toshogu_shrine_icon_politician" destructiontech="YPWonderJapaneseToshoguShrineDisable"/>
+	<ypwonderjapanesegiantbuddha4 wondername="ypWJGiantBuddha4" techslot="0" nativeciv="Japanese" portraitfilename="buildings\wonders\giant_buddha\giant_buddha_icon_politician" destructiontech="YPWonderJapaneseGiantBuddhaDisable"/>
+	<ypwonderjapanesegoldenpavillion4 wondername="ypWJGoldenPavillion4" techslot="1" nativeciv="Japanese" portraitfilename="buildings\wonders\golden_pavillion\golden_pavillion_icon_politician" destructiontech="YPWonderJapaneseGoldenPavillionDisable"/>
+	<ypwonderjapaneseshogunate4 wondername="ypWJShogunate4" techslot="2" nativeciv="Japanese" portraitfilename="buildings\wonders\imperial_palace\shogunate_icon_politician" destructiontech="YPWonderJapaneseShogunateDisable"/>
+	<ypwonderjapanesetoriigates4 wondername="ypWJToriiGates4" techslot="3" nativeciv="Japanese" portraitfilename="buildings\wonders\torii_gates\torii_gates_icon_politician" destructiontech="YPWonderJapaneseToriiGatesDisable"/>
+	<ypwonderjapanesetoshogushrine4 wondername="ypWJToshoguShrine4" techslot="4" nativeciv="Japanese" portraitfilename="buildings\wonders\toshogu_shrine\toshogu_shrine_icon_politician" destructiontech="YPWonderJapaneseToshoguShrineDisable"/>
+	<ypwonderjapanesegiantbuddha5 wondername="ypWJGiantBuddha5" techslot="0" nativeciv="Japanese" portraitfilename="buildings\wonders\giant_buddha\giant_buddha_icon_politician" destructiontech="YPWonderJapaneseGiantBuddhaDisable"/>
+	<ypwonderjapanesegoldenpavillion5 wondername="ypWJGoldenPavillion5" techslot="1" nativeciv="Japanese" portraitfilename="buildings\wonders\golden_pavillion\golden_pavillion_icon_politician" destructiontech="YPWonderJapaneseGoldenPavillionDisable"/>
+	<ypwonderjapaneseshogunate5 wondername="ypWJShogunate5" techslot="2" nativeciv="Japanese" portraitfilename="buildings\wonders\imperial_palace\shogunate_icon_politician" destructiontech="YPWonderJapaneseShogunateDisable"/>
+	<ypwonderjapanesetoriigates5 wondername="ypWJToriiGates5" techslot="3" nativeciv="Japanese" portraitfilename="buildings\wonders\torii_gates\torii_gates_icon_politician" destructiontech="YPWonderJapaneseToriiGatesDisable"/>
+	<ypwonderjapanesetoshogushrine5 wondername="ypWJToshoguShrine5" techslot="4" nativeciv="Japanese" portraitfilename="buildings\wonders\toshogu_shrine\toshogu_shrine_icon_politician" destructiontech="YPWonderJapaneseToshoguShrineDisable"/>
+	<ypbigconsulatebritish portraitfilename="War of the Triple Alliance\Politicians\New\REV\consulatebritish"/>
+	<ypbigconsulateportuguese portraitfilename="War of the Triple Alliance\Politicians\New\REV\consulateportugal"/>
+	<ypbigconsulatedutch portraitfilename="ui\ingame\politicians\consulate_dutch"/>
+	<ypbigconsulaterussians portraitfilename="WoL\ui\ingame\politicians\consulate_russians"/>
+	<ypbigconsulatespanish portraitfilename="War of the Triple Alliance\Politicians\New\REV\consulatespanish"/>
+	<ypbigconsulatefrench portraitfilename="War of the Triple Alliance\Politicians\New\REV\consulatefrench"/>
+	<ypbigconsulateottomans portraitfilename="ui\ingame\politicians\consulate_ottomans"/>
+	<ypbigconsulategermans portraitfilename="WoL\ui\ingame\politicians\consulate_germans"/>
+	<ypbigconsulatejapanese portraitfilename="ui\ingame\politicians\consulate_japanese"/>
+	<ypbigconsulatespcportuguese portraitfilename="War of the Triple Alliance\Politicians\New\REV\consulateportugal"/>
+	<!-- ypbigconsulatespcdutch portraitfilename="ui\ingame\politicians\consulate_dutch"/ -->
+	<ypbigconsulatespcdutch portraitfilename="War of the Triple Alliance\Politicians\New\REV\consulateUSA"/>
+	<ypbigconsulatespcindia portraitfilename="ui\ingame\politicians\consulate_india"/>
+	<ypbigconsulatespcjapan portraitfilename="War of the Triple Alliance\Politicians\New\REV\consulateasian"/>
+	<!-- ypbigconsulatespcchina portraitfilename="ui\ingame\politicians\consulate_chinese"/ -->
+	<ypbigconsulatespcchina portraitfilename="WoL\ui\ingame\politicians\consulate_chinese"/>
+	<ypbigconsulatespcfrench portraitfilename="War of the Triple Alliance\Politicians\New\REV\consulatefrench"/>
+	<ypbigconsulatespcottomans portraitfilename="ui\ingame\politicians\consulate_ottomans"/>
+	<!-- Consulate Rework -->
+	<WOLBigConsulateAmerican portraitfilename="War of the Triple Alliance\Politicians\New\REV\consulateUSA"/>
+	<WOLBigConsulateChinese portraitfilename="WoL\ui\ingame\politicians\consulate_chinese"/>
+	<WOLBigConsulateJapanese portraitfilename="War of the Triple Alliance\Politicians\New\REV\consulateasian"/>
+
+	<COpoliticianAGE201ECU portraitfilename="wol\Icons\politican\ecuador\the_misstress"/>
+	<COpoliticianAGE202PAN portraitfilename="wol\Icons\politican\Panama\the_secessionist"/>
+	<COpoliticianAGE203COL portraitfilename="wol\Icons\politican\Colombia\the_seamstress"/>
+	<COpoliticianAGE204VE portraitfilename="wol\Icons\politican\Venezuela\the_visionary"/>
+	<COpoliticianAGE301ECU portraitfilename="wol\Icons\politican\ecuador\the_marcist"/>
+	<COpoliticianAGE302PAN portraitfilename="wol\Icons\politican\panama\the_libertator"/>
+	<COpoliticianAGE303COL portraitfilename="wol\Icons\politican\Colombia\the_criollo"/>
+	<COpoliticianAGE304VE portraitfilename="wol\Icons\politican\Venezuela\the_marshall_of_cavalry"/>
+	<COpoliticianAGE401ECU portraitfilename="wol\Icons\politican\ecuador\the_clericalist"/>
+	<COpoliticianAGE402PAN portraitfilename="wol\Icons\politican\panama\the_indigenist"/>
+	<COpoliticianAGE403COL portraitfilename="wol\Icons\politican\Colombia\the_supremo"/>
+	<COpoliticianAGE404VE portraitfilename="wol\Icons\politican\Venezuela\the_captain"/>
+	<COpoliticianAGE501ECU portraitfilename="wol\Icons\politican\ecuador\the_old_warrior"/>
+	<COpoliticianAGE502PAN portraitfilename="wol\Icons\politican\panama\the_statesman"/>
+	<COpoliticianAGE503COL portraitfilename="wol\Icons\politican\Colombia\the_reformist"/>
+	<COpoliticianAGE504VE portraitfilename="wol\Icons\politican\Venezuela\the_hegemon"/>
+	<!-- <COpoliticianAGE205BOL portraitfilename="wol\Icons\politican\Bolivar\bolivar_young"/> -->
+	<COpoliticianAGE305BOL portraitfilename="wol\Icons\politican\Bolivar\bolivar_young"/>
+	<COpoliticianAGE405BOL portraitfilename="wol\Icons\politican\Bolivar\bolivar_old"/>
+	<COpoliticianAGE505BOL portraitfilename="wol\Icons\politican\Bolivar\bolivar_old"/>
+
+
+	<CANpoliticianAGE201 portraitfilename="War of the Triple Alliance\Politicians\New\NA\CANpoliticianAGE201"/>
+	<CANpoliticianAGE202 portraitfilename="War of the Triple Alliance\Politicians\New\NA\CANpoliticianAGE202"/>
+	<CANpoliticianAGE203 portraitfilename="War of the Triple Alliance\Politicians\New\NA\CANpoliticianAGE203"/>
+	<CANpoliticianAGE204 portraitfilename="War of the Triple Alliance\Politicians\New\NA\CANpoliticianAGE204"/>
+	<CANpoliticianAGE301 portraitfilename="War of the Triple Alliance\Politicians\New\NA\CANpoliticianAGE301"/>
+	<CANpoliticianAGE302 portraitfilename="War of the Triple Alliance\Politicians\New\NA\CANpoliticianAGE302"/>
+	<CANpoliticianAGE303 portraitfilename="War of the Triple Alliance\Politicians\New\NA\CANpoliticianAGE303"/>
+	<CANpoliticianAGE304 portraitfilename="War of the Triple Alliance\Politicians\New\NA\CANpoliticianAGE304"/>
+	<CANpoliticianAGE401 portraitfilename="War of the Triple Alliance\Politicians\New\NA\CANpoliticianAGE401"/>
+	<CANpoliticianAGE402 portraitfilename="War of the Triple Alliance\Politicians\New\NA\CANpoliticianAGE402"/>
+	<CANpoliticianAGE403 portraitfilename="War of the Triple Alliance\Politicians\New\NA\CANpoliticianAGE403"/>
+	<CANpoliticianAGE404 portraitfilename="War of the Triple Alliance\Politicians\New\NA\CANpoliticianAGE404"/>
+	<CANpoliticianAGE501 portraitfilename="War of the Triple Alliance\Politicians\New\NA\CANpoliticianAGE501"/>
+	<CANpoliticianAGE502 portraitfilename="War of the Triple Alliance\Politicians\New\NA\CANpoliticianAGE502"/>
+	<CANpoliticianAGE503 portraitfilename="War of the Triple Alliance\Politicians\New\NA\CANpoliticianAGE503"/>
+	<CANpoliticianAGE504 portraitfilename="War of the Triple Alliance\Politicians\New\NA\CANpoliticianAGE504"/>
+
+	<USApoliticianAGE201 portraitfilename="War of the Triple Alliance\Politicians\New\NA\USApoliticianAGE201"/>
+	<USApoliticianAGE202 portraitfilename="War of the Triple Alliance\Politicians\New\NA\USApoliticianAGE202"/>
+	<USApoliticianAGE203 portraitfilename="War of the Triple Alliance\Politicians\New\NA\USApoliticianAGE203"/>
+	<USApoliticianAGE204 portraitfilename="War of the Triple Alliance\Politicians\New\NA\USApoliticianAGE204"/>
+	<USApoliticianAGE301 portraitfilename="War of the Triple Alliance\Politicians\New\NA\USApoliticianAGE301"/>
+	<USApoliticianAGE302 portraitfilename="War of the Triple Alliance\Politicians\New\NA\USApoliticianAGE302"/>
+	<USApoliticianAGE303 portraitfilename="War of the Triple Alliance\Politicians\New\NA\USApoliticianAGE303"/>
+	<USApoliticianAGE304 portraitfilename="War of the Triple Alliance\Politicians\New\NA\USApoliticianAGE304"/>
+	<USApoliticianAGE401 portraitfilename="War of the Triple Alliance\Politicians\New\NA\USApoliticianAGE401"/>
+	<USApoliticianAGE402 portraitfilename="War of the Triple Alliance\Politicians\New\NA\USApoliticianAGE402"/>
+	<USApoliticianAGE403 portraitfilename="War of the Triple Alliance\Politicians\New\NA\USApoliticianAGE403"/>
+	<USApoliticianAGE404 portraitfilename="War of the Triple Alliance\Politicians\New\NA\USApoliticianAGE404"/>
+	<USApoliticianAGE501 portraitfilename="War of the Triple Alliance\Politicians\New\NA\USApoliticianAGE501"/>
+	<USApoliticianAGE502 portraitfilename="War of the Triple Alliance\Politicians\New\NA\USApoliticianAGE502"/>
+	<USApoliticianAGE503 portraitfilename="War of the Triple Alliance\Politicians\New\NA\USApoliticianAGE503"/>
+	<USApoliticianAGE504 portraitfilename="War of the Triple Alliance\Politicians\New\NA\USApoliticianAGE504"/>
+
+	<GreatWarGlobalEmpire portraitfilename="War of the Triple Alliance\Politicians\New\REV\globalempire"/>
+	<GreatWarMassDestruction portraitfilename="War of the Triple Alliance\Politicians\New\REV\massdestruction"/>
+	<GreatWarPropaganda portraitfilename="War of the Triple Alliance\Politicians\New\REV\propaganda"/>
+
+	<CONGRESSbritish portraitfilename="War of the Triple Alliance\Politicians\New\REV\consulatebritishcanada"/>
+	<CONGRESSfrench portraitfilename="War of the Triple Alliance\Politicians\New\REV\consulatefrenchcanada"/>
+	<CONGRESSunion portraitfilename="War of the Triple Alliance\Politicians\New\REV\consulateUSA"/>
+	<CONGRESScsa portraitfilename="War of the Triple Alliance\Politicians\New\REV\consulateCSA"/>
+	<CONGRESScolonizers portraitfilename="War of the Triple Alliance\Politicians\New\Delta\consulatecolonizers"/>
+	<CONGRESSmaori portraitfilename="War of the Triple Alliance\Politicians\New\Delta\consulatemaori"/>
+
+	<WOLCongressNewEngland portraitfilename="War of the Triple Alliance\Politicians\New\REV\consulatebritishcanada"/>
+
+	<TPmessenger1 portraitfilename="WoL\ui\ingame\politicians\politician_tu_messenger" nativeciv="Tupinamba" techslot="2"/>
+	<TPmessenger2 portraitfilename="WoL\ui\ingame\politicians\politician_tu_messenger" nativeciv="Tupinamba" techslot="2"/>
+	<TPmessenger3 portraitfilename="WoL\ui\ingame\politicians\politician_tu_messenger" nativeciv="Tupinamba" techslot="2"/>
+	<TPmessenger4 portraitfilename="WoL\ui\ingame\politicians\politician_tu_messenger" nativeciv="Tupinamba" techslot="2"/>
+	<TPwoman1 portraitfilename="WoL\ui\ingame\politicians\politician_tu_wise_woman" nativeciv="Tupinamba" techslot="1"/>
+	<TPwoman2 portraitfilename="WoL\ui\ingame\politicians\politician_tu_wise_woman" nativeciv="Tupinamba" techslot="1"/>
+	<TPwoman3 portraitfilename="WoL\ui\ingame\politicians\politician_tu_wise_woman" nativeciv="Tupinamba" techslot="1"/>
+	<TPwoman4 portraitfilename="WoL\ui\ingame\politicians\politician_tu_wise_woman" nativeciv="Tupinamba" techslot="1"/>
+	<TPwarrior1 portraitfilename="WoL\ui\ingame\politicians\politician_tu_warrior" nativeciv="Tupinamba" techslot="0"/>
+	<TPwarrior2 portraitfilename="WoL\ui\ingame\politicians\politician_tu_warrior" nativeciv="Tupinamba" techslot="0"/>
+	<TPwarrior3 portraitfilename="WoL\ui\ingame\politicians\politician_tu_warrior" nativeciv="Tupinamba" techslot="0"/>
+	<TPwarrior4 portraitfilename="WoL\ui\ingame\politicians\politician_tu_warrior" nativeciv="Tupinamba" techslot="0"/>
+	<TPshaman1 portraitfilename="WoL\ui\ingame\politicians\politician_tu_shaman" nativeciv="Tupinamba" techslot="4"/>
+	<TPshaman2 portraitfilename="WoL\ui\ingame\politicians\politician_tu_shaman" nativeciv="Tupinamba" techslot="4"/>
+	<TPshaman3 portraitfilename="WoL\ui\ingame\politicians\politician_tu_shaman" nativeciv="Tupinamba" techslot="4"/>
+	<TPshaman4 portraitfilename="WoL\ui\ingame\politicians\politician_tu_shaman" nativeciv="Tupinamba" techslot="4"/>
+	<TPchief1 portraitfilename="WoL\ui\ingame\politicians\politician_tu_chief" nativeciv="Tupinamba" techslot="3"/>
+	<TPchief2 portraitfilename="WoL\ui\ingame\politicians\politician_tu_chief" nativeciv="Tupinamba" techslot="3"/>
+	<TPchief3 portraitfilename="WoL\ui\ingame\politicians\politician_tu_chief" nativeciv="Tupinamba" techslot="3"/>
+	<TPchief4 portraitfilename="WoL\ui\ingame\politicians\politician_tu_chief" nativeciv="Tupinamba" techslot="3"/>
+
+	<INCAmessenger1 portraitfilename="War of the Triple Alliance\DLC\Ogmius\Politicians\Inca\IncaMusician" nativeciv="Tawantinsuyu" techslot="2"/>
+	<INCAmessenger2 portraitfilename="War of the Triple Alliance\DLC\Ogmius\Politicians\Inca\IncaMusician" nativeciv="Tawantinsuyu" techslot="2"/>
+	<INCAmessenger3 portraitfilename="War of the Triple Alliance\DLC\Ogmius\Politicians\Inca\IncaMusician" nativeciv="Tawantinsuyu" techslot="2"/>
+	<INCAmessenger4 portraitfilename="War of the Triple Alliance\DLC\Ogmius\Politicians\Inca\IncaMusician" nativeciv="Tawantinsuyu" techslot="2"/>
+	<INCAwoman1 portraitfilename="War of the Triple Alliance\DLC\Ogmius\Politicians\Inca\IncaEmpress" nativeciv="Tawantinsuyu" techslot="1"/>
+	<INCAwoman2 portraitfilename="War of the Triple Alliance\DLC\Ogmius\Politicians\Inca\IncaEmpress" nativeciv="Tawantinsuyu" techslot="1"/>
+	<INCAwoman3 portraitfilename="War of the Triple Alliance\DLC\Ogmius\Politicians\Inca\IncaEmpress" nativeciv="Tawantinsuyu" techslot="1"/>
+	<INCAwoman4 portraitfilename="War of the Triple Alliance\DLC\Ogmius\Politicians\Inca\IncaEmpress" nativeciv="Tawantinsuyu" techslot="1"/>
+	<INCAwarrior1 portraitfilename="War of the Triple Alliance\DLC\Ogmius\Politicians\Inca\IncaSunWarrior" nativeciv="Tawantinsuyu" techslot="0"/>
+	<INCAwarrior2 portraitfilename="War of the Triple Alliance\DLC\Ogmius\Politicians\Inca\IncaSunWarrior" nativeciv="Tawantinsuyu" techslot="0"/>
+	<INCAwarrior3 portraitfilename="War of the Triple Alliance\DLC\Ogmius\Politicians\Inca\IncaSunWarrior" nativeciv="Tawantinsuyu" techslot="0"/>
+	<INCAwarrior4 portraitfilename="War of the Triple Alliance\DLC\Ogmius\Politicians\Inca\IncaSunWarrior" nativeciv="Tawantinsuyu" techslot="0"/>
+	<INCAshaman1 portraitfilename="War of the Triple Alliance\DLC\Ogmius\Politicians\Inca\IncaHighPriest" nativeciv="Tawantinsuyu" techslot="4"/>
+	<INCAshaman2 portraitfilename="War of the Triple Alliance\DLC\Ogmius\Politicians\Inca\IncaHighPriest" nativeciv="Tawantinsuyu" techslot="4"/>
+	<INCAshaman3 portraitfilename="War of the Triple Alliance\DLC\Ogmius\Politicians\Inca\IncaHighPriest" nativeciv="Tawantinsuyu" techslot="4"/>
+	<INCAshaman4 portraitfilename="War of the Triple Alliance\DLC\Ogmius\Politicians\Inca\IncaHighPriest" nativeciv="Tawantinsuyu" techslot="4"/>
+	<INCAchief1 portraitfilename="War of the Triple Alliance\DLC\Ogmius\Politicians\Inca\IncaEmperor" nativeciv="Tawantinsuyu" techslot="3"/>
+	<INCAchief2 portraitfilename="War of the Triple Alliance\DLC\Ogmius\Politicians\Inca\IncaEmperor" nativeciv="Tawantinsuyu" techslot="3"/>
+	<INCAchief3 portraitfilename="War of the Triple Alliance\DLC\Ogmius\Politicians\Inca\IncaEmperor" nativeciv="Tawantinsuyu" techslot="3"/>
+	<INCAchief4 portraitfilename="War of the Triple Alliance\DLC\Ogmius\Politicians\Inca\IncaEmperor" nativeciv="Tawantinsuyu" techslot="3"/>
+
+	<xprevolutionlouverture portraitfilename="War of the Triple Alliance\Politicians\New\REV\REVlouverture"/>
+	<xprevolutionwashington portraitfilename="War of the Triple Alliance\Politicians\New\REV\REVtiradentes"/>
+	<xprevolutionhidalgo portraitfilename="War of the Triple Alliance\Politicians\New\REV\REVaustin"/>
+	<xprevolutionbonifacio portraitfilename="War of the Triple Alliance\Politicians\New\REV\REVguerrero"/>
+	<xprevolutionbolivar portraitfilename="War of the Triple Alliance\Politicians\New\REV\REVfremont"/>
+	<xprevolutionsanmartin portraitfilename="War of the Triple Alliance\Politicians\New\REV\REVcochrane"/>
+	<xprevolutionsantander portraitfilename="War of the Triple Alliance\Politicians\New\REV\REVbento"/>
+	<xprevolutionohiggins portraitfilename="War of the Triple Alliance\Politicians\New\REV\REVartigas"/>
+	
+	<ypbigconsulateUSA portraitfilename="War of the Triple Alliance\Politicians\New\REV\consulateUSA"/>
+
+	<AUSpoliticianAGE201 portraitfilename="War of the Triple Alliance\Politicians\New\Delta\AUSpoliticianAGE201"/>
+	<AUSpoliticianAGE202 portraitfilename="War of the Triple Alliance\Politicians\New\Delta\AUSpoliticianAGE202"/>
+	<AUSpoliticianAGE203 portraitfilename="War of the Triple Alliance\Politicians\New\Delta\AUSpoliticianAGE203"/>
+	<AUSpoliticianAGE204 portraitfilename="War of the Triple Alliance\Politicians\New\Delta\AUSpoliticianAGE204"/>
+	<AUSpoliticianAGE301 portraitfilename="War of the Triple Alliance\Politicians\New\Delta\AUSpoliticianAGE301"/>
+	<AUSpoliticianAGE302 portraitfilename="War of the Triple Alliance\Politicians\New\Delta\AUSpoliticianAGE302"/>
+	<AUSpoliticianAGE303 portraitfilename="War of the Triple Alliance\Politicians\New\Delta\AUSpoliticianAGE303"/>
+	<AUSpoliticianAGE304 portraitfilename="War of the Triple Alliance\Politicians\New\Delta\AUSpoliticianAGE304"/>
+	<AUSpoliticianAGE401 portraitfilename="War of the Triple Alliance\Politicians\New\Delta\AUSpoliticianAGE401"/>
+	<AUSpoliticianAGE402 portraitfilename="War of the Triple Alliance\Politicians\New\Delta\AUSpoliticianAGE402"/>
+	<AUSpoliticianAGE403 portraitfilename="War of the Triple Alliance\Politicians\New\Delta\AUSpoliticianAGE403"/>
+	<AUSpoliticianAGE404 portraitfilename="War of the Triple Alliance\Politicians\New\Delta\AUSpoliticianAGE404"/>
+	<AUSpoliticianAGE501 portraitfilename="War of the Triple Alliance\Politicians\New\Delta\AUSpoliticianAGE501"/>
+	<AUSpoliticianAGE502 portraitfilename="War of the Triple Alliance\Politicians\New\Delta\AUSpoliticianAGE502"/>
+	<AUSpoliticianAGE503 portraitfilename="War of the Triple Alliance\Politicians\New\Delta\AUSpoliticianAGE503"/>
+	<AUSpoliticianAGE504 portraitfilename="War of the Triple Alliance\Politicians\New\Delta\AUSpoliticianAGE504"/>
+
+	<MAmessenger1 portraitfilename="War of the Triple Alliance\DLC\Ogmius\Politicians\Mapuche\MapucheMessenger" nativeciv="WallMapu" techslot="2"/>
+	<MAmessenger2 portraitfilename="War of the Triple Alliance\DLC\Ogmius\Politicians\Mapuche\MapucheMessenger" nativeciv="WallMapu" techslot="2"/>
+	<MAmessenger3 portraitfilename="War of the Triple Alliance\DLC\Ogmius\Politicians\Mapuche\MapucheMessenger" nativeciv="WallMapu" techslot="2"/>
+	<MAmessenger4 portraitfilename="War of the Triple Alliance\DLC\Ogmius\Politicians\Mapuche\MapucheMessenger" nativeciv="WallMapu" techslot="2"/>
+	<MAwoman1 portraitfilename="War of the Triple Alliance\DLC\Ogmius\Politicians\Mapuche\MapucheWiseWoman" nativeciv="WallMapu" techslot="1"/>
+	<MAwoman2 portraitfilename="War of the Triple Alliance\DLC\Ogmius\Politicians\Mapuche\MapucheWiseWoman" nativeciv="WallMapu" techslot="1"/>
+	<MAwoman3 portraitfilename="War of the Triple Alliance\DLC\Ogmius\Politicians\Mapuche\MapucheWiseWoman" nativeciv="WallMapu" techslot="1"/>
+	<MAwoman4 portraitfilename="War of the Triple Alliance\DLC\Ogmius\Politicians\Mapuche\MapucheWiseWoman" nativeciv="WallMapu" techslot="1"/>
+	<MAwarrior1 portraitfilename="War of the Triple Alliance\DLC\Ogmius\Politicians\Mapuche\MapucheWarrior" nativeciv="WallMapu" techslot="0"/>
+	<MAwarrior2 portraitfilename="War of the Triple Alliance\DLC\Ogmius\Politicians\Mapuche\MapucheWarrior" nativeciv="WallMapu" techslot="0"/>
+	<MAwarrior3 portraitfilename="War of the Triple Alliance\DLC\Ogmius\Politicians\Mapuche\MapucheWarrior" nativeciv="WallMapu" techslot="0"/>
+	<MAwarrior4 portraitfilename="War of the Triple Alliance\DLC\Ogmius\Politicians\Mapuche\MapucheWarrior" nativeciv="WallMapu" techslot="0"/>
+	<MAshaman1 portraitfilename="War of the Triple Alliance\DLC\Ogmius\Politicians\Mapuche\MapucheShaman" nativeciv="WallMapu" techslot="4"/>
+	<MAshaman2 portraitfilename="War of the Triple Alliance\DLC\Ogmius\Politicians\Mapuche\MapucheShaman" nativeciv="WallMapu" techslot="4"/>
+	<MAshaman3 portraitfilename="War of the Triple Alliance\DLC\Ogmius\Politicians\Mapuche\MapucheShaman" nativeciv="WallMapu" techslot="4"/>
+	<MAshaman4 portraitfilename="War of the Triple Alliance\DLC\Ogmius\Politicians\Mapuche\MapucheShaman" nativeciv="WallMapu" techslot="4"/>
+	<WOLMapucheChief1 portraitfilename="War of the Triple Alliance\DLC\Ogmius\Politicians\Mapuche\MapucheChief" nativeciv="WallMapu" techslot="3"/>
+	<WOLMapucheChief2 portraitfilename="War of the Triple Alliance\DLC\Ogmius\Politicians\Mapuche\MapucheChief" nativeciv="WallMapu" techslot="3"/>
+	<WOLMapucheChief3 portraitfilename="War of the Triple Alliance\DLC\Ogmius\Politicians\Mapuche\MapucheChief" nativeciv="WallMapu" techslot="3"/>
+	<WOLMapucheChief4 portraitfilename="War of the Triple Alliance\DLC\Ogmius\Politicians\Mapuche\MapucheChief" nativeciv="WallMapu" techslot="3"/>
+
+	<ITALIANpope1 portraitfilename="War of the Triple Alliance\Politicians\delta\italian\pope1"/>
+	<ITALIANpope2 portraitfilename="War of the Triple Alliance\Politicians\delta\italian\pope1"/>
+	<ITALIANpope3 portraitfilename="War of the Triple Alliance\Politicians\delta\italian\pope1"/>
+	<ITALIANpope4 portraitfilename="War of the Triple Alliance\Politicians\delta\italian\pope1"/>
+
+	<!-- End Peruvian List -->
+
+	<!-- New European Politicians, British -->
+	<WOLPoliticianBagpiper portraitfilename="WoL\ui\ingame\politicians\politician_bagpiper"/>
+	<WOLPoliticianDuke portraitfilename="WoL\ui\ingame\politicians\politician_duke_br"/>
+	<WOLPoliticianGreatAdmiral portraitfilename="WoL\ui\ingame\politicians\politician_great_admiral"/>
+	<!-- New European Politicians, Dutch -->
+	<WOLPoliticianCarabinierRuyter portraitfilename="WoL\ui\ingame\politicians\politician_carabinier_ruyter"/>
+	<WOLPoliticianTrader portraitfilename="WoL\ui\ingame\politicians\politician_trader"/>
+	<WOLPoliticianViscount portraitfilename="WoL\ui\ingame\politicians\politician_viscount"/>
+	<!-- New European Politicians, French -->
+	<WOLPoliticianCardinal portraitfilename="War of the Triple Alliance\Politicians\Delta\French\FRENCHcardinal"/>
+	<WOLPoliticianMarquis portraitfilename="War of the Triple Alliance\Politicians\Delta\French\FRENCHmarquis"/>
+	<WOLPoliticianPhilosopher portraitfilename="War of the Triple Alliance\Politicians\Delta\French\FRENCHphilosopher"/>
+	<!-- New European Politicians, German -->
+	<WOLPoliticianSwanKing portraitfilename="WoL\ui\ingame\politicians\swannking"/>
+	<WOLPoliticianKaiser portraitfilename="WoL\ui\ingame\politicians\crownprince"/>
+	<WOLPoliticianProtestant portraitfilename="WoL\ui\ingame\politicians\politician_academic"/>
+	<WOLPoliticianMarksmanGerman portraitfilename="WoL\ui\ingame\politicians\marksman"/>
+	<WOLPoliticianGeneralGerman portraitfilename="WoL\ui\ingame\politicians\fieldmarshall"/>
+	<!-- New European Politicians, Portuguese -->
+	<WOLPoliticianCoastalExplorer portraitfilename="WoL\ui\ingame\politicians\politician_coastal_explorer"/>
+	<WOLPoliticianFidalgo portraitfilename="WoL\ui\ingame\politicians\politician_fidalgo"/>
+	<WOLPoliticianMistress portraitfilename="WoL\ui\ingame\politicians\politician_mistress_pt"/>
+	<!-- New European Politicians, Russian -->
+	<WOLPoliticianHetman portraitfilename="WoL\ui\ingame\politicians\politician_hetman"/>
+	<WOLPoliticianKnyaz portraitfilename="WoL\ui\ingame\politicians\politician_knyaz"/>
+	<WOLPoliticianPatriarch portraitfilename="WoL\ui\ingame\politicians\politician_patriarch"/>
+	<!-- New European Politicians, Spanish -->
+	<WOLPoliticianCountOfAragon portraitfilename="WoL\ui\ingame\politicians\politician_count_of_aragon"/>
+	<WOLPoliticianRepublican portraitfilename="WoL\ui\ingame\politicians\politician_republican"/>
+	<WOLPoliticianWarVeteran portraitfilename="WoL\ui\ingame\politicians\politician_war_veteran"/>
+	<WOLPoliticianGeneralSpanish portraitfilename="WoL\ui\ingame\politicians\fieldmarshall"/>
+	<!-- Belgian Politicians -->
+	<!-- WOLPoliticianGentleman portraitfilename="WoL\ui\ingame\politicians\politician_gentleman"/ -->
+	<WOLPoliticianGovernorBelgian portraitfilename="WoL\ui\ingame\politicians\governor"/>
+	<WOLPoliticianChildminder portraitfilename="WoL\ui\ingame\politicians\politician_childminder"/>
+	<WOLPoliticianAdventurerBelgian portraitfilename="WoL\ui\ingame\politicians\politician_adventurer"/>
+	<WOLPoliticianMarksmanBelgian portraitfilename="WoL\ui\ingame\politicians\marksman"/>
+	<WOLPoliticianIvoryTrader portraitfilename="WoL\ui\ingame\politicians\politician_ivory_trader"/>
+	<WOLPoliticianEngineerBelgian portraitfilename="WoL\ui\ingame\politicians\politician_engineer"/>
+	<WOLPoliticianWarMinisterBelgian portraitfilename="WoL\ui\ingame\politicians\politician_war_minister"/>
+	<WOLPoliticianManufactoryOwner portraitfilename="WoL\ui\ingame\politicians\politician_manufactory_owner"/>
+	<!-- Danish Politicians -->
+	<WOLPoliticianPhilosopherPrinceDanish portraitfilename="WoL\ui\ingame\politicians\politician_philosopher_prince_da"/>
+	<WOLPoliticianGovernorDanish portraitfilename="WoL\ui\ingame\politicians\politician_governor_da"/>
+	<WOLPoliticianQuartermasterDanish portraitfilename="WoL\ui\ingame\politicians\politician_quartermaster_da"/>
+	<WOLPoliticianRoyalPhysicianDanish portraitfilename="WoL\ui\ingame\politicians\politician_royal_physician"/>
+	<WOLPoliticianAdmiralDanish portraitfilename="WoL\ui\ingame\politicians\politician_admiral_da"/>
+	<WOLPoliticianAdventurerDanish portraitfilename="WoL\ui\ingame\politicians\politician_adventurer_da"/>
+	<WOLPoliticianFairyTaleAuthorDanish portraitfilename="WoL\ui\ingame\politicians\politician_fairy_tale_author"/>
+	<WOLPoliticianExistentialistDanish portraitfilename="WoL\ui\ingame\politicians\politician_existentialist"/>
+	<WuOLengineerDanish portraitfilename="WoL\ui\ingame\politicians\politician_engineer_da"/>
+	<WOLPoliticianMusketeerDanish portraitfilename="WoL\ui\ingame\politicians\politician_kings_musketeer_da"/>
+	<WOLPoliticianViceroyDanish portraitfilename="WoL\ui\ingame\politicians\politician_viceroy_da"/>
+	<WOLPoliticianWarMinisterDanish portraitfilename="WoL\ui\ingame\politicians\politician_war_minister_da"/>
+	<WOLPoliticianGeneralDanish portraitfilename="WoL\ui\ingame\politicians\politician_general_da"/>
+	<WOLPoliticianPresidenteDanish portraitfilename="WoL\ui\ingame\politicians\politician_el_presidente_da"/>
+	<!-- Italian Politicians -->
+	<WOLPoliticianCapodecina portraitfilename="WoL\ui\ingame\politicians\politician_capodecina"/>
+	<WOLPoliticianCosigliere portraitfilename="WoL\ui\ingame\politicians\politician_cosigliere"/>
+	<WOLPoliticianDon portraitfilename="WoL\ui\ingame\politicians\politician_don"/>
+	<WOLPoliticianEssayist portraitfilename="WoL\ui\ingame\politicians\politician_essayist"/>
+	<WOLPoliticianGodfather portraitfilename="WoL\ui\ingame\politicians\politician_godfather"/>
+	<WOLPoliticianMicroscopist portraitfilename="WoL\ui\ingame\politicians\politician_microscopist"/>
+	<WOLPoliticianWarMinisterItalian portraitfilename="WoL\ui\ingame\politicians\politician_war_minister"/>
+	<!-- Swedish Politicians -->
+	<WOLPoliticianOperaSingerSwedish portraitfilename="WoL\ui\ingame\politicians\politician_opera_singer"/>
+	<WOLPoliticianCavalierSwedish portraitfilename="WoL\ui\ingame\politicians\equerry"/>
+	<WOLPoliticianForeignKingSwedish portraitfilename="WoL\ui\ingame\politicians\politician_foreign_king"/>
+	<WOLPoliticianGeneralSwedish portraitfilename="WoL\ui\ingame\politicians\fieldmarshall"/>
+	<WOLPoliticianInventorSwedish portraitfilename="WoL\ui\ingame\politicians\politician_inventor"/>
+	<!-- Italian Politicians -->
+	<WOLPoliticianBishopItalian portraitfilename="WoL\ui\ingame\politicians\politician_bishop"/>
+	<WOLPoliticianCapodecina portraitfilename="WoL\ui\ingame\politicians\politician_capodecina"/>
+	<WOLPoliticianAdventurerItalian portraitfilename="WoL\ui\ingame\politicians\politician_adventurer"/>
+	<WOLPoliticianEssayist portraitfilename="WoL\ui\ingame\politicians\politician_essayist"/>
+	<WOLPoliticianConsigliere portraitfilename="WoL\ui\ingame\politicians\politician_consigliere"/>
+	<WOLPoliticianWarMinisterItalian portraitfilename="WoL\ui\ingame\politicians\politician_war_minister"/>
+	<WOLPoliticianDon portraitfilename="WoL\ui\ingame\politicians\politician_don"/>
+	<WOLPoliticianGodfather portraitfilename="WoL\ui\ingame\politicians\politician_godfather"/>
+	<WOLPoliticianGeneralItalian portraitfilename="WoL\ui\ingame\politicians\fieldmarshall"/>
+	<!-- New Revolutionaries -->
+	<XPRevolutionWOLAlbania portraitfilename="War of the Triple Alliance\DLC\Ogmius\Politicians\Revolutionaries\politician_rev_qemali"/>
+	<XPRevolutionWOLAlgeria portraitfilename="WoL\ui\ingame\politicians\politician_rev_soumer"/>
+	<XPRevolutionWOLDervish portraitfilename="WoL\ui\ingame\politicians\politician_rev_hassan"/>
+	<XPRevolutionWOLFinland portraitfilename="WoL\ui\ingame\politicians\politician_rev_snellman"/>
+	<XPRevolutionWOLGaribaldi portraitfilename="WoL\ui\ingame\politicians\politician_rev_garibaldi"/>
+	<XPRevolutionWOLHungary portraitfilename="War of the Triple Alliance\DLC\Ogmius\Politicians\Revolutionaries\politician_rev_kossuth"/>
+	<XPRevolutionWOLIreland portraitfilename="WoL\ui\ingame\politicians\politician_rev_pearse"/>
+	<XPRevolutionWOLJava portraitfilename="WoL\ui\ingame\politicians\politician_rev_diponegoro"/>
+	<XPRevolutionWOLNorway portraitfilename="War of the Triple Alliance\DLC\Ogmius\Politicians\Revolutionaries\politician_rev_michelsen"/>
+	<XPRevolutionWOLPhilippines portraitfilename="WoL\ui\ingame\politicians\politician_rev_bonifacio"/>
+	<XPRevolutionWOLRif portraitfilename="WoL\ui\ingame\politicians\politician_rev_krim"/>
+	<XPRevolutionWOLTaiwan portraitfilename="WoL\ui\ingame\politicians\politician_rev_sun"/>
+	<XPRevolutionWOLUruguay portraitfilename="WoL\ui\ingame\politicians\politician_rev_artigas"/>
+	<XPRevolutionWOLUSSR portraitfilename="WoL\ui\ingame\politicians\politician_rev_lenin"/>
+	<XPRevolutionWOLMinasGerais portraitfilename="WoL\ui\ingame\politicians\politician_rev_tiradentes"/>
+	<XPRevolutionWOLPiratini portraitfilename="WoL\ui\ingame\politicians\politician_rev_goncalves"/>
+	<XPRevolutionWOLEcuador portraitfilename="WoL\ui\ingame\politicians\politician_rev_flores"/>
+	<XPRevolutionWOLUPCA portraitfilename="War of the Triple Alliance\DLC\Ogmius\Politicians\Revolutionaries\politician_rev_morazan"/>
+	<XPRevolutionWOLVenezuela portraitfilename="WoL\ui\ingame\politicians\politician_rev_paez"/>
+	<!-- Haitian Politicians -->
+	<WOLHTPoliticianAge201 portraitfilename="WoL\ui\ingame\politicians\politician_queen_mother"/>
+	<WOLHTPoliticianAge202 portraitfilename="WoL\ui\ingame\politicians\politician_chef"/>
+	<WOLHTPoliticianAge203 portraitfilename="WoL\ui\ingame\politicians\politician_missionary_ht"/>
+	<WOLHTPoliticianAge204 portraitfilename="WoL\ui\ingame\politicians\politician_dessalines"/>
+	<WOLHTPoliticianAge301 portraitfilename="WoL\ui\ingame\politicians\politician_maroon_leader"/>
+	<WOLHTPoliticianAge302 portraitfilename="WoL\ui\ingame\politicians\politician_captain_of_the_sea_ht"/>
+	<WOLHTPoliticianAge303 portraitfilename="WoL\ui\ingame\politicians\politician_bohemian_ht"/>
+	<WOLHTPoliticianAge304 portraitfilename="WoL\ui\ingame\politicians\politician_louverture"/>
+	<WOLHTPoliticianAge401 portraitfilename="WoL\ui\ingame\politicians\politician_strategist"/>
+	<WOLHTPoliticianAge402 portraitfilename="WoL\ui\ingame\politicians\politician_affranchi"/>
+	<WOLHTPoliticianAge403 portraitfilename="WoL\ui\ingame\politicians\politician_mistress_ht"/>
+	<XPRevolutionWOLRepublicanHaiti portraitfilename="WoL\ui\ingame\politicians\politician_presidents"/>
+	<WOLHTPoliticianAge501 portraitfilename="WoL\ui\ingame\politicians\politician_tyrant"/>
+	<!-- Korean Wonders -->
+	<WOLWonderKoreanHaeinsaTemple2 wondername="WOLWKHaeinsaTemple2" techslot="0" nativeciv="Koreans" portraitfilename="WoL\ui\ingame\politicians\politician_wonder_haeinsa_temple" destructiontech="WOLWonderKoreanHaeinsaTempleDisable"/>
+	<WOLWonderKoreanPyongyangGate2 wondername="WOLWKPyongyangGate2" techslot="1" nativeciv="Koreans" portraitfilename="WoL\ui\ingame\politicians\politician_wonder_pyongyang_gate" destructiontech="WOLWonderKoreanPyongyangGateDisable"/>
+	<WOLWonderKoreanHwaseongFortress2 wondername="WOLWKHwaseongFortress2" techslot="2" nativeciv="Koreans" portraitfilename="WoL\ui\ingame\politicians\politician_wonder_hwaseong_fortress" destructiontech="WOLWonderKoreanHwaseongFortressDisable"/>
+	<WOLWonderKoreanGrandPalace2 wondername="WOLWKGrandPalace2" techslot="3" nativeciv="Koreans" portraitfilename="WoL\ui\ingame\politicians\politician_wonder_grand_palace" destructiontech="WOLWonderKoreanGrandPalaceDisable"/>
+	<WOLWonderKoreanPuyongHall2 wondername="WOLWKPuyongHall2" techslot="4" nativeciv="Koreans" portraitfilename="WoL\ui\ingame\politicians\politician_wonder_puyong_hall" destructiontech="WOLWonderKoreanPuyongHallDisable"/>
+	<WOLWonderKoreanHaeinsaTemple3 wondername="WOLWKHaeinsaTemple3" techslot="0" nativeciv="Koreans" portraitfilename="WoL\ui\ingame\politicians\politician_wonder_haeinsa_temple" destructiontech="WOLWonderKoreanHaeinsaTempleDisable"/>
+	<WOLWonderKoreanPyongyangGate3 wondername="WOLWKPyongyangGate3" techslot="1" nativeciv="Koreans" portraitfilename="WoL\ui\ingame\politicians\politician_wonder_pyongyang_gate" destructiontech="WOLWonderKoreanPyongyangGateDisable"/>
+	<WOLWonderKoreanHwaseongFortress3 wondername="WOLWKHwaseongFortress3" techslot="2" nativeciv="Koreans" portraitfilename="WoL\ui\ingame\politicians\politician_wonder_hwaseong_fortress" destructiontech="WOLWonderKoreanHwaseongFortressDisable"/>
+	<WOLWonderKoreanGrandPalace3 wondername="WOLWKGrandPalace3" techslot="3" nativeciv="Koreans" portraitfilename="WoL\ui\ingame\politicians\politician_wonder_grand_palace" destructiontech="WOLWonderKoreanGrandPalaceDisable"/>
+	<WOLWonderKoreanPuyongHall3 wondername="WOLWKPuyongHall3" techslot="4" nativeciv="Koreans" portraitfilename="WoL\ui\ingame\politicians\politician_wonder_puyong_hall" destructiontech="WOLWonderKoreanPuyongHallDisable"/>
+	<WOLWonderKoreanHaeinsaTemple4 wondername="WOLWKHaeinsaTemple4" techslot="0" nativeciv="Koreans" portraitfilename="WoL\ui\ingame\politicians\politician_wonder_haeinsa_temple" destructiontech="WOLWonderKoreanHaeinsaTempleDisable"/>
+	<WOLWonderKoreanPyongyangGate4 wondername="WOLWKPyongyangGate4" techslot="1" nativeciv="Koreans" portraitfilename="WoL\ui\ingame\politicians\politician_wonder_pyongyang_gate" destructiontech="WOLWonderKoreanPyongyangGateDisable"/>
+	<WOLWonderKoreanHwaseongFortress4 wondername="WOLWKHwaseongFortress4" techslot="2" nativeciv="Koreans" portraitfilename="WoL\ui\ingame\politicians\politician_wonder_hwaseong_fortress" destructiontech="WOLWonderKoreanHwaseongFortressDisable"/>
+	<WOLWonderKoreanGrandPalace4 wondername="WOLWKGrandPalace4" techslot="3" nativeciv="Koreans" portraitfilename="WoL\ui\ingame\politicians\politician_wonder_grand_palace" destructiontech="WOLWonderKoreanGrandPalaceDisable"/>
+	<WOLWonderKoreanPuyongHall4 wondername="WOLWKPuyongHall4" techslot="4" nativeciv="Koreans" portraitfilename="WoL\ui\ingame\politicians\politician_wonder_puyong_hall" destructiontech="WOLWonderKoreanPuyongHallDisable"/>
+	<WOLWonderKoreanHaeinsaTemple5 wondername="WOLWKHaeinsaTemple5" techslot="0" nativeciv="Koreans" portraitfilename="WoL\ui\ingame\politicians\politician_wonder_haeinsa_temple" destructiontech="WOLWonderKoreanHaeinsaTempleDisable"/>
+	<WOLWonderKoreanPyongyangGate5 wondername="WOLWKPyongyangGate5" techslot="1" nativeciv="Koreans" portraitfilename="WoL\ui\ingame\politicians\politician_wonder_pyongyang_gate" destructiontech="WOLWonderKoreanPyongyangGateDisable"/>
+	<WOLWonderKoreanHwaseongFortress5 wondername="WOLWKHwaseongFortress5" techslot="2" nativeciv="Koreans" portraitfilename="WoL\ui\ingame\politicians\politician_wonder_hwaseong_fortress" destructiontech="WOLWonderKoreanHwaseongFortressDisable"/>
+	<WOLWonderKoreanGrandPalace5 wondername="WOLWKGrandPalace5" techslot="3" nativeciv="Koreans" portraitfilename="WoL\ui\ingame\politicians\politician_wonder_grand_palace" destructiontech="WOLWonderKoreanGrandPalaceDisable"/>
+	<WOLWonderKoreanPuyongHall5 wondername="WOLWKPuyongHall5" techslot="4" nativeciv="Koreans" portraitfilename="WoL\ui\ingame\politicians\politician_wonder_puyong_hall" destructiontech="WOLWonderKoreanPuyongHallDisable"/>
+
+	<POLYVoyageMaoriNewSouthWales2 wondername="POLYVMNewSouthWales2" techslot="0" nativeciv="Maori" portraitfilename="units\polynesia\maori\voyages\nsw\voyage_nsw" destructiontech="POLYVoyageMaoriNewSouthWalesDisable"/>
+	<POLYVoyageMaoriFiji2 wondername="POLYVMFiji2" techslot="1" nativeciv="Maori" portraitfilename="units\polynesia\maori\voyages\fiji\voyage_fiji" destructiontech="POLYVoyageMaoriFijiDisable"/>
+	<POLYVoyageMaoriUncontacted12 wondername="POLYVMUncontacted12" techslot="2" nativeciv="Maori" portraitfilename="units\polynesia\maori\voyages\vdl\voyage_vdl" destructiontech="POLYVoyageMaoriUncontactedDisable"/>
+	<POLYVoyageMaoriUncontacted22 wondername="POLYVMUncontacted22" techslot="3" nativeciv="Maori" portraitfilename="units\polynesia\maori\voyages\chathams\voyage_chathams" destructiontech="POLYVoyageMaoriUncontactedDisable"/>
+	<POLYVoyageMaoriSouthIsland2 wondername="POLYVMSouthIsland2" techslot="4" nativeciv="Maori" portraitfilename="units\polynesia\maori\voyages\south\voyage_south" destructiontech="POLYVoyageMaoriSouthIslandDisable"/>
+	<POLYVoyageMaoriNewSouthWales3 wondername="POLYVMNewSouthWales3" techslot="0" nativeciv="Maori" portraitfilename="units\polynesia\maori\voyages\nsw\voyage_nsw" destructiontech="POLYVoyageMaoriNewSouthWalesDisable"/>
+	<POLYVoyageMaoriVanDiemensLand3 wondername="POLYVMVanDiemensLand3" techslot="1" nativeciv="Maori" portraitfilename="units\polynesia\maori\voyages\vdl\voyage_vdl" destructiontech="POLYVoyageMaoriVanDiemensLandDisable"/>
+	<POLYVoyageMaoriFiji3 wondername="POLYVMFiji3" techslot="2" nativeciv="Maori" portraitfilename="units\polynesia\maori\voyages\fiji\voyage_fiji" destructiontech="POLYVoyageMaoriFijiDisable"/>
+	<POLYVoyageMaoriUncontacted23 wondername="POLYVMUncontacted23" techslot="3" nativeciv="Maori" portraitfilename="units\polynesia\maori\voyages\chathams\voyage_chathams" destructiontech="POLYVoyageMaoriUncontactedDisable"/>
+	<POLYVoyageMaoriSouthIsland3 wondername="POLYVMSouthIsland3" techslot="4" nativeciv="Maori" portraitfilename="units\polynesia\maori\voyages\south\voyage_south" destructiontech="POLYVoyageMaoriSouthIslandDisable"/>
+	<POLYVoyageMaoriVanDiemensLand4 wondername="POLYVMVanDiemensLand4" techslot="1" nativeciv="Maori" portraitfilename="units\polynesia\maori\voyages\vdl\voyage_vdl" destructiontech="POLYVoyageMaoriVanDiemensLandDisable"/>
+	<POLYVoyageMaoriNewSouthWales4 wondername="POLYVMNewSouthWales4" techslot="0" nativeciv="Maori" portraitfilename="units\polynesia\maori\voyages\nsw\voyage_nsw" destructiontech="POLYVoyageMaoriNewSouthWalesDisable"/>
+	<POLYVoyageMaoriChathamIslands4 wondername="POLYVMChathamIslands4" techslot="2" nativeciv="Maori" portraitfilename="units\polynesia\maori\voyages\chathams\voyage_chathams" destructiontech="POLYVoyageMaoriChathamIslandsDisable"/>
+	<POLYVoyageMaoriFiji4 wondername="POLYVMFiji4" techslot="3" nativeciv="Maori" portraitfilename="units\polynesia\maori\voyages\fiji\voyage_fiji" destructiontech="POLYVoyageMaoriFijiDisable"/>
+	<POLYVoyageMaoriSouthIsland4 wondername="POLYVMSouthIsland4" techslot="4" nativeciv="Maori" portraitfilename="units\polynesia\maori\voyages\south\voyage_south" destructiontech="POLYVoyageMaoriSouthIslandDisable"/>
+	<POLYVoyageMaoriNewSouthWales5 wondername="POLYVMNewSouthWales5" techslot="0" nativeciv="Maori" portraitfilename="units\polynesia\maori\voyages\nsw\voyage_nsw" destructiontech="POLYVoyageMaoriNewSouthWalesDisable"/>
+	<POLYVoyageMaoriChathamIslands5 wondername="POLYVMChathamIslands5" techslot="1" nativeciv="Maori" portraitfilename="units\polynesia\maori\voyages\chathams\voyage_chathams" destructiontech="POLYVoyageMaoriChathamIslandsDisable"/>
+	<POLYVoyageMaoriFiji5 wondername="POLYVMFiji5" techslot="2" nativeciv="Maori" portraitfilename="units\polynesia\maori\voyages\fiji\voyage_fiji" destructiontech="POLYVoyageMaoriFijiDisable"/>
+	<POLYVoyageMaoriVanDiemensLand5 wondername="POLYVMVanDiemensLand5" techslot="4" nativeciv="Maori" portraitfilename="units\polynesia\maori\voyages\vdl\voyage_vdl" destructiontech="POLYVoyageMaoriVanDiemensLandDisable"/>
+	<POLYVoyageMaoriSouthAfrica5 wondername="POLYVMSouthAfrica5" techslot="3" nativeciv="Maori" portraitfilename="units\polynesia\maori\voyages\sa\voyage_sa" destructiontech="POLYVoyageMaoriSouthAfricaDisable"/>
+	<!-- New Imms -->
+	<!-- French -->
+	<LAFrenchII portraitfilename="WoL\ui\ingame\politicians\LA\French1A"/>
+	<LAFrenchIIIA portraitfilename="WoL\ui\ingame\politicians\LA\French2A"/>
+	<LAFrenchIIIB portraitfilename="WoL\ui\ingame\politicians\LA\French2B"/>
+	<LAFrenchIVA portraitfilename="WoL\ui\ingame\politicians\LA\French3A"/>
+	<LAFrenchIVB portraitfilename="WoL\ui\ingame\politicians\LA\French3B"/>
+	<LAFrenchIVC portraitfilename="WoL\ui\ingame\politicians\LA\French3C"/>
+	<LAFrenchVA portraitfilename="WoL\ui\ingame\politicians\LA\French"/>
+	<LAFrenchVB portraitfilename="WoL\ui\ingame\politicians\LA\French4"/>
+	<LAFrenchVC portraitfilename="WoL\ui\ingame\politicians\LA\French5"/>
+	<!-- Confederatas -->
+	<LAConfederateII portraitfilename="WoL\ui\ingame\politicians\LA\Confederates1A"/>
+	<LAConfederateIIIA portraitfilename="WoL\ui\ingame\politicians\LA\Confederates2A"/>
+	<LAConfederateIIIB portraitfilename="WoL\ui\ingame\politicians\LA\Confederates2B"/>
+	<LAConfederateIVA portraitfilename="WoL\ui\ingame\politicians\LA\Confederates3A"/>
+	<LAConfederateIVB portraitfilename="WoL\ui\ingame\politicians\LA\Confederates3B"/>
+	<LAConfederateIVC portraitfilename="WoL\ui\ingame\politicians\LA\Confederates3C"/>
+	<LAConfederateVA portraitfilename="WoL\ui\ingame\politicians\LA\Confederates"/>
+	<LAConfederateVB portraitfilename="WoL\ui\ingame\politicians\LA\Confederates4"/>
+	<LAConfederateVC portraitfilename="WoL\ui\ingame\politicians\LA\Confederates5"/>
+	<!-- Chinese -->
+	<LAAsianII portraitfilename="WoL\ui\ingame\politicians\LA\Chinese1A"/>
+	<LAAsianIIIA portraitfilename="WoL\ui\ingame\politicians\LA\Chinese2A"/>
+	<LAAsianIIIB portraitfilename="WoL\ui\ingame\politicians\LA\Chinese2B"/>
+	<LAAsianIVA portraitfilename="WoL\ui\ingame\politicians\LA\Chinese3A"/>
+	<LAAsianIVB portraitfilename="WoL\ui\ingame\politicians\LA\Chinese3B"/>
+	<LAAsianIVC portraitfilename="WoL\ui\ingame\politicians\LA\Chinese3C"/>
+	<LAAsianVA portraitfilename="WoL\ui\ingame\politicians\LA\Chinese"/>
+	<LAAsianVB portraitfilename="WoL\ui\ingame\politicians\LA\Chinese4"/>
+	<LAAsianVC portraitfilename="WoL\ui\ingame\politicians\LA\Chinese5"/>
+	<!-- Croat -->
+	<LACroatII portraitfilename="WoL\ui\ingame\politicians\LA\Croat1A"/>
+	<LACroatIIIA portraitfilename="WoL\ui\ingame\politicians\LA\Croat2A"/>
+	<LACroatIIIB portraitfilename="WoL\ui\ingame\politicians\LA\Croat2B"/>
+	<LACroatIVA portraitfilename="WoL\ui\ingame\politicians\LA\Croat3A"/>
+	<LACroatIVB portraitfilename="WoL\ui\ingame\politicians\LA\Croat3B"/>
+	<LACroatIVC portraitfilename="WoL\ui\ingame\politicians\LA\Croat3C"/>
+	<LACroatVA portraitfilename="WoL\ui\ingame\politicians\LA\Croats"/>
+	<LACroatVB portraitfilename="WoL\ui\ingame\politicians\LA\Croats4"/>
+	<LACroatVC portraitfilename="WoL\ui\ingame\politicians\LA\Croats5"/>
+	<!-- Arabs -->
+	<LAArabII portraitfilename="WoL\ui\ingame\politicians\LA\Arabs1A"/>
+	<LAArabIIIA portraitfilename="WoL\ui\ingame\politicians\LA\Arabs2A"/>
+	<LAArabIIIB portraitfilename="WoL\ui\ingame\politicians\LA\Arabs2B"/>
+	<LAArabIVA portraitfilename="WoL\ui\ingame\politicians\LA\Arabs3A"/>
+	<LAArabIVB portraitfilename="WoL\ui\ingame\politicians\LA\Arabs3B"/>
+	<LAArabIVC portraitfilename="WoL\ui\ingame\politicians\LA\Arabs3C"/>
+	<LAArabVA portraitfilename="WoL\ui\ingame\politicians\LA\Arabs"/>
+	<LAArabVB portraitfilename="WoL\ui\ingame\politicians\LA\Arabs4"/>
+	<LAArabVC portraitfilename="WoL\ui\ingame\politicians\LA\Arabs5"/>
+	<!-- Germans -->
+	<LAGermanII portraitfilename="WoL\ui\ingame\politicians\LA\Germans1A"/>
+	<LAGermanIIIA portraitfilename="WoL\ui\ingame\politicians\LA\Germans2A"/>
+	<LAGermanIIIB portraitfilename="WoL\ui\ingame\politicians\LA\Germans2B"/>
+	<LAGermanIVA portraitfilename="WoL\ui\ingame\politicians\LA\Germans3A"/>
+	<LAGermanIVB portraitfilename="WoL\ui\ingame\politicians\LA\Germans3B"/>
+	<LAGermanIVC portraitfilename="WoL\ui\ingame\politicians\LA\Germans3C"/>
+	<LAGermanVA portraitfilename="WoL\ui\ingame\politicians\LA\Germans"/>
+	<LAGermanVB portraitfilename="WoL\ui\ingame\politicians\LA\Germans4"/>
+	<LAGermanVC portraitfilename="WoL\ui\ingame\politicians\LA\Germans5"/>
+	<!-- Irish -->
+	<LAIrishII portraitfilename="WoL\ui\ingame\politicians\LA\Irish1A"/>
+	<LAIrishIIIA portraitfilename="WoL\ui\ingame\politicians\LA\Irish2A"/>
+	<LAIrishIIIB portraitfilename="WoL\ui\ingame\politicians\LA\Irish2B"/>
+	<LAIrishIVA portraitfilename="WoL\ui\ingame\politicians\LA\Irish3A"/>
+	<LAIrishIVB portraitfilename="WoL\ui\ingame\politicians\LA\Irish3B"/>
+	<LAIrishIVC portraitfilename="WoL\ui\ingame\politicians\LA\Irish3C"/>
+	<LAIrishVA portraitfilename="WoL\ui\ingame\politicians\LA\Irish"/>
+	<LAIrishVB portraitfilename="WoL\ui\ingame\politicians\LA\Irish4"/>
+	<LAIrishVC portraitfilename="WoL\ui\ingame\politicians\LA\Irish5"/>
+	<!-- Italian -->
+	<LAItalianII portraitfilename="WoL\ui\ingame\politicians\LA\Italians1A"/>
+	<LAItalianIIIA portraitfilename="WoL\ui\ingame\politicians\LA\Italians2A"/>
+	<LAItalianIIIB portraitfilename="WoL\ui\ingame\politicians\LA\Italians2B"/>
+	<LAItalianIVA portraitfilename="WoL\ui\ingame\politicians\LA\Italians3A"/>
+	<LAItalianIVB portraitfilename="WoL\ui\ingame\politicians\LA\Italians3B"/>
+	<LAItalianIVC portraitfilename="WoL\ui\ingame\politicians\LA\Italians3C"/>
+	<LAItalianVA portraitfilename="WoL\ui\ingame\politicians\LA\Italians"/>
+	<LAItalianVB portraitfilename="WoL\ui\ingame\politicians\LA\Italians4"/>
+	<LAItalianVC portraitfilename="WoL\ui\ingame\politicians\LA\Italians5"/>
+	<!-- Polish -->
+	<LAPolishII portraitfilename="WoL\ui\ingame\politicians\LA\Polish1A"/>
+	<LAPolishIIIA portraitfilename="WoL\ui\ingame\politicians\LA\Polish2A"/>
+	<LAPolishIIIB portraitfilename="WoL\ui\ingame\politicians\LA\Polish2B"/>
+	<LAPolishIVA portraitfilename="WoL\ui\ingame\politicians\LA\Polish3A"/>
+	<LAPolishIVB portraitfilename="WoL\ui\ingame\politicians\LA\Polish3B"/>
+	<LAPolishIVC portraitfilename="WoL\ui\ingame\politicians\LA\Polish3C"/>
+	<LAPolishVA portraitfilename="WoL\ui\ingame\politicians\LA\Poles"/>
+	<LAPolishVB portraitfilename="WoL\ui\ingame\politicians\LA\Poles4"/>
+	<LAPolishVC portraitfilename="WoL\ui\ingame\politicians\LA\Poles5"/>
+	<!-- Scandinavian -->
+	<LAScandinavianII portraitfilename="WoL\ui\ingame\politicians\LA\Scandinavian1A"/>
+	<LAScandinavianIIIA portraitfilename="WoL\ui\ingame\politicians\LA\Scandinavian2A"/>
+	<LAScandinavianIIIB portraitfilename="WoL\ui\ingame\politicians\LA\Scandinavian2B"/>
+	<LAScandinavianIVA portraitfilename="WoL\ui\ingame\politicians\LA\Scandinavian3A"/>
+	<LAScandinavianIVB portraitfilename="WoL\ui\ingame\politicians\LA\Scandinavian3B"/>
+	<LAScandinavianIVC portraitfilename="WoL\ui\ingame\politicians\LA\Scandinavian3C"/>
+	<LAScandinavianVA portraitfilename="WoL\ui\ingame\politicians\LA\Scandinavians"/>
+	<LAScandinavianVB portraitfilename="WoL\ui\ingame\politicians\LA\Scandinavians4"/>
+	<LAScandinavianVC portraitfilename="WoL\ui\ingame\politicians\LA\Scandinavians5"/>
+	<!-- Japanese -->
+	<LAJapaneseII portraitfilename="WoL\ui\ingame\politicians\LA\Japanese1A"/>
+	<LAJapaneseIIIA portraitfilename="WoL\ui\ingame\politicians\LA\Japanese2A"/>
+	<LAJapaneseIIIB portraitfilename="WoL\ui\ingame\politicians\LA\Japanese2B"/>
+	<LAJapaneseIVA portraitfilename="WoL\ui\ingame\politicians\LA\Japanese3A"/>
+	<LAJapaneseIVB portraitfilename="WoL\ui\ingame\politicians\LA\Japanese3B"/>
+	<LAJapaneseIVC portraitfilename="WoL\ui\ingame\politicians\LA\Japanese3C"/>
+	<LAJapaneseVA portraitfilename="WoL\ui\ingame\politicians\LA\Japanese"/>
+	<LAJapaneseVB portraitfilename="WoL\ui\ingame\politicians\LA\Japanese4"/>
+	<LAJapaneseVC portraitfilename="WoL\ui\ingame\politicians\LA\Japanese5"/>
+	<!-- AustroHungarians -->
+	<EUPoliticianSergeantAH portraitfilename="WoL\ui\ingame\politicians\chamberlain"/>
+	<EUPoliticianAcademicAH portraitfilename="WoL\ui\ingame\politicians\academic"/>
+	<EUPoliticianMarksmanAH portraitfilename="WoL\ui\ingame\politicians\marksman"/>
+	<EUPoliticianCavalierAH portraitfilename="WoL\ui\ingame\politicians\equerry"/>
+	<EUPoliticianArchdukeAH portraitfilename="WoL\ui\ingame\politicians\politician_archduke"/>
+	<!-- Grandma's affairs -->
+	<EUpoliticianPortugueseUK portraitfilename="WoL\ui\ingame\politicians\FishandChips\politician_britishportuguese"/>
+	<EUpoliticianPrussianUK portraitfilename="WoL\ui\ingame\politicians\FishandChips\politician_britishprussian"/>
+	<EUpoliticianDanishUK portraitfilename="WoL\ui\ingame\politicians\FishandChips\politician_britishdanish"/>
+	<EUpoliticianFrenchUK portraitfilename="WoL\ui\ingame\politicians\FishandChips\politician_britishfrench"/>
+	<EUpoliticianDutchUK portraitfilename="WoL\ui\ingame\politicians\FishandChips\politician_britishdutch"/>
+	<EUpoliticianRussianUK portraitfilename="WoL\ui\ingame\politicians\FishandChips\politician_britishrussian"/>
+	<EUpoliticianBelgianUK portraitfilename="WoL\ui\ingame\politicians\FishandChips\politician_britishbelgae"/>
+	<EUpoliticianGreekUK portraitfilename="WoL\ui\ingame\politicians\FishandChips\politician_britishgreek"/>
+	<EUpoliticianSwissUK portraitfilename="WoL\ui\ingame\politicians\FishandChips\politician_britishswiss"/>
+	<EUpoliticianRomaUK portraitfilename="WoL\ui\ingame\politicians\FishandChips\politician_britishromani"/>
+	<EUpoliticianSwedeUK portraitfilename="WoL\ui\ingame\politicians\FishandChips\politician_britishswedish"/>
+	<EUpoliticianSpanishUK portraitfilename="WoL\ui\ingame\politicians\FishandChips\politician_britishspanish"/>
+	<EUpoliticianCanadianUK portraitfilename="WoL\ui\ingame\politicians\FishandChips\politician_britishcanadian"/>
+	<EUpoliticianJunkUK portraitfilename="WoL\ui\ingame\politicians\FishandChips\politician_britishjunk"/>
+	<EUpoliticianHindustaniUK portraitfilename="WoL\ui\ingame\politicians\FishandChips\politician_britishmajarajajah"/>
+	<EUpoliticianAfricanUK portraitfilename="WoL\ui\ingame\politicians\FishandChips\politician_britishafrican"/>
+	<!-- New Euro but for real -->
+	<WuOLAristocrat portraitfilename="WoL\ui\ingame\politicians\Aristocrat"/>
+	<WuOLAristocratFr portraitfilename="WoL\ui\ingame\politicians\Aristocrat"/>
+	<WuOLAristocratAH portraitfilename="WoL\ui\ingame\politicians\Aristocrat"/>
+	<WuOLartisan portraitfilename="WoL\ui\ingame\politicians\artisan"/>
+	<WuOLBurgher portraitfilename="WoL\ui\ingame\politicians\Burgher"/>
+	<WuOLChancellor portraitfilename="WoL\ui\ingame\politicians\Chancellor"/>
+	<WuOLClergyman portraitfilename="WoL\ui\ingame\politicians\Clergyman"/>
+	<WuOLDaendels portraitfilename="WoL\ui\ingame\politicians\Daendels"/>
+	<WuOLForeignKing portraitfilename="WoL\ui\ingame\politicians\ForeignKing"/>
+	<WuOLgovernor portraitfilename="WoL\ui\ingame\politicians\governor"/>
+	<WuOLGrisette portraitfilename="WoL\ui\ingame\politicians\Grisette"/>
+	<WuOLPrazero portraitfilename="WoL\ui\ingame\politicians\Prazero"/>
+	<WuOLScout portraitfilename="WoL\ui\ingame\politicians\Scout"/>
+	<WuOLScoutRu portraitfilename="WoL\ui\ingame\politicians\Scout"/>
+	<WuOLacademic portraitfilename="WoL\ui\ingame\politicians\academic"/>
+	<WuOLAshantiPrince portraitfilename="WoL\ui\ingame\politicians\AshantiPrince"/>
+	<WuOLCarlist portraitfilename="WoL\ui\ingame\politicians\Carlist"/>
+	<WuOLchamberlain portraitfilename="WoL\ui\ingame\politicians\chamberlain"/>
+	<WuOLcityplanner portraitfilename="WoL\ui\ingame\politicians\cityplanner"/>
+	<WuOLcornet portraitfilename="WoL\ui\ingame\politicians\cornet"/>
+	<WuOLcornetRu portraitfilename="WoL\ui\ingame\politicians\cornet"/>
+	<WuOLcornetOt portraitfilename="WoL\ui\ingame\politicians\cornet"/>
+	<WuOLGunsmith portraitfilename="WoL\ui\ingame\politicians\Gunsmith"/>
+	<WuOLGunsmithOt portraitfilename="WoL\ui\ingame\politicians\Gunsmith"/>
+	<WuOLGunsmithPo portraitfilename="WoL\ui\ingame\politicians\Gunsmith"/>
+	<WuOLGunsmithFr portraitfilename="WoL\ui\ingame\politicians\Gunsmith"/>
+	<WuOLpartisan portraitfilename="WoL\ui\ingame\politicians\partisan"/>
+	<WuOLPoliticalExile portraitfilename="WoL\ui\ingame\politicians\PoliticalExile"/>
+	<WuOLPostImpressionist portraitfilename="WoL\ui\ingame\politicians\PostImpressionist"/>
+	<WuOLSwanKing portraitfilename="WoL\ui\ingame\politicians\SwanKing"/>
+	<WuOLHeroine portraitfilename="WoL\ui\ingame\politicians\Heroine"/>
+	<WuOLHunter portraitfilename="WoL\ui\ingame\politicians\Hunter"/>
+	<WuOLMerchantCaptain portraitfilename="WoL\ui\ingame\politicians\MerchantCaptain"/>
+	<WuOLArtillerist portraitfilename="WoL\ui\ingame\politicians\Artillerist"/>
+	<WuOLArtilleristBe portraitfilename="WoL\ui\ingame\politicians\Artillerist"/>
+	<WuOLBallerina portraitfilename="WoL\ui\ingame\politicians\Ballerina"/>
+	<WuOLcolonel portraitfilename="WoL\ui\ingame\politicians\colonel"/>
+	<WuOLcolonelRu portraitfilename="WoL\ui\ingame\politicians\colonel"/>
+	<WuOLcolonelDa portraitfilename="WoL\ui\ingame\politicians\colonel"/>
+	<WuOLcolonelDu portraitfilename="WoL\ui\ingame\politicians\colonel"/>
+	<WuOLcolonelSw portraitfilename="WoL\ui\ingame\politicians\colonel"/>
+	<WuOLkaiserin portraitfilename="WoL\ui\ingame\politicians\kaiserin"/>
+	<WuOLCrownPrinceGe portraitfilename="WoL\ui\ingame\politicians\CrownPrinceGe"/>
+	<WuOLengineer portraitfilename="WoL\ui\ingame\politicians\engineer"/>
+	<WuOLengineerBelgian portraitfilename="WoL\ui\ingame\politicians\engineer"/>
+	<WuOLSocialite portraitfilename="WoL\ui\ingame\politicians\Socialite"/>
+	<WuOLequerry portraitfilename="WoL\ui\ingame\politicians\equerry"/>
+	<WuOLequerryOt portraitfilename="WoL\ui\ingame\politicians\equerry"/>
+	<WuOLequerrySw portraitfilename="WoL\ui\ingame\politicians\equerry"/>
+	<WuOLequerryDu portraitfilename="WoL\ui\ingame\politicians\equerry"/>
+	<WuOLGovernorGeneral portraitfilename="WoL\ui\ingame\politicians\GovernorGeneral"/>
+	<WuOLmagistrate portraitfilename="WoL\ui\ingame\politicians\magistrate"/>
+	<WuOLNativeRomanticist portraitfilename="WoL\ui\ingame\politicians\NativeRomanticist"/>
+	<WuOLNavalArchitect portraitfilename="WoL\ui\ingame\politicians\NavalArchitect"/>
+	<WuOLNovelist portraitfilename="WoL\ui\ingame\politicians\Novelist"/>
+	<WuOLOperaComposer portraitfilename="WoL\ui\ingame\politicians\OperaComposer"/>
+	<WuOLAdmiralOfTheFleet portraitfilename="WoL\ui\ingame\politicians\AdmiralOfTheFleet"/>
+	<WuOLAdmiralOfTheFleetRu portraitfilename="WoL\ui\ingame\politicians\AdmiralOfTheFleet"/>
+	<WuOLAdmiralOfTheFleetOttoman portraitfilename="WoL\ui\ingame\politicians\AdmiralOfTheFleetOttoman"/>
+	<WuOLarchduke portraitfilename="WoL\ui\ingame\politicians\archduke"/>
+	<WuOLCapitalist portraitfilename="WoL\ui\ingame\politicians\Capitalist"/>
+	<WuOLchiefofstaff portraitfilename="WoL\ui\ingame\politicians\chiefofstaff"/>
+	<WuOLCivilEngineer portraitfilename="WoL\ui\ingame\politicians\CivilEngineer"/>
+	<WuOLColonialist portraitfilename="WoL\ui\ingame\politicians\Colonialist"/>
+	<WuOLCounterTerrorist portraitfilename="WoL\ui\ingame\politicians\CounterTerrorist"/>
+	<WuOLMystic portraitfilename="WoL\ui\ingame\politicians\Mystic"/>
+	<WuOLPhilanthropist portraitfilename="WoL\ui\ingame\politicians\Philanthropist"/>
+	<WuOLPhotographer portraitfilename="WoL\ui\ingame\politicians\Photographer"/>
+	<WuOLFieldMarshal portraitfilename="WoL\ui\ingame\politicians\FieldMarshal"/>
+	<WuOLFieldMarshalOttoman portraitfilename="WoL\ui\ingame\politicians\FieldMarshalOttoman"/>
+	<WuOLGrandVizier portraitfilename="WoL\ui\ingame\politicians\GrandVizier"/>
+	<WuOLHistorian portraitfilename="WoL\ui\ingame\politicians\Historian"/>
+	<WuOLMonarchist portraitfilename="WoL\ui\ingame\politicians\Monarchist"/>
+	<WuOLpope1 portraitfilename="War of the Triple Alliance\Politicians\delta\italian\pope1"/>
+	<WuOLTheMuse portraitfilename="WoL\ui\ingame\politicians\muse"/>
+	<WuOLPsychoanalyst portraitfilename="WoL\ui\ingame\politicians\psychoanalist"/>
+</politicians>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="63007">ShrineGather</name>
+		<type>Gather</type>
+		<maxrange>0.5</maxrange>
+		<rate type="AbstractShrine">.1</rate>
+		<rate type="HuntingLodge">.1</rate>
+	</action>
+	<tactic>
+		Normal
+		<action>ShrineGather</action>
+	</tactic>
+</tactics>

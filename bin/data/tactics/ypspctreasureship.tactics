@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="68993">FoodSpawn</name>
+		<type>Maintain</type>
+		<rate type="CrateofFood">1.0</rate>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="68993">WoodSpawn</name>
+		<type>Maintain</type>
+		<rate type="CrateofWood">1.0</rate>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="68993">CoinSpawn</name>
+		<type>Maintain</type>
+		<rate type="CrateofCoin">1.0</rate>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="43298">SpawnYungayo</name>
+		<type>Maintain</type>
+		<rate type="WoLWarWagon">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<tactic>
+		Normal
+		<action>FoodSpawn</action>
+		<active>1</active>
+		<transition>
+			<tactic>Wood</tactic>
+			<length>2</length>
+			<exit>1</exit>
+		</transition>
+		<transition>
+			<tactic>Coin</tactic>
+			<length>2</length>
+			<exit>1</exit>
+		</transition>
+	</tactic>
+	<tactic>
+		Wood
+		<action>WoodSpawn</action>
+		<active>1</active>
+		<transition>
+			<tactic>Normal</tactic>
+			<length>2</length>
+			<exit>1</exit>
+		</transition>
+		<transition>
+			<tactic>Coin</tactic>
+			<length>2</length>
+			<exit>1</exit>
+		</transition>
+	</tactic>
+	<tactic>
+		Coin
+		<action>CoinSpawn</action>
+		<active>1</active>
+		<transition>
+			<tactic>Normal</tactic>
+			<length>2</length>
+			<exit>1</exit>
+		</transition>
+		<transition>
+			<tactic>Wood</tactic>
+			<length>2</length>
+			<exit>1</exit>
+		</transition>
+	</tactic>
+	<tactic>
+		Cannon
+		<action>SpawnYungayo</action>
+		<active>1</active>
+		<transition>
+			<tactic>Normal</tactic>
+			<length>2</length>
+			<exit>1</exit>
+		</transition>
+		<transition>
+			<tactic>Food</tactic>
+			<length>2</length>
+			<exit>1</exit>
+		</transition>
+		<transition>
+			<tactic>Wood</tactic>
+			<length>2</length>
+			<exit>1</exit>
+		</transition>
+	</tactic>
+</tactics>

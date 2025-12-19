@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="42178">Gather</name>
+		<type>Gather</type>
+		<maxrange>0.5</maxrange>
+		<rate type="LivestockPen">1.0</rate>
+		<rate type="Farm">1.0</rate>
+		<addresourcestoinventory>1</addresourcestoinventory>
+	</action>
+	<action>
+		<name>XPTrickleIncrease</name>
+		<type>DanceBonus</type>
+		<active>1</active>
+		<persistent>1</persistent>
+		<dancebonustype>XPTrickle</dancebonustype>
+		<modifymultiplier>0.2</modifymultiplier>
+		<modifyexponent>1.05</modifyexponent>
+		<modifybase>1.0</modifybase>
+	</action>
+	<action>
+		<name stringid="43295">AutoGatherFood</name>
+		<type>AutoGather</type>
+		<persistent>1</persistent>
+		<addresourcestoinventory>1</addresourcestoinventory>
+	</action>
+	<tactic>
+		GiftDance
+		<action>XPTrickleIncrease</action>
+		<action>AutoGatherFood</action>
+		<active>0</active>
+		<agerequirement>0</agerequirement>
+		<firetype>Economic</firetype>
+		<protounitcommand>Tactic15</protounitcommand>
+	</tactic>
+</tactics>

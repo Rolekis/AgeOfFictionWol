@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name>Spawn</name>
+		<type>Spawn</type>
+		<rate type="SerbiaStronk2">1.0 </rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>Spawn2</name>
+		<type>Spawn</type>
+		<rate type="AlawiteTomb">1.0 </rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>SpawnRussians</name>
+		<type>Spawn</type>
+		<rate type="RussiaStronk2">1.0 </rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>SpawnPeruvians</name>
+		<type>Spawn</type>
+		<rate type="WOLPeruvianBoost">1.0 </rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="82567">SpawnXPCrates</name>
+		<type>Maintain</type>
+		<rate type="FaleCrateofXP">1</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<tactic>
+		Normal
+		<action>Spawn</action>
+		<action>Spawn2</action>
+		<action>SpawnRussians</action>
+		<action>SpawnPeruvians</action>
+		<action>SpawnXPCrates</action>
+	</tactic>
+</tactics>

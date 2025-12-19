@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="42178">Gather</name>
+		<type>Gather</type>
+		<maxrange>0.5</maxrange>
+		<rate type="LivestockPen">1.0</rate>
+		<rate type="Ranch">1.0</rate>
+		<rate type="Farm">1.0</rate>
+		<rate type="TupiCorral">1.0</rate>
+		<rate type="ypVillage">1.0</rate>
+		<rate type="Llanero">1.0</rate>
+		<rate type="HuntingLodge">1.0</rate>
+		<rate type="WOLHuntingLodgeGreek">1.0</rate>
+		<rate type="WOLFarmIroquois">1.0</rate>
+		<rate type="EGYgranaryCARAVAN">1.0</rate>
+		<rate type="NABarn">1.0</rate>
+		<rate type="WOLPasture">1.0</rate>
+		<addresourcestoinventory>1</addresourcestoinventory>
+	</action>
+	<action>
+		<name stringid="43295">AutoGatherFatten</name>
+		<type>AutoGather</type>
+		<persistent>1</persistent>
+		<addresourcestoinventory>1</addresourcestoinventory>
+	</action>
+	<action>
+		<name stringid="63007">GatherXP</name>
+		<type>Gather</type>
+		<maxrange>0.5</maxrange>
+		<rate type="ypSacredField">0.5</rate>
+	</action>
+	<action>
+		<name stringid="63007">ShrineGather</name>
+		<type>Gather</type>
+		<maxrange>0.5</maxrange>
+		<rate type="AbstractShrine">0.9</rate>
+	</action>
+	<action>
+		<name stringid="61766">AutoGatherXP</name>
+		<type>AutoGather</type>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="43295">AutoGatherCoin</name>
+		<type>AutoGather</type>
+		<persistent>1</persistent>
+		<addresourcestoinventory>1</addresourcestoinventory>
+	</action>
+	<action>
+		<name>AutoConvert</name>
+		<type>AutoConvert</type>
+		<maxrange>12.0</maxrange>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>MaintainWoolSheep</name>
+		<type>Maintain</type>
+		<rate type="WoolSheep">1.00</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>MaintainMerinoRam</name>
+		<type>Maintain</type>
+		<rate type="MerinoRam">1.00</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="700306">AutoGatherXPDowry</name>
+		<type>AutoGather</type>
+		<active>0</active>
+		<persistent>1</persistent>
+		<Rate type ='XP'>0.160001</Rate>
+	</action>
+	<tactic>
+		Normal
+		<action>AutoConvert</action>
+		<action>AutoGatherCoin</action>
+		<action>AutoGatherFatten</action>
+		<action>AutoGatherXP</action>
+		<action>AutoGatherXPDowry</action>
+		<action>Gather</action>
+		<action>GatherXP</action>
+		<action>LLANEROHP</action>
+		<action>LLANEROSpeed</action>
+		<action>LLANEROStrengh</action>
+		<action>MaintainWoolSheep</action>
+		<action>MaintainMerinoRam</action>
+		<action>SheepdogAttack</action>
+	</tactic>
+</tactics>

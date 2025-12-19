@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="42178">Gather</name>
+		<type>Gather</type>
+		<maxrange>0.5</maxrange>
+		<rate type="LivestockPen">1.0</rate>
+		<rate type="Ranch">1.0</rate>
+		<rate type="Farm">1.0</rate>
+		<rate type="TupiCorral">1.0</rate>
+		<rate type="ypVillage">1.0</rate>
+		<rate type="WOLCoop">1.0</rate>
+		<rate type="HuntingLodge">1.0</rate>
+		<rate type="WOLHuntingLodgeGreek">1.0</rate>
+		<rate type="WOLFarmIroquois">1.0</rate>
+		<rate type="EGYgranaryCARAVAN">1.0</rate>
+		<rate type="NABarn">1.0</rate>
+		<rate type="WOLPasture">1.0</rate>
+		<rate type="ChineseHouse">1.0</rate>
+		<rate type="SpanishHouse">1.0</rate>
+		<addresourcestoinventory>1</addresourcestoinventory>
+	</action>
+	<action>
+		<name stringid="43295">AutoGatherFatten</name>
+		<type>AutoGather</type>
+		<persistent>1</persistent>
+		<addresourcestoinventory>1</addresourcestoinventory>
+	</action>
+	<action>
+		<name stringid="63007">GatherXP</name>
+		<type>Gather</type>
+		<maxrange>0.5</maxrange>
+		<rate type="ypSacredField">0.5</rate>
+	</action>
+	<action>
+		<name stringid="63007">ShrineGather</name>
+		<type>Gather</type>
+		<maxrange>0.5</maxrange>
+		<rate type="AbstractShrine">0.9</rate>
+	</action>
+	<action>
+		<name stringid="61766">AutoGatherXP</name>
+		<type>AutoGather</type>
+		<active>1</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="43294">AutoGatherGold</name>
+		<type>AutoGather</type>
+		<active>1</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="43295">AutoGatherFood</name>
+		<type>AutoGather</type>
+		<persistent>1</persistent>
+		<addresourcestoinventory>1</addresourcestoinventory>
+	</action>
+	<action>
+		<name>AutoConvert</name>
+		<type>AutoConvert</type>
+		<maxrange>12.0</maxrange>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>MaintainCows</name>
+		<type>Maintain</type>
+		<rate type="Cow">1.00</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>MaintainPigs</name>
+		<type>Maintain</type>
+		<rate type="Pig">1.00</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>MaintainSheep</name>
+		<type>Maintain</type>
+		<rate type="Sheep">1.00</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>MaintainLlamas</name>
+		<type>Maintain</type>
+		<rate type="Llama">1.00</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>MaintainHen</name>
+		<type>Maintain</type>
+		<rate type="Hen">1.00</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>MaintainypGoat</name>
+		<type>Maintain</type>
+		<rate type="ypGoat">1.00</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>MaintainypYak</name>
+		<type>Maintain</type>
+		<rate type="ypYak">1.00</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>MaintainypWaterBuffalo</name>
+		<type>Maintain</type>
+		<rate type="ypWaterBuffalo">1.00</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>MaintainGoose</name>
+		<type>Maintain</type>
+		<rate type="Goose">1.00</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="700306">AutoGatherXPDowry</name>
+		<type>AutoGather</type>
+		<active>1</active>
+		<persistent>1</persistent>
+		<Rate type ='XP'>0.160001</Rate>
+	</action>
+	<action>
+		<name stringid="76449">FrightenSpeedProtest</name>
+		<type>AutoRangedModify</type>
+		<active>0</active>
+		<maxrange>20</maxrange>
+		<targetenemy>1</targetenemy>
+		<persistent>1</persistent>
+		<modifyabstracttype>Unit</modifyabstracttype>
+		<modifytype>Speed</modifytype>
+		<modifymultiplier>0.95</modifymultiplier>
+		<modelattachment>units\attachments\stun_stars.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+	</action>
+	<action>
+		<name stringid="800964">AutoGatherFame</name>
+		<type>AutoGather</type>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="43295">AutoGatherFoodCheat</name>
+		<type>AutoGather</type>
+		<persistent>1</persistent>
+		<active>0</active>
+	</action>
+	<tactic>
+		Normal
+		<action>AutoConvert</action>
+		<action>AutoGatherFatten</action>
+		<action>AutoGatherFood</action>
+		<action>AutoGatherXP</action>
+		<action>AutoGatherXPDowry</action>
+		<action>AutoGatherGold</action>
+		<action>AutoGatherFood</action>
+		<action>Gather</action>
+		<action>GatherXP</action>
+		<action>FrightenSpeedProtest</action>
+		<action>MaintainCows</action>
+		<action>MaintainGoose</action>
+		<action>MaintainPigs</action>
+		<action>MaintainSheep</action>
+		<action>MaintainLlamas</action>
+		<action>MaintainHen</action>
+		<action>MaintainypWaterBuffalo</action>
+		<action>MaintainypGoat</action>
+		<action>MaintainypYak</action>
+		<action>SheepdogAttack</action>
+		<action>ShrineGather</action>
+		<action>AutoGatherFame</action>
+		<action>AutoGatherFoodCheat</action>
+	</tactic>
+</tactics>

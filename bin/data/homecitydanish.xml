@@ -1,0 +1,2138 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<homecity>
+	<civ>Danish</civ>
+	<name>$$600011$$</name>
+	<heroname>$$43030$$</heroname>
+	<gatherpointunit>HomeCityGatherFlag</gatherpointunit>
+	<visual>dutch\dutch_homecity.xml</visual>
+	<watervisual>dutch\dutch_homecity_water.xml</watervisual>
+	<backgroundvisual>dutch\dutch_background.xml</backgroundvisual>
+	<pathdata>dutch\dutch_homecity_pathable.gr2</pathdata>
+	<camera>WoL\danish\danish_homecity_camera.cam</camera>
+	<widescreencamera>WoL\danish\danish_homecity_widescreencamera.cam</widescreencamera>
+	<transportroundtriptime>1</transportroundtriptime>
+	<transportactivationtime>0</transportactivationtime>
+	<level>10</level>
+	<skillpoints>9</skillpoints>
+	<lightset>Amsterdam</lightset>
+	<watertype>London</watertype>
+	<numpropunlocksearned>0</numpropunlocksearned>
+	<ambientsounds>homecity\britishambientsounds.xml</ambientsounds>
+	<xsai>generic_city</xsai>
+	<coffers>
+		<current>
+			<food>0</food>
+			<wood>0</wood>
+			<gold>0</gold>
+			<fame>0</fame>
+			<ships>0</ships>
+			<skillpoints>0</skillpoints>
+			<xp>0</xp>
+		</current>
+		<maximum>
+			<food>0</food>
+			<wood>0</wood>
+			<gold>0</gold>
+			<fame>0</fame>
+			<ships>0</ships>
+			<skillpoints>-1</skillpoints>
+			<xp>-1</xp>
+		</maximum>
+	</coffers>
+	<cards>
+	<!-- Danish Cards, New World Trading Company -->
+		<card>
+			<name>WOLHCShipOxCartRepeatTeam</name>
+			<maxcount>-1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>0</age>
+			<displayunitcount>1</displayunitcount>
+		</card>
+		<card>
+			<name>HCREVcharge</name>
+			<maxcount>2</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+			<name>WOLHCShipSettlers1Danish</name>
+			<maxcount>-1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>0</age>
+			<displayunitcount>2</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCShipSettlers2Danish</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>WOLHCShipSettlers1Danish</prereqtech>
+			<age>1</age>
+			<displayunitcount>4</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCShipSettlers3Team</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>WOLHCShipSettlers2Danish</prereqtech>
+			<age>0</age>
+			<displayunitcount>2</displayunitcount>
+		</card>
+		<card>
+			<name>WOLHCShipFoodCrates1Danish</name>
+			<maxcount>-1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>0</age>
+			<displayunitcount>300</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCShipFoodCrates2Danish</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>WOLHCShipFoodCrates1Danish</prereqtech>
+			<age>1</age>
+			<displayunitcount>600</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCShipFoodCrates3Danish</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>WOLHCShipFoodCrates2Danish</prereqtech>
+			<age>1</age>
+			<displayunitcount>700</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCShipFoodCrates4Danish</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>WOLHCShipFoodCrates3Danish</prereqtech>
+			<age>2</age>
+			<displayunitcount>1000</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCShipWoodCrates1Danish</name>
+			<maxcount>-1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>0</age>
+			<displayunitcount>300</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCShipWoodCrates2Danish</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>WOLHCShipWoodCrates1Danish</prereqtech>
+			<age>1</age>
+			<displayunitcount>600</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCShipWoodCrates3Danish</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>WOLHCShipWoodCrates2Danish</prereqtech>
+			<age>1</age>
+			<displayunitcount>700</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCShipWoodCrates4Danish</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>WOLHCShipWoodCrates3Danish</prereqtech>
+			<age>2</age>
+			<displayunitcount>1000</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCShipCoinCrates1Danish</name>
+			<maxcount>-1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>0</age>
+			<displayunitcount>300</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCShipCoinCrates2Danish</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>WOLHCShipCoinCrates1Danish</prereqtech>
+			<age>1</age>
+			<displayunitcount>600</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCShipCoinCrates3Danish</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>WOLHCShipCoinCrates2Danish</prereqtech>
+			<age>1</age>
+			<displayunitcount>700</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCShipCoinCrates4Danish</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>WOLHCShipCoinCrates3Danish</prereqtech>
+			<age>2</age>
+			<displayunitcount>1000</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCShipSheep1Danish</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>0</age>
+			<displayunitcount>7</displayunitcount>
+		</card>
+		<card>
+			<name>WOLHCShipSheep2Danish</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>WOLHCShipSheep1Danish</prereqtech>
+			<age>2</age>
+			<displayunitcount>15</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCProtestPigs</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>WOLHCShipSheep2Danish</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>WOLHCShipCowsDanish</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>WOLHCShipSheep1Danish</prereqtech>
+			<age>1</age>
+			<displayunitcount>7</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCShipCoveredWagonsDanish</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>2</age>
+			<displayunitcount>1</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCShipSurgeonsDanish</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+			<displayunitcount>3</displayunitcount>
+		</card>
+		<card>
+			<name>WOLHCShipHospitalWagonsDanish</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>WOLHCShipSurgeonsDanish</prereqtech>
+			<age>3</age>
+		</card>
+		<card>
+			<name>WOLHCGreatDaneTeam</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>WOLHCExplorerDanish</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>WOLHCGreatDaneTeam</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>WOLHCShipBalloonsDanish</name>
+			<maxcount>-1</maxcount>
+			<level>10</level>
+			<prereqtech>-1</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>WOLHCAdvancedBalloonDanish</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>WOLHCShipBalloonsDanish</prereqtech>
+			<age>3</age>
+			<displayunitcount>1</displayunitcount>
+		</card>
+		<card>
+			<name>WOLHCShipPetNarwhal</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>0</age>
+			<displayunitcount>2</displayunitcount>
+		</card>
+		<card>
+			<name>WOLHCShipPetPolarBears</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>WOLHCShipPetNarwhal</prereqtech>
+			<age>1</age>
+			<displayunitcount>3</displayunitcount>
+		</card>
+	<!-- Danish Cards, Academy -->
+		<card>
+			<name>WOLHCShipFriskytter1</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+			<displayunitcount>8</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCShipFriskytter2</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>WOLHCShipFriskytter1</prereqtech>
+			<age>2</age>
+			<displayunitcount>10</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCShipFriskytter3</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>WOLHCShipFriskytter2</prereqtech>
+			<age>3</age>
+			<displayunitcount>24</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCShipFriskytter4</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>WOLHCShipFriskytter3</prereqtech>
+			<age>2</age>
+			<displayunitcount>12</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCShipFriskytter5</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>WOLHCShipFriskytter4</prereqtech>
+			<age>3</age>
+			<displayunitcount>20</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCSlavekrigen</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>WOLHCShipFriskytter2</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>WOLHCInfantryDamageTeam</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>WOLHCSlavekrigen</prereqtech>
+			<age>1</age>
+		</card>
+		<!-- card>
+			<name>WOLHCSkiWarfare</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>WOLHCInfantryDamageTeam</prereqtech>
+			<age>1</age>
+		</card -->
+		<card>
+			<name>WOLHCShipPikemen1Danish</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+			<displayunitcount>8</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCShipPikemen2Danish</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>WOLHCShipPikemen1Danish</prereqtech>
+			<age>2</age>
+			<displayunitcount>10</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCShipLineInfantry1Danish</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+			<displayunitcount>9</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCShipLineInfantry2Danish</name>
+			<maxcount>-1</maxcount>
+			<level>0</level>
+			<prereqtech>WOLHCShipLineInfantry1Danish</prereqtech>
+			<age>2</age>
+			<displayunitcount>12</displayunitcount>
+		</card>
+		<card>
+			<name>WOLHCShipLineInfantry3Danish</name>
+			<maxcount>-1</maxcount>
+			<level>10</level>
+			<prereqtech>WOLHCShipLineInfantry2Danish</prereqtech>
+			<age>3</age>
+			<displayunitcount>22</displayunitcount>
+		</card>
+		<card>
+			<name>WOLHCShipLineInfantry4Danish</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>WOLHCShipLineInfantry3Danish</prereqtech>
+			<age>2</age>
+			<displayunitcount>14</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCShipLineInfantry5Danish</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>WOLHCShipLineInfantry4Danish</prereqtech>
+			<age>3</age>
+			<displayunitcount>24</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCKragJorgensen</name>
+			<maxcount>1</maxcount>
+			<level>40</level>
+			<prereqtech>WOLHCShipLineInfantry5Danish</prereqtech>
+			<age>3</age>
+		</card>
+		<card>
+			<name>WOLHCInfantryHitpointsDanish</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>WOLHCShipLineInfantry2Danish</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>WOLHCInfantryCombatDanish</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>WOLHCInfantryHitpointsDanish</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+			<name>WOLHCShipDragoons1Danish</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>2</age>
+			<displayunitcount>5</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCShipDragoons2Danish</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>WOLHCShipDragoons1Danish</prereqtech>
+			<age>3</age>
+			<displayunitcount>8</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCShipDragoons3Danish</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>WOLHCShipDragoons2Danish</prereqtech>
+			<age>2</age>
+			<displayunitcount>6</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCShipDragoonsRepeat</name>
+			<maxcount>-1</maxcount>
+			<level>10</level>
+			<prereqtech>WOLHCShipDragoons3Danish</prereqtech>
+			<age>3</age>
+			<displayunitcount>5</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCRytterfaegtning</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>WOLHCShipDragoons3Danish</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+			<name>WOLHCVanguardCombat</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>WOLHCShipDragoons2Danish</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+			<name>WOLHCShipGrenadiers1Danish</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>2</age>
+			<displayunitcount>8</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCShipGrenadiers2Danish</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>WOLHCShipGrenadiers1Danish</prereqtech>
+			<age>2</age>
+			<displayunitcount>9</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCShipGrenadiers3Danish</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>WOLHCShipGrenadiers2Danish</prereqtech>
+			<age>3</age>
+			<displayunitcount>14</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCShipGrenadiers4Danish</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>WOLHCShipGrenadiers3Danish</prereqtech>
+			<age>3</age>
+			<displayunitcount>16</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCRearguardCombat</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>WOLHCShipGrenadiers2Danish</prereqtech>
+			<age>3</age>
+		</card>
+		<card>
+			<name>WOLHCDanevirke</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>WOLHCShipFalconets2Danish</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>WOLHCDanevirke</prereqtech>
+			<age>3</age>
+			<displayunitcount>2</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCShipFalconets3Danish</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>WOLHCShipFalconets2Danish</prereqtech>
+			<age>2</age>
+			<displayunitcount>2</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCShipCulverins1Danish</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>WOLHCShipFalconets3Danish</prereqtech>
+			<age>3</age>
+			<displayunitcount>2</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<!-- card>
+			<name>WOLHCShipFalconets4Danish</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>WOLHCShipCulverins1Danish</prereqtech>
+			<age>3</age>
+			<displayunitcount>3</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card -->
+		<card>
+			<name>WOLHCCheapArtilleryTeam</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>WOLHCShipFalconets2Danish</prereqtech>
+			<age>3</age>
+		</card>
+		<card>
+			<name>WOLHCEarlyArtilleryTeam</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>WOLHCCheapArtilleryTeam</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>WOLHCShipIngeniorer1</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>-1</prereqtech>
+			<age>3</age>
+			<displayunitcount>10</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCShipIngeniorer2</name>
+			<maxcount>1</maxcount>
+			<level>40</level>
+			<prereqtech>WOLHCShipIngeniorer1</prereqtech>
+			<age>3</age>
+			<displayunitcount>12</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCAdvancedArtilleryDanish</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>3</age>
+		</card>
+		<card>
+			<name>WOLHCShipMortars1Danish</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>3</age>
+			<displayunitcount>2</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCShipEspingoler</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>WOLHCShipMortars1Danish</prereqtech>
+			<age>3</age>
+			<displayunitcount>3</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCShipMortarsTeamDanish</name>
+			<maxcount>1</maxcount>
+			<level>40</level>
+			<prereqtech>WOLHCShipEspingoler</prereqtech>
+			<age>3</age>
+			<displayunitcount>2</displayunitcount>
+		</card>
+		<card>
+			<name>WOLHCShipEspingolerRepeat</name>
+			<maxcount>-1</maxcount>
+			<level>10</level>
+			<prereqtech>WOLHCShipEspingoler</prereqtech>
+			<age>3</age>
+			<displayunitcount>2</displayunitcount>
+		</card>
+	<!-- Danish Cards, Cathedral -->
+		<card>
+			<name>WOLHCEskimology</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>WOLHCThuleExpedition</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>WOLHCEskimology</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>WOLHCSiqqitiq</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>WOLHCThuleExpedition</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+			<name>WOLHCAdvancedTradingPostDanish</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>WOLHCSiqqitiq</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>WOLHCBloodBrothersDanish</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>WOLHCSiqqitiq</prereqtech>
+			<age>3</age>
+		</card>
+		<card>
+			<name>WOLHCFolkeskole</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>-1</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+			<name>HCEngineeringSchoolDanish</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>-1</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+			<name>WOLHCBattlefieldConstructionDanish</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>WOLHCBattlefieldEngineeringDanish</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>WOLHCShipSpies1Danish</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+			<displayunitcount>2</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCShipSpies2Danish</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>WOLHCShipSpies1Danish</prereqtech>
+			<age>2</age>
+			<displayunitcount>4</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCAgentsDanish</name>
+			<maxcount>1</maxcount>
+			<level>40</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>WOLHCFrontierDefensesDanish</name>
+			<maxcount>-1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+			<displayunitcount>2</displayunitcount>
+		</card>
+		<card>
+			<name>WOLHCPioneersDanish</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>WOLHCFrontierDefensesDanish</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>WOLHCImprovedBuildingsDanish</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>WOLHCPioneersDanish</prereqtech>
+			<age>3</age>
+		</card>
+		<card>
+			<name>WOLHCColonialMilitiaDanish</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>WOLHCFrontierDefensesDanish</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>WOLHCUnlockFortDanish</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>2</age>
+			<displayunitcount>1</displayunitcount>
+		</card>
+		<card>
+			<name>WOLHCAdvancedArsenalDanish</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>WOLHCUnlockFortDanish</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>WOLHCUnlockFort2Danish</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>WOLHCAdvancedArsenalDanish</prereqtech>
+			<age>3</age>
+			<displayunitcount>1</displayunitcount>
+		</card>
+		<card>
+			<name>WOLHCTojhus</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>WOLHCAdvancedArsenalDanish</prereqtech>
+			<age>3</age>
+		</card>
+		<card>
+			<name>WOLHCFreePressTeam</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>2</age>
+		</card>
+		<!-- card>
+			<name>WOLHCLandscapePainting</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>WOLHCFreePressTeam</prereqtech>
+			<age>0</age>
+		</card -->
+		<card>
+			<name>WOLHCNeoclassicalArchitecture</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<!-- prereqtech>WOLHCLandscapePainting</prereqtech -->
+			<prereqtech>-1</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+			<name>WOLHCRoyalDecreeDanish</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>WOLHCAdvancedMillDanish</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>WOLHCAdvancedPlantationsDanish</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>-1</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>WOLHCAdvancedMarketDanish</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>WOLHCAdvancedAnchorage</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>-1</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>WOLHCUnlockFactoryDanish</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>3</age>
+			<displayunitcount>1</displayunitcount>
+		</card>
+		<card>
+			<name>WOLHCRobberBaronsDanish</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>WOLHCUnlockFactoryDanish</prereqtech>
+			<age>3</age>
+			<displayunitcount>1</displayunitcount>
+		</card>
+	<!-- Danish Cards, Manufacturing Plant -->
+		<card>
+			<name>WOLHCStonemasonsDanish</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>WOLHCLandGrabDanish</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>WOLHCStonemasonsDanish</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>WOLHCFishMarketDanish</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>WOLHCRenderingPlantDanish</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>WOLHCFishMarketDanish</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>WOLHCSchoonersDanish</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>WOLHCFishMarketDanish</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>WOLHCGrindadrap</name>
+			<maxcount>1</maxcount>
+			<level>40</level>
+			<prereqtech>WOLHCSchoonersDanish</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>WOLHCSawmillsDanish</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>-1</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>WOLHCExoticHardwoodsDanish</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>WOLHCSawmillsDanish</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>WOLHCIronmongerDanish</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>WOLHCSilversmithDanish</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>WOLHCIronmongerDanish</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>WOLHCRoyalMintDanish</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>WOLHCSilversmithDanish</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+			<name>WOLHCSustainableAgricultureDanish</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>WOLHCRefrigerationDanish</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>WOLHCSustainableAgricultureDanish</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+			<name>WOLHCColbertismDanish</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>WOLHCShipFoodCrates4Danish</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>WOLHCStockyardsDanish</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>WOLHCRanchingDanish</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>WOLHCFurrierTeamDanish</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>0</age>
+		</card>
+		<!-- card>
+			<name>WOLHCSpiceTradeDanish</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>WOLHCFurrierTeamDanish</prereqtech>
+			<age>1</age>
+		</card -->
+		<card>
+			<name>WOLHCForagingParties</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>WOLHCFurrierTeamDanish</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>WOLHCEconomicTheoryDanish</name>
+			<maxcount>1</maxcount>
+			<level>40</level>
+			<prereqtech>WOLHCForagingParties</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>WOLHCRumDistilleryDanish</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>WOLHCCigarRollerDanish</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>WOLHCRumDistilleryDanish</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>WOLHCTextileMillsDanish</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>WOLHCCigarRollerDanish</prereqtech>
+			<age>2</age>
+		</card>
+	<!-- Danish Cards, Nyhavn -->
+		<card>
+			<name>WOLHCShipGunboats1</name>
+			<maxcount>-1</maxcount>
+			<level>0</level>
+			<prereqtech>WOLHCNavalCombatDanish</prereqtech>
+			<age>1</age>
+			<displayunitcount>1</displayunitcount>
+		</card>
+		<card>
+			<name>WOLHCShipGunboats2</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>WOLHCShipGunboats1</prereqtech>
+			<age>1</age>
+			<displayunitcount>2</displayunitcount>
+			<infiniteinlastage>2</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCShipGunboats3</name>
+			<maxcount>-1</maxcount>
+			<level>10</level>
+			<prereqtech>WOLHCShipGunboats2</prereqtech>
+			<age>2</age>
+			<displayunitcount>2</displayunitcount>
+		</card>
+		<card>
+			<name>WOLHCShipGunboats4</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>WOLHCShipGunboats3</prereqtech>
+			<age>2</age>
+			<displayunitcount>3</displayunitcount>
+			<infiniteinlastage>4</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCShipGunboats5</name>
+			<maxcount>-1</maxcount>
+			<level>10</level>
+			<prereqtech>WOLHCShipGunboats4</prereqtech>
+			<age>3</age>
+			<displayunitcount>3</displayunitcount>
+		</card>
+		<card>
+			<name>WOLHCShipGunboats6</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>WOLHCShipGunboats5</prereqtech>
+			<age>3</age>
+			<displayunitcount>4</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCGunboatWar</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>WOLHCShipGunboats6</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+			<name>WOLHCShipGalleonsDanish</name>
+			<maxcount>-1</maxcount>
+			<level>0</level>
+			<prereqtech>WOLHCNavalCombatDanish</prereqtech>
+			<age>1</age>
+			<displayunitcount>1</displayunitcount>
+		</card>
+		<card>
+			<name>WOLHCShipMonitorsDanish</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>WOLHCNavalCombatDanish</prereqtech>
+			<age>2</age>
+			<displayunitcount>1</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCNavalCombatDanish</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>WOLHCArcticExpeditions</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+			<name>WOLHCArcticExpeditions</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>WOLHCAdmiralityDanish</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+			<name>WOLHCAdmiralityDanish</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>WOLHCNyboder</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>WOLHCAdvancedAnchorage</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>WOLHCDanceHallDanish</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>WOLHCMercsHausasDanish</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>-1</prereqtech>
+			<age>2</age>
+			<displayunitcount>9</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCMercsFenriksDanish</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>-1</prereqtech>
+			<age>2</age>
+			<displayunitcount>5</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCMercsNordicDanish</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>WOLHCMercsFenriksDanish</prereqtech>
+			<age>3</age>
+			<displayunitcount>12</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCMercsHerfylkinginRepeat</name>
+			<maxcount>-1</maxcount>
+			<level>40</level>
+			<prereqtech>WOLHCMercsNordicDanish</prereqtech>
+			<age>3</age>
+			<displayunitcount>10</displayunitcount>
+		</card>
+		<card>
+			<name>WOLHCMercsBlackRidersDanish</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>2</age>
+			<displayunitcount>7</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCMercsStradiotsDanish</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>-1</prereqtech>
+			<age>2</age>
+			<displayunitcount>6</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCMercsSchutzenDanish</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>WOLHCMercsBlackRidersDanish</prereqtech>
+			<age>2</age>
+			<displayunitcount>10</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCMercsGermanDanish</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>WOLHCMercsSchutzenDanish</prereqtech>
+			<age>3</age>
+			<displayunitcount>14</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCMercsBlackBrunswickersDanish</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>WOLHCMercsBlackRidersDanish</prereqtech>
+			<age>2</age>
+			<displayunitcount>6</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCMercenaryLoyaltyDanish</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>-1</prereqtech>
+			<age>2</age>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCMercsMaximGunsDanish</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>WOLHCMercenaryLoyaltyDanish</prereqtech>
+			<age>3</age>
+			<displayunitcount>4</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCMercsDominicanPardosDanish</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>-1</prereqtech>
+			<age>2</age>
+			<displayunitcount>8</displayunitcount>
+		</card>
+		<card>
+			<name>WOLHCMercsBargisDanish</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>WOLHCMercsDominicanPardosDanish</prereqtech>
+			<age>2</age>
+			<displayunitcount>6</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCShipInuitAlliesRepeat</name>
+			<maxcount>-1</maxcount>
+			<level>40</level>
+			<prereqtech>-1</prereqtech>
+			<age>3</age>
+			<displayunitcount>3</displayunitcount>
+		</card>
+		<card>
+			<name>WOLHCPrivateersDanish</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+			<displayunitcount>2</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCPrivateersTeamDanish</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>WOLHCPrivateersDanish</prereqtech>
+			<age>3</age>
+			<displayunitcount>2</displayunitcount>
+		</card>
+		<card>
+			<name>WOLHCPrivateersRepeatDanish</name>
+			<maxcount>-1</maxcount>
+			<level>40</level>
+			<prereqtech>WOLHCPrivateersTeamDanish</prereqtech>
+			<age>3</age>
+			<displayunitcount>3</displayunitcount>
+		</card>
+		<card>
+			<name>HCREVShipColonialMilitia</name>
+			<maxcount>-1</maxcount>
+			<level>0</level>
+			<prereqtech>XPRevolution</prereqtech>
+			<age>2</age>
+			<displayunitcount>16</displayunitcount>
+			<revoltcard/>
+		</card>
+		<card>
+			<name>HCREVShipGatlingGuns</name>
+			<maxcount>-1</maxcount>
+			<level>0</level>
+			<prereqtech>XPRevolution</prereqtech>
+			<age>2</age>
+			<displayunitcount>2</displayunitcount>
+			<revoltcard/>
+		</card>
+		<card>
+			<name>HCREVShipFortWagon</name>
+			<maxcount>-1</maxcount>
+			<level>0</level>
+			<prereqtech>XPRevolution</prereqtech>
+			<age>2</age>
+			<displayunitcount>1</displayunitcount>
+			<revoltcard/>
+		</card>
+		<card>
+			<name>HCREVShipIronclads</name>
+			<maxcount>-1</maxcount>
+			<level>0</level>
+			<prereqtech>XPRevolution</prereqtech>
+			<age>2</age>
+			<displayunitcount>2</displayunitcount>
+			<revoltcard/>
+		</card>
+		<!-- card>
+			<name>HCXPShipMixedCrates6</name>
+			<maxcount>-1</maxcount>
+			<level>0</level>
+			<prereqtech>XPRevolution</prereqtech>
+			<age>2</age>
+			<displayunitcount>1800</displayunitcount>
+			<revoltcard/>
+		</card -->
+		<card>
+			<name>WOLHCRevolutionaryArmy</name>
+			<maxcount>-1</maxcount>
+			<level>0</level>
+			<prereqtech>XPRevolution</prereqtech>
+			<age>2</age>
+			<revoltcard/>
+		</card>
+	</cards>
+	<decks>
+		<deck>
+			<name>$$41681$$</name>
+			<cards>
+				<card>WOLHCUnlockFactoryDanish</card>
+				<card>WOLHCRobberBaronsDanish</card>
+				<card>WOLHCShipOxCartRepeatTeam</card>
+				<card>WOLHCColbertismDanish</card>
+				<card>WOLHCShipWoodCrates3Danish</card>
+				<card>WOLHCShipWoodCrates2Danish</card>
+				<card>WOLHCShipCoinCrates3Danish</card>
+				<card>WOLHCShipCoinCrates2Danish</card>
+				<card>WOLHCAdvancedArsenalDanish</card>
+				<card>WOLHCInfantryDamageTeam</card>
+				<card>WOLHCInfantryHitpointsDanish</card>
+				<card>WOLHCShipLineInfantry1Danish</card>
+				<card>WOLHCShipFriskytter1</card>
+				<card>WOLHCShipPikemen1Danish</card>
+				<card>WOLHCShipCoinCrates4Danish</card>
+				<card>WOLHCShipWoodCrates4Danish</card>
+				<card>WOLHCShipDragoons3Danish</card>
+				<card>WOLHCVanguardCombat</card>
+				<card>WOLHCShipGrenadiers2Danish</card>
+				<card>WOLHCShipFalconets3Danish</card>
+				<card>WOLHCInfantryCombatDanish</card>
+				<card>WOLHCUnlockFortDanish</card>
+				<card>WOLHCFolkeskole</card>
+				<card>WOLHCRefrigerationDanish</card>
+				<card>WOLHCTojhus</card>
+			</cards>
+		</deck>
+		<revoltdeck>
+			<name>$$45518$$</name>
+			<cards>
+				<card>HCREVShipGatlingGuns</card>
+				<card>HCREVShipColonialMilitia</card>
+				<card>HCREVShipIronclads</card>
+				<card>HCREVShipFortWagon</card>
+				<!-- card>HCXPShipMixedCrates6</card -->
+				<card>WOLHCRevolutionaryArmy</card>
+			</cards>
+		</revoltdeck>
+	</decks>
+	<building>
+		<name>Mansion</name>
+		<visual>
+			<file>british\british estate.xml</file>
+			<bone>bone_estate</bone>
+		</visual>
+		<uix>150</uix>
+		<uiy>200</uiy>
+		<camera>british\british_homecity_estate_camera.cam</camera>
+		<widescreencamera>british\british_homecity_estate_camera.cam</widescreencamera>
+		<unlocklevel>0</unlocklevel>
+		<portrait>ui\home_city\tower_of_london_icon</portrait>
+		<displaynamestringid>28993</displaynamestringid>
+		<rolloverstringid>28994</rolloverstringid>
+		<obtainabletechs/>
+		<activetechs/>
+		<validunits/>
+		<units/>
+		<mercbuilding>1</mercbuilding>
+		<trainbuilding>1</trainbuilding>
+	</building>
+	<building>
+		<name>Market</name>
+		<visual>
+			<file>dutch\dutch_academy.xml</file>
+			<bone>bone_academy</bone>
+		</visual>
+		<uix>250</uix>
+		<uiy>375</uiy>
+		<camera>dutch\dutch_homecity_academy_camera.cam</camera>
+		<widescreencamera>dutch\dutch_homecity_academy_widescreencamera.cam</widescreencamera>
+		<unlocklevel>0</unlocklevel>
+		<portrait>ui\home_city\nw_trading_company_icon</portrait>
+		<displaynamestringid>76351</displaynamestringid>
+		<rolloverstringid>25536</rolloverstringid>
+		<obtainabletechs>
+			<tech x="0.0" y="1.0">WOLHCShipOxCartRepeatTeam</tech>
+			<tech x="1.0" y="1.0">WOLHCShipSettlers1Danish</tech>
+			<tech x="1.0" y="2.0">WOLHCShipSettlers2Danish</tech>
+			<tech x="1.0" y="3.0">WOLHCShipSettlers3Team</tech>
+			<tech x="1.9" y="1.0">WOLHCShipFoodCrates1Danish</tech>
+			<tech x="1.9" y="2.0">WOLHCShipFoodCrates2Danish</tech>
+			<tech x="1.9" y="3.0">WOLHCShipFoodCrates3Danish</tech>
+			<tech x="1.9" y="4.0">WOLHCShipFoodCrates4Danish</tech>
+			<tech x="1.9" y="5.0">WOLHCColbertismDanish</tech>
+			<tech x="2.6" y="1.0">WOLHCShipWoodCrates1Danish</tech>
+			<tech x="2.6" y="2.0">WOLHCShipWoodCrates2Danish</tech>
+			<tech x="2.6" y="3.0">WOLHCShipWoodCrates3Danish</tech>
+			<tech x="2.6" y="4.0">WOLHCShipWoodCrates4Danish</tech>
+			<tech x="3.3" y="1.0">WOLHCShipCoinCrates1Danish</tech>
+			<tech x="3.3" y="2.0">WOLHCShipCoinCrates2Danish</tech>
+			<tech x="3.3" y="3.0">WOLHCShipCoinCrates3Danish</tech>
+			<tech x="3.3" y="4.0">WOLHCShipCoinCrates4Danish</tech>
+			<tech x="4.5" y="1.0">WOLHCShipSheep1Danish</tech>
+			<tech x="4.2" y="2.0">WOLHCShipSheep2Danish</tech>
+			<tech x="4.2" y="3.0">WOLHCProtestPigs</tech>
+			<tech x="4.9" y="2.0">WOLHCShipCowsDanish</tech>
+			<tech x="5.3" y="1.0">WOLHCShipCoveredWagonsDanish</tech>
+			<tech x="5.3" y="4.0">WOLHCShipSurgeonsDanish</tech>
+			<tech x="5.3" y="5.0">WOLHCShipHospitalWagonsDanish</tech>
+			<tech x="6.1" y="1.0">WOLHCGreatDaneTeam</tech>
+			<tech x="6.1" y="2.0">WOLHCExplorerDanish</tech>
+			<tech x="6.1" y="3.0">WOLHCShipBalloonsDanish</tech>
+			<tech x="6.1" y="5.0">WOLHCAdvancedBalloonDanish</tech>
+			<tech x="6.9" y="2.0">WOLHCShipPetNarwhal</tech>
+			<tech x="6.9" y="5.0">WOLHCShipPetPolarBears</tech>
+		</obtainabletechs>
+		<activetechs>
+			<tech x="0.0" y="1.0">WOLHCShipOxCartRepeatTeam</tech>
+			<tech x="1.0" y="1.0">WOLHCShipSettlers1Danish</tech>
+			<tech x="1.0" y="2.0">WOLHCShipSettlers2Danish</tech>
+			<tech x="1.0" y="3.0">WOLHCShipSettlers3Team</tech>
+			<tech x="1.9" y="1.0">WOLHCShipFoodCrates1Danish</tech>
+			<tech x="1.9" y="2.0">WOLHCShipFoodCrates2Danish</tech>
+			<tech x="1.9" y="3.0">WOLHCShipFoodCrates3Danish</tech>
+			<tech x="1.9" y="4.0">WOLHCShipFoodCrates4Danish</tech>
+			<tech x="1.9" y="5.0">WOLHCColbertismDanish</tech>
+			<tech x="2.6" y="1.0">WOLHCShipWoodCrates1Danish</tech>
+			<tech x="2.6" y="2.0">WOLHCShipWoodCrates2Danish</tech>
+			<tech x="2.6" y="3.0">WOLHCShipWoodCrates3Danish</tech>
+			<tech x="2.6" y="4.0">WOLHCShipWoodCrates4Danish</tech>
+			<tech x="3.3" y="1.0">WOLHCShipCoinCrates1Danish</tech>
+			<tech x="3.3" y="2.0">WOLHCShipCoinCrates2Danish</tech>
+			<tech x="3.3" y="3.0">WOLHCShipCoinCrates3Danish</tech>
+			<tech x="3.3" y="4.0">WOLHCShipCoinCrates4Danish</tech>
+			<tech x="4.5" y="1.0">WOLHCShipSheep1Danish</tech>
+			<tech x="4.2" y="2.0">WOLHCShipSheep2Danish</tech>
+			<tech x="4.2" y="3.0">WOLHCProtestPigs</tech>
+			<tech x="4.9" y="2.0">WOLHCShipCowsDanish</tech>
+			<tech x="5.3" y="1.0">WOLHCShipCoveredWagonsDanish</tech>
+			<tech x="5.3" y="4.0">WOLHCShipSurgeonsDanish</tech>
+			<tech x="5.3" y="5.0">WOLHCShipHospitalWagonsDanish</tech>
+			<tech x="6.1" y="1.0">WOLHCGreatDaneTeam</tech>
+			<tech x="6.1" y="2.0">WOLHCExplorerDanish</tech>
+			<tech x="6.1" y="3.0">WOLHCShipBalloonsDanish</tech>
+			<tech x="6.1" y="5.0">WOLHCAdvancedBalloonDanish</tech>
+			<tech x="6.9" y="2.0">WOLHCShipPetNarwhal</tech>
+			<tech x="6.9" y="5.0">WOLHCShipPetPolarBears</tech>
+		</activetechs>
+		<validunits/>
+		<units/>
+		<trainbuilding>1</trainbuilding>
+	</building>
+	<building>
+		<name>Academy</name>
+		<visual>
+			<file>dutch\dutch_academy.xml</file>
+			<bone>bone_plant</bone>
+		</visual>
+		<uix>460</uix>
+		<uiy>125</uiy>
+		<camera>dutch\dutch_homecity_manufacturing_plant_camera.cam</camera>
+		<widescreencamera>dutch\dutch_homecity_plant_widescreencamera.cam</widescreencamera>
+		<unlocklevel>0</unlocklevel>
+		<portrait>ui\home_city\military_academy_icon</portrait>
+		<displaynamestringid>76352</displaynamestringid>
+		<rolloverstringid>25533</rolloverstringid>
+		<obtainabletechs>
+			<tech x="0.0" y="1.0">WOLHCShipFriskytter1</tech>
+			<tech x="0.0" y="2.0">WOLHCShipFriskytter2</tech>
+			<tech x="0.0" y="3.0">WOLHCShipFriskytter3</tech>
+			<tech x="0.0" y="4.0">WOLHCShipFriskytter4</tech>
+			<tech x="0.0" y="5.0">WOLHCShipFriskytter5</tech>
+			<tech x="0.0" y="6.0">HCREVcharge</tech>
+			<tech x="0.7" y="3.0">WOLHCSlavekrigen</tech>
+			<tech x="0.7" y="4.0">WOLHCInfantryDamageTeam</tech>
+			<tech x="0.7" y="1.0">WOLHCShipPikemen1Danish</tech>
+			<tech x="0.7" y="2.0">WOLHCShipPikemen2Danish</tech>
+			<tech x="1.9" y="1.0">WOLHCShipLineInfantry1Danish</tech>
+			<tech x="1.9" y="2.0">WOLHCShipLineInfantry2Danish</tech>
+			<tech x="2.3" y="3.0">WOLHCShipLineInfantry4Danish</tech>
+			<tech x="2.3" y="4.0">WOLHCShipLineInfantry3Danish</tech>
+			<tech x="2.3" y="5.0">WOLHCShipLineInfantry5Danish</tech>
+			<tech x="1.6" y="3.0">WOLHCInfantryHitpointsDanish</tech>
+			<tech x="1.6" y="5.0">WOLHCInfantryCombatDanish</tech>
+			<tech x="3.0" y="1.0">WOLHCShipDragoons1Danish</tech>
+			<tech x="3.0" y="2.0">WOLHCShipDragoons2Danish</tech>
+			<tech x="3.0" y="3.0">WOLHCShipDragoons3Danish</tech>
+			<tech x="3.7" y="4.0">WOLHCShipDragoonsRepeat</tech>
+			<tech x="3.0" y="5.0">WOLHCRytterfaegtning</tech>
+			<tech x="3.7" y="3.0">WOLHCVanguardCombat</tech>
+			<tech x="5.2" y="1.0">WOLHCShipGrenadiers1Danish</tech>
+			<tech x="5.2" y="2.0">WOLHCShipGrenadiers2Danish</tech>
+			<tech x="5.2" y="3.0">WOLHCShipGrenadiers3Danish</tech>
+			<tech x="5.2" y="5.0">WOLHCShipGrenadiers4Danish</tech>
+			<tech x="4.5" y="3.0">WOLHCRearguardCombat</tech>
+			<tech x="6.2" y="1.0">WOLHCDanevirke</tech>
+			<tech x="6.2" y="2.0">WOLHCShipFalconets2Danish</tech>
+			<tech x="5.9" y="3.0">WOLHCShipFalconets3Danish</tech>
+			<tech x="5.9" y="4.0">WOLHCShipCulverins1Danish</tech>
+			<tech x="6.6" y="3.0">WOLHCCheapArtilleryTeam</tech>
+			<tech x="6.6" y="5.0">WOLHCEarlyArtilleryTeam</tech>
+			<tech x="6.2" y="6.0">WOLHCShipIngeniorer1</tech>
+			<tech x="6.2" y="7.0">WOLHCShipIngeniorer2</tech>
+			<tech x="7.0" y="1.0">WOLHCAdvancedArtilleryDanish</tech>
+			<tech x="7.0" y="2.0">WOLHCShipMortars1Danish</tech>
+			<tech x="7.0" y="4.0">WOLHCShipEspingoler</tech>
+			<tech x="7.0" y="7.0">WOLHCShipMortarsTeamDanish</tech>
+			<tech x="7.7" y="4.0">WOLHCShipEspingolerRepeat</tech>
+		</obtainabletechs>
+		<activetechs>
+			<tech x="0.0" y="1.0">WOLHCShipFriskytter1</tech>
+			<tech x="0.0" y="2.0">WOLHCShipFriskytter2</tech>
+			<tech x="0.0" y="3.0">WOLHCShipFriskytter3</tech>
+			<tech x="0.0" y="4.0">WOLHCShipFriskytter4</tech>
+			<tech x="0.0" y="5.0">WOLHCShipFriskytter5</tech>
+			<tech x="0.0" y="6.0">HCREVcharge</tech>
+			<tech x="0.7" y="3.0">WOLHCSlavekrigen</tech>
+			<tech x="0.7" y="4.0">WOLHCInfantryDamageTeam</tech>
+			<tech x="0.7" y="1.0">WOLHCShipPikemen1Danish</tech>
+			<tech x="0.7" y="2.0">WOLHCShipPikemen2Danish</tech>
+			<tech x="1.9" y="1.0">WOLHCShipLineInfantry1Danish</tech>
+			<tech x="1.9" y="2.0">WOLHCShipLineInfantry2Danish</tech>
+			<tech x="2.3" y="3.0">WOLHCShipLineInfantry4Danish</tech>
+			<tech x="2.3" y="4.0">WOLHCShipLineInfantry3Danish</tech>
+			<tech x="2.3" y="5.0">WOLHCShipLineInfantry5Danish</tech>
+			<tech x="1.6" y="3.0">WOLHCInfantryHitpointsDanish</tech>
+			<tech x="1.6" y="5.0">WOLHCInfantryCombatDanish</tech>
+			<tech x="3.0" y="1.0">WOLHCShipDragoons1Danish</tech>
+			<tech x="3.0" y="2.0">WOLHCShipDragoons2Danish</tech>
+			<tech x="3.0" y="3.0">WOLHCShipDragoons3Danish</tech>
+			<tech x="3.7" y="4.0">WOLHCShipDragoonsRepeat</tech>
+			<tech x="3.0" y="5.0">WOLHCRytterfaegtning</tech>
+			<tech x="3.7" y="3.0">WOLHCVanguardCombat</tech>
+			<tech x="5.2" y="1.0">WOLHCShipGrenadiers1Danish</tech>
+			<tech x="5.2" y="2.0">WOLHCShipGrenadiers2Danish</tech>
+			<tech x="5.2" y="3.0">WOLHCShipGrenadiers3Danish</tech>
+			<tech x="5.2" y="5.0">WOLHCShipGrenadiers4Danish</tech>
+			<tech x="4.5" y="3.0">WOLHCRearguardCombat</tech>
+			<tech x="6.2" y="1.0">WOLHCDanevirke</tech>
+			<tech x="6.2" y="2.0">WOLHCShipFalconets2Danish</tech>
+			<tech x="5.9" y="3.0">WOLHCShipFalconets3Danish</tech>
+			<tech x="5.9" y="4.0">WOLHCShipCulverins1Danish</tech>
+			<tech x="6.6" y="3.0">WOLHCCheapArtilleryTeam</tech>
+			<tech x="6.6" y="5.0">WOLHCEarlyArtilleryTeam</tech>
+			<tech x="6.2" y="6.0">WOLHCShipIngeniorer1</tech>
+			<tech x="6.2" y="7.0">WOLHCShipIngeniorer2</tech>
+			<tech x="7.0" y="1.0">WOLHCAdvancedArtilleryDanish</tech>
+			<tech x="7.0" y="2.0">WOLHCShipMortars1Danish</tech>
+			<tech x="7.0" y="4.0">WOLHCShipEspingoler</tech>
+			<tech x="7.0" y="7.0">WOLHCShipMortarsTeamDanish</tech>
+			<tech x="7.7" y="4.0">WOLHCShipEspingolerRepeat</tech>
+		</activetechs>
+		<validunits/>
+		<units/>
+		<trainbuilding>1</trainbuilding>
+	</building>
+	<building>
+		<name>Cathedral</name>
+		<visual>
+			<file>spc\xspc_cathedral.xml</file>
+			<bone>bone_market</bone>
+		</visual>
+		<uix>80</uix>
+		<uiy>475</uiy>
+		<camera>WoL\danish\danish_homecity_plant_camera.cam</camera>
+		<widescreencamera>WoL\danish\danish_homecity_plant_camera.cam</widescreencamera>
+		<unlocklevel>0</unlocklevel>
+		<portrait>ui\home_city\cathedral_icon</portrait>
+		<displaynamestringid>76353</displaynamestringid>
+		<rolloverstringid>25538</rolloverstringid>
+		<obtainabletechs>
+			<tech x="0.0" y="1.0">WOLHCEskimology</tech>
+			<tech x="0.0" y="2.0">WOLHCThuleExpedition</tech>
+			<tech x="0.0" y="5.0">WOLHCAdvancedTradingPostDanish</tech>
+			<tech x="0.8" y="5.0">WOLHCBloodBrothersDanish</tech>
+			<tech x="0.8" y="6.0">WOLHCFolkeskole</tech>
+			<tech x="0.8" y="7.0">HCEngineeringSchoolDanish</tech>
+			<tech x="1.8" y="5.0">WOLHCBattlefieldConstructionDanish</tech>
+			<tech x="1.8" y="6.0">WOLHCBattlefieldEngineeringDanish</tech>
+			<tech x="1.8" y="1.0">WOLHCShipSpies1Danish</tech>
+			<tech x="1.8" y="3.0">WOLHCShipSpies2Danish</tech>
+			<tech x="1.8" y="7.0">WOLHCAgentsDanish</tech>
+			<tech x="2.8" y="1.0">WOLHCFrontierDefensesDanish</tech>
+			<tech x="2.5" y="2.0">WOLHCPioneersDanish</tech>
+			<tech x="2.5" y="3.0">WOLHCImprovedBuildingsDanish</tech>
+			<tech x="3.2" y="2.0">WOLHCColonialMilitiaDanish</tech>
+			<tech x="3.9" y="1.0">WOLHCUnlockFortDanish</tech>
+			<tech x="3.9" y="3.0">WOLHCAdvancedArsenalDanish</tech>
+			<tech x="4.2" y="5.0">WOLHCUnlockFort2Danish</tech>
+			<tech x="3.5" y="4.0">WOLHCTojhus</tech>
+			<tech x="4.6" y="2.0">WOLHCFreePressTeam</tech>
+			<!-- tech x="4.6" y="3.0">WOLHCLandscapePainting</tech -->
+			<tech x="4.6" y="6.0">WOLHCNeoclassicalArchitecture</tech>
+			<tech x="5.3" y="3.0">WOLHCRoyalDecreeDanish</tech>
+			<tech x="6.0" y="1.0">WOLHCAdvancedMillDanish</tech>
+			<tech x="6.0" y="5.0">WOLHCAdvancedPlantationsDanish</tech>
+			<tech x="6.7" y="1.0">WOLHCAdvancedMarketDanish</tech>
+			<tech x="6.7" y="3.0">WOLHCAdvancedAnchorage</tech>
+			<tech x="6.7" y="4.0">WOLHCNyboder</tech>
+			<tech x="7.4" y="1.0">WOLHCUnlockFactoryDanish</tech>
+			<tech x="7.4" y="3.0">WOLHCRobberBaronsDanish</tech>
+		</obtainabletechs>
+		<activetechs>
+			<tech x="0.0" y="1.0">WOLHCEskimology</tech>
+			<tech x="0.0" y="2.0">WOLHCThuleExpedition</tech>
+			<tech x="0.0" y="5.0">WOLHCAdvancedTradingPostDanish</tech>
+			<tech x="0.8" y="5.0">WOLHCBloodBrothersDanish</tech>
+			<tech x="0.8" y="6.0">WOLHCFolkeskole</tech>
+			<tech x="0.8" y="7.0">HCEngineeringSchoolDanish</tech>
+			<tech x="1.8" y="5.0">WOLHCBattlefieldConstructionDanish</tech>
+			<tech x="1.8" y="6.0">WOLHCBattlefieldEngineeringDanish</tech>
+			<tech x="1.8" y="1.0">WOLHCShipSpies1Danish</tech>
+			<tech x="1.8" y="3.0">WOLHCShipSpies2Danish</tech>
+			<tech x="1.8" y="7.0">WOLHCAgentsDanish</tech>
+			<tech x="2.8" y="1.0">WOLHCFrontierDefensesDanish</tech>
+			<tech x="2.5" y="2.0">WOLHCPioneersDanish</tech>
+			<tech x="2.5" y="3.0">WOLHCImprovedBuildingsDanish</tech>
+			<tech x="3.2" y="2.0">WOLHCColonialMilitiaDanish</tech>
+			<tech x="3.9" y="1.0">WOLHCUnlockFortDanish</tech>
+			<tech x="3.9" y="3.0">WOLHCAdvancedArsenalDanish</tech>
+			<tech x="4.2" y="5.0">WOLHCUnlockFort2Danish</tech>
+			<tech x="3.5" y="4.0">WOLHCTojhus</tech>
+			<tech x="4.6" y="2.0">WOLHCFreePressTeam</tech>
+			<!-- tech x="4.6" y="3.0">WOLHCLandscapePainting</tech -->
+			<tech x="4.6" y="6.0">WOLHCNeoclassicalArchitecture</tech>
+			<tech x="5.3" y="3.0">WOLHCRoyalDecreeDanish</tech>
+			<tech x="6.0" y="1.0">WOLHCAdvancedMillDanish</tech>
+			<tech x="6.0" y="5.0">WOLHCAdvancedPlantationsDanish</tech>
+			<tech x="6.7" y="1.0">WOLHCAdvancedMarketDanish</tech>
+			<tech x="6.7" y="3.0">WOLHCAdvancedAnchorage</tech>
+			<tech x="6.7" y="4.0">WOLHCNyboder</tech>
+			<tech x="7.4" y="1.0">WOLHCUnlockFactoryDanish</tech>
+			<tech x="7.4" y="3.0">WOLHCRobberBaronsDanish</tech>
+		</activetechs>
+		<validunits/>
+		<units/>
+		<trainbuilding>1</trainbuilding>
+	</building>
+	<building>
+		<name>ManufacturingPlant</name>
+		<visual>
+			<file>german\german_manufacturingplant.xml</file>
+			<bone>bone_cathedral</bone>
+		</visual>
+		<uix>450</uix>
+		<uiy>275</uiy>
+		<camera>WoL\danish\danish_homecity_cathedral_camera.cam</camera>
+		<widescreencamera>WoL\danish\danish_homecity_cathedral_camera.cam</widescreencamera>
+		<unlocklevel>0</unlocklevel>
+		<portrait>ui\home_city\manufacturing_plant_icon</portrait>
+		<displaynamestringid>76354</displaynamestringid>
+		<rolloverstringid>25535</rolloverstringid>
+		<obtainabletechs>
+			<tech x="0.0" y="3.0">WOLHCStonemasonsDanish</tech>
+			<tech x="0.0" y="5.0">WOLHCLandGrabDanish</tech>
+			<tech x="1.3" y="1.0">WOLHCFishMarketDanish</tech>
+			<tech x="0.9" y="3.0">WOLHCRenderingPlantDanish</tech>
+			<tech x="1.6" y="3.0">WOLHCSchoonersDanish</tech>
+			<tech x="1.6" y="7.0">WOLHCGrindadrap</tech>
+			<tech x="2.5" y="3.0">WOLHCSawmillsDanish</tech>
+			<tech x="2.5" y="5.0">WOLHCExoticHardwoodsDanish</tech>
+			<tech x="3.4" y="1.0">WOLHCIronmongerDanish</tech>
+			<tech x="3.4" y="3.0">WOLHCSilversmithDanish</tech>
+			<tech x="3.4" y="5.0">WOLHCRoyalMintDanish</tech>
+			<tech x="4.3" y="3.0">WOLHCSustainableAgricultureDanish</tech>
+			<tech x="4.3" y="5.0">WOLHCRefrigerationDanish</tech>
+			<tech x="5.2" y="1.0">WOLHCStockyardsDanish</tech>
+			<tech x="5.2" y="2.0">WOLHCRanchingDanish</tech>
+			<tech x="6.1" y="1.0">WOLHCFurrierTeamDanish</tech>
+			<!-- tech x="6.1" y="3.0">WOLHCSpiceTradeDanish</tech -->
+			<!-- <tech x="6.1" y="5.0">WOLHCForagingParties</tech> -->
+			<tech x="6.1" y="7.0">WOLHCEconomicTheoryDanish</tech>
+			<tech x="7.0" y="1.0">WOLHCRumDistilleryDanish</tech>
+			<tech x="7.0" y="2.0">WOLHCCigarRollerDanish</tech>
+			<tech x="7.0" y="3.0">WOLHCTextileMillsDanish</tech>
+		</obtainabletechs>
+		<activetechs>
+			<tech x="0.0" y="3.0">WOLHCStonemasonsDanish</tech>
+			<tech x="0.0" y="5.0">WOLHCLandGrabDanish</tech>
+			<tech x="1.3" y="1.0">WOLHCFishMarketDanish</tech>
+			<tech x="0.9" y="3.0">WOLHCRenderingPlantDanish</tech>
+			<tech x="1.6" y="3.0">WOLHCSchoonersDanish</tech>
+			<tech x="1.6" y="7.0">WOLHCGrindadrap</tech>
+			<tech x="2.5" y="3.0">WOLHCSawmillsDanish</tech>
+			<tech x="2.5" y="5.0">WOLHCExoticHardwoodsDanish</tech>
+			<tech x="3.4" y="1.0">WOLHCIronmongerDanish</tech>
+			<tech x="3.4" y="3.0">WOLHCSilversmithDanish</tech>
+			<tech x="3.4" y="5.0">WOLHCRoyalMintDanish</tech>
+			<tech x="4.3" y="3.0">WOLHCSustainableAgricultureDanish</tech>
+			<tech x="4.3" y="5.0">WOLHCRefrigerationDanish</tech>
+			<tech x="5.2" y="1.0">WOLHCStockyardsDanish</tech>
+			<tech x="5.2" y="2.0">WOLHCRanchingDanish</tech>
+			<tech x="6.1" y="1.0">WOLHCFurrierTeamDanish</tech>
+			<!-- tech x="6.1" y="3.0">WOLHCSpiceTradeDanish</tech -->
+			<!-- <tech x="6.1" y="5.0">WOLHCForagingParties</tech> -->
+			<tech x="6.1" y="7.0">WOLHCEconomicTheoryDanish</tech>
+			<tech x="7.0" y="1.0">WOLHCRumDistilleryDanish</tech>
+			<tech x="7.0" y="2.0">WOLHCCigarRollerDanish</tech>
+			<tech x="7.0" y="3.0">WOLHCTextileMillsDanish</tech>
+		</activetechs>
+		<validunits/>
+		<trainbuilding>1</trainbuilding>
+	</building>
+	<building>
+		<name>Dock</name>
+		<!-- visual>
+			<file>german\german_dock.xml</file>
+			<bone>bone_dock</bone>
+		</visual -->
+		<uix>200</uix>
+		<uiy>250</uiy>
+		<camera>WoL\danish\danish_homecity_dock_camera.cam</camera>
+		<widescreencamera>WoL\danish\danish_homecity_dock_camera.cam</widescreencamera>
+		<unlocklevel>0</unlocklevel>
+		<portrait>ui\home_city\harbor_icon</portrait>
+		<displaynamestringid>76355</displaynamestringid>
+		<rolloverstringid>35746</rolloverstringid>
+		<obtainabletechs>
+			<tech x="1.05" y="1.0">WOLHCAdmiralityDanish</tech>
+			<tech x="1.05" y="2.0">WOLHCArcticExpeditions</tech>
+			<tech x="1.05" y="3.0">WOLHCNavalCombatDanish</tech>
+			<tech x="0.7" y="4.0">WOLHCShipGunboats1</tech>
+			<tech x="0.0" y="4.5">WOLHCShipGunboats2</tech>
+			<tech x="0.7" y="5.0">WOLHCShipGunboats3</tech>
+			<tech x="0.0" y="5.5">WOLHCShipGunboats4</tech>
+			<tech x="0.7" y="6.0">WOLHCShipGunboats5</tech>
+			<tech x="0.0" y="6.5">WOLHCShipGunboats6</tech>
+			<tech x="0.7" y="7.0">WOLHCGunboatWar</tech>
+			<tech x="1.4" y="4.0">WOLHCShipGalleonsDanish</tech>
+			<tech x="2.1" y="4.0">WOLHCShipMonitorsDanish</tech>
+			<tech x="4.9" y="1.0">WOLHCDanceHallDanish</tech>
+			<tech x="3.8" y="3.0">WOLHCMercsHausasDanish</tech>
+			<tech x="3.8" y="4.0">WOLHCMercsFenriksDanish</tech>
+			<tech x="3.8" y="5.0">WOLHCMercsNordicDanish</tech>
+			<tech x="3.8" y="7.0">WOLHCMercsHerfylkinginRepeat</tech>
+			<tech x="4.5" y="4.0">WOLHCMercsSchutzenDanish</tech>
+			<tech x="4.5" y="5.0">WOLHCMercsGermanDanish</tech>
+			<tech x="5.2" y="4.0">WOLHCMercsBlackBrunswickersDanish</tech>
+			<tech x="5.2" y="5.0">WOLHCMercenaryLoyaltyDanish</tech>
+			<tech x="5.2" y="6.0">WOLHCMercsMaximGunsDanish</tech>
+			<tech x="5.9" y="3.0">WOLHCMercsDominicanPardosDanish</tech>
+			<tech x="5.9" y="4.0">WOLHCMercsBargisDanish</tech>
+			<tech x="5.9" y="6.0">HCMercsStradiotsDanish</tech>
+			<tech x="5.2" y="7.0">WOLHCShipInuitAlliesRepeat</tech>
+			<tech x="6.6" y="1.0">WOLHCPrivateersDanish</tech>
+			<tech x="6.6" y="5.0">WOLHCPrivateersTeamDanish</tech>
+			<tech x="6.6" y="7.0">WOLHCPrivateersRepeatDanish</tech>
+		</obtainabletechs>
+		<activetechs>
+			<tech x="1.05" y="1.0">WOLHCAdmiralityDanish</tech>
+			<tech x="1.05" y="2.0">WOLHCArcticExpeditions</tech>
+			<tech x="1.05" y="3.0">WOLHCNavalCombatDanish</tech>
+			<tech x="0.7" y="4.0">WOLHCShipGunboats1</tech>
+			<tech x="0.0" y="4.5">WOLHCShipGunboats2</tech>
+			<tech x="0.7" y="5.0">WOLHCShipGunboats3</tech>
+			<tech x="0.0" y="5.5">WOLHCShipGunboats4</tech>
+			<tech x="0.7" y="6.0">WOLHCShipGunboats5</tech>
+			<tech x="0.0" y="6.5">WOLHCShipGunboats6</tech>
+			<tech x="0.7" y="7.0">WOLHCGunboatWar</tech>
+			<tech x="1.4" y="4.0">WOLHCShipGalleonsDanish</tech>
+			<tech x="2.1" y="4.0">WOLHCShipMonitorsDanish</tech>
+			<tech x="4.9" y="1.0">WOLHCDanceHallDanish</tech>
+			<tech x="3.8" y="3.0">WOLHCMercsHausasDanish</tech>
+			<tech x="3.8" y="4.0">WOLHCMercsFenriksDanish</tech>
+			<tech x="3.8" y="5.0">WOLHCMercsNordicDanish</tech>
+			<tech x="3.8" y="7.0">WOLHCMercsHerfylkinginRepeat</tech>
+			<tech x="4.5" y="4.0">WOLHCMercsSchutzenDanish</tech>
+			<tech x="4.5" y="5.0">WOLHCMercsGermanDanish</tech>
+			<tech x="5.2" y="4.0">WOLHCMercsBlackBrunswickersDanish</tech>
+			<tech x="5.2" y="5.0">WOLHCMercenaryLoyaltyDanish</tech>
+			<tech x="5.2" y="6.0">WOLHCMercsMaximGunsDanish</tech>
+			<tech x="5.9" y="3.0">WOLHCMercsDominicanPardosDanish</tech>
+			<tech x="5.9" y="4.0">WOLHCMercsBargisDanish</tech>
+			<tech x="5.9" y="6.0">HCMercsStradiotsDanish</tech>
+			<tech x="5.2" y="7.0">WOLHCShipInuitAlliesRepeat</tech>
+			<tech x="6.6" y="1.0">WOLHCPrivateersDanish</tech>
+			<tech x="6.6" y="5.0">WOLHCPrivateersTeamDanish</tech>
+			<tech x="6.6" y="7.0">WOLHCPrivateersRepeatDanish</tech>
+		</activetechs>
+		<validunits/>
+		<units/>
+		<trainbuilding>1</trainbuilding>
+	</building>
+	<building>
+		<name>Customization</name>
+		<camera>british\british_homecity_camera.cam</camera>
+		<widescreencamera>british\british_homecity_widescreencamera.cam</widescreencamera>
+		<unlocklevel>0</unlocklevel>
+		<portrait>homecity\buildings_west\dock_icon</portrait>
+		<displaynamestringid>24966</displaynamestringid>
+		<rolloverstringid>25540</rolloverstringid>
+		<customizationbuilding>1</customizationbuilding>
+	</building>
+	<waypoints>
+		<waypoint>
+			<bone>bone_pathnode_01</bone>
+			<exit>1</exit>
+			<vendorentry>1</vendorentry>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode_02</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode_03</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode_04</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode_05</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode_06</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode_07</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode_08</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode_09</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode_10</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode_11</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode_12</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode_14</bone>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode_17</bone>
+			<exit>1</exit>
+			<vendorentry>1</vendorentry>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode_18</bone>
+			<exit>1</exit>
+			<vendorentry>1</vendorentry>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode_19</bone>
+			<exit>1</exit>
+			<vendorentry>1</vendorentry>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode_20</bone>
+			<exit>1</exit>
+			<vendorentry>1</vendorentry>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode_21</bone>
+			<exit>1</exit>
+			<vendorentry>1</vendorentry>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode_22</bone>
+			<exit>1</exit>
+			<vendorentry>1</vendorentry>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode_23</bone>
+			<exit>1</exit>
+			<vendorentry>1</vendorentry>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode_24</bone>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode_25</bone>
+			<exit>1</exit>
+			<vendorentry>1</vendorentry>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode_26</bone>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode_28</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode_29</bone>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode_30</bone>
+			<illreputearea>1</illreputearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode_31</bone>
+			<exit>1</exit>
+			<vendorentry>1</vendorentry>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode_32</bone>
+			<illreputearea>1</illreputearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode_33</bone>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode_34</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode_35</bone>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode_36</bone>
+			<dock>1</dock>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode_37</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_fishing01</bone>
+			<fishingarea>1</fishingarea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_fishing02</bone>
+			<fishingarea>1</fishingarea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_fishing03</bone>
+			<fishingarea>1</fishingarea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_shipment_start</bone>
+			<shipmentstart>1</shipmentstart>
+		</waypoint>
+		<waypoint>
+			<bone>bone_shipment_end</bone>
+			<shipmentend>1</shipmentend>
+		</waypoint>
+		<waypoint>
+			<bone>bone_dregs01</bone>
+			<illreputearea>1</illreputearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_dregs02</bone>
+			<illreputearea>1</illreputearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_dregs03</bone>
+			<illreputearea>1</illreputearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_dregs04</bone>
+			<illreputearea>1</illreputearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_dregs05</bone>
+			<illreputearea>1</illreputearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_dregs06</bone>
+			<illreputearea>1</illreputearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_vendor01</bone>
+			<vendorarea><![CDATA[
+				1>
+			]]></vendorarea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_vendor02</bone>
+			<vendorarea><![CDATA[
+				1>
+			]]></vendorarea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_vendor03</bone>
+			<vendorarea><![CDATA[
+				1>
+			]]></vendorarea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_vendor04</bone>
+			<vendorarea><![CDATA[
+				1>
+			]]></vendorarea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_vendor05</bone>
+			<vendorarea><![CDATA[
+				1>
+			]]></vendorarea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_vendor06</bone>
+			<vendorarea><![CDATA[
+				1>
+			]]></vendorarea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_vendor07</bone>
+			<vendorarea><![CDATA[
+				1>
+			]]></vendorarea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_vendor08</bone>
+			<vendorarea><![CDATA[
+				1>
+			]]></vendorarea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_firework01</bone>
+			<fireworks>1</fireworks>
+		</waypoint>
+		<waypoint>
+			<bone>bone_firework02</bone>
+			<fireworks>1</fireworks>
+		</waypoint>
+		<waypoint>
+			<bone>bone_firework03</bone>
+			<fireworks>1</fireworks>
+		</waypoint>
+		<waypoint>
+			<bone>bone_firework04</bone>
+			<fireworks>1</fireworks>
+		</waypoint>
+		<waypoint>
+			<bone>bone_firework05</bone>
+			<fireworks>1</fireworks>
+		</waypoint>
+		<waypoint>
+			<bone>bone_firework06</bone>
+			<fireworks>1</fireworks>
+		</waypoint>
+	</waypoints>
+	<obtainableprops>
+		<prop>MiddleClassBeefeater</prop>
+		<prop>JackTheRipper</prop>
+		<prop>StageCoachRoyal</prop>
+		<prop>Torchy</prop>
+		<prop>Juggler</prop>
+		<prop>PeasantVendor</prop>
+		<prop>MiddleClassMusician</prop>
+		<prop>MiddleClassPreacher</prop>
+		<prop>PeasantPainter</prop>
+		<prop>redmusketeer</prop>
+		<prop>Drunk</prop>
+		<prop>NiceLady</prop>
+		<prop>PeasantFisherman</prop>
+		<prop>Thug</prop>
+		<prop>UnitChats</prop>
+		<prop>British_AcadProp01</prop>
+		<prop>British_AcadProp02</prop>
+		<prop>British_AcadProp03</prop>
+		<prop>British_AcadProp04</prop>
+		<prop>British_NWTCProp01</prop>
+		<prop>British_NWTCProp02</prop>
+		<prop>British_NWTCProp03</prop>
+		<prop>British_NWTCProp04</prop>
+		<prop>British_NWTCProp05</prop>
+		<prop>British_NWTCProp06</prop>
+		<prop>British_CathProp01</prop>
+		<prop>British_CathProp02</prop>
+		<prop>British_CathProp03</prop>
+		<prop>British_PlantProp01</prop>
+		<prop>British_PlantProp02</prop>
+		<prop>British_PlantProp03</prop>
+		<prop>British_PlantProp04</prop>
+		<prop>British_PlantProp05</prop>
+		<prop>British_PlantProp06</prop>
+		<prop>British_PlantProp07</prop>
+		<prop>British_PlantProp08</prop>
+		<prop>British_DockProp01</prop>
+		<prop>British_DockProp02</prop>
+		<prop>British_DockProp03</prop>
+		<prop>British_DockProp04</prop>
+		<prop active="1">Dutch_AcademyTexture2</prop>
+		<prop active="1">German_CathedralTexture3</prop>
+		<prop active="1">Dutch_DockTexture3</prop>
+		<prop active="1">Dutch_AcademyTexture3</prop>
+		<prop active="1">German_ManuPlantTexture2</prop>
+
+	</obtainableprops>
+</homecity>

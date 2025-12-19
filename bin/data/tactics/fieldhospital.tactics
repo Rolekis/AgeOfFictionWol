@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="69155">Heal</name>
+		<type>Heal</type>
+		<maxrange>20</maxrange>
+		<rate type="LogicalTypeHealed">3.0</rate>
+		<anim>Heal</anim>
+	</action>
+	<action>
+		<name stringid="69155">HealGlobal</name>
+		<type>Heal</type>
+		<maxrange>1000</maxrange>
+		<rate type="LogicalTypeHealed">3.0</rate>
+		<anim>Heal</anim>
+		<active>0</active>
+	</action>
+	<action>
+		<name>Spawn1</name>
+		<type>Spawn</type>
+		<rate type="Surgeon">3.0</rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="69182">SpawnCanadianTrees</name>
+		<type>Maintain</type>
+		<rate type="TreeCanadian">3.0 </rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name>Spawn2</name>
+		<type>Spawn</type>
+		<rate type="Surgeon">5.0</rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>Spawn3</name>
+		<type>Spawn</type>
+		<rate type="Surgeon">8.0</rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="700306">AutoGatherItalianBonus</name>
+		<type>AutoGather</type>
+		<active>0</active>
+		<persistent>1</persistent>
+		<Rate type ='Gold'>0.250001</Rate>
+	</action>
+	<action>
+		<name stringid="48954">GreatHeart</name>
+		<type>AutoRangedModify</type>
+		<active>0</active>
+		<maxrange>30</maxrange>
+		<persistent>1</persistent>
+		<modifytype>MaxHP</modifytype>
+		<modifymultiplier>1.15</modifymultiplier>
+		<modelattachment>effects\ypack_auras\daimyopower.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+	</action>
+	<action>
+		<name stringid="61766">AutoGatherXPNeoclassicalSmall</name>
+		<type>AutoGather</type>
+		<active>0</active>
+		<persistent>1</persistent>
+		<Rate type ='XP'>0.1000</Rate>
+	</action>
+	<tactic>
+		Normal
+		<action>HealGlobal</action>
+		<action>Heal</action>
+		<action>SpawnCanadianTrees</action>
+		<action>Spawn1</action>
+		<action>Spawn2</action>
+		<action>Spawn3</action>
+		<action>AutoGatherItalianBonus</action>
+		<action>GreatHeart</action>
+		<action>AutoGatherXPNeoclassicalSmall</action>
+	</tactic>
+</tactics>

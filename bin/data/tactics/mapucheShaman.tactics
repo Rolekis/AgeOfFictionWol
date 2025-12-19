@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="69148">Discover</name>
+		<type>Discover</type>
+		<anim>Pickup</anim>
+		<maxrange>0.2</maxrange>
+		<active>0</active>
+		<rate type="AbstractNugget">1.0</rate>
+	</action>
+	<action>
+		<name stringid="69155">Heal</name>
+		<type>Heal</type>
+		<maxrange>12</maxrange>
+		<rate type="LogicalTypeHealed">5.0</rate>
+		<anim>Heal</anim>
+	</action>
+	<action>
+		<name stringid="444186">CondemnHeretic</name>
+		<type>Attack</type>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<anim>CondemnHeretic</anim>
+		<reloadanim>CondemnHeretic</reloadanim>
+		<idleanim>Idle</idleanim>
+		<maxheight>0</maxheight>
+		<accuracy>1.0</accuracy>
+		<accuracyreductionfactor>1.5</accuracyreductionfactor>
+		<aimbonus>1</aimbonus>
+		<trackrating>12</trackrating>
+		<impacteffect>War of the Triple Alliance\Units\Priest\holyblow</impacteffect>
+		<minrange>2</minrange>
+		<rate type="Unit">1.0 </rate>
+		<damage>1.000000</damage>
+		<maxrange>10.000000</maxrange>
+		<rof>1.000000</rof>
+		<projectile>InvisibleProjectilenoTracer</projectile>
+		<perfectaccuracy>1</perfectaccuracy>
+		<active>1</active>
+	</action>
+	<action>
+		<name stringid="38134">HandAttack</name>
+		<type>HandAttack</type>
+		<maxrange>1.0</maxrange>
+		<rate type="Unit">1.0 </rate>
+		<attackaction>1</attackaction>
+		<handlogic>1</handlogic>
+		<idleanim>CombatIdle</idleanim>
+		<anim>HandAttack</anim>
+		<impacteffect>effects\impacts\melee</impacteffect>
+	</action>
+	<action>
+		<name stringid="38118">BuildingAttack</name>
+		<type>Attack</type>
+		<maxrange>1.0</maxrange>
+		<rate type="Building">1.0 </rate>
+		<attackaction>1</attackaction>
+		<speedboost>1</speedboost>
+		<handlogic>1</handlogic>
+		<anim>Raze_Attack</anim>
+		<idleanim>Raze_Idle</idleanim>
+		<idleanim>Idle</idleanim>
+		<impacteffect>War of the Triple Alliance\Units\Priest\holyblowBIG</impacteffect>
+	</action>
+	<tactic>
+		Normal
+		<action>Discover</action>
+		<action priority="90">CondemnHeretic</action>
+		<action priority="75">BuildingAttack</action>
+		<action priority="50">Heal</action>
+		<action priority="25">HandAttack</action>
+		<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
+		<autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype>
+		<attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype>
+		<runaway>0</runaway>
+		<autoretarget>1</autoretarget>
+	</tactic>
+</tactics>

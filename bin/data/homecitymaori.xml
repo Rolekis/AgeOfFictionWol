@@ -1,0 +1,1815 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<homecity>
+	<civ>Maori</civ>
+	<name>Parihaka</name>
+	<heroname>Te Rauparaha</heroname>
+	<gatherpointunit>HomeCityGatherFlag</gatherpointunit>
+	<visual>polynesians\maori\parihaka.xml</visual>
+	<watervisual>sioux\sioux_homecity_water.xml</watervisual>
+	<backgroundvisual>polynesians\maori\parihaka_sky.xml</backgroundvisual>
+	<pathdata>sioux\sioux_pathable_area.gr2</pathdata>
+	<camera>sioux\sioux_homecity_camera.cam</camera>
+	<widescreencamera>sioux\sioux_homecity_widescreencamera.cam</widescreencamera>
+	<transportroundtriptime>1</transportroundtriptime>
+	<transportactivationtime>0</transportactivationtime>
+	<level>10</level>
+	<skillpoints>9</skillpoints>
+	<lightset>london</lightset>
+	<watertype>Pacific Coast</watertype>
+	<numpropunlocksearned>0</numpropunlocksearned>
+	<ambientsounds>Will\parihaka_sounds.xml</ambientsounds>
+	<xsai>generic_city</xsai>
+	<coffers>
+		<current>
+			<food>0</food>
+			<wood>0</wood>
+			<gold>0</gold>
+			<fame>0</fame>
+			<ships>0</ships>
+			<skillpoints>0</skillpoints>
+			<xp>0</xp>
+		</current>
+		<maximum>
+			<food>0</food>
+			<wood>0</wood>
+			<gold>0</gold>
+			<fame>0</fame>
+			<ships>0</ships>
+			<skillpoints>-1</skillpoints>
+			<xp>-1</xp>
+		</maximum>
+	</coffers>
+	<cards>
+		
+		<card>
+            <name>HCCard5KiwiAnd4Villagers</name> <!-- 5 Kiwi and 4 Villagers -->
+            <maxcount>1</maxcount>
+            <level>0</level>
+            <prereqtech>-1</prereqtech>
+            <age>0</age>
+            <displayunitcount>400</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+        <card>
+            <name>HCCard4WombatAnd6Villagers</name> <!-- 4 Wombat and 6 Villagers -->
+            <maxcount>1</maxcount>
+            <level>0</level>
+            <prereqtech>HCCard5KiwiAnd4Villagers</prereqtech>
+            <age>1</age>
+            <displayunitcount>800</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+        <card>
+            <name>HCCard10RabbitsAnd9Villagers</name> <!-- 10 Rabbits and 9 Villagers -->
+            <maxcount>1</maxcount>
+            <level>10</level>
+            <prereqtech>HCCard4WombatAnd6Villagers</prereqtech>
+            <age>2</age>
+            <displayunitcount>1200</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+		<card>
+			<name>HCREVcharge</name>
+			<maxcount>2</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+            <name>HCCard5TreeFernAnd4Villagers</name> <!-- 5 Tree Fern and 4 Villagers -->
+            <maxcount>1</maxcount>
+            <level>0</level>
+            <prereqtech>-1</prereqtech>
+            <age>0</age>
+            <displayunitcount>400</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+        <card>
+            <name>HCCard5WhiteGumAnd6Villagers</name> <!-- 5 White Gum and 6 Villagers -->
+            <maxcount>1</maxcount>
+            <level>0</level>
+            <prereqtech>HCCard5TreeFernAnd4Villagers</prereqtech>
+            <age>1</age>
+            <displayunitcount>800</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+        <card>
+            <name>HCCard6EucalyptusAnd9Villagers</name> <!-- 6 Eucalyptus and 9 Villagers -->
+            <maxcount>1</maxcount>
+            <level>10</level>
+            <prereqtech>HCCard5WhiteGumAnd6Villagers</prereqtech>
+            <age>2</age>
+            <displayunitcount>1200</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+		<card>
+            <name>HCCard5MerinoRamsAnd4Villagers</name> <!-- 5 Merino Rams and 4 Villagers -->
+            <maxcount>1</maxcount>
+            <level>0</level>
+            <prereqtech>-1</prereqtech>
+            <age>0</age>
+            <displayunitcount>400</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+        <card>
+            <name>HCCard2GreenstoneMinesAnd6Villagers</name> <!-- 2 Greenstone Mines and 6 Villagers -->
+            <maxcount>1</maxcount>
+            <level>0</level>
+            <prereqtech>HCCard5MerinoRamsAnd4Villagers</prereqtech>
+            <age>1</age>
+            <displayunitcount>800</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+        <card>
+            <name>HCCard2SpermWalesAnd8Dugouts</name> <!-- 2 Sperm Wales and 8 Dugouts -->
+            <maxcount>1</maxcount>
+            <level>10</level>
+            <prereqtech>HCCard2GreenstoneMinesAnd6Villagers</prereqtech>
+            <age>2</age>
+            <displayunitcount>1200</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+		<card>
+            <name>HCCard2PolyVillagers</name> <!-- 2 Poly Villagers -->
+            <maxcount>1</maxcount>
+            <level>0</level>
+            <prereqtech>-1</prereqtech>
+            <age>0</age>
+            <displayunitcount>2</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+        <card>
+            <name>HCCard4PolyVillagers</name> <!-- 4 Poly Villagers -->
+            <maxcount>1</maxcount>
+            <level>0</level>
+            <prereqtech>HCCard2PolyVillagers</prereqtech>
+            <age>1</age>
+            <displayunitcount>4</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+        <card>
+            <name>HCCard3PolyVillagers</name> <!-- 3 Poly Villagers -->
+            <maxcount>1</maxcount>
+            <level>10</level>
+            <prereqtech>HCCard4PolyVillagers</prereqtech>
+            <age>0</age>
+            <displayunitcount>3</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+        <card>
+            <name>HCCard5PolyVillagers</name> <!-- 5 Poly Villagers -->
+            <maxcount>1</maxcount>
+            <level>25</level>
+            <prereqtech>HCCard3PolyVillagers</prereqtech>
+            <age>1</age>
+            <displayunitcount>5</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+		<card>
+            <name>HCCardTEAM4Pigs</name> <!-- TEAM 4 Pigs -->
+            <maxcount>1</maxcount>
+            <level>0</level>
+            <prereqtech>-1</prereqtech>
+            <age>1</age>
+            <displayunitcount>4</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+        <card>
+            <name>HCCard7Pigs</name> <!-- 7 Pigs -->
+            <maxcount>1</maxcount>
+            <level>0</level>
+            <prereqtech>HCCardTEAM4Pigs</prereqtech>
+            <age>2</age>
+            <displayunitcount>7</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+        <card>
+            <name>HCCard15Fowl</name> <!-- 15 Fowl -->
+            <maxcount>1</maxcount>
+            <level>10</level>
+            <prereqtech>HCCard7Pigs</prereqtech>
+            <age>3</age>
+            <displayunitcount>15</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+		 <card>
+            <name>HCCard6Marksmen</name> <!-- 7 marksmen -->
+            <maxcount>1</maxcount>
+            <level>0</level>
+            <prereqtech>-1</prereqtech>
+            <age>1</age>
+            <displayunitcount>7</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+        <card>
+            <name>HCCard5Marksmen</name> <!-- 6 marksmen -->
+            <maxcount>1</maxcount>
+            <level>0</level>
+            <prereqtech>HCCard6Marksmen</prereqtech>
+            <age>1</age>
+            <displayunitcount>16</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+        <card>
+            <name>HCCard10Marksmen</name> <!-- 11 marksmen -->
+            <maxcount>1</maxcount>
+            <level>10</level>
+            <prereqtech>HCCard5Marksmen</prereqtech>
+            <age>2</age>
+            <displayunitcount>11</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+        <card>
+            <name>HCCard9Marksmen</name> <!-- 10 marksmen -->
+            <maxcount>1</maxcount>
+            <level>25</level>
+            <prereqtech>HCCard10Marksmen</prereqtech>
+            <age>2</age>
+            <displayunitcount>10</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+        <card>
+            <name>HCCardNgapuhiForce</name> <!-- Ngapuhi Force -->
+            <maxcount>1</maxcount>
+            <level>25</level>
+            <prereqtech>HCCard9Marksmen</prereqtech>
+            <age>3</age>
+			<displayunitcount>17</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+		<card>
+            <name>HCCard6Spearmen</name> <!-- 7 Spearmen -->
+            <maxcount>1</maxcount>
+            <level>0</level>
+            <prereqtech>-1</prereqtech>
+            <age>1</age>
+            <displayunitcount>7</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+        <card>
+            <name>HCCard5Spearmen</name> <!-- 6 Spearmen -->
+            <maxcount>1</maxcount>
+            <level>0</level>
+            <prereqtech>HCCard6Spearmen</prereqtech>
+            <age>1</age>
+            <displayunitcount>16</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+        <card>
+            <name>HCCard10Spearmen</name> <!-- 11 Spearmen -->
+            <maxcount>1</maxcount>
+            <level>10</level>
+            <prereqtech>HCCard5Spearmen</prereqtech>
+            <age>2</age>
+            <displayunitcount>11</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+        <card>
+            <name>HCCard9Spearmen</name> <!-- 10 Spearmen -->
+            <maxcount>1</maxcount>
+            <level>25</level>
+            <prereqtech>HCCard10Spearmen</prereqtech>
+            <age>2</age>
+            <displayunitcount>10</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+        <card>
+            <name>HCCardNgaiTahuForce</name> <!-- Ngai Tahu Force -->
+            <maxcount>1</maxcount>
+            <level>25</level>
+            <prereqtech>HCCard9Spearmen</prereqtech>
+            <age>3</age>
+			<displayunitcount>17</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+		<card>
+            <name>HCCard6Fighters</name> <!-- 6 Fighters -->
+            <maxcount>1</maxcount>
+            <level>0</level>
+            <prereqtech>-1</prereqtech>
+            <age>1</age>
+            <displayunitcount>6</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+        <card>
+            <name>HCCard5Fighters</name> <!-- 5 Fighters -->
+            <maxcount>1</maxcount>
+            <level>0</level>
+            <prereqtech>HCCard6Fighters</prereqtech>
+            <age>1</age>
+            <displayunitcount>14</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+        <card>
+            <name>HCCard10Fighters</name> <!-- 10 Fighters -->
+            <maxcount>1</maxcount>
+            <level>10</level>
+            <prereqtech>HCCard5Fighters</prereqtech>
+            <age>2</age>
+            <displayunitcount>10</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+        <card>
+            <name>HCCard9Fighters</name> <!-- 9 Fighters -->
+            <maxcount>1</maxcount>
+            <level>25</level>
+            <prereqtech>HCCard10Fighters</prereqtech>
+            <age>2</age>
+            <displayunitcount>9</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+        <card>
+            <name>HCCardTuhoeForce</name> <!-- Tuhoe Force -->
+            <maxcount>1</maxcount>
+            <level>25</level>
+            <prereqtech>HCCard9Fighters</prereqtech>
+            <age>3</age>
+			<displayunitcount>17</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+		<card>
+            <name>HCCard2SappingTeam</name> <!-- 2 Sapping Team -->
+            <maxcount>1</maxcount>
+            <level>0</level>
+            <prereqtech>-1</prereqtech>
+            <age>2</age>
+            <displayunitcount>2</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+        <card>
+            <name>HCCard2StoneThrower</name> <!-- 2 Stone Thrower -->
+            <maxcount>1</maxcount>
+            <level>0</level>
+            <prereqtech>HCCard2SappingTeam</prereqtech>
+            <age>2</age>
+            <displayunitcount>2</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+        <card>
+            <name>HCCard3SappingTeam</name> <!-- 3 Sapping Team -->
+            <maxcount>1</maxcount>
+            <level>10</level>
+            <prereqtech>HCCard2StoneThrower</prereqtech>
+            <age>3</age>
+            <displayunitcount>3</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+        <card>
+            <name>HCCard3StoneThrower</name> <!-- 3 Stone Thrower -->
+            <maxcount>1</maxcount>
+            <level>25</level>
+            <prereqtech>HCCard3SappingTeam</prereqtech>
+            <age>3</age>
+            <displayunitcount>3</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+		<card>
+            <name>HCCard5Spies</name> <!-- 2 Spies -->
+            <maxcount>1</maxcount>
+            <level>0</level>
+            <prereqtech>-1</prereqtech>
+            <age>1</age>
+            <displayunitcount>2</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+        <card>
+            <name>HCCard7Spies</name> <!-- 4 Spies -->
+            <maxcount>1</maxcount>
+            <level>10</level>
+            <prereqtech>HCCard5Spies</prereqtech>
+            <age>2</age>
+            <displayunitcount>4</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+		<card>
+            <name>HCCard8SharktoothSpearman</name> <!-- 8 Sharktooth Spearman -->
+            <maxcount>1</maxcount>
+            <level>0</level>
+            <prereqtech>HCCard5Kupapa</prereqtech>
+            <age>2</age>
+            <displayunitcount>8</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+        <card>
+            <name>HCCard9Kupapa</name> <!-- 9 Kupapa -->
+            <maxcount>1</maxcount>
+            <level>10</level>
+            <prereqtech>-1</prereqtech>
+            <age>2</age>
+            <displayunitcount>9</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+        <card>
+            <name>HCCard11SharktoothSpearman</name> <!-- 11 Sharktooth Spearman -->
+            <maxcount>1</maxcount>
+            <level>25</level>
+            <prereqtech>HCCard9Kupapa</prereqtech>
+            <age>3</age>
+            <displayunitcount>11</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+		<card>
+            <name>HCCard5Kupapa</name> <!-- 5 Kupapa -->
+            <maxcount>1</maxcount>
+            <level>0</level>
+            <prereqtech>-1</prereqtech>
+            <age>1</age>
+            <displayunitcount>5</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+        <card>
+            <name>HCCard5Kolos</name> <!-- 8 Kolos -->
+            <maxcount>1</maxcount>
+            <level>0</level>
+            <prereqtech>HCCard5Kupapa</prereqtech>
+            <age>1</age>
+            <displayunitcount>5</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+        <card>
+            <name>HCCard4FitaFita</name> <!-- 4 Fita Fita -->
+            <maxcount>1</maxcount>
+            <level>10</level>
+            <prereqtech>HCCard5Kolos</prereqtech>
+            <age>2</age>
+            <displayunitcount>4</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+        <card>
+            <name>HCCard7FitaFita</name> <!-- 7 Fita Fita -->
+            <maxcount>1</maxcount>
+            <level>25</level>
+            <prereqtech>HCCard4FitaFita</prereqtech>	
+            <age>3</age>
+            <displayunitcount>7</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+        <card>
+            <name>HCCard10KolosInfinite</name> <!-- 6 Kolos infinite -->
+            <maxcount>-1</maxcount>
+            <level>25</level>
+            <prereqtech>HCCard7FitaFita</prereqtech>
+            <age>3</age>
+            <displayunitcount>16</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+        <card>
+            <name>HCCard8Mutineers</name> <!-- 8 Mutineers -->
+            <maxcount>1</maxcount>
+            <level>0</level>
+            <prereqtech>HCCard5Kupapa</prereqtech>
+            <age>2</age>
+            <displayunitcount>8</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+        <card>
+            <name>HCCard9Mutineers</name> <!-- 9 Mutineers -->
+            <maxcount>1</maxcount>
+            <level>10</level>
+            <prereqtech>HCCard8Mutineers</prereqtech>
+            <age>3</age>
+            <displayunitcount>9</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+		<card>
+            <name>HCCard5Fenriks</name> <!-- 5 Fenriks -->
+            <maxcount>1</maxcount>
+            <level>0</level>
+            <prereqtech>-1</prereqtech>
+            <age>2</age>
+            <displayunitcount>5</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+        <card>
+            <name>HCCard6Fenriks</name> <!-- 6 Fenriks -->
+            <maxcount>1</maxcount>
+            <level>10</level>
+            <prereqtech>HCCard5Fenriks</prereqtech>
+            <age>3</age>
+            <displayunitcount>6</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+		<card>
+            <name>HCCard1Howitzer</name> <!-- 1 Howitzer -->
+            <maxcount>1</maxcount>
+            <level>10</level>
+            <prereqtech>HCCard6Redcoats</prereqtech>
+            <age>3</age>
+            <displayunitcount>1</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+        <card>
+            <name>HCCard2Howitzer</name> <!-- 2 Howitzer -->
+            <maxcount>1</maxcount>
+            <level>25</level>
+            <prereqtech>HCCard1Howitzer</prereqtech>
+            <age>3</age>
+            <displayunitcount>2</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+		<card>
+            <name>HCCard4Highlanders</name> <!-- 4 Highlanders -->
+            <maxcount>1</maxcount>
+            <level>0</level>
+            <prereqtech>-1</prereqtech>
+            <age>2</age>
+            <displayunitcount>14</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+        <card>
+            <name>HCCard6Redcoats</name> <!-- 6 Redcoats -->
+            <maxcount>1</maxcount>
+            <level>0</level>
+            <prereqtech>HCCard4Highlanders</prereqtech>
+            <age>1</age>
+            <displayunitcount>6</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+        <card>
+            <name>HCCard6Highlanders</name> <!-- 6 Highlanders -->
+            <maxcount>1</maxcount>
+            <level>10</level>
+            <prereqtech>HCCard6Redcoats</prereqtech>
+            <age>3</age>
+            <displayunitcount>6</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+        <card>
+            <name>HCCard10Redcoats</name> <!-- 10 Redcoats -->
+            <maxcount>1</maxcount>
+            <level>25</level>
+            <prereqtech>HCCard6Highlanders</prereqtech>
+            <age>2</age>
+            <displayunitcount>10</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+        <card>
+            <name>HCCardBritishExpeditionaryForce</name> <!-- British Expeditionary Force -->
+            <maxcount>1</maxcount>
+            <level>40</level>
+            <prereqtech>HCCard10Redcoats</prereqtech>
+            <age>3</age>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+        <card>
+            <name>HCCard6ChineseMiner</name> <!-- 6 Chinese Miner -->
+            <maxcount>1</maxcount>
+            <level>0</level>
+            <prereqtech>-1</prereqtech>
+            <age>2</age>
+            <displayunitcount>6</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+        <card>
+            <name>HCCard9ChineseMiner</name> <!-- 9 Chinese Miner -->
+            <maxcount>1</maxcount>
+            <level>10</level>
+            <prereqtech>HCCard6ChineseMiner</prereqtech>
+            <age>3</age>
+            <displayunitcount>9</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+        <card>
+            <name>HCCard12ChineseMinerInfinite</name> <!-- 7 Chinese Miner infinite -->
+            <maxcount>-1</maxcount>
+            <level>40</level>
+            <prereqtech>HCCard9ChineseMiner</prereqtech>
+            <age>3</age>
+            <displayunitcount>7</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+		
+		
+		
+		
+		
+		<card>
+            <name>HCCardNavigators</name>
+            <maxcount>1</maxcount>
+            <level>0</level>
+            <prereqtech>-1</prereqtech>
+            <age>0</age>
+        </card>
+        <card>
+            <name>HCCardCelestialNavigation</name>
+            <maxcount>1</maxcount>
+            <level>10</level>
+            <prereqtech>HCCardNavigators</prereqtech>
+            <age>1</age>
+        </card>
+        <card>
+            <name>HCCardStickChart</name>
+            <maxcount>1</maxcount>
+            <level>10</level>
+            <prereqtech>HCCardCelestialNavigation</prereqtech>
+            <age>2</age>
+        </card>
+        <card>
+            <name>HCCardTaurapa</name>
+            <maxcount>1</maxcount>
+            <level>25</level>
+            <prereqtech>HCCard4Wakas</prereqtech>
+            <age>2</age>
+        </card>
+        <card>
+            <name>HCCardWhaleboneCarving</name>
+            <maxcount>1</maxcount>
+            <level>0</level>
+            <prereqtech>-1</prereqtech>
+            <age>1</age>
+        </card>
+        <card>
+            <name>HCCheapDocksTeam</name>
+            <maxcount>1</maxcount>
+            <level>0</level>
+            <prereqtech>-1</prereqtech>
+            <age>0</age>
+        </card>
+        <card>
+            <name>HCCardAdvancedFreePort</name>
+            <maxcount>1</maxcount>
+            <level>0</level>
+            <prereqtech>HCCheapDocksTeam</prereqtech>
+            <age>2</age>
+        </card>
+        <card>
+            <name>HCCardBeachcombing</name>
+            <maxcount>1</maxcount>
+            <level>10</level>
+            <prereqtech>-1</prereqtech>
+            <age>0</age>
+        </card>
+        <card>
+            <name>HCCardSwellNavigation</name>
+            <maxcount>1</maxcount>
+            <level>25</level>
+            <prereqtech>-1</prereqtech>
+            <age>0</age>
+        </card>
+        <card>
+            <name>HCCardRangioraVoyage</name>
+            <maxcount>1</maxcount>
+            <level>0</level>
+            <prereqtech>-1</prereqtech>
+            <age>1</age>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+        <card>
+            <name>HCCardKupeVoyage</name>
+            <maxcount>1</maxcount>
+            <level>0</level>
+            <prereqtech>HCCardRangioraVoyage</prereqtech>
+            <age>3</age>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+        <card>
+            <name>HCCardChanthamInvasion</name> 
+            <maxcount>1</maxcount>
+            <level>10</level>
+            <prereqtech>HCCardKupeVoyage</prereqtech>
+            <age>3</age>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+        <card>
+            <name>ypHCImprovedBuildings</name>
+            <maxcount>1</maxcount>
+            <level>0</level>
+            <prereqtech>HCCardIntertribalFighting</prereqtech>
+            <age>3</age>
+        </card>
+        <card>
+            <name>HCExtensiveFortifications</name>
+            <maxcount>1</maxcount>
+            <level>10</level>
+            <prereqtech>ypHCImprovedBuildings</prereqtech>
+            <age>1</age>
+        </card>
+        <card>
+            <name>HCCardBattleOfGatePa</name>
+            <maxcount>1</maxcount>
+            <level>25</level>
+            <prereqtech>-1</prereqtech>
+            <age>3</age>
+        </card>
+        <card>
+            <name>HCCardRuapekapekaPa</name>
+            <maxcount>1</maxcount>
+            <level>25</level>
+            <prereqtech>HCCardBattleOfGatePa</prereqtech>
+            <age>2</age>
+        </card>
+        <card>
+            <name>HCCardIntertribalFighting</name>
+            <maxcount>1</maxcount>
+            <level>0</level>
+            <prereqtech>-1</prereqtech>
+            <age>1</age>
+        </card>
+        <card>
+            <name>HCCardTuwatawata</name>
+            <maxcount>1</maxcount>
+            <level>0</level>
+            <prereqtech>HCCardIntertribalFighting</prereqtech>
+            <age>1</age>
+        </card>
+        <card>
+            <name>HCCardBattlefieldConstructionPOLY</name>
+            <maxcount>1</maxcount>
+            <level>10</level>
+            <prereqtech>HCCardTuwatawata</prereqtech>
+            <age>1</age>
+        </card>
+        <card>
+            <name>HCCardLandWars</name>
+            <maxcount>1</maxcount>
+            <level>25</level>
+            <prereqtech>HCCardBattlefieldConstructionPOLY</prereqtech>
+            <age>3</age>
+        </card>
+        <card>
+            <name>HCCardKingitanga</name>
+            <maxcount>1</maxcount>
+            <level>0</level>
+            <prereqtech>-1</prereqtech>
+            <age>2</age>
+        </card>
+        <card>
+            <name>HCCardRangatiratanga</name>
+            <maxcount>1</maxcount>
+            <level>10</level>
+            <prereqtech>HCCardKingitanga</prereqtech>
+            <age>1</age>
+        </card>		
+		<card>
+            <name>HCCardOralTradition</name> <!-- Oral Tradition -->
+            <maxcount>1</maxcount>
+            <level>0</level>
+            <prereqtech>-1</prereqtech>
+            <age>1</age>
+        </card>
+        <card>
+            <name>HCCardTaranakiWar</name> <!-- Taranaki War -->
+            <maxcount>1</maxcount>
+            <level>0</level>
+            <prereqtech>HCCardOralTradition</prereqtech>
+            <age>1</age>
+        </card>
+        <card>
+            <name>HCCardWhakapapa</name> <!-- Whakapapa -->
+            <maxcount>1</maxcount>
+            <level>10</level>
+            <prereqtech>HCCardTaranakiWar</prereqtech>
+            <age>3</age>
+        </card>
+        <card>
+            <name>HCCardWhangai</name> <!-- Whangai -->
+            <maxcount>1</maxcount>
+            <level>25</level>
+            <prereqtech>HCCardWhakapapa</prereqtech>
+            <age>2</age>
+        </card>
+        <card>
+            <name>HCCardTaMoko</name> <!-- Ta Moko -->
+            <maxcount>1</maxcount>
+            <level>0</level>
+            <prereqtech>HCCardOralTradition</prereqtech>
+            <age>1</age>
+        </card>
+        <card>
+            <name>HCCardKapaHaka</name> <!-- Kapa Haka -->
+            <maxcount>1</maxcount>
+            <level>10</level>
+            <prereqtech>HCCardWhakapapa</prereqtech>
+            <age>1</age>
+        </card>
+        <card>
+            <name>HCCardFirePerformance</name> <!-- Fire Performance -->
+            <maxcount>1</maxcount>
+            <level>25</level>
+            <prereqtech>HCCardKapaHaka</prereqtech>
+            <age>2</age>
+        </card>
+        <card>
+            <name>HCCardTapu</name> <!-- Tapu -->
+            <maxcount>1</maxcount>
+            <level>0</level>
+            <prereqtech>-1</prereqtech>
+            <age>1</age>
+        </card>
+        <card>
+            <name>HCCardSennit</name> <!-- Sennit -->
+            <maxcount>1</maxcount>
+            <level>0</level>
+            <prereqtech>HCCardTapu</prereqtech>
+			<displayunitcount>300</displayunitcount>
+            <age>1</age>
+        </card>
+        <card>
+            <name>HCCardKarakia</name> <!-- Karakia -->
+            <maxcount>1</maxcount>
+            <level>10</level>
+            <prereqtech>HCCardSennit</prereqtech>
+            <age>1</age>
+        </card>
+        <card>
+            <name>HCCardOldWaysMAO</name> <!-- Old Ways MAO -->
+            <maxcount>1</maxcount>
+            <level>25</level>
+            <prereqtech>-1</prereqtech>
+            <age>1</age>
+        </card>
+        <card>
+            <name>HCCardHui</name> <!-- Hui -->
+            <maxcount>1</maxcount>
+            <level>25</level>
+            <prereqtech>HCCardOldWaysMAO</prereqtech>
+            <age>1</age>
+        </card>
+        <card>
+            <name>HCCardKaumatua</name> <!-- Kaumatua -->
+            <maxcount>1</maxcount>
+            <level>10</level>
+            <prereqtech>HCCardRatanaPa</prereqtech>
+            <age>1</age>
+        </card>
+        <card>
+            <name>HCCardPaiMarire</name> <!-- Pai Marire -->
+            <maxcount>1</maxcount>
+            <level>0</level>
+            <prereqtech>HCCardTapu</prereqtech>
+            <age>1</age>
+        </card>
+        <card>
+            <name>HCCardPouwhenua</name> <!-- Pouwhenua -->
+            <maxcount>1</maxcount>
+            <level>0</level>
+            <prereqtech>-1</prereqtech>
+            <age>3</age>
+        </card>
+        <card>
+            <name>HCCardRatanaPa</name> <!-- Ratana Pa -->
+            <maxcount>1</maxcount>
+            <level>10</level>
+            <prereqtech>HCCardPaiMarire</prereqtech>
+            <age>1</age>
+        </card>
+        <card>
+            <name>HCCardTitiTorea</name> <!-- Titi Torea -->
+            <maxcount>1</maxcount>
+            <level>25</level>
+            <prereqtech>HCCardRatanaPa</prereqtech>
+            <age>0</age>
+        </card>
+        <card>
+            <name>HCCardHawaiki</name> <!-- Hawaiki -->
+            <maxcount>1</maxcount>
+            <level>25</level>
+            <prereqtech>-1</prereqtech>
+            <age>0</age>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+        <card>
+            <name>HCCardKoha</name> <!-- Koha -->
+            <maxcount>1</maxcount>
+            <level>25</level>
+            <prereqtech>-1</prereqtech>
+            <age>0</age>
+        </card>
+        <card>
+            <name>HCCardPakoheAdzes</name> <!-- Pakohe Adzes -->
+            <maxcount>1</maxcount>
+            <level>25</level>
+            <prereqtech>-1</prereqtech>
+            <age>1</age>
+        </card>
+        <card>
+            <name>HCCardKuri</name> <!-- Kuri -->
+            <maxcount>1</maxcount>
+            <level>25</level>
+            <prereqtech>-1</prereqtech>
+            <age>0</age>
+        </card>
+        <card>
+            <name>HCCardHorticulture</name> <!-- Horticulture -->
+            <maxcount>1</maxcount>
+            <level>0</level>
+            <prereqtech>-1</prereqtech>
+            <age>1</age>
+        </card>
+        <card>
+            <name>HCCardEuropeanCrops</name> <!-- European Crops -->
+            <maxcount>1</maxcount>
+            <level>10</level>
+            <prereqtech>HCCardHorticulture</prereqtech>
+            <age>2</age>
+        </card>
+        <card>
+            <name>HCAdvancedMarket</name> <!-- ADVANCED Market -->
+            <maxcount>1</maxcount>
+            <level>0</level>
+            <prereqtech>-1</prereqtech>
+            <age>0</age>
+        </card>
+        <card>
+            <name>HCCard1KumaraFieldPorter</name> <!-- 1 Kumara Field Porter -->
+            <maxcount>1</maxcount>
+            <level>0</level>
+            <prereqtech>HCCardHorticulture</prereqtech>
+            <age>1</age>
+            <displayunitcount>1</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+        <card>
+            <name>HCCard1KumaraFieldPorterIII</name> <!-- 1 Kumara Field Porter III -->
+            <maxcount>1</maxcount>
+            <level>10</level>
+            <prereqtech>HCCard1KumaraFieldPorter</prereqtech>
+            <age>2</age>
+            <displayunitcount>2</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+        <card>
+            <name>HCCardFlaxWeaving</name> <!-- Flax Weaving -->
+            <maxcount>1</maxcount>
+            <level>25</level>
+            <prereqtech>-1</prereqtech>
+            <age>0</age>
+        </card>
+        <card>
+            <name>HCCardScents</name> <!-- Scents -->
+            <maxcount>1</maxcount>
+            <level>0</level>
+            <prereqtech>-1</prereqtech>
+            <age>1</age>
+        </card>
+        <card>
+            <name>HCCardMonoiOil</name> <!-- Monoi Oil -->
+            <maxcount>1</maxcount>
+            <level>0</level>
+            <prereqtech>HCCardScents</prereqtech>
+            <age>2</age>
+        </card>
+        <card>
+            <name>HCCardElNinoCycle</name> <!-- El Nino Cycle -->
+            <maxcount>1</maxcount>
+            <level>10</level>
+            <prereqtech>HCCardMonoiOil</prereqtech>
+            <age>2</age>
+        </card>
+        <card>
+            <name>HCCardRaiStones</name> <!-- Rai Stones -->
+            <maxcount>1</maxcount>
+            <level>25</level>
+            <prereqtech>-1</prereqtech>
+            <age>0</age>
+        </card>
+        <card>
+            <name>HCCardBankOfAotearoa</name> <!-- Bank of Aotearoa -->
+            <maxcount>1</maxcount>
+            <level>25</level>
+            <prereqtech>-1</prereqtech>
+            <age>1</age>
+        </card>
+        <card>
+            <name>HCCardMAOMissionarySociety</name> <!-- MAO Missionary Society -->
+            <maxcount>1</maxcount>
+            <level>0</level>
+            <prereqtech>-1</prereqtech>
+            <age>1</age>
+        </card>
+        <card>
+            <name>HCCardPOLYNewWays</name> <!-- POLY New Ways -->
+            <maxcount>1</maxcount>
+            <level>0</level>
+            <prereqtech>HCCardMAOMissionarySociety</prereqtech>
+            <age>2</age>
+        </card>
+        <card>
+            <name>HCCardAkaroaSettlement</name> <!-- akaroa Settlement -->
+            <maxcount>1</maxcount>
+            <level>0</level>
+            <prereqtech>HCCardMAOMissionarySociety</prereqtech>
+            <age>2</age>
+        </card>
+        <card>
+            <name>HCCardPolynesianSociety</name> <!-- Polynesian Society -->
+            <maxcount>1</maxcount>
+            <level>25</level>
+            <prereqtech>HCCardAkaroaSettlement</prereqtech>
+            <age>2</age>
+        </card>
+        <card>
+            <name>HCCardNewZealandCompany</name> <!-- New Zealand Company -->
+            <maxcount>1</maxcount>
+            <level>0</level>
+            <prereqtech>-1</prereqtech>
+            <age>0</age>
+        </card>
+        <card>
+            <name>HCCardGeologicalSurvey</name> <!-- Geological Survey -->
+            <maxcount>1</maxcount>
+            <level>0</level>
+            <prereqtech>HCCardNewZealandCompany</prereqtech>
+            <age>1</age>
+        </card>
+        <card>
+            <name>HCCardTobaccoTrade</name> <!-- Tobacco Trade -->
+            <maxcount>1</maxcount>
+            <level>10</level>
+            <prereqtech>HCCardGeologicalSurvey</prereqtech>
+            <age>2</age>
+        </card>
+        <card>
+            <name>HCCardCameronBlockhouse100Wood</name> <!-- Cameron Blockhouse 100 Wood -->
+            <maxcount>1</maxcount>
+            <level>25</level>
+            <prereqtech>-1</prereqtech>
+            <age>1</age>
+            <displayunitcount>100</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+        <card>
+            <name>HCCardDogTaxWar</name> <!-- Dog Tax War -->
+            <maxcount>1</maxcount>
+            <level>40</level>
+            <prereqtech>-1</prereqtech>
+            <age>0</age>
+        </card>
+        <card>
+            <name>HCCardTEAMNorsewood</name> <!-- TEAM Norsewood -->
+            <maxcount>1</maxcount>
+            <level>25</level>
+            <prereqtech>HCCard6Fenriks</prereqtech>
+            <age>1</age>
+        </card>
+        <card>
+            <name>HCCardPakehaMaori</name> <!-- Pakeha Maori -->
+            <maxcount>1</maxcount>
+            <level>0</level>
+            <prereqtech>-1</prereqtech>
+            <age>1</age>
+        </card>
+        
+        <card>
+            <name>HCCardInvasionOfWaikato</name> <!-- Invasion of Waikato -->
+            <maxcount>1</maxcount>
+            <level>40</level>
+            <prereqtech>-1</prereqtech>
+            <age>3</age>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+        <card>
+            <name>HCCardADVANCEDMusket</name> <!-- ADVANCED Musket -->
+            <maxcount>1</maxcount>
+            <level>0</level>
+            <prereqtech>HCCard6Marksmen</prereqtech>
+            <age>2</age>
+        </card>
+        <card>
+            <name>HCCardMusketWars</name> <!-- Musket Wars -->
+            <maxcount>1</maxcount>
+            <level>10</level>
+            <prereqtech>HCCardADVANCEDMusket</prereqtech>
+            <age>2</age>
+        </card>
+        <card>
+            <name>HCCardADVANCEDTupara</name> <!-- ADVANCED Tupara -->
+            <maxcount>1</maxcount>
+            <level>0</level>
+            <prereqtech>HCCard6Marksmen</prereqtech>
+            <age>2</age>
+        </card>
+        <card>
+            <name>HCCardFlagstaffWar</name> <!-- Flagstaff War -->
+            <maxcount>1</maxcount>
+            <level>10</level>
+            <prereqtech>HCCardADVANCEDTupara</prereqtech>
+            <age>2</age>
+        </card>
+        <card>
+            <name>HCCardADVANCEDTaiaha</name> <!-- ADVANCED Taiaha -->
+            <maxcount>1</maxcount>
+            <level>0</level>
+            <prereqtech>HCCard6Spearmen</prereqtech>
+            <age>2</age>
+        </card>
+        <card>
+            <name>HCCardMauRakau</name> <!-- Mau Rakau -->
+            <maxcount>1</maxcount>
+            <level>25</level>
+            <prereqtech>-1</prereqtech>
+            <age>1</age>
+        </card>
+        <card>
+            <name>HCCardADVANCEDTewhatewha</name> <!-- ADVANCED Tewhatewha -->
+            <maxcount>1</maxcount>
+            <level>0</level>
+            <prereqtech>HCCard6Spearmen</prereqtech>
+            <age>2</age>
+        </card>
+        <card>
+            <name>HCCardADVANCEDMere</name> <!-- ADVANCED Mere -->
+            <maxcount>1</maxcount>
+            <level>0</level>
+            <prereqtech>HCCard6Fighters</prereqtech>
+            <age>2</age>
+        </card>
+        <card>
+            <name>HCCardTEAMPounamu</name> <!-- TEAM TEAM Pounamu -->
+            <maxcount>1</maxcount>
+            <level>10</level>
+            <prereqtech>HCCardADVANCEDMere</prereqtech>
+            <age>1</age>
+        </card>
+        <card>
+            <name>HCCardADVANCEDHoeroa</name> <!-- ADVANCED Hoeroa -->
+            <maxcount>1</maxcount>
+            <level>0</level>
+            <prereqtech>HCCard6Fighters</prereqtech>
+            <age>2</age>
+        </card>
+        <card>
+            <name>HCCardMokomokai</name> <!-- Mokomokai -->
+            <maxcount>1</maxcount>
+            <level>25</level>
+            <prereqtech>HCCardADVANCEDHoeroa</prereqtech>
+            <age>0</age>
+        </card>
+		<card>
+            <name>HCCard3DugoutCanoes</name>
+            <maxcount>1</maxcount>
+            <level>0</level>
+            <prereqtech>-1</prereqtech>
+            <age>0</age>
+            <displayunitcount>3</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+		<card>
+            <name>HCCard4DugoutCanoes</name>
+            <maxcount>1</maxcount>
+            <level>0</level>
+            <prereqtech>HCCard3DugoutCanoes</prereqtech>
+            <age>1</age>
+            <displayunitcount>4</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+        <card>
+            <name>HCCard2Wakas</name>
+            <maxcount>1</maxcount>
+            <level>0</level>
+            <prereqtech>HCCard3DugoutCanoes</prereqtech>
+            <age>1</age>
+            <displayunitcount>2</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+        <card>
+            <name>HCCard4Wakas</name>
+            <maxcount>1</maxcount>
+            <level>10</level>
+            <prereqtech>HCCard2Wakas</prereqtech>
+            <age>2</age>
+            <displayunitcount>4</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+        <card>
+            <name>HCCard1WakaTaua</name>
+            <maxcount>1</maxcount>
+            <level>25</level>
+            <prereqtech>HCCard4Wakas</prereqtech>
+            <age>2</age>
+            <displayunitcount>1</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+        <card>
+            <name>HCCard2WakaTaua</name>
+            <maxcount>1</maxcount>
+            <level>25</level>
+            <prereqtech>HCCard1WakaTaua</prereqtech>
+            <age>3</age>
+            <displayunitcount>2</displayunitcount>
+            <infiniteinlastage>1</infiniteinlastage>
+        </card>
+        <card>
+			<name>HCXPBuccaneers</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+			<displayunitcount>3</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCXPBuccaneers2</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>HCXPBuccaneers</prereqtech>
+			<age>3</age>
+			<displayunitcount>4</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+	</cards>
+	<decks>
+		<deck>
+			<name>$$41681$$</name>
+			<cards>
+				<card dbid ="54841">HCCard3PolyVillagers</card>
+				<card dbid ="54842">HCCard5PolyVillagers</card>
+				<card dbid ="54798">HCCardTEAMPounamu</card>
+				<card dbid ="54780">HCCardADVANCEDMusket</card>
+				<card dbid ="54796">HCCardADVANCEDTewhatewha</card>
+				<card dbid ="54804">HCCardADVANCEDHoeroa</card>
+				<card dbid ="54785">HCCard9Marksmen</card>
+				<card dbid ="54793">HCCard10Spearmen</card>
+				<card dbid ="54801">HCCard10Fighters</card>
+				<card dbid ="54887">HCCard10Redcoats</card>
+				<card dbid ="54849">HCCard6EucalyptusAnd9Villagers</card>
+				<card dbid ="54848">HCCard5WhiteGumAnd6Villagers</card>
+				<card dbid ="54881">HCCardTEAMNorsewood</card>
+				<card dbid ="54867">HCCardBankOfAotearoa</card>
+				<card dbid ="54805">HCCardMokomokai</card>
+				<card dbid ="54863">HCCardScents</card>
+				<card dbid ="54858">HCCardHorticulture</card>
+				<card dbid ="54864">HCCardMonoiOil</card>
+				<card dbid ="54786">HCCardNgapuhiForce</card>
+				<card dbid ="54803">HCCardTuhoeForce</card>
+				<card dbid ="54888">HCCardBritishExpeditionaryForce</card>
+				<card dbid ="54771">HCCardBattleOfGatePa</card>
+				<card dbid ="54782">HCCard6Marksmen</card>
+				<card dbid ="54799">HCCard6Fighters</card>
+				<card dbid ="54850">HCCardPakoheAdzes</card>
+			</cards>
+		</deck>
+	</decks>
+	<building>
+		<name>Estate</name>
+		<visual>
+			<file>spanish\spanish estate.xml</file>
+			<bone>bone_estate</bone>
+		</visual>
+		<uix>150</uix>
+		<uiy>200</uiy>
+		<camera>spanish\spanish_homecity_estate_camera.cam</camera>
+		<widescreencamera>spanish\spanish_homecity_estate_camera.cam</widescreencamera>
+		<unlocklevel>0</unlocklevel>
+		<portrait>homecity\buildings_west\estate_icon</portrait>
+		<displaynamestringid>24968</displaynamestringid>
+		<rolloverstringid>25537</rolloverstringid>
+		<obtainabletechs/>
+		<activetechs/>
+		<validunits/>
+		<units/>
+		<trainbuilding>1</trainbuilding>
+		<mercbuilding>1</mercbuilding>
+	</building>
+	<building>
+		<name>Market</name>
+		<visual>
+			<file>polynesians\maori\missionary.xml</file>
+			<bone>bone_market</bone>
+			<animstatemachine>SM_SIO_Chief</animstatemachine>
+		</visual>
+		<uix>250</uix>
+		<uiy>375</uiy>
+		<camera>sioux\sioux_homecity_market_camera.cam</camera>
+		<widescreencamera>sioux\sioux_homecity_market_widescreencamera.cam</widescreencamera>
+		<unlocklevel>0</unlocklevel>
+		<portrait>homecity\buildings_west\market_icon</portrait>
+		<displaynamestringid>1000784</displaynamestringid>
+		<rolloverstringid>1000785</rolloverstringid>
+		<obtainabletechs>
+			<tech x="0.0" y="1.0">HCCardMAOMissionarySociety</tech>
+            <tech x="0.0" y="2.0">HCCardPOLYNewWays</tech>
+            <tech x="0.8" y="2.0">HCCardAkaroaSettlement</tech>
+            <tech x="0.8" y="5.0">HCCardPolynesianSociety</tech>
+            <tech x="1.6" y="1.0">HCCardNewZealandCompany</tech>
+            <tech x="1.6" y="2.0">HCCardGeologicalSurvey</tech>
+            <tech x="1.6" y="4.0">HCCardTobaccoTrade</tech>			
+            <tech x="2.4" y="2.0">HCCard5Spies</tech>
+            <tech x="2.4" y="4.0">HCCard7Spies</tech>
+            <tech x="2.4" y="5.0">HCCardCameronBlockhouse100Wood</tech>
+            <tech x="2.4" y="7.0">HCCardDogTaxWar</tech>
+            <tech x="3.2" y="4.0">HCCard5Fenriks</tech>
+            <tech x="3.2" y="5.0">HCCard6Fenriks</tech>
+            <tech x="3.2" y="6.0">HCCardTEAMNorsewood</tech>
+            <tech x="4.2" y="1.0">HCCardPakehaMaori</tech>
+            <tech x="4.2" y="4.0">HCCard1Howitzer</tech>
+            <tech x="4.2" y="5.0">HCCard2Howitzer</tech>
+            <tech x="4.2" y="7.0">HCCardInvasionOfWaikato</tech>
+            <tech x="5.2" y="1.0">HCCard4Highlanders</tech>
+            <tech x="5.2" y="2.0">HCCard6Redcoats</tech>
+            <tech x="5.2" y="4.0">HCCard6Highlanders</tech>
+            <tech x="5.2" y="5.0">HCCard10Redcoats</tech>
+            <tech x="5.2" y="7.0">HCCardBritishExpeditionaryForce</tech>
+            <tech x="6.2" y="2.0">HCCard6ChineseMiner</tech>
+            <tech x="6.2" y="4.0">HCCard9ChineseMiner</tech>
+            <tech x="6.2" y="7.0">HCCard12ChineseMinerInfinite</tech>
+
+		</obtainabletechs>
+		<activetechs>
+            <tech x="0.0" y="1.0">HCCardMAOMissionarySociety</tech>
+            <tech x="0.0" y="2.0">HCCardPOLYNewWays</tech>
+            <tech x="0.8" y="2.0">HCCardAkaroaSettlement</tech>
+            <tech x="0.8" y="5.0">HCCardPolynesianSociety</tech>
+            <tech x="1.6" y="1.0">HCCardNewZealandCompany</tech>
+            <tech x="1.6" y="2.0">HCCardGeologicalSurvey</tech>
+            <tech x="1.6" y="4.0">HCCardTobaccoTrade</tech>         
+            <tech x="2.4" y="2.0">HCCard5Spies</tech>
+            <tech x="2.4" y="4.0">HCCard7Spies</tech>
+            <tech x="2.4" y="5.0">HCCardCameronBlockhouse100Wood</tech>
+            <tech x="2.4" y="7.0">HCCardDogTaxWar</tech>
+            <tech x="3.2" y="4.0">HCCard5Fenriks</tech>
+            <tech x="3.2" y="5.0">HCCard6Fenriks</tech>
+            <tech x="3.2" y="6.0">HCCardTEAMNorsewood</tech>
+            <tech x="4.2" y="1.0">HCCardPakehaMaori</tech>
+            <tech x="4.2" y="4.0">HCCard1Howitzer</tech>
+            <tech x="4.2" y="5.0">HCCard2Howitzer</tech>
+            <tech x="4.2" y="7.0">HCCardInvasionOfWaikato</tech>
+            <tech x="5.2" y="1.0">HCCard4Highlanders</tech>
+            <tech x="5.2" y="2.0">HCCard6Redcoats</tech>
+            <tech x="5.2" y="4.0">HCCard6Highlanders</tech>
+            <tech x="5.2" y="5.0">HCCard10Redcoats</tech>
+            <tech x="5.2" y="7.0">HCCardBritishExpeditionaryForce</tech>
+            <tech x="6.2" y="2.0">HCCard6ChineseMiner</tech>
+            <tech x="6.2" y="4.0">HCCard9ChineseMiner</tech>
+            <tech x="6.2" y="7.0">HCCard12ChineseMinerInfinite</tech>
+        </activetechs>
+		<validunits/>
+		<units/>
+		<trainbuilding>1</trainbuilding>
+	</building>
+	<building>
+		<name>Academy</name>
+		<visual>
+			<file>polynesians\maori\tohunga.xml</file>
+			<bone>bone_academy</bone>
+			<animstatemachine>SM_SIO_WarLeader</animstatemachine>
+		</visual>
+		<uix>460</uix>
+		<uiy>125</uiy>
+		<camera>sioux\sioux_homecity_academy_camera.cam</camera>
+		<widescreencamera>sioux\sioux_homecity_academy_widescreencamera.cam</widescreencamera>
+		<unlocklevel>0</unlocklevel>
+		<portrait>homecity\buildings_west\academy_icon</portrait>
+		<displaynamestringid>1000786</displaynamestringid>
+		<rolloverstringid>1000787</rolloverstringid>
+		<obtainabletechs>
+            <tech x="0.6" y="1.0">HCCardOralTradition</tech>
+            <tech x="0.6" y="2.0">HCCardTaranakiWar</tech>
+            <tech x="0.6" y="3.0">HCCardWhakapapa</tech>
+            <tech x="0.6" y="5.0">HCCardWhangai</tech>
+			<tech x="0.6" y="6.0">HCREVcharge</tech>
+			<tech x="1.4" y="2.0">HCCardTaMoko</tech>
+            <tech x="1.4" y="4.0">HCCardKapaHaka</tech>
+            <tech x="1.4" y="6.0">HCCardFirePerformance</tech>
+            <tech x="2.2" y="5.0">HCCardOldWaysMAO</tech>
+            <tech x="2.2" y="6.0">HCCardHui</tech>     
+			<tech x="3.0" y="1.0">HCCardTapu</tech>
+			<tech x="3.0" y="5.0">HCCardKaumatua</tech> 			
+			<tech x="3.8" y="4.0">HCCardRatanaPa</tech>
+            <tech x="3.8" y="5.0">HCCardTitiTorea</tech>
+			<tech x="4.6" y="1.0">HCCardPouwhenua</tech>
+			<tech x="4.6" y="3.0">HCCard8SharktoothSpearman</tech>
+            <tech x="4.6" y="4.0">HCCard9Kupapa</tech>
+            <tech x="4.6" y="5.0">HCCard11SharktoothSpearman</tech>
+            <tech x="4.6" y="6.0">HCCardHawaiki</tech>
+			<tech x="5.4" y="2.0">HCCard5Kupapa</tech>
+            <tech x="5.4" y="3.0">HCCard5Kolos</tech>
+            <tech x="5.4" y="4.0">HCCard4FitaFita</tech>
+            <tech x="5.4" y="5.0">HCCard7FitaFita</tech>
+            <tech x="5.4" y="6.0">HCCard10KolosInfinite</tech>
+			<tech x="6.2" y="3.0">HCCard8Mutineers</tech>
+            <tech x="6.2" y="4.0">HCCard9Mutineers</tech>
+        </obtainabletechs>
+		<activetechs>
+            <tech x="0.6" y="1.0">HCCardOralTradition</tech>
+            <tech x="0.6" y="2.0">HCCardTaranakiWar</tech>
+            <tech x="0.6" y="3.0">HCCardWhakapapa</tech>
+            <tech x="0.6" y="5.0">HCCardWhangai</tech>
+			<tech x="0.6" y="6.0">HCREVcharge</tech>
+            <tech x="1.4" y="2.0">HCCardTaMoko</tech>
+            <tech x="1.4" y="4.0">HCCardKapaHaka</tech>
+            <tech x="1.4" y="6.0">HCCardFirePerformance</tech>
+            <tech x="2.2" y="5.0">HCCardOldWaysMAO</tech>
+            <tech x="2.2" y="6.0">HCCardHui</tech>     
+            <tech x="3.0" y="1.0">HCCardTapu</tech>
+            <tech x="3.0" y="5.0">HCCardKaumatua</tech>            
+            <tech x="3.8" y="4.0">HCCardRatanaPa</tech>
+            <tech x="3.8" y="5.0">HCCardTitiTorea</tech>
+            <tech x="4.6" y="1.0">HCCardPouwhenua</tech>
+            <tech x="4.6" y="3.0">HCCard8SharktoothSpearman</tech>
+            <tech x="4.6" y="4.0">HCCard9Kupapa</tech>
+            <tech x="4.6" y="5.0">HCCard11SharktoothSpearman</tech>
+            <tech x="4.6" y="6.0">HCCardHawaiki</tech>
+            <tech x="5.4" y="2.0">HCCard5Kupapa</tech>
+            <tech x="5.4" y="3.0">HCCard5Kolos</tech>
+            <tech x="5.4" y="4.0">HCCard4FitaFita</tech>
+            <tech x="5.4" y="5.0">HCCard7FitaFita</tech>
+            <tech x="5.4" y="6.0">HCCard10KolosInfinite</tech>
+            <tech x="6.2" y="3.0">HCCard8Mutineers</tech>
+            <tech x="6.2" y="4.0">HCCard9Mutineers</tech>
+        </activetechs>
+		<validunits/>
+		<units/>
+		<trainbuilding>1</trainbuilding>
+	</building>
+	<building>
+		<name>Cathedral</name>
+		<visual>
+			<file>polynesians\maori\maori_woman.xml</file>
+			<bone>bone_cathedral</bone>
+			<animstatemachine>SM_SIO_Shaman</animstatemachine>
+		</visual>
+		<uix>80</uix>
+		<uiy>475</uiy>
+		<camera>sioux\sioux_homecity_cathedral_camera.cam</camera>
+		<widescreencamera>sioux\sioux_homecity_cathedral_widescreencamera.cam</widescreencamera>
+		<unlocklevel>0</unlocklevel>
+		<portrait>homecity\buildings_west\cathedral_icon</portrait>
+		<displaynamestringid>1000788</displaynamestringid>
+		<rolloverstringid>1000789</rolloverstringid>
+		<obtainabletechs>
+            <tech x="0.0" y="1.0">HCCard2PolyVillagers</tech>
+            <tech x="0.0" y="2.0">HCCard4PolyVillagers</tech>
+            <tech x="0.0" y="4.0">HCCard3PolyVillagers</tech>
+            <tech x="0.0" y="5.0">HCCard5PolyVillagers</tech>
+            <tech x="1.0" y="1.0">HCCard5KiwiAnd4Villagers</tech>
+            <tech x="1.0" y="2.0">HCCard4WombatAnd6Villagers</tech>
+            <tech x="1.0" y="4.0">HCCard10RabbitsAnd9Villagers</tech>
+            <tech x="1.0" y="5.0">HCCardKoha</tech>
+            <tech x="2.0" y="1.0">HCCard5TreeFernAnd4Villagers</tech>
+            <tech x="2.0" y="2.0">HCCard5WhiteGumAnd6Villagers</tech>
+            <tech x="2.0" y="4.0">HCCard6EucalyptusAnd9Villagers</tech>
+            <tech x="2.0" y="5.0">HCCardPakoheAdzes</tech>
+            <tech x="3.0" y="1.0">HCCard5MerinoRamsAnd4Villagers</tech>
+            <tech x="3.0" y="2.0">HCCard2GreenstoneMinesAnd6Villagers</tech>
+            <tech x="3.0" y="4.0">HCCard2SpermWalesAnd8Dugouts</tech>
+			<tech x="3.0" y="6.0">HCCardBankOfAotearoa</tech>
+            <tech x="4.0" y="1.0">HCCardTEAM4Pigs</tech>
+            <tech x="4.0" y="2.0">HCCard7Pigs</tech>
+            <tech x="4.0" y="4.0">HCCard15Fowl</tech>
+            <tech x="4.0" y="5.0">HCCardKuri</tech>
+            <tech x="4.8" y="1.0">HCCardHorticulture</tech>
+            <tech x="4.8" y="4.0">HCCardEuropeanCrops</tech>
+            <tech x="5.6" y="1.0">HCAdvancedMarket</tech>
+            <tech x="5.6" y="2.0">HCCard1KumaraFieldPorter</tech>
+            <tech x="5.6" y="4.0">HCCard1KumaraFieldPorterIII</tech>
+            <tech x="5.6" y="5.0">HCCardFlaxWeaving</tech>
+            <tech x="6.4" y="1.0">HCCardScents</tech>
+            <tech x="6.4" y="2.0">HCCardMonoiOil</tech>
+            <tech x="6.4" y="4.0">HCCardElNinoCycle</tech>
+            <tech x="6.4" y="6.0">HCCardRaiStones</tech>
+        </obtainabletechs>
+		<activetechs>
+            <tech x="0.0" y="1.0">HCCard2PolyVillagers</tech>
+            <tech x="0.0" y="2.0">HCCard4PolyVillagers</tech>
+            <tech x="0.0" y="4.0">HCCard3PolyVillagers</tech>
+            <tech x="0.0" y="5.0">HCCard5PolyVillagers</tech>
+            <tech x="1.0" y="1.0">HCCard5KiwiAnd4Villagers</tech>
+            <tech x="1.0" y="2.0">HCCard4WombatAnd6Villagers</tech>
+            <tech x="1.0" y="4.0">HCCard10RabbitsAnd9Villagers</tech>
+            <tech x="1.0" y="5.0">HCCardKoha</tech>
+            <tech x="2.0" y="1.0">HCCard5TreeFernAnd4Villagers</tech>
+            <tech x="2.0" y="2.0">HCCard5WhiteGumAnd6Villagers</tech>
+            <tech x="2.0" y="4.0">HCCard6EucalyptusAnd9Villagers</tech>
+            <tech x="2.0" y="5.0">HCCardPakoheAdzes</tech>
+            <tech x="3.0" y="1.0">HCCard5MerinoRamsAnd4Villagers</tech>
+            <tech x="3.0" y="2.0">HCCard2GreenstoneMinesAnd6Villagers</tech>
+            <tech x="3.0" y="4.0">HCCard2SpermWalesAnd8Dugouts</tech>
+            <tech x="3.0" y="6.0">HCCardBankOfAotearoa</tech>
+            <tech x="4.0" y="1.0">HCCardTEAM4Pigs</tech>
+            <tech x="4.0" y="2.0">HCCard7Pigs</tech>
+            <tech x="4.0" y="4.0">HCCard15Fowl</tech>
+            <tech x="4.0" y="5.0">HCCardKuri</tech>
+            <tech x="4.8" y="1.0">HCCardHorticulture</tech>
+            <tech x="4.8" y="4.0">HCCardEuropeanCrops</tech>
+            <tech x="5.6" y="1.0">HCAdvancedMarket</tech>
+            <tech x="5.6" y="2.0">HCCard1KumaraFieldPorter</tech>
+            <tech x="5.6" y="4.0">HCCard1KumaraFieldPorterIII</tech>
+            <tech x="5.6" y="5.0">HCCardFlaxWeaving</tech>
+            <tech x="6.4" y="1.0">HCCardScents</tech>
+            <tech x="6.4" y="2.0">HCCardMonoiOil</tech>
+            <tech x="6.4" y="4.0">HCCardElNinoCycle</tech>
+            <tech x="6.4" y="6.0">HCCardRaiStones</tech>
+        </activetechs>
+		<validunits/>
+		<units/>
+		<trainbuilding>1</trainbuilding>
+	</building>
+	<building>
+		<name>ManufacturingPlant</name>
+		<visual>
+			<file>polynesians\maori\rangatira.xml</file>
+			<bone>bone_plant</bone>
+			<animstatemachine>SM_SIO_WiseWoman</animstatemachine>
+		</visual>
+		<uix>450</uix>
+		<uiy>275</uiy>
+		<camera>sioux\sioux_homecity_manufacturing_plant_camera.cam</camera>
+		<widescreencamera>sioux\sioux_homecity_plant_widescreencamera.cam</widescreencamera>
+		<unlocklevel>0</unlocklevel>
+		<portrait>homecity\buildings_west\manufacturing_plant_icon</portrait>
+		<displaynamestringid>1000790</displaynamestringid>
+		<rolloverstringid>1000791</rolloverstringid>
+		<obtainabletechs>
+            <tech x="0.0" y="1.0">HCCardNavigators</tech>
+            <tech x="0.0" y="2.0">HCCardCelestialNavigation</tech>
+            <tech x="0.0" y="3.0">HCCardStickChart</tech>
+            <tech x="0.0" y="5.0">HCCardTaurapa</tech>
+            <tech x="0.8" y="1.0">HCCard3DugoutCanoes</tech>
+            <tech x="0.8" y="2.0">HCCard2Wakas</tech>
+            <tech x="0.8" y="3.0">HCCard4Wakas</tech>
+            <tech x="0.8" y="5.0">HCCard1WakaTaua</tech>
+            <tech x="0.8" y="6.0">HCCard2WakaTaua</tech>
+            <tech x="1.6" y="1.0">HCCardWhaleboneCarving</tech>
+            <tech x="1.6" y="2.0">HCCard4DugoutCanoes</tech>
+            <tech x="2.4" y="1.0">HCCheapDocksTeam</tech>
+            <tech x="2.4" y="2.0">HCCardAdvancedFreePort</tech>
+            <tech x="2.4" y="3.0">HCCardBeachcombing</tech>
+            <tech x="2.4" y="6.0">HCCardSwellNavigation</tech>
+            <tech x="3.2" y="1.0">HCCardRangioraVoyage</tech>
+            <tech x="3.2" y="2.0">HCCardKupeVoyage</tech>
+            <tech x="3.2" y="3.0">HCCardChanthamInvasion</tech>
+            <tech x="4.0" y="2.0">ypHCImprovedBuildings</tech>
+            <tech x="4.0" y="3.0">HCExtensiveFortifications</tech>
+            <tech x="4.0" y="5.0">HCCardBattleOfGatePa</tech>
+            <tech x="4.0" y="6.0">HCCardRuapekapekaPa</tech>
+            <tech x="4.8" y="1.0">HCCardIntertribalFighting</tech>
+            <tech x="4.8" y="2.0">HCCardTuwatawata</tech>
+            <tech x="4.8" y="3.0">HCCardBattlefieldConstructionPOLY</tech>
+            <tech x="4.8" y="5.0">HCCardLandWars</tech>
+            <tech x="5.6" y="3.0">HCCardKingitanga</tech>
+            <tech x="5.6" y="1.0">HCCardRangatiratanga</tech>
+            <tech x="6.4" y="2.0">HCXPBuccaneers</tech>
+            <tech x="6.4" y="3.0">HCXPBuccaneers2</tech>
+		
+        </obtainabletechs>
+		<activetechs>
+			<tech x="0.0" y="1.0">HCCardNavigators</tech>
+            <tech x="0.0" y="2.0">HCCardCelestialNavigation</tech>
+            <tech x="0.0" y="3.0">HCCardStickChart</tech>
+            <tech x="0.0" y="5.0">HCCardTaurapa</tech>
+            <tech x="0.8" y="1.0">HCCard3DugoutCanoes</tech>
+            <tech x="0.8" y="2.0">HCCard2Wakas</tech>
+            <tech x="0.8" y="3.0">HCCard4Wakas</tech>
+            <tech x="0.8" y="5.0">HCCard1WakaTaua</tech>
+            <tech x="0.8" y="6.0">HCCard2WakaTaua</tech>
+            <tech x="1.6" y="1.0">HCCardWhaleboneCarving</tech>
+            <tech x="1.6" y="2.0">HCCard4DugoutCanoes</tech>
+            <tech x="2.4" y="1.0">HCCheapDocksTeam</tech>
+            <tech x="2.4" y="2.0">HCCardAdvancedFreePort</tech>
+            <tech x="2.4" y="3.0">HCCardBeachcombing</tech>
+            <tech x="2.4" y="6.0">HCCardSwellNavigation</tech>
+            <tech x="3.2" y="1.0">HCCardRangioraVoyage</tech>
+            <tech x="3.2" y="2.0">HCCardKupeVoyage</tech>
+            <tech x="3.2" y="3.0">HCCardChanthamInvasion</tech>
+            <tech x="4.0" y="2.0">ypHCImprovedBuildings</tech>
+            <tech x="4.0" y="3.0">HCExtensiveFortifications</tech>
+            <tech x="4.0" y="5.0">HCCardBattleOfGatePa</tech>
+            <tech x="4.0" y="6.0">HCCardRuapekapekaPa</tech>
+            <tech x="4.8" y="1.0">HCCardIntertribalFighting</tech>
+            <tech x="4.8" y="2.0">HCCardTuwatawata</tech>
+            <tech x="4.8" y="3.0">HCCardBattlefieldConstructionPOLY</tech>
+            <tech x="4.8" y="5.0">HCCardLandWars</tech>
+            <tech x="5.6" y="3.0">HCCardKingitanga</tech>
+            <tech x="5.6" y="1.0">HCCardRangatiratanga</tech>
+            <tech x="6.4" y="2.0">HCXPBuccaneers</tech>
+            <tech x="6.4" y="3.0">HCXPBuccaneers2</tech>
+		</activetechs>
+		<validunits/>
+		<trainbuilding>1</trainbuilding>
+	</building>
+	<building>
+		<name>Dock</name>
+		<visual>
+			<file>polynesians\maori\mau_rakau.xml</file>
+			<bone>bone_dock</bone>
+			<animstatemachine>SM_SIO_Messenger</animstatemachine>
+		</visual>
+		<uix>200</uix>
+		<uiy>250</uiy>
+		<camera>sioux\sioux_homecity_dock_camera.cam</camera>
+		<widescreencamera>sioux\sioux_homecity_dock_widescreencamera.cam</widescreencamera>
+		<unlocklevel>0</unlocklevel>
+		<portrait>homecity\buildings_west\dock_icon</portrait>
+		<displaynamestringid>1000792</displaynamestringid>
+		<rolloverstringid>1000793</rolloverstringid>
+		<obtainabletechs>
+			<tech x="0.0" y="2.0">HCCardADVANCEDMusket</tech>
+            <tech x="0.0" y="3.0">HCCardMusketWars</tech>
+			<tech x="0.8" y="1.0">HCCard6Marksmen</tech>
+            <tech x="0.8" y="2.0">HCCard5Marksmen</tech>
+            <tech x="0.8" y="3.0">HCCard10Marksmen</tech>
+            <tech x="0.8" y="5.0">HCCard9Marksmen</tech>
+            <tech x="0.8" y="6.0">HCCardNgapuhiForce</tech>
+			<tech x="1.6" y="2.0">HCCardADVANCEDTupara</tech>
+			<tech x="1.6" y="3.0">HCCardFlagstaffWar</tech>  
+            <tech x="2.4" y="2.0">HCCardADVANCEDTaiaha</tech>
+            <tech x="2.4" y="5.0">HCCardMauRakau</tech>
+			<tech x="3.2" y="1.0">HCCard6Spearmen</tech>
+            <tech x="3.2" y="2.0">HCCard5Spearmen</tech>
+            <tech x="3.2" y="3.0">HCCard10Spearmen</tech>
+            <tech x="3.2" y="5.0">HCCard9Spearmen</tech>
+            <tech x="3.2" y="6.0">HCCardNgaiTahuForce</tech>
+            <tech x="4.0" y="2.0">HCCardADVANCEDTewhatewha</tech>
+			<tech x="4.8" y="2.0">HCCardADVANCEDMere</tech>
+			<tech x="4.8" y="3.0">HCCardTEAMPounamu</tech>
+		    <tech x="5.6" y="1.0">HCCard6Fighters</tech>
+            <tech x="5.6" y="2.0">HCCard5Fighters</tech>
+            <tech x="5.6" y="3.0">HCCard10Fighters</tech>
+            <tech x="5.6" y="5.0">HCCard9Fighters</tech>
+            <tech x="5.6" y="6.0">HCCardTuhoeForce</tech>
+			<tech x="6.4" y="2.0">HCCardADVANCEDHoeroa</tech>
+            <tech x="6.4" y="5.0">HCCardMokomokai</tech>
+			<tech x="7.2" y="1.0">HCCard2SappingTeam</tech>
+            <tech x="7.2" y="2.0">HCCard2StoneThrower</tech>
+            <tech x="7.2" y="4.0">HCCard3SappingTeam</tech>
+            <tech x="7.2" y="5.0">HCCard3StoneThrower</tech>
+        </obtainabletechs>
+		<activetechs>
+            <tech x="0.0" y="2.0">HCCardADVANCEDMusket</tech>
+            <tech x="0.0" y="3.0">HCCardMusketWars</tech>
+            <tech x="0.8" y="1.0">HCCard6Marksmen</tech>
+            <tech x="0.8" y="2.0">HCCard5Marksmen</tech>
+            <tech x="0.8" y="3.0">HCCard10Marksmen</tech>
+            <tech x="0.8" y="5.0">HCCard9Marksmen</tech>
+            <tech x="0.8" y="6.0">HCCardNgapuhiForce</tech>
+            <tech x="1.6" y="2.0">HCCardADVANCEDTupara</tech>
+            <tech x="1.6" y="3.0">HCCardFlagstaffWar</tech>  
+            <tech x="2.4" y="2.0">HCCardADVANCEDTaiaha</tech>
+            <tech x="2.4" y="5.0">HCCardMauRakau</tech>
+            <tech x="3.2" y="1.0">HCCard6Spearmen</tech>
+            <tech x="3.2" y="2.0">HCCard5Spearmen</tech>
+            <tech x="3.2" y="3.0">HCCard10Spearmen</tech>
+            <tech x="3.2" y="5.0">HCCard9Spearmen</tech>
+            <tech x="3.2" y="6.0">HCCardNgaiTahuForce</tech>
+            <tech x="4.0" y="2.0">HCCardADVANCEDTewhatewha</tech>
+            <tech x="4.8" y="2.0">HCCardADVANCEDMere</tech>
+            <tech x="4.8" y="3.0">HCCardTEAMPounamu</tech>
+            <tech x="5.6" y="1.0">HCCard6Fighters</tech>
+            <tech x="5.6" y="2.0">HCCard5Fighters</tech>
+            <tech x="5.6" y="3.0">HCCard10Fighters</tech>
+            <tech x="5.6" y="5.0">HCCard9Fighters</tech>
+            <tech x="5.6" y="6.0">HCCardTuhoeForce</tech>
+            <tech x="6.4" y="2.0">HCCardADVANCEDHoeroa</tech>
+            <tech x="6.4" y="5.0">HCCardMokomokai</tech>
+            <tech x="7.2" y="1.0">HCCard2SappingTeam</tech>
+            <tech x="7.2" y="2.0">HCCard2StoneThrower</tech>
+            <tech x="7.2" y="4.0">HCCard3SappingTeam</tech>
+            <tech x="7.2" y="5.0">HCCard3StoneThrower</tech>
+        </activetechs>
+		<validunits/>
+		<units/>
+		<trainbuilding>1</trainbuilding>
+		<mercbuilding>1</mercbuilding>
+	</building>
+	<building>
+		<name>Customization</name>
+		<camera>spanish\spanish_homecity_camera.cam</camera>
+		<widescreencamera>spanish\spanish_homecity_widescreencamera.cam</widescreencamera>
+		<unlocklevel>0</unlocklevel>
+		<portrait>homecity\buildings_west\dock_icon</portrait>
+		<displaynamestringid>24966</displaynamestringid>
+		<rolloverstringid>25540</rolloverstringid>
+		<customizationbuilding>1</customizationbuilding>
+	</building>
+	<waypoints>
+		<waypoint>
+			<bone>bone_pathnode01</bone>
+			<exit>1</exit>
+			<dock>1</dock>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode02</bone>
+			<exit>1</exit>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode03</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode04</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode05</bone>
+			<exit>1</exit>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode06</bone>
+			<exit>1</exit>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode07</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_shipment_start01</bone>
+			<shipmentstart>1</shipmentstart>
+		</waypoint>
+		<waypoint>
+			<bone>bone_shipment_start02</bone>
+			<shipmentstart>1</shipmentstart>
+		</waypoint>
+		<waypoint>
+			<bone>bone_shipment_start03</bone>
+			<shipmentstart>1</shipmentstart>
+		</waypoint>
+		<waypoint>
+			<bone>bone_shipment_end</bone>
+			<shipmentend>1</shipmentend>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode08</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode09</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode10</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode11</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode12</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode13</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode14</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode15</bone>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode16</bone>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode17</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode18</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode19</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode20</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode21</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode22</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode23</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode24</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode25</bone>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode26</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_buffalo1</bone>
+		</waypoint>
+		<waypoint>
+			<bone>bone_buffalo03</bone>
+		</waypoint>
+		<waypoint>
+			<bone>bone_buffalo04</bone>
+		</waypoint>
+	</waypoints>
+	<obtainableprops>
+		<prop active="1">BuffaloJuggler</prop>
+		<prop active="1">Ahuiani</prop>
+		<prop active="1">IncanWoman</prop>
+		<prop active="1">RugPorter</prop>
+		<prop active="1">VasePorter</prop>
+		<prop active="1">PeasantFisherman</prop>
+		<prop active="1">MiddleClassPreacher</prop>
+		<prop active="1">PeasantPainter</prop>
+	</obtainableprops>
+</homecity>

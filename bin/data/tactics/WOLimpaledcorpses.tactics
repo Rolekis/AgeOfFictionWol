@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="48954">GreatHeart</name>
+		<type>AutoRangedModify</type>
+		<active>1</active>
+		<maxrange>15</maxrange>
+		<persistent>1</persistent>
+		<targetenemy>1</targetenemy>
+		<modifytype>Damage</modifytype>
+		<modifymultiplier>0.95</modifymultiplier>
+		<modelattachment>units\attachments\stun_stars.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+	</action>
+	<action>
+		<name stringid="68994">FrightenSpeed</name>
+		<type>AutoRangedModify</type>
+		<targetenemy>1</targetenemy>
+		<active>1</active>
+		<maxrange>15</maxrange>
+		<persistent>1</persistent>
+		<modifytype>Speed</modifytype>
+		<modifymultiplier>0.97</modifymultiplier>
+		<modelattachment>effects\ypack_auras\frightpower.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+	</action>
+	<tactic>
+		Normal
+		<action>FrightenSpeed</action>
+		<action>GreatHeart</action>
+		<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
+		<autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype>
+		<attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype>
+	</tactic>
+</tactics>

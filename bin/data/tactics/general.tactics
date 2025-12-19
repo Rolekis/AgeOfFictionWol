@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="48957">ConvertGuardian</name>
+		<type>ConvertGuardian</type>
+		<active>0</active>
+		<maxrange>16</maxrange>
+		<anim>Pickup</anim>
+		<rate type="Guardian">1.0</rate>
+		<rof>1.000000</rof>
+	</action>
+	<action>
+		<name stringid="444236">Trumpet</name>
+		<type>AutoRangedModify</type>
+		<active>0</active>
+		<maxrange>12</maxrange>
+		<persistent>1</persistent>
+		<modifytype>Damage</modifytype>
+		<modifymultiplier>1.5</modifymultiplier>
+		<modelattachment>effects\ypack_auras\daimyopower.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+	</action>
+	<action>
+		<name stringid="48954">GreatHeart</name>
+		<type>AutoRangedModify</type>
+		<active>0</active>
+		<maxrange>24</maxrange>
+		<persistent>1</persistent>
+		<modifytype>MaxHP</modifytype>
+		<modifymultiplier>1.1</modifymultiplier>
+	</action>
+	<action>
+		<name stringid="48954">GreatHeartRedcoat</name>
+		<type>AutoRangedModify</type>
+		<active>0</active>
+		<maxrange>20</maxrange>
+		<modifyprotoid>Redcoat</modifyprotoid>
+		<persistent>1</persistent>
+		<modifytype>MaxHP</modifytype>
+		<modifymultiplier>1.1</modifymultiplier>
+		<modelattachment>effects\ypack_auras\daimyopower.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+		<modifyexclusive>1</modifyexclusive>
+	</action>
+	<action>
+		<name stringid="48954">GreatDamageRedcoat</name>
+		<type>AutoRangedModify</type>
+		<active>0</active>
+		<maxrange>20</maxrange>
+		<modifyprotoid>Redcoat</modifyprotoid>
+		<persistent>1</persistent>
+		<modifytype>damage</modifytype>
+		<modifymultiplier>1.1</modifymultiplier>
+		<modifyexclusive>1</modifyexclusive>
+	</action>
+	<action>
+		<name stringid="48954">GreatHeartCherry</name>
+		<type>AutoRangedModify</type>
+		<active>0</active>
+		<maxrange>20</maxrange>
+		<modifyprotoid>CuloCereza</modifyprotoid>
+		<persistent>1</persistent>
+		<modifytype>MaxHP</modifytype>
+		<modifymultiplier>1.1</modifymultiplier>
+		<modelattachment>effects\ypack_auras\daimyopower.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+		<modifyexclusive>1</modifyexclusive>
+	</action>
+	<action>
+		<name stringid="48954">GreatDamageCherry</name>
+		<type>AutoRangedModify</type>
+		<active>0</active>
+		<maxrange>20</maxrange>
+		<modifyprotoid>CuloCereza</modifyprotoid>
+		<persistent>1</persistent>
+		<modifytype>Damage</modifytype>
+		<modifymultiplier>1.1</modifymultiplier>
+		<modifyexclusive>1</modifyexclusive>
+	</action>
+	<action>
+		<name stringid="48954">GreatHeartArtists</name>
+		<type>AutoRangedModify</type>
+		<active>0</active>
+		<maxrange>20</maxrange>
+		<modifyprotoid>ArtistsRifle</modifyprotoid>
+		<persistent>1</persistent>
+		<modifytype>MaxHP</modifytype>
+		<modifymultiplier>1.1</modifymultiplier>
+		<modelattachment>effects\ypack_auras\daimyopower.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+		<modifyexclusive>1</modifyexclusive>
+	</action>
+	<action>
+		<name stringid="48954">GreatDamageArtists</name>
+		<type>AutoRangedModify</type>
+		<active>0</active>
+		<maxrange>20</maxrange>
+		<modifyprotoid>ArtistsRifle</modifyprotoid>
+		<persistent>1</persistent>
+		<modifytype>Damage</modifytype>
+		<modifymultiplier>1.1</modifymultiplier>
+		<modifyexclusive>1</modifyexclusive>
+	</action>
+	<tactic>
+		Melee
+		<attacktype>LogicalTypeHandUnitsAttack</attacktype>
+		<autoattacktype>LogicalTypeHandUnitsAutoAttack</autoattacktype>
+		<attackresponsetype>LogicalTypeHandUnitsAttack</attackresponsetype>
+		<action>trumpet</action>
+		<action>GreatHeart</action>
+		<runaway>0</runaway>
+		<autoretarget>1</autoretarget>
+		<idleanim>Idle</idleanim>
+		<boredanim>Bored</boredanim>
+		<deathanim>Death_by_melee</deathanim>
+		<walkanim>Walk</walkanim>
+		<joganim>Jog</joganim>
+		<runanim>Run</runanim>
+		<action>GreatHeartArtists</action>
+		<action>GreatDamageArtists</action>
+		<action>GreatHeartCherry</action>
+		<action>GreatDamageCherry</action>
+		<action>GreatHeartRedcoat</action>
+		<action>GreatDamageRedcoat</action>
+	</tactic>
+	<tactic>
+		Defend
+		<attacktype>LogicalTypeHandUnitsAttack</attacktype>
+		<autoattacktype>LogicalTypeHandUnitsAutoAttack</autoattacktype>
+		<attackresponsetype>LogicalTypeHandUnitsAttack</attackresponsetype>
+		<runaway>0</runaway>
+		<action>GreatHeart</action>
+		<autoretarget>1</autoretarget>
+		<action>trumpet</action>
+		<idleanim>Idle</idleanim>
+		<boredanim>Bored</boredanim>
+		<deathanim>Death_by_melee</deathanim>
+		<walkanim>Walk</walkanim>
+		<joganim>Jog</joganim>
+		<runanim>Run</runanim>
+		<action>GreatHeartArtists</action>
+		<action>GreatDamageArtists</action>
+		<action>GreatHeartCherry</action>
+		<action>GreatDamageCherry</action>
+		<action>GreatHeartRedcoat</action>
+		<action>GreatDamageRedcoat</action>
+	</tactic>
+</tactics>

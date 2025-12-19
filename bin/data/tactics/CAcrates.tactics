@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tactics>
+	<!-- <action>
+		<name>Spawn</name>
+		<type>Spawn</type>
+		<rate type="WOLJornalero">1.0 </rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>1</active>
+		<persistent>1</persistent>
+	</action> -->
+	<action>
+		<name stringid="68971">Maintainjornalero</name>
+		<type>Maintain</type>
+		<rate type="WOLJornalero">1.0</rate>
+		<active>1</active>
+		<persistent>1</persistent>
+		<!--edit made jornalero spawn into singleuse-->
+		<singleuse>1</singleuse>
+	</action>
+	<tactic>
+		Normal
+		<action>Maintainjornalero</action>
+		<!-- <action>Spawn</action> -->
+	</tactic>
+</tactics>

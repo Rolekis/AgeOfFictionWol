@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name>SpawnHospitaller</name>
+		<type>Maintain</type>
+		<rate type="DLChospitaller">1.0 </rate>
+		<active>1</active>
+		<persistent>1</persistent>
+	</action>
+	<tactic>
+		Normal
+		<action>SpawnHospitaller</action>
+	</tactic>
+</tactics>

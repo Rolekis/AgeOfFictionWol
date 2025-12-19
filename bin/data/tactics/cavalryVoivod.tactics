@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="38133">RangedAttack</name>
+		<type>Attack</type>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<anim>Attack_Ranged</anim>
+		<reloadanim>Attack_Ranged_Reload</reloadanim>
+		<accuracy>1.0</accuracy>
+		<accuracyreductionfactor>0.5</accuracyreductionfactor>
+		<aimbonus>0</aimbonus>
+		<maxspread>5</maxspread>
+		<spreadfactor>0.25</spreadfactor>
+		<trackrating>12</trackrating>
+		<unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+		<projectile>InvisibleProjectile</projectile>
+		<impacteffect>effects\impacts\gun</impacteffect>
+		<rate type="Unit">1.0 </rate>
+		<instantballistics>1</instantballistics>
+	</action>
+	<action>
+		<name stringid="38134">HandAttack</name>
+		<type>Attack</type>
+		<maxrange>2</maxrange>
+		<rate type="Unit">1.0 </rate>
+		<attackaction>1</attackaction>
+		<handlogic>1</handlogic>
+		<anim>Attack_melee</anim>
+		<idleanim>Idle</idleanim>
+		<impacteffect>effects\impacts\melee</impacteffect>
+		<targetspeedboost>1</targetspeedboost>
+	</action>
+	<action>
+		<name stringid="38118">BuildingAttack</name>
+		<type>Attack</type>
+		<rangedlogic>1</rangedlogic>
+		<maxrange>6</maxrange>
+		<rate type="Building">1.0 </rate>
+		<attackaction>1</attackaction>
+		<speedboost>1</speedboost>
+		<anim>Raze_attack</anim>
+		<idleanim>Raze_idle</idleanim>
+		<projectile>TorchProjectile</projectile>
+		<impacteffect>effects\impacts\torch</impacteffect>
+	</action>
+	<action>
+		<name stringid="48954">HPAura</name>
+		<type>AutoRangedModify</type>
+		<active>1</active>
+		<maxrange>12</maxrange>
+		<persistent>1</persistent>
+		<modifytype>MaxHP</modifytype>
+		<modifymultiplier>1.05</modifymultiplier>
+		<modifyabstracttype>AbstractCavalry</modifyabstracttype>
+		<modelattachment>effects\ypack_auras\daimyopower.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+	</action>
+	<action>
+		<name stringid="48958">DmgAura</name>
+		<type>AutoRangedModify</type>
+		<active>1</active>
+		<maxrange>12</maxrange>
+		<persistent>1</persistent>
+		<modifytype>Damage</modifytype>
+		<modifymultiplier>1.05</modifymultiplier>
+		<modifyabstracttype>AbstractCavalry</modifyabstracttype>
+		<modelattachment>effects\ypack_auras\daimyopower.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+	</action>
+	<action>
+		<name stringid="48954">HPAura2</name>
+		<type>AutoRangedModify</type>
+		<active>0</active>
+		<maxrange>12</maxrange>
+		<persistent>1</persistent>
+		<modifytype>MaxHP</modifytype>
+		<modifymultiplier>1.035</modifymultiplier>
+		<modifyabstracttype>AbstractCavalry</modifyabstracttype>
+		<modelattachment>effects\ypack_auras\daimyopower.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+	</action>
+	<action>
+		<name stringid="48958">DmgAura2</name>
+		<type>AutoRangedModify</type>
+		<active>0</active>
+		<maxrange>12</maxrange>
+		<persistent>1</persistent>
+		<modifytype>Damage</modifytype>
+		<modifymultiplier>1.035</modifymultiplier>
+		<modifyabstracttype>AbstractCavalry</modifyabstracttype>
+		<modelattachment>effects\ypack_auras\daimyopower.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+	</action>
+	<action>
+		<name stringid="68994">FrightenDamage</name>
+		<type>AutoRangedModify</type>
+		<targetenemy>1</targetenemy>
+		<active>0</active>
+		<maxrange>12</maxrange>
+		<persistent>1</persistent>
+		<modifytype>Damage</modifytype>
+		<modifymultiplier>0.99</modifymultiplier>
+		<modelattachment>effects\ypack_auras\frightpower.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+	</action>
+	<tactic>
+		Normal
+		<action>DmgAura</action>
+		<action>DmgAura2</action>
+		<action>HPAura</action>
+		<action>HPAura2</action>
+		<action priority="100">RangedAttack</action>
+		<action priority="50">BuildingAttack</action>
+		<action priority="25">HandAttack</action>
+		<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
+		<attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype>
+		<runaway>1</runaway>
+		<autoretarget>1</autoretarget>
+		<idleanim>Idle</idleanim>
+		<boredanim>Bored</boredanim>
+		<deathanim>Death_by_melee</deathanim>
+		<walkanim>Walk</walkanim>
+		<joganim>Jog</joganim>
+		<runanim>Run</runanim>
+	</tactic>
+</tactics>

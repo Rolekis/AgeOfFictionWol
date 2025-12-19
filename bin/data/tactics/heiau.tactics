@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+		<action>
+		<name>MaintainShipwrights</name>
+		<type>Maintain</type>
+		<rate type="KahunaShipwright">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>MaintainPriests</name>
+		<type>Maintain</type>
+		<rate type="KahunaPriest">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+		<action>
+		<name>MaintainWarriors</name>
+		<type>Maintain</type>
+		<rate type="KahunaWarrior">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>AutoConvert</name>
+		<type>AutoConvert</type>
+		<maxrange>12.0</maxrange>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>SpawnCannon</name>
+		<type>Maintain</type>
+		<rate type="xpLightCannon">1.0 </rate>
+		<active>0</active>
+		<singleuse>1</singleuse>
+		<persistent>1</persistent>
+	</action>
+		<action>
+		<name>SpawnCannon2</name>
+		<type>Maintain</type>
+		<rate type="xpLightCannon">1.0 </rate>
+		<active>0</active>
+		<singleuse>1</singleuse>
+		<persistent>1</persistent>
+	</action>
+	<tactic>
+		Normal
+		<action>MaintainShipwrights</action>
+		<action>AutoConvert</action>
+		<action>MaintainPriests</action>
+		<action>MaintainWarriors</action>
+		<action>SpawnCannon</action>
+		<action>SpawnCannon2</action>		
+		
+	</tactic>
+</tactics>

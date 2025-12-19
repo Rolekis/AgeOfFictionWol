@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animfile>
+	<definebone>bone_sword</definebone>
+	<definebone>Bip01 Prop1</definebone>
+	<definebone>bone_hat</definebone>
+	<definebone>bone_backpack</definebone>
+	<attachment>
+		torch
+		
+		<include>effects\projectiles\torch_infantry_ranged.xml</include>
+	</attachment>
+	<attachment>
+		measure tape
+		<component>
+			measure tape
+			<assetreference type="GrannyModel">
+				<file>units\attachments\measuring_tape</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>measure tape</component>
+		</anim>
+	</attachment>
+	<attachment>
+		gun
+		<component>
+			gun
+			<assetreference type="GrannyModel">
+				<file>Wol\units\infantry_ranged\ourokronii\espadaouro_Model</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>gun</component>
+		</anim>
+	</attachment>
+	<attachment>
+		saw
+		<component>
+			saw_villager
+			<assetreference type="GrannyModel">
+				<file>units\attachments\saw_villager</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>saw_villager</component>
+		</anim>
+	</attachment>
+	<attachment>
+		hammer
+		
+		<component>
+			hammer
+			
+			<assetreference type="GrannyModel">
+				<file>units\attachments\hammer_villager</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			
+			<component>hammer</component>
+		</anim>
+	</attachment>
+	<attachment>
+			hat1
+			
+		<component>
+				hat1
+				
+			<assetreference type="GrannyModel">
+				<file>Wol\units\infantry_ranged\ourokronii\bicorne_Model</file>
+			</assetreference>
+		</component>
+		<anim>
+				Idle
+				
+			<component>hat1</component>
+		</anim>
+	</attachment>
+	<attachment>
+			hat2
+			
+		<component>
+				hat2
+				
+			<assetreference type="GrannyModel">
+				<file>WoL\units\infantry_ranged\line_infantry\hat_2</file>
+			</assetreference>
+		</component>
+		<anim>
+				Idle
+				
+			<component>hat2</component>
+		</anim>
+	</attachment>
+	<attachment>
+			hat3
+			
+		<component>
+				hat3
+				
+			<assetreference type="GrannyModel">
+				<file>WoL\units\infantry_ranged\skirmisher\hat_3</file>
+			</assetreference>
+		</component>
+		<anim>
+				Idle
+				
+			<component>hat3</component>
+		</anim>
+	</attachment>
+	<attachment>
+			hat_deutschmeister
+			
+		<component>
+				hat_deutschmeister
+				
+			<assetreference type="GrannyModel">
+				<file>WoL\units\infantry_ranged\line_infantry\deutschmeister\hat_deutschmeister_4age</file>
+			</assetreference>
+		</component>
+		<anim>
+				Idle
+				
+			<component>hat_deutschmeister</component>
+		</anim>
+	</attachment>
+	<attachment>
+			hat_maykafer
+			
+		<component>
+					hat_maykafer
+				
+			<assetreference type="GrannyModel">
+				<file>WoL\units\infantry_ranged\line_infantry\maykafer\hat_maykafer</file>
+			</assetreference>
+		</component>
+		<anim>
+				Idle
+				
+			<component>hat_maykafer</component>
+		</anim>
+	</attachment>
+	<attachment>
+			hat_frontovik
+			
+		<component>
+					hat_frontovik
+				
+			<assetreference type="GrannyModel">
+				<file>WoL\units\infantry_ranged\line_infantry\frontovik\hat_frontovik_3age</file>
+			</assetreference>
+		</component>
+		<anim>
+				Idle
+				
+			<component>hat_frontovik</component>
+		</anim>
+	</attachment>
+	<attachment>
+			hat_poilu
+			
+		<component>
+				hat_poilu
+				
+			<assetreference type="GrannyModel">
+				<file>WoL\units\infantry_ranged\line_infantry\poilu\hat_poilu_4age</file>
+			</assetreference>
+		</component>
+		<anim>
+				Idle
+				
+			<component>hat_poilu</component>
+		</anim>
+	</attachment>
+	<attachment>
+			shoulders_poilu
+			
+		<component>
+				shoulders_poilu
+				
+			<assetreference type="GrannyModel">
+				<file>WoL\units\infantry_ranged\line_infantry\poilu\shoulders_poilu</file>
+			</assetreference>
+		</component>
+		<anim>
+				Idle
+				
+			<component>shoulders_poilu</component>
+		</anim>
+	</attachment>
+	<component>
+		ModelComp
+		
+		<logic type="Tech">
+			<none>
+				<logic type="LowPoly">
+					<normal>
+						<assetreference type="GrannyModel">
+							<file>Wol\units\infantry_ranged\ourokronii\ourokroniiage2</file>
+						</assetreference>
+						<attach a="hat1" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
+						<attach a="gun" frombone="bone_gun" tobone="Bip01 Prop1" syncanims="0"/>
+					</normal>
+				</logic>
+			</none>
+		</logic>
+		<logic type="tech">
+			<none>
+				<decal>
+					<effecttype>default</effecttype>
+					<texture isfakeshadow="1">shadows_selections\shadow_circle_32x32</texture>
+					<selectedtexture>shadows_selections\selection_hero_64x64</selectedtexture>
+					<noncinematictexture>shadows_selections\shadow_hero_64x64</noncinematictexture>
+					<width>1.50</width>
+					<height>1.50</height>
+				</decal>
+			</none>
+			<ConsularUpgrader>
+				<decal>
+					<effecttype>default</effecttype>
+					<texture isfakeshadow="1">shadows_selections\shadow_circle_32x32</texture>
+					<selectedtexture>shadows_selections\selection_hero_64x64</selectedtexture>
+					<noncinematictexture>shadows_selections\shadow_hero_64x64</noncinematictexture>
+					<width>1.50</width>
+					<height>1.50</height>
+				</decal>
+			</ConsularUpgrader>
+		</logic>
+	</component>
+	<anim>
+		Death_by_melee
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\human_sword_death_a</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.84</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Death_by_range
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\human_death_shot_front_a</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.58</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\human_death_shot_back_a</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.83</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Death_by_havoc
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\havoc_death</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\havoc_deathB</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\havoc_deathC</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\havoc_deathD</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Death_havoc_flail
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\havoc_flail</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Death_havoc_spin
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\havoc_spin</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Cheer
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\cheer_C</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Recoil
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\recoil_A</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\recoil_C</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\recoil_E</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\recoil_G</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		HC_openDoor
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\doorOpen</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		HC_closeDoor
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\doorClose</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Raze_idle
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\torch_throw_idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="torch" frombone="ATTACHPOINT" tobone="L HAND" syncanims="0"/>
+	</anim>
+	<anim>
+		Raze_attack
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\torch_throwA</file>
+			<tag type="Attack">0.61</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="TorchSwing">0.48</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\torch_throwB</file>
+			<tag type="Attack">0.56</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="TorchSwing">0.48</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="torch" frombone="ATTACHPOINT" tobone="L HAND" syncanims="0"/>
+	</anim>
+	<anim>
+		Cover_bored
+		<assetreference type="GrannyAnim">
+			<file>animation_library\infantry\Cover\dopplesoldner_cover_bored</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Cover_Idle
+		<assetreference type="GrannyAnim">
+			<file>animation_library\infantry\Cover\dopplesoldner_cover_idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Cover_walk
+		<assetreference type="GrannyAnim">
+			<file>animation_library\infantry\Cover\dopplesoldner_cover_walk</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.20</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.70</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Cover_jog
+		<assetreference type="GrannyAnim">
+			<file>animation_library\infantry\Cover\dopplesoldner_cover_jog</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.70</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.15</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Cover_run
+		<assetreference type="GrannyAnim">
+			<file>animation_library\infantry\Cover\dopplesoldner_cover_run</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.70</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.15</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Defend_idle
+		<assetreference type="GrannyAnim">
+			<file>animation_library\infantry\Defend\dopplesoldner_defend_idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Defend_bored
+		<assetreference type="GrannyAnim">
+			<file>animation_library\infantry\Defend\dopplesoldner_defend_bored</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Charge_idle
+		<assetreference type="GrannyAnim">
+			<file>animation_library\infantry\Charge\dopplesoldner_charge_idle</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\infantry\Charge\dopplesoldner_charge_idleB</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Charge_bored
+		<assetreference type="GrannyAnim">
+			<file>animation_library\infantry\Charge\dopplesoldner_charge_bored</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\infantry\Charge\dopplesoldner_charge_boredB</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Charge_attack
+		<assetreference type="GrannyAnim">
+			<file>animation_library\infantry\Charge\dopplesoldner_charge_attackA</file>
+			<tag type="Attack">0.51</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\infantry\Charge\dopplesoldner_charge_attackB</file>
+			<tag type="Attack">0.53</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.45</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\infantry\Charge\dopplesoldner_charge_attackC</file>
+			<tag type="Attack">0.74</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Charge_walk
+		<assetreference type="GrannyAnim">
+			<file>animation_library\infantry\Charge\dopplesoldner_charge_walk</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.76</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.20</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Charge_jog
+		<assetreference type="GrannyAnim">
+			<file>animation_library\infantry\Charge\dopplesoldner_charge_jog</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.76</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.20</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\infantry\Charge\dopplesoldner_charge_jogB</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.76</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.20</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\infantry\Charge\dopplesoldner_charge_jogC</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.76</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.20</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Charge_run
+		<assetreference type="GrannyAnim">
+			<file>animation_library\infantry\Charge\dopplesoldner_charge_run</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.76</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.20</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\infantry\Charge\dopplesoldner_charge_runB</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.76</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.20</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\infantry\Charge\dopplesoldner_charge_runC</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.76</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.20</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+</animfile>

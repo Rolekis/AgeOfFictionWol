@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<placementrules>
+	<distanceatleastfromtype player="enemy" foundation="any" distance="65" errorstringid="25521">FirstTC</distanceatleastfromtype>
+	<distanceatleastfromtype player="enemy" foundation="any" distance="45" errorstringid="70541">WoLConstructPrevent</distanceatleastfromtype>
+</placementrules>

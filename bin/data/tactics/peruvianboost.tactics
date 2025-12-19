@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="48954">GreatHeart</name>
+		<type>AutoRangedModify</type>
+		<active>0</active>
+		<maxrange>24</maxrange>
+		<persistent>1</persistent>
+		<modifytype>MaxHP</modifytype>
+		<modifymultiplier>1.2</modifymultiplier>
+		<modelattachment>effects\ypack_auras\daimyopower.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+	</action>
+	<action>
+		<name stringid="48954">GreatHeart2</name>
+		<type>AutoRangedModify</type>
+		<active>0</active>
+		<maxrange>24</maxrange>
+		<persistent>1</persistent>
+		<modifytype>MaxHP</modifytype>
+		<modifymultiplier>1.2</modifymultiplier>
+		<modelattachment>effects\ypack_auras\daimyopower.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+	</action>
+	<action>
+		<name stringid="48958">ExtraDamage</name>
+		<type>AutoRangedModify</type>
+		<active>0</active>
+		<modifyexclusive>1</modifyexclusive>
+		<maxrange>24</maxrange>
+		<persistent>1</persistent>
+		<modifytype>Damage</modifytype>
+		<modifymultiplier>1.2</modifymultiplier>
+		<modelattachment>effects\ypack_auras\daimyopower.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+	</action>
+	<action>
+		<name stringid="48958">ExtraDamage2</name>
+		<type>AutoRangedModify</type>
+		<active>0</active>
+		<modifyexclusive>1</modifyexclusive>
+		<maxrange>24</maxrange>
+		<persistent>1</persistent>
+		<modifytype>Damage</modifytype>
+		<modifymultiplier>1.2</modifymultiplier>
+		<modelattachment>effects\ypack_auras\daimyopower.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+	</action>
+	<action>
+		<name stringid="48958">ExtraLOS</name>
+		<type>AutoRangedModify</type>
+		<active>0</active>
+		<modifyexclusive>1</modifyexclusive>
+		<maxrange>24</maxrange>
+		<persistent>1</persistent>
+		<modifytype>LOS</modifytype>
+		<modifymultiplier>1.2</modifymultiplier>
+		<modelattachment>effects\ypack_auras\daimyopower.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+	</action>
+	<action>
+		<name stringid="48958">ExtraLOS2</name>
+		<type>AutoRangedModify</type>
+		<active>0</active>
+		<modifyexclusive>1</modifyexclusive>
+		<maxrange>24</maxrange>
+		<persistent>1</persistent>
+		<modifytype>LOS</modifytype>
+		<modifymultiplier>1.4</modifymultiplier>
+		<modelattachment>effects\ypack_auras\daimyopower.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+	</action>
+	<action>
+		<name stringid="48958">ExtraSpeed</name>
+		<type>AutoRangedModify</type>
+		<active>0</active>
+		<modifyexclusive>1</modifyexclusive>
+		<maxrange>36</maxrange>
+		<persistent>1</persistent>
+		<modifytype>Speed</modifytype>
+		<modifymultiplier>1.2</modifymultiplier>
+		<modifyexponent>1.0</modifyexponent>
+		<modifybase>1.0</modifybase>
+		<modelattachment>War of the Triple Alliance\DLC\Sommer\Peru\Effects\Peruvian_Boost\Peruvian_Boost.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+	</action>
+	<action>
+		<name stringid="48958">ExtraSpeed2</name>
+		<type>AutoRangedModify</type>
+		<active>0</active>
+		<modifyexclusive>1</modifyexclusive>
+		<maxrange>36</maxrange>
+		<persistent>1</persistent>
+		<modifytype>Speed</modifytype>
+		<modifymultiplier>1.4</modifymultiplier>
+		<modifyexponent>1.0</modifyexponent>
+		<modifybase>1.0</modifybase>
+		<modelattachment>War of the Triple Alliance\DLC\Sommer\Peru\Effects\Peruvian_Boost\Peruvian_Boost.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+	</action>
+	<action>
+		<name stringid="48944">ExtraBounty</name>
+		<type>AutoRangedModify</type>
+		<active>0</active>
+		<maxrange>24</maxrange>
+		<persistent>1</persistent>
+		<modifytype>Bounty</modifytype>
+		<modifymultiplier>1.2</modifymultiplier>
+		<modelattachment>effects\chiefpower\chiefpower.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+	</action>
+	<action>
+		<name stringid="38142">TrampleHandAttack</name>
+		<type>TruckAttack</type>
+		<active>0</active>
+		<maxrange>8</maxrange>
+		<rate type="All">1.0 </rate>
+		<attackaction>1</attackaction>
+		<handlogic>1</handlogic>
+		<speedboost>1</speedboost>
+		<anim>Idle</anim>
+		<idleanim>Idle</idleanim>
+		<damage>6.5</damage>
+		<rof>1.0</rof>
+		<targetspeedboost>1</targetspeedboost>
+		<basedamagecap>1</basedamagecap>
+		<persistent>1</persistent>
+		<projectile>InvisibleProjectile</projectile>
+	</action>		
+	<tactic>
+		Normal
+		<action>ExtraDamage</action>
+		<action>TrampleHandAttack</action>
+		<action>ExtraSpeed</action>
+		<action>ExtraSpeed2</action>
+		<action>ExtraLOS</action>
+		<action>ExtraLOS2</action>
+		<!--<action>GreatHeart</action>-->
+		<action>ExtraDamage2</action>
+		<!--<action>GreatHeart2</action>-->
+		<action>ExtraBounty</action>
+	</tactic>
+</tactics>

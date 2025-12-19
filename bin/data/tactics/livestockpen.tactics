@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="38133">RangedAttackKorean</name>
+		<type>Attack</type>
+		<active>0</active>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<anim>RangedAttack</anim>
+		<maxheight>0</maxheight>
+		<accuracy>1.0</accuracy>
+		<accuracyreductionfactor>0.01</accuracyreductionfactor>
+		<aimbonus>0</aimbonus>
+		<maxspread>5</maxspread>
+		<spreadfactor>0.25</spreadfactor>
+		<trackrating>12</trackrating>
+		<unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+		<projectile>InvisibleProjectile</projectile>
+		<impacteffect>effects\impacts\gun</impacteffect>
+		<rate type="Unit">1.0</rate>
+		<instantballistics>1</instantballistics>
+		<scalebycontainedunits>1</scalebycontainedunits>
+		<activeifcontainsunits>1</activeifcontainsunits>
+	</action>
+	<action>
+		<name stringid="69181">MaintainSheep</name>
+		<type>Maintain</type>
+		<rate type="Sheep">1.0 </rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="69182">SpawnCanadianTrees</name>
+		<type>Maintain</type>
+		<rate type="TreeCanadian">3.0 </rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="700306">AutoGatherItalianBonus</name>
+		<type>AutoGather</type>
+		<active>0</active>
+		<persistent>1</persistent>
+		<Rate type ='Gold'>0.250001</Rate>
+	</action>
+	<action>
+		<name stringid="603168">LeatherShoesExtraSpeed</name>
+		<type>AutoRangedModify</type>
+		<active>0</active>
+		<persistent>1</persistent>
+		<modifyexclusive>1</modifyexclusive>
+		<modifyabstracttype>AbstractInfantry</modifyabstracttype>
+		<modifytype>Speed</modifytype>
+		<modifymultiplier>1.2</modifymultiplier>
+	</action>
+	<action>
+		<name stringid="6000532">Maintainhen</name>
+		<type>Maintain</type>
+		<rate type="Hen">1.00</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>MaintainCows</name>
+		<type>Maintain</type>
+		<rate type="Cow">1.00</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="6010003">SpawnSheep</name>
+		<type>Spawn</type>
+		<rate type="Sheep">2.0</rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>MaintainZebu</name>
+		<type>Maintain</type>
+		<rate type="Zebu">1.00</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="43294">ModifyGatherCoin</name>
+		<type>ModifyGather</type>
+		<active>1</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="43295">ModifyGatherFood</name>
+		<type>ModifyGather</type>
+		<active>1</active>
+		<persistent>1</persistent>
+	</action>
+    <action>
+        <name stringid="68971">MaintainLots</name>
+        <type>Maintain</type>
+        <rate type="AFRICANlottravois">1.0</rate>
+        <active>0</active>
+        <persistent>1</persistent>
+    </action>
+    <action>
+        <name stringid="24102">BuildLot</name>
+        <type>Build</type>
+        <maxrange>22</maxrange>
+        <rate type="AFRICANlot">1.0</rate>
+    </action>
+	<tactic>
+		PaddyFood
+		<action>ModifyGatherFood</action>
+		<action>AutoGatherItalianBonus</action>
+		<action>LeatherShoesExtraSpeed</action>
+		<action>MaintainSheep</action>
+		<!-- <action>SpawnCanadianTrees</action> -->
+		<action>Maintainhen</action>
+		<action>MaintainCows</action>
+		<action>SpawnSheep</action>
+		<action>MaintainZebu</action>
+        <action>MaintainLots</action>
+        <action>BuildLot</action>
+		<action priority="100">RangedAttackKorean</action>
+		<transition>
+			<tactic>PaddyCoin</tactic>
+			<length>2</length>
+			<exit>1</exit>
+		</transition>
+	</tactic>
+	<tactic>
+		PaddyCoin
+		<action>ModifyGatherCoin</action>
+		<action>AutoGatherItalianBonus</action>
+		<action>LeatherShoesExtraSpeed</action>
+		<action>MaintainSheep</action>
+		<!-- <action>SpawnCanadianTrees</action> -->
+		<action>MaintainCows</action>
+		<action>Maintainhen</action>
+		<action>SpawnSheep</action>
+		<action>MaintainZebu</action>
+        <action>MaintainLots</action>
+        <action>BuildLot</action>
+		<action priority="100">RangedAttackKorean</action>
+		<transition>
+			<tactic>PaddyFood</tactic>
+			<length>2</length>
+			<exit>1</exit>
+		</transition>
+	</tactic>
+</tactics>

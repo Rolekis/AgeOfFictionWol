@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="38121">AntiShipAttack</name>
+		<type>Attack</type>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<activeifcontainsunits>1</activeifcontainsunits>
+		<damagefactorcap>10</damagefactorcap>
+		<scalebycontainedunits>1</scalebycontainedunits>
+		<anim>RangedAttack</anim>
+		<maxheight>0</maxheight>
+		<accuracy>1.0</accuracy>
+		<accuracyreductionfactor>0.01</accuracyreductionfactor>
+		<aimbonus>0</aimbonus>
+		<maxspread>5</maxspread>
+		<spreadfactor>0.25</spreadfactor>
+		<trackrating>12</trackrating>
+		<unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+		<projectile>Cannonball</projectile>
+		<impacteffect>effects\impacts\cannon</impacteffect>
+		<rate type="Ship">1.0</rate>
+	</action>
+	<action>
+        <name stringid="83739">UnitlessAntiShipAttack</name>
+		<active>0</active>
+		<type>Attack</type>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<anim>RangedAttack</anim>
+		<maxheight>0</maxheight>
+		<accuracy>1.0</accuracy>
+        <accuracyreductionfactor>0.01</accuracyreductionfactor>
+		<aimbonus>0</aimbonus>
+		<maxspread>5</maxspread>
+		<spreadfactor>0.25</spreadfactor>
+		<trackrating>12</trackrating>
+		<unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+		<projectile>Cannonball</projectile>
+		<impacteffect>effects\impacts\cannon</impacteffect>
+		<rate type="Ship">1.0</rate>
+		<throw>1</throw>
+	</action>
+	<action>
+		<name stringid="68961">EconomicAuraCroatianImmigrants</name>
+		<type>AutoRangedModify</type>
+		<active>0</active>
+		<maxrange>25</maxrange>
+		<ModifyProtoID>IMWorkerUK</ModifyProtoID>
+		<persistent>1</persistent>
+		<modifytype>GatherRate</modifytype>
+		<modifymultiplier>1.5</modifymultiplier>
+		<modelattachment>effects\ypack_auras\econpower.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+	</action>
+	<action>
+		<name stringid="38133">RangedAttackKorean</name>
+		<type>Attack</type>
+		<active>0</active>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<anim>RangedAttack</anim>
+		<maxheight>0</maxheight>
+		<accuracy>1.0</accuracy>
+		<accuracyreductionfactor>0.01</accuracyreductionfactor>
+		<aimbonus>0</aimbonus>
+		<maxspread>5</maxspread>
+		<spreadfactor>0.25</spreadfactor>
+		<trackrating>12</trackrating>
+		<unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+		<projectile>InvisibleProjectile</projectile>
+		<impacteffect>effects\impacts\gun</impacteffect>
+		<rate type="Unit">1.0</rate>
+		<instantballistics>1</instantballistics>
+		<scalebycontainedunits>1</scalebycontainedunits>
+		<activeifcontainsunits>1</activeifcontainsunits>
+	</action>
+	<action>
+		<name stringid="69155">Heal</name>
+		<type>Heal</type>
+		<maxrange>12</maxrange>
+		<rate type="Ship">10.0</rate>
+		<anim>RangedAttack</anim>
+	</action>
+	<action>
+		<name stringid="49015">SpawnBoat</name>
+		<type>Maintain</type>
+		<rate type="FishingBoat">3.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="69182">SpawnCanadianTrees</name>
+		<type>Maintain</type>
+		<rate type="TreeCanadian">3.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name>SpawnPortugueseShips</name>
+		<type>Spawn</type>
+		<rate type="FishingBoat">1.0</rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>Spawn2Ships</name>
+		<type>Maintain</type>
+		<rate type="WOLChildminderFishSpawn">1.0</rate>
+		<active>1</active>
+		<persistent>0</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="700306">AutoGatherItalianBonus</name>
+		<type>AutoGather</type>
+		<active>0</active>
+		<persistent>1</persistent>
+		<Rate type ='Gold'>0.250001</Rate>
+	</action>
+	<!-- <action>
+		<name stringid="700306">EasterIsland</name>
+		<type>AutoGather</type>
+		<active>0</active>
+		<persistent>1</persistent>
+		<Rate type ='Food'>0.250001</Rate>
+	</action> -->
+	<action>
+		<name stringid="48954">IncaStrengh</name>
+		<type>AutoRangedModify</type>
+		<modifyprotoid>Unit</modifyprotoid>
+		<active>0</active>
+		<maxrange>24</maxrange>
+		<persistent>1</persistent>
+		<modifytype>Damage</modifytype>
+		<modifymultiplier>1.02</modifymultiplier>
+	</action>
+	<action>
+		<name stringid="48954">IncaHP</name>
+		<type>AutoRangedModify</type>
+		<modifyprotoid>Unit</modifyprotoid>
+		<active>0</active>
+		<maxrange>24</maxrange>
+		<persistent>1</persistent>
+		<modifytype>MaxHP</modifytype>
+		<modifymultiplier>1.02</modifymultiplier>
+	</action>
+	<action>
+		<name stringid="48954">IcyDockInner</name>
+		<type>AutoRangedModify</type>
+		<modifyabstracttype>Ship</modifyabstracttype>
+		<active>0</active>
+		<modifyexclusive>1</modifyexclusive>
+		<targetenemy>1</targetenemy>
+		<maxrange>10</maxrange>
+		<persistent>1</persistent>
+		<modifytype>Speed</modifytype>
+		<modifymultiplier>0.1</modifymultiplier>
+		<modelattachment>War of the Triple Alliance\Units\Delta\Danish\Ice\icerussian.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+	</action>
+	<action>
+		<name stringid="48954">IcyDockOuter</name>
+		<type>AutoRangedModify</type>
+		<modifyabstracttype>Ship</modifyabstracttype>
+		<active>0</active>
+		<modifyexclusive>1</modifyexclusive>
+		<targetenemy>1</targetenemy>
+		<maxrange>30</maxrange>
+		<persistent>1</persistent>
+		<modifytype>Speed</modifytype>
+		<modifymultiplier>0.5</modifymultiplier>
+		<modelattachment>War of the Triple Alliance\Units\Delta\Danish\Ice\icerussian.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+	</action>
+	<action>
+		<name stringid="68961">EconomicAuraAnchorage</name>
+		<type>AutoRangedModify</type>
+		<active>0</active>
+		<maxrange>48</maxrange>
+		<modifyabstracttype>AbstractFishingBoat</modifyabstracttype>
+		<persistent>1</persistent>
+		<modifytype>GatherRate</modifytype>
+		<modifymultiplier>1.1</modifymultiplier>
+		<modelattachment>effects\ypack_auras\econpower.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+	</action>
+	<action>
+		<name stringid="68961">EconomicAuraAdvancedAnchorage</name>
+		<type>AutoRangedModify</type>
+		<active>0</active>
+		<maxrange>96</maxrange>
+		<modifyabstracttype>AbstractFishingBoat</modifyabstracttype>
+		<persistent>1</persistent>
+		<modifytype>GatherRate</modifytype>
+		<modifymultiplier>1.1</modifymultiplier>
+		<modelattachment>effects\ypack_auras\econpower.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+	</action>
+	<action>
+		<name stringid="49015">MaintainFishingBoatsGreek</name>
+		<type>Maintain</type>
+		<rate type="FishingBoat">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="910290">SpawnCows</name>
+		<type>Spawn</type>
+		<rate type="Cow">3.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name>SpawnTechtreeReloader</name>
+		<type>Spawn</type>
+		<rate type="WOLTechtreeReloader">1.0</rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="61766">AutoGatherXPNeoclassicalMedium</name>
+		<type>AutoGather</type>
+		<active>0</active>
+		<persistent>1</persistent>
+		<Rate type ='XP'>0.2500</Rate>
+	</action>
+	<action>
+		<name stringid="710330">SpawnTreasure</name>
+		<type>Spawn</type>
+		<rate type="YPNuggetEuropeanWreck">2.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="710358">EasterIsland</name>
+		<type>Spawn</type>
+		<rate type="WOLMoaiChile">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="6000883">ImpaleFear</name>
+		<type>AutoRangedModify</type>
+		<active>0</active>
+		<maxrange>30</maxrange>
+		<targetenemy>1</targetenemy>
+		<persistent>1</persistent>
+		<modifyabstracttype>AbstractWarShip</modifyabstracttype>
+		<modifytype>Speed</modifytype>
+		<modifymultiplier>0.70</modifymultiplier>
+		<modelattachment>units\attachments\stun_stars.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+	</action>
+	<action>
+		<name stringid="6010089">SpawnLandwehrCav</name>
+		<type>Spawn</type>
+		<rate type="WOLLandwehrCav">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<tactic>
+		Normal
+		<action>SpawnLandwehrCav</action>
+		<action>AutoGatherItalianBonus</action>
+		<action>AutoGatherXPNeoclassicalMedium</action>
+		<action>EconomicAuraAdvancedAnchorage</action>
+		<action>EconomicAuraAnchorage</action>
+		<action>Heal</action>
+		<action>IcyDockInner</action>
+		<action>IcyDockOuter</action>
+		<action>ImpaleFear</action>
+		<action>Icydock</action>
+		<action>EasterIsland</action>
+		<action>IncaHP</action>
+		<action>IncaStrenght</action>
+		<action>MaintainFishingBoatsGreek</action>
+		<action>SpawnBoat</action>
+		<action>SpawnCanadianTrees</action>
+		<action>SpawnCows</action>
+		<action>SpawnTreasure</action>
+		<action>SpawnPortugueseShips</action>
+		<action>SpawnTechtreeReloader</action>
+		<action>EconomicAuraCroatianImmigrants</action>
+		<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
+		<autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype>
+		<attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype>
+		<action priority="100">AntiShipAttack</action>
+		<action priority="95">UnitlessAntiShipAttack</action>
+		<action priority="75">RangedAttackKorean</action>
+	</tactic>
+</tactics>

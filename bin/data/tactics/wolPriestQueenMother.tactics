@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="444186">CondemnHeretic1</name>
+		<type>Attack</type>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<anim>CondemnHeretic</anim>
+		<reloadanim>CondemnHeretic</reloadanim>
+		<idleanim>Idle</idleanim>
+		<maxheight>0</maxheight>
+		<accuracy>1.0</accuracy>
+		<accuracyreductionfactor>1.5</accuracyreductionfactor>
+		<aimbonus>1</aimbonus>
+		<trackrating>12</trackrating>
+		<impacteffect>War of the Triple Alliance\Units\Priest\holyblow</impacteffect>
+		<minrange>2</minrange>
+		<rate type="Unit">1.0 </rate>
+		<damage>1.000000</damage>
+		<maxrange>10.000000</maxrange>
+		<rof>1.000000</rof>
+		<projectile>InvisibleProjectilenoTracer</projectile>
+		<perfectaccuracy>1</perfectaccuracy>
+		<active>1</active>
+	</action>
+	<action>
+		<name stringid="38134">HandAttack</name>
+		<type>HandAttack</type>
+		<maxrange>1.0</maxrange>
+		<rate type="Unit">1.0 </rate>
+		<attackaction>1</attackaction>
+		<handlogic>1</handlogic>
+		<anim>Attack</anim>
+		<impacteffect>effects\impacts\melee</impacteffect>
+	</action>
+	<action>
+		<name stringid="38118">BuildingAttack</name>
+		<type>Attack</type>
+		<maxrange>1.0</maxrange>
+		<rate type="Building">1.0 </rate>
+		<attackaction>1</attackaction>
+		<speedboost>1</speedboost>
+		<handlogic>1</handlogic>
+		<anim>AttackBuilding</anim>
+		<idleanim>Idle</idleanim>
+		<impacteffect>War of the Triple Alliance\Units\Priest\holyblowBIG</impacteffect>
+	</action>
+	<action>
+		<name stringid="80498">ConvertUnitQueenMother</name>
+		<type>ConvertGuardian</type>
+		<active>0</active>
+		<maxrange>16</maxrange>
+		<anim>AblBeastMaster</anim>
+		<rate type="Unit">1.0</rate>
+		<rof>1.000000</rof>
+	</action>
+	<action>
+		<name stringid="48954">GreatHeart</name>
+		<type>AutoRangedModify</type>
+		<active>1</active>
+		<maxrange>24</maxrange>
+		<persistent>1</persistent>
+		<modifytype>MaxHP</modifytype>
+		<modifymultiplier>1.01</modifymultiplier>
+		<modelattachment>effects\chiefpower\chiefpower.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+	</action>
+	<tactic>
+		Normal
+		<action>GreatHeart</action>
+		<action priority="100">CondemnHeretic1</action>
+		<action priority="95">Buildingattack</action>
+		<action priority="50">HandAttack</action>
+		<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
+		<autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype>
+		<attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype>
+		<runaway>1</runaway>
+		<autoretarget>1</autoretarget>
+	</tactic>
+</tactics>

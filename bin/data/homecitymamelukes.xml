@@ -1,0 +1,1887 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<homecity>
+	<civ>Egyptians</civ>
+	<name>$$600021$$</name>
+	<heroname>$$550512$$</heroname>
+	<gatherpointunit>HomeCityGatherFlag</gatherpointunit>
+	<visual>WOTTA\cairo.xml</visual>
+	<watervisual>sioux\sioux_homecity_water.xml</watervisual>
+	<backgroundvisual>WOTTA\sky\egyptian_background.xml</backgroundvisual>
+	<pathdata>sioux\sioux_pathable_area.gr2</pathdata>
+	<camera>sioux\sioux_homecity_camera.cam</camera>
+	<widescreencamera>sioux\sioux_homecity_widescreencamera.cam</widescreencamera>
+	<transportroundtriptime>1</transportroundtriptime>
+	<transportactivationtime>0</transportactivationtime>
+	<level>10</level>
+	<skillpoints>9</skillpoints>
+	<lightset>caribbean</lightset>
+	<watertype>Seville</watertype>
+	<numpropunlocksearned>0</numpropunlocksearned>
+	<ambientsounds>Wotta\Delta\egyptianhomecity.xml</ambientsounds>
+	<xsai>generic_city</xsai>
+	<coffers>
+		<current>
+			<food>0</food>
+			<wood>0</wood>
+			<gold>0</gold>
+			<fame>0</fame>
+			<ships>0</ships>
+			<skillpoints>0</skillpoints>
+			<xp>0</xp>
+		</current>
+		<maximum>
+			<food>0</food>
+			<wood>0</wood>
+			<gold>0</gold>
+			<fame>0</fame>
+			<ships>0</ships>
+			<skillpoints>-1</skillpoints>
+			<xp>-1</xp>
+		</maximum>
+	</coffers>
+	<cards>
+		<card>
+			<name>HCShipFoodCrates1</name>
+			<maxcount>-1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>0</age>
+			<displayunitcount>300</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipFoodCrates2</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipFoodCrates1</prereqtech>
+			<age>1</age>
+			<infiniteinlastage>1</infiniteinlastage>
+			<displayunitcount>600</displayunitcount>
+		</card>
+		<card>
+			<name>HCShipFoodCrates3</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCShipFoodCrates2</prereqtech>
+			<age>1</age>
+			<infiniteinlastage>1</infiniteinlastage>
+			<displayunitcount>700</displayunitcount>
+		</card>
+		<card>
+			<name>HCShipFoodCrates4</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCShipFoodCrates3</prereqtech>
+			<age>2</age>
+			<infiniteinlastage>1</infiniteinlastage>
+			<displayunitcount>1000</displayunitcount>
+		</card>
+		<card>
+			<name>HCShipWoodCrates1</name>
+			<maxcount>-1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>0</age>
+			<displayunitcount>300</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipWoodCrates2</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipWoodCrates1</prereqtech>
+			<age>1</age>
+			<displayunitcount>600</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipWoodCrates3</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCShipWoodCrates2</prereqtech>
+			<age>1</age>
+			<displayunitcount>700</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipCoinCrates1</name>
+			<maxcount>-1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>0</age>
+			<displayunitcount>300</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipCoinCrates2</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipCoinCrates1</prereqtech>
+			<age>1</age>
+			<displayunitcount>600</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipCoinCrates3</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCShipCoinCrates2</prereqtech>
+			<age>1</age>
+			<displayunitcount>700</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipEGYVillagers1</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>0</age>
+			<displayunitcount>4</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipEGYVillagers2</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCShipEGYVillagers1</prereqtech>
+			<age>1</age>
+			<displayunitcount>6</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipAFRICANfellahs1</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+			<displayunitcount>10</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipAFRICANfellahs2</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipAFRICANfellahs1</prereqtech>
+			<age>2</age>
+			<displayunitcount>17</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipAFRICANfellahs3</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCShipAFRICANfellahs2</prereqtech>
+			<age>3</age>
+			<displayunitcount>24</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipAFRICANfellahs4</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCShipAFRICANfellahs3</prereqtech>
+			<age>3</age>
+			<displayunitcount>28</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+				<card>
+			<name>HCShipHouseCaravan1</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>0</age>
+			<displayunitcount>3</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipHouseCaravan2</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipHouseCaravan1</prereqtech>
+			<age>1</age>
+			<displayunitcount>5</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipMamluk1</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>3</age>
+			<displayunitcount>3</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipMamluk2</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipMamluk1</prereqtech>
+			<age>3</age>
+			<displayunitcount>4</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipHeadCaravan</name>
+			<maxcount>-1</maxcount>
+			<level>10</level>
+			<prereqtech>-1</prereqtech>
+			<age>2</age>
+			<displayunitcount>1</displayunitcount>
+		</card>
+		<card>
+			<name>HCShipDockCaravan</name>
+			<maxcount>-1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>0</age>
+			<displayunitcount>1</displayunitcount>
+		</card>
+		<card>
+			<name>HCDesertRaiders</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<!-- prereqtech>HCSecretPyramids</prereqtech -->
+			<prereqtech>HCSnakeCharming</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>HCNileFlood</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCShamelNessimTeam</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+			<name>HCNahda</name>
+			<maxcount>1</maxcount>
+			<level>40</level>
+			<prereqtech>-1</prereqtech>
+			<age>3</age>
+		</card>
+		<card>
+			<name>HCOasis</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>HCNileFlood</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+			<name>HCBedouinRegiments</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>HCShipHouseCaravan2</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>HCUrabiRevolt</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>HCShipAFRICANfellahs4</prereqtech>
+			<age>3</age>
+		</card>
+		<card>
+			<name>HCShamelNessimTeam</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>HCSnakeCharming</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>HCSecretPyramids</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCSnakeCharming</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+			<name>HCEGYSpain1</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>2</age>
+			<displayunitcount>4</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCEGYSpain2</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCEGYSpain1</prereqtech>
+			<age>3</age>
+			<displayunitcount>7</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCEGYSpain3</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCEGYSpain2</prereqtech>
+			<age>2</age>
+			<displayunitcount>5</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCEGYSpain4</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCEGYSpain3</prereqtech>
+			<age>3</age>
+			<displayunitcount>8</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCEGYSpain6</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>HCEGYSpain7</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCEGYSpain24</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>HCEGYSpain8</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>-1</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+			<name>HCEGYSpain9</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCEGYSpain7</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>HCEGYSpain10</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>HCEGYSpain11</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>0</age>
+			<displayunitcount>2</displayunitcount>
+		</card>
+		<card>
+			<name>HCEGYSpain12</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>HCEGYSpain13</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCEGYSpain12</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>HCEGYSpain14</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>HCEGYSpain15</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCEGYSpain28</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+			<name>HCEGYSpain16</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>HCEGYSpain11</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>HCEGYSpain17</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>HCEGYSpain18</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>HCEGYSpain19</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCEGYSpain2</prereqtech>
+			<age>3</age>
+		</card>
+		<card>
+			<name>HCEGYSpain20</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCEGYSpain22</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>HCEGYSpain21</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>2</age>
+			<displayunitcount>2</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCEGYSpain22</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCEGYSpain21</prereqtech>
+			<age>3</age>
+			<displayunitcount>4</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCEGYSpain23</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>HCEGYSpain22</prereqtech>
+			<age>3</age>
+			<displayunitcount>2</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCEGYSpain24</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>2</age>
+			<displayunitcount>12</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCEGYSpain25</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCEGYSpain24</prereqtech>
+			<age>1</age>
+			<displayunitcount>8</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCEGYSpain26</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>HCEGYSpain25</prereqtech>
+			<age>3</age>
+			<displayunitcount>24</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCEGYSpain27</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+			<displayunitcount>11</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCEGYSpain28</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCEGYSpain27</prereqtech>
+			<age>2</age>
+			<displayunitcount>20</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCEGYSpain29</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>HCEGYSpain28</prereqtech>
+			<age>3</age>
+			<displayunitcount>28</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCEGYSpain30</name>
+			<maxcount>1</maxcount>
+			<level>40</level>
+			<prereqtech>HCEGYSpain29</prereqtech>
+			<age>3</age>
+			<displayunitcount>26</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCEGYFRANCE1</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>HCEGYFRANCE2</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCEGYFRANCE1</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+			<name>HCEGYFRANCE3</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>2</age>
+			<displayunitcount>8</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCEGYFRANCE4</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCEGYFRANCE3</prereqtech>
+			<age>3</age>
+			<displayunitcount>12</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCEGYFRANCE5</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>2</age>
+			<displayunitcount>7</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCEGYFRANCE6</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCEGYFRANCE5</prereqtech>
+			<age>3</age>
+			<displayunitcount>10</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCEGYFRANCE7</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCEGYFRANCE6</prereqtech>
+			<age>2</age>
+			<displayunitcount>8</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCEGYFRANCE8</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>HCEGYFRANCE7</prereqtech>
+			<age>3</age>
+			<displayunitcount>12</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCEGYFRANCE9</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>2</age>
+			<displayunitcount>4</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCEGYFRANCE10</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCEGYFRANCE9</prereqtech>
+			<age>3</age>
+			<displayunitcount>6</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCEGYFRANCE11</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCEGYFRANCE10</prereqtech>
+			<age>2</age>
+			<displayunitcount>5</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCEGYFRANCE12</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>HCEGYFRANCE11</prereqtech>
+			<age>3</age>
+			<displayunitcount>8</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCEGYFRANCE13</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>HCEGYFRANCE14</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<!-- prereqtech>HCEGYFRANCE2</prereqtech -->
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>HCEGYFRANCE15</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCEGYFRANCE17</prereqtech>
+			<age>1</age>
+			<displayunitcount>2</displayunitcount>
+		</card>
+		<card>
+			<name>HCEGYFRANCE16</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>HCEGYFRANCE14</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>HCEGYFRANCE17</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCEGYFRANCE24</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>HCEGYFRANCE18</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCEGYFRANCE27</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>HCEGYFRANCE19</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCEGYFRANCE21</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>HCEGYFRANCE20</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>-1</prereqtech>
+			<age>3</age>
+		</card>
+		<card>
+			<name>HCEGYFRANCE21</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>3</age>
+		</card>
+		<card>
+			<name>HCEGYFRANCE22</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>HCEGYFRANCE23</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>HCEGYFRANCE24</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+			<name>HCEGYFRANCE25</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCEGYFRANCE6</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+			<name>HCEGYFRANCE26</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCEGYFRANCE9</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+			<name>HCEGYFRANCE27</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+			<displayunitcount>3</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCEGYFRANCE28</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCEGYFRANCE27</prereqtech>
+			<age>2</age>
+			<displayunitcount>5</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCEGYFRANCE29</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>HCEGYFRANCE28</prereqtech>
+			<age>3</age>
+			<displayunitcount>7</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCEGYFRANCE30</name>
+			<maxcount>1</maxcount>
+			<level>40</level>
+			<prereqtech>HCEGYFRANCE29</prereqtech>
+			<age>3</age>
+			<displayunitcount>7</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCEGYGREEK1</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>HCEGYGREEK4</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>HCEGYGREEK2</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>HCEGYGREEK3</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCEGYGREEK5</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>HCEGYGREEK4</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>-1</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>HCEGYGREEK5</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCEGYGREEK11</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>HCEGYGREEK6</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>HCEGYGREEK7</name>
+			<maxcount>1</maxcount>
+			<level>40</level>
+			<prereqtech>HCEGYGREEK1</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>HCEGYGREEK8</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>-1</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>HCEGYGREEK9</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>HCEGYGREEK29</prereqtech>
+			<age>1</age>
+		</card>
+		<!-- <card>
+			<name>HCEGYGREEK10</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+		</card> -->
+		<card>
+			<name>HCEGYGREEK11</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>HCEGYGREEK12</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>-1</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+			<name>HCEGYGREEK13</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>HCEGYGREEK12</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>HCEGYGREEK14</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCEGYGREEK17</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+			<name>HCEGYGREEK15</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>HCEGYGREEK14</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+			<name>HCEGYGREEK16</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+			<displayunitcount>2</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCEGYGREEK17</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCEGYGREEK16</prereqtech>
+			<age>2</age>
+			<displayunitcount>4</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCEGYGREEK18</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCEGYGREEK20</prereqtech>
+			<age>3</age>
+			<displayunitcount>1</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCEGYGREEK19</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCEGYGREEK22</prereqtech>
+			<age>3</age>
+			<displayunitcount>2</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCEGYGREEK20</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+			<displayunitcount>1</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCEGYGREEK21</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCEGYGREEK20</prereqtech>
+			<age>2</age>
+			<displayunitcount>2</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCEGYGREEK22</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCEGYGREEK21</prereqtech>
+			<age>3</age>
+			<displayunitcount>3</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCEGYGREEK23</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>0</age>
+			<displayunitcount>3</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCEGYGREEK24</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCEGYGREEK23</prereqtech>
+			<age>1</age>
+			<displayunitcount>5</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCEGYGREEK25</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+			<displayunitcount>2</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCEGYGREEK26</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCEGYGREEK25</prereqtech>
+			<age>2</age>
+			<displayunitcount>4</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCEGYGREEK27</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+			<displayunitcount>7</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCEGYGREEK28</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCEGYGreek27</prereqtech>
+			<age>2</age>
+			<displayunitcount>13</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCEGYGREEK29</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>HCEGYGreek28</prereqtech>
+			<age>3</age>
+			<displayunitcount>17</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCEGYGREEK30</name>
+			<maxcount>1</maxcount>
+			<level>40</level>
+			<prereqtech>HCEGYGreek29</prereqtech>
+			<age>3</age>
+			<displayunitcount>15</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCEGYOTTO01</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>HCEGYOTTO02</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCEGYOTTO01</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>HCEGYOTTO03</name>
+			<maxcount>1</maxcount>
+			<level>40</level>
+			<prereqtech>-1</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>HCEGYOTTO04</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCEGYOTTO13</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+			<name>HCEGYOTTO05</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>HCEGYOTTO12</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>HCEGYOTTO07</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>HCEGYOTTO08</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>HCEGYOTTO14</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+			<name>HCEGYOTTO09</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCEGYOTTO02</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>HCEGYOTTO10</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>HCEGYOTTO07</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+			<name>HCEGYOTTO11</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCEGYOTTO19</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+			<name>HCEGYOTTO12</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCEGYOTTO15</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+			<name>HCEGYOTTO13</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCEGYOTTO21</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>HCEGYOTTO14</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCEGYOTTO04</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>HCEGYOTTO15</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipMamluk1</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+			<name>HCEGYOTTO16</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+			<displayunitcount>2</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCEGYOTTO17</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCEGYOTTO16</prereqtech>
+			<age>2</age>
+			<displayunitcount>4</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCEGYOTTO18</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+			<displayunitcount>3</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCEGYOTTO19</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCEGYOTTO18</prereqtech>
+			<age>2</age>
+			<displayunitcount>5</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCEGYOTTO20</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCEGYOTTO19</prereqtech>
+			<age>3</age>
+			<displayunitcount>8</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCEGYOTTO21</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+			<displayunitcount>4</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCEGYOTTO22</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCEGYOTTO21</prereqtech>
+			<age>2</age>
+			<displayunitcount>6</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCEGYOTTO23</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCEGYOTTO22</prereqtech>
+			<age>3</age>
+			<displayunitcount>9</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCEGYOTTO24</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>HCEGYOTTO23</prereqtech>
+			<age>3</age>
+			<displayunitcount>10</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCEGYOTTO25</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+			<displayunitcount>7</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCEGYOTTO26</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCEGYOTTO25</prereqtech>
+			<age>2</age>
+			<displayunitcount>13</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCEGYOTTO27</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>HCEGYOTTO26</prereqtech>
+			<age>3</age>
+			<displayunitcount>16</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCEGYOTTO28</name>
+			<maxcount>1</maxcount>
+			<level>40</level>
+			<prereqtech>HCEGYOTTO27</prereqtech>
+			<age>3</age>
+			<displayunitcount>13</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+	</cards>
+	<decks>
+		<deck>
+			<name>$$41681$$</name>
+			<cards>
+				<card >HCEGYOTTO28</card>
+				<card >HCShipMamluk2</card>
+				<card >HCEGYSpain23</card>
+				<card >HCEGYSpain19</card>
+				<card >HCShipEGYVillagers1</card>
+				<card >HCEGYGREEK8</card>
+				<card>HCShipCoinCrates3</card>
+				<card>HCShipCoinCrates2</card>
+				<card>HCShipWoodCrates3</card>
+				<card>HCShipWoodCrates2</card>
+				<card >HCShipEGYVillagers2</card>
+				<card >HCShipAfricanFellahs1</card>
+				<card >HCEGYOTTO21</card>
+				<card >HCEGYSpain25</card>
+				<card >HCEGYFRANCE7</card>
+				<card >HCEGYFRANCE5</card>
+				<card >HCShipHeadCaravan</card>
+				<card >HCEGYFRANCE3</card>
+				<card >HCEGYOTTO08</card>
+				<card >HCEGYFRANCE25</card>
+				<card >HCNileFlood</card>
+				<card >HCOasis</card>
+				<card >HCEGYSpain3</card>
+				<card >HCEGYSpain4</card>
+				<card >HCEGYSpain21</card>
+			</cards>
+		</deck>
+	</decks>
+	<building>
+		<name>Estate</name>
+		<visual>
+			<file>spanish\spanish estate.xml</file>
+			<bone>bone_estate</bone>
+		</visual>
+		<uix>150</uix>
+		<uiy>200</uiy>
+		<camera>india\india_homecity_estate_camera.cam</camera>
+		<widescreencamera>india\india_homecity_estate_camera.cam</widescreencamera>
+		<unlocklevel>0</unlocklevel>
+		<portrait>homecity\buildings_west\estate_icon</portrait>
+		<displaynamestringid>24968</displaynamestringid>
+		<rolloverstringid>25537</rolloverstringid>
+		<obtainabletechs/>
+		<activetechs/>
+		<validunits/>
+		<units/>
+		<trainbuilding>1</trainbuilding>
+		<mercbuilding>1</mercbuilding>
+	</building>
+	<building>
+		<name>Emperor's Treasury</name>
+		<visual>
+			<file>WOTTA\Ambassadors\Mamluk.xml</file>
+			<bone>bone_market</bone>
+			<animstatemachine>SM_SIO_messenger</animstatemachine>
+		</visual>
+		<uix>250</uix>
+		<uiy>375</uiy>
+		<camera>sioux\sioux_homecity_market_camera.cam</camera>
+		<widescreencamera>sioux\sioux_homecity_market_widescreencamera.cam</widescreencamera>
+		<unlocklevel>0</unlocklevel>
+		<portrait>homecity\buildings_west\market_icon</portrait>
+		<displaynamestringid>601032</displaynamestringid>
+		<rolloverstringid>601033</rolloverstringid>
+		<obtainabletechs>
+			<tech x="0.0" y="1.0">HCShipEGYVillagers1</tech>
+			<tech x="0.0" y="3.0">HCShipEGYVillagers2</tech>
+			<tech x="1.7" y="1.0">HCShipFoodCrates1</tech>
+			<tech x="1.7" y="2.0">HCShipFoodCrates2</tech>
+			<tech x="1.7" y="3.0">HCShipFoodCrates3</tech>
+			<tech x="1.7" y="4.0">HCShipFoodCrates4</tech>
+			<tech x="2.4" y="1.0">HCShipWoodCrates1</tech>
+			<tech x="2.4" y="2.0">HCShipWoodCrates2</tech>
+			<tech x="2.4" y="3.0">HCShipWoodCrates3</tech>
+			<tech x="3.1" y="1.0">HCShipCoinCrates1</tech>
+			<tech x="3.1" y="2.0">HCShipCoinCrates2</tech>
+			<tech x="3.1" y="3.0">HCShipCoinCrates3</tech>
+			<tech x="4.0" y="1.0">HCShipAFRICANfellahs1</tech>
+			<tech x="4.0" y="2.0">HCShipAFRICANfellahs2</tech>
+			<tech x="4.0" y="3.0">HCShipAFRICANfellahs3</tech>
+			<tech x="4.0" y="4.0">HCShipAFRICANfellahs4</tech>
+			<tech x="4.0" y="6.0">HCUrabiRevolt</tech>
+			<tech x="4.7" y="1.0">HCShipHouseCaravan1</tech>
+			<tech x="4.7" y="2.0">HCShipHouseCaravan2</tech>
+			<tech x="4.7" y="5.0">HCBedouinRegiments</tech>
+			<tech x="5.4" y="1.0">HCShamelNessimTeam</tech>
+			<tech x="5.4" y="3.0">HCNileFlood</tech>
+			<tech x="5.4" y="5.0">HCOasis</tech>
+			<tech x="6.3" y="1.0">HCShipDockCaravan</tech>
+			<tech x="6.3" y="3.0">HCShipHeadCaravan</tech>
+			<tech x="7.2" y="1.0">HCSnakeCharming</tech>
+			<tech x="7.2" y="5.0">HCDesertRaiders</tech>
+			<tech x="0.0" y="7.0">HCNahda</tech>
+		</obtainabletechs>
+		<activetechs>
+			<tech x="0.0" y="1.0">HCShipEGYVillagers1</tech>
+			<tech x="0.0" y="3.0">HCShipEGYVillagers2</tech>
+			<tech x="1.7" y="1.0">HCShipFoodCrates1</tech>
+			<tech x="1.7" y="2.0">HCShipFoodCrates2</tech>
+			<tech x="1.7" y="3.0">HCShipFoodCrates3</tech>
+			<tech x="1.7" y="4.0">HCShipFoodCrates4</tech>
+			<tech x="2.4" y="1.0">HCShipWoodCrates1</tech>
+			<tech x="2.4" y="2.0">HCShipWoodCrates2</tech>
+			<tech x="2.4" y="3.0">HCShipWoodCrates3</tech>
+			<tech x="3.1" y="1.0">HCShipCoinCrates1</tech>
+			<tech x="3.1" y="2.0">HCShipCoinCrates2</tech>
+			<tech x="3.1" y="3.0">HCShipCoinCrates3</tech>
+			<tech x="4.0" y="1.0">HCShipAFRICANfellahs1</tech>
+			<tech x="4.0" y="2.0">HCShipAFRICANfellahs2</tech>
+			<tech x="4.0" y="3.0">HCShipAFRICANfellahs3</tech>
+			<tech x="4.0" y="4.0">HCShipAFRICANfellahs4</tech>
+			<tech x="4.0" y="6.0">HCUrabiRevolt</tech>
+			<tech x="4.7" y="1.0">HCShipHouseCaravan1</tech>
+			<tech x="4.7" y="2.0">HCShipHouseCaravan2</tech>
+			<tech x="4.7" y="5.0">HCBedouinRegiments</tech>
+			<tech x="5.4" y="1.0">HCShamelNessimTeam</tech>
+			<tech x="5.4" y="3.0">HCNileFlood</tech>
+			<tech x="5.4" y="5.0">HCOasis</tech>
+			<tech x="6.3" y="1.0">HCShipDockCaravan</tech>
+			<tech x="6.3" y="3.0">HCShipHeadCaravan</tech>
+			<tech x="7.2" y="1.0">HCSnakeCharming</tech>
+			<tech x="7.2" y="5.0">HCDesertRaiders</tech>
+			<tech x="0.0" y="7.0">HCNahda</tech>
+		</activetechs>
+		<validunits/>
+		<units/>
+		<trainbuilding>1</trainbuilding>
+	</building>
+	<building>
+		<name>Fortress</name>
+		<visual>
+			<file>WOTTA\Ambassadors\French.xml</file>
+			<bone>bone_academy</bone>
+			<animstatemachine>SM_SIO_messenger</animstatemachine>
+		</visual>
+		<uix>460</uix>
+		<uiy>125</uiy>
+		<camera>sioux\sioux_homecity_academy_camera.cam</camera>
+		<widescreencamera>sioux\sioux_homecity_academy_widescreencamera.cam</widescreencamera>
+		<unlocklevel>0</unlocklevel>
+		<portrait>homecity\buildings_west\academy_icon</portrait>
+		<displaynamestringid>601034</displaynamestringid>
+		<rolloverstringid>601035</rolloverstringid>
+		<obtainabletechs>
+			<!-- tech x="0.0" y="1.0">HCEGYFRANCE1</tech>
+			<tech x="0.0" y="2.0">HCEGYFRANCE2</tech -->
+			<tech x="0.7" y="1.0">HCEGYFRANCE3</tech>
+			<tech x="0.7" y="2.0">HCEGYFRANCE4</tech>
+			<tech x="2.1" y="1.0">HCEGYFRANCE5</tech>
+			<tech x="2.1" y="2.0">HCEGYFRANCE6</tech>
+			<tech x="2.1" y="3.0">HCEGYFRANCE7</tech>
+			<tech x="2.1" y="5.0">HCEGYFRANCE8</tech>
+			<tech x="3.5" y="1.0">HCEGYFRANCE9</tech>
+			<tech x="3.5" y="3.0">HCEGYFRANCE10</tech>
+			<tech x="3.5" y="4.0">HCEGYFRANCE11</tech>
+			<tech x="3.5" y="5.0">HCEGYFRANCE12</tech>
+			<tech x="4.2" y="5.0">HCEGYFRANCE13</tech>
+			<tech x="0.0" y="3.0">HCEGYFRANCE14</tech>
+			<tech x="1.4" y="3.0">HCEGYFRANCE15</tech>
+			<tech x="0.0" y="5.0">HCEGYFRANCE16</tech>
+			<tech x="1.4" y="2.0">HCEGYFRANCE17</tech>
+			<tech x="6.5" y="2.0">HCEGYFRANCE18</tech>
+			<tech x="4.9" y="3.0">HCEGYFRANCE19</tech>
+			<tech x="5.8" y="5.0">HCEGYFRANCE20</tech>
+			<tech x="4.9" y="1.0">HCEGYFRANCE21</tech>
+			<tech x="5.8" y="1.0">HCEGYFRANCE22</tech>
+			<tech x="2.8" y="1.0">HCEGYFRANCE23</tech>
+			<tech x="1.4" y="1.0">HCEGYFRANCE24</tech>
+			<tech x="2.8" y="3.0">HCEGYFRANCE25</tech>
+			<tech x="4.2" y="3.0">HCEGYFRANCE26</tech>
+			<tech x="7.2" y="1.0">HCEGYFRANCE27</tech>
+			<tech x="7.2" y="3.0">HCEGYFRANCE28</tech>
+			<tech x="7.2" y="5.0">HCEGYFRANCE29</tech>
+			<tech x="7.2" y="7.0">HCEGYFRANCE30</tech>
+		</obtainabletechs>
+		<activetechs>
+			<!-- tech x="0.0" y="1.0">HCEGYFRANCE1</tech>
+			<tech x="0.0" y="2.0">HCEGYFRANCE2</tech -->
+			<tech x="0.7" y="1.0">HCEGYFRANCE3</tech>
+			<tech x="0.7" y="2.0">HCEGYFRANCE4</tech>
+			<tech x="2.1" y="1.0">HCEGYFRANCE5</tech>
+			<tech x="2.1" y="2.0">HCEGYFRANCE6</tech>
+			<tech x="2.1" y="3.0">HCEGYFRANCE7</tech>
+			<tech x="2.1" y="5.0">HCEGYFRANCE8</tech>
+			<tech x="3.5" y="1.0">HCEGYFRANCE9</tech>
+			<tech x="3.5" y="3.0">HCEGYFRANCE10</tech>
+			<tech x="3.5" y="4.0">HCEGYFRANCE11</tech>
+			<tech x="3.5" y="5.0">HCEGYFRANCE12</tech>
+			<tech x="4.2" y="5.0">HCEGYFRANCE13</tech>
+			<tech x="0.0" y="3.0">HCEGYFRANCE14</tech>
+			<tech x="1.4" y="3.0">HCEGYFRANCE15</tech>
+			<tech x="0.0" y="5.0">HCEGYFRANCE16</tech>
+			<tech x="1.4" y="2.0">HCEGYFRANCE17</tech>
+			<tech x="6.5" y="2.0">HCEGYFRANCE18</tech>
+			<tech x="4.9" y="3.0">HCEGYFRANCE19</tech>
+			<tech x="5.8" y="5.0">HCEGYFRANCE20</tech>
+			<tech x="4.9" y="1.0">HCEGYFRANCE21</tech>
+			<tech x="5.8" y="1.0">HCEGYFRANCE22</tech>
+			<tech x="2.8" y="1.0">HCEGYFRANCE23</tech>
+			<tech x="1.4" y="1.0">HCEGYFRANCE24</tech>
+			<tech x="2.8" y="3.0">HCEGYFRANCE25</tech>
+			<tech x="4.2" y="3.0">HCEGYFRANCE26</tech>
+			<tech x="7.2" y="1.0">HCEGYFRANCE27</tech>
+			<tech x="7.2" y="3.0">HCEGYFRANCE28</tech>
+			<tech x="7.2" y="5.0">HCEGYFRANCE29</tech>
+			<tech x="7.2" y="7.0">HCEGYFRANCE30</tech>
+		</activetechs>
+		<validunits/>
+		<units/>
+		<trainbuilding>1</trainbuilding>
+	</building>
+	<building>
+		<name>Imperial Court</name>
+		<visual>
+			<file>WOTTA\Ambassadors\Greek.xml</file>
+			<bone>bone_cathedral</bone>
+			<animstatemachine>SM_SIO_Shaman</animstatemachine>
+		</visual>
+		<uix>80</uix>
+		<uiy>475</uiy>
+		<camera>sioux\sioux_homecity_cathedral_camera.cam</camera>
+		<widescreencamera>sioux\sioux_homecity_cathedral_widescreencamera.cam</widescreencamera>
+		<unlocklevel>0</unlocklevel>
+		<portrait>homecity\buildings_west\cathedral_icon</portrait>
+		<displaynamestringid>601036</displaynamestringid>
+		<rolloverstringid>601037</rolloverstringid>
+		<obtainabletechs>
+			<tech x="0.7" y="6.0">HCEGYGreek1</tech>
+			<tech x="2.8" y="1.0">HCEGYGreek2</tech>
+			<tech x="0.7" y="4.0">HCEGYGreek3</tech>
+			<tech x="0.7" y="5.0">HCEGYGreek4</tech>
+			<tech x="0.7" y="3.0">HCEGYGreek5</tech>
+			<tech x="3.5" y="1.0">HCEGYGreek6</tech>
+			<tech x="0.7" y="7.0">HCEGYGreek7</tech>
+			<tech x="3.5" y="3.0">HCEGYGreek8</tech>
+			<tech x="6.3" y="6.0">HCEGYGreek9</tech>
+			<tech x="0.7" y="1.0">HCEGYGreek11</tech>
+			<tech x="5.6" y="3.0">HCEGYGreek12</tech>
+			<tech x="5.6" y="5.0">HCEGYGreek13</tech>
+			<tech x="4.2" y="4.0">HCEGYGreek14</tech>
+			<tech x="4.2" y="6.0">HCEGYGreek15</tech>
+			<tech x="4.2" y="1.0">HCEGYGreek16</tech>
+			<tech x="4.2" y="3.0">HCEGYGreek17</tech>
+			<tech x="2.1" y="2.0">HCEGYGreek18</tech>
+			<tech x="1.4" y="4.0">HCEGYGreek19</tech>
+			<tech x="1.4" y="1.0">HCEGYGreek20</tech>
+			<tech x="1.4" y="2.0">HCEGYGreek21</tech>
+			<tech x="1.4" y="3.0">HCEGYGreek22</tech>
+			<tech x="0.0" y="1.0">HCEGYGreek23</tech>
+			<tech x="0.0" y="3.0">HCEGYGreek24</tech>
+			<tech x="6.3" y="1.0">HCEGYGreek25</tech>
+			<tech x="6.3" y="3.0">HCEGYGreek26</tech>
+			<tech x="7.2" y="1.0">HCEGYGreek27</tech>
+			<tech x="7.2" y="3.0">HCEGYGreek28</tech>
+			<tech x="7.2" y="5.0">HCEGYGreek29</tech>
+			<tech x="7.2" y="7.0">HCEGYGreek30</tech>
+		</obtainabletechs>
+		<activetechs>
+			<tech x="0.7" y="6.0">HCEGYGreek1</tech>
+			<tech x="2.8" y="1.0">HCEGYGreek2</tech>
+			<tech x="0.7" y="4.0">HCEGYGreek3</tech>
+			<tech x="0.7" y="5.0">HCEGYGreek4</tech>
+			<tech x="0.7" y="3.0">HCEGYGreek5</tech>
+			<tech x="3.5" y="1.0">HCEGYGreek6</tech>
+			<tech x="0.7" y="7.0">HCEGYGreek7</tech>
+			<tech x="3.5" y="3.0">HCEGYGreek8</tech>
+			<tech x="6.3" y="6.0">HCEGYGreek9</tech>
+			<tech x="0.7" y="1.0">HCEGYGreek11</tech>
+			<tech x="5.6" y="3.0">HCEGYGreek12</tech>
+			<tech x="5.6" y="5.0">HCEGYGreek13</tech>
+			<tech x="4.2" y="4.0">HCEGYGreek14</tech>
+			<tech x="4.2" y="6.0">HCEGYGreek15</tech>
+			<tech x="4.2" y="1.0">HCEGYGreek16</tech>
+			<tech x="4.2" y="3.0">HCEGYGreek17</tech>
+			<tech x="2.1" y="2.0">HCEGYGreek18</tech>
+			<tech x="1.4" y="4.0">HCEGYGreek19</tech>
+			<tech x="1.4" y="1.0">HCEGYGreek20</tech>
+			<tech x="1.4" y="2.0">HCEGYGreek21</tech>
+			<tech x="1.4" y="3.0">HCEGYGreek22</tech>
+			<tech x="0.0" y="1.0">HCEGYGreek23</tech>
+			<tech x="0.0" y="3.0">HCEGYGreek24</tech>
+			<tech x="6.3" y="1.0">HCEGYGreek25</tech>
+			<tech x="6.3" y="3.0">HCEGYGreek26</tech>
+			<tech x="7.2" y="1.0">HCEGYGreek27</tech>
+			<tech x="7.2" y="3.0">HCEGYGreek28</tech>
+			<tech x="7.2" y="5.0">HCEGYGreek29</tech>
+			<tech x="7.2" y="7.0">HCEGYGreek30</tech>
+		</activetechs>
+		<validunits/>
+		<units/>
+		<trainbuilding>1</trainbuilding>
+	</building>
+	<building>
+		<name>Merchant's Guild</name>
+		<visual>
+			<file>WOTTA\Ambassadors\Ottoman.xml</file>
+			<bone>bone_plant</bone>
+			<animstatemachine>SM_SIO_Messenger</animstatemachine>
+		</visual>
+		<uix>450</uix>
+		<uiy>275</uiy>
+		<camera>sioux\sioux_homecity_manufacturing_plant_camera.cam</camera>
+		<widescreencamera>sioux\sioux_homecity_plant_widescreencamera.cam</widescreencamera>
+		<unlocklevel>0</unlocklevel>
+		<portrait>homecity\buildings_west\manufacturing_plant_icon</portrait>
+		<displaynamestringid>601038</displaynamestringid>
+		<rolloverstringid>601039</rolloverstringid>
+		<obtainabletechs>
+			<tech x="0.0" y="1.0">HCEGYOTTO01</tech>
+			<tech x="0.0" y="3.0">HCEGYOTTO02</tech>
+			<tech x="0.0" y="4.0">HCEGYOTTO09</tech>
+			<tech x="0.0" y="7.0">HCEGYOTTO03</tech>
+			<tech x="0.7" y="1.0">HCShipMamluk1</tech>
+			<tech x="0.7" y="2.0">HCShipMamluk2</tech>
+			<tech x="1.4" y="2.0">HCEGYOTTO15</tech>
+			<tech x="1.4" y="3.0">HCEGYOTTO12</tech>
+			<tech x="1.4" y="5.0">HCEGYOTTO05</tech>
+			<tech x="2.1" y="1.0">HCEGYOTTO16</tech>
+			<tech x="2.1" y="3.0">HCEGYOTTO17</tech>
+			<tech x="2.8" y="3.0">HCEGYOTTO07</tech>
+			<tech x="2.8" y="5.0">HCEGYOTTO10</tech>
+			<tech x="3.5" y="1.0">HCEGYOTTO18</tech>
+			<tech x="3.5" y="2.0">HCEGYOTTO19</tech>
+			<tech x="3.5" y="4.0">HCEGYOTTO20</tech>
+			<tech x="4.2" y="3.0">HCEGYOTTO11</tech>
+			<tech x="5.4" y="1.0">HCEGYOTTO21</tech>
+			<tech x="5.4" y="3.0">HCEGYOTTO22</tech>
+			<tech x="5.4" y="4.0">HCEGYOTTO23</tech>
+			<tech x="5.4" y="5.0">HCEGYOTTO24</tech>
+			<tech x="6.3" y="2.0">HCEGYOTTO13</tech>
+			<tech x="6.3" y="4.0">HCEGYOTTO14</tech>
+			<tech x="6.3" y="3.0">HCEGYOTTO04</tech>
+			<tech x="6.3" y="5.0">HCEGYOTTO08</tech>
+			<tech x="7.2" y="1.0">HCEGYOTTO25</tech>
+			<tech x="7.2" y="3.0">HCEGYOTTO26</tech>
+			<tech x="7.2" y="5.0">HCEGYOTTO27</tech>
+			<tech x="7.2" y="7.0">HCEGYOTTO28</tech>
+		</obtainabletechs>
+		<activetechs>
+			<tech x="0.0" y="1.0">HCEGYOTTO01</tech>
+			<tech x="0.0" y="3.0">HCEGYOTTO02</tech>
+			<tech x="0.0" y="4.0">HCEGYOTTO09</tech>
+			<tech x="0.0" y="7.0">HCEGYOTTO03</tech>
+			<tech x="0.7" y="1.0">HCShipMamluk1</tech>
+			<tech x="0.7" y="2.0">HCShipMamluk2</tech>
+			<tech x="1.4" y="2.0">HCEGYOTTO15</tech>
+			<tech x="1.4" y="3.0">HCEGYOTTO12</tech>
+			<tech x="1.4" y="5.0">HCEGYOTTO05</tech>
+			<tech x="2.1" y="1.0">HCEGYOTTO16</tech>
+			<tech x="2.1" y="3.0">HCEGYOTTO17</tech>
+			<tech x="2.8" y="3.0">HCEGYOTTO07</tech>
+			<tech x="2.8" y="5.0">HCEGYOTTO10</tech>
+			<tech x="3.5" y="1.0">HCEGYOTTO18</tech>
+			<tech x="3.5" y="2.0">HCEGYOTTO19</tech>
+			<tech x="3.5" y="4.0">HCEGYOTTO20</tech>
+			<tech x="4.2" y="3.0">HCEGYOTTO11</tech>
+			<tech x="5.4" y="1.0">HCEGYOTTO21</tech>
+			<tech x="5.4" y="3.0">HCEGYOTTO22</tech>
+			<tech x="5.4" y="4.0">HCEGYOTTO23</tech>
+			<tech x="5.4" y="5.0">HCEGYOTTO24</tech>
+			<tech x="6.3" y="2.0">HCEGYOTTO13</tech>
+			<tech x="6.3" y="4.0">HCEGYOTTO14</tech>
+			<tech x="6.3" y="3.0">HCEGYOTTO04</tech>
+			<tech x="6.3" y="5.0">HCEGYOTTO08</tech>
+			<tech x="7.2" y="1.0">HCEGYOTTO25</tech>
+			<tech x="7.2" y="3.0">HCEGYOTTO26</tech>
+			<tech x="7.2" y="5.0">HCEGYOTTO27</tech>
+			<tech x="7.2" y="7.0">HCEGYOTTO28</tech>
+		</activetechs>
+		<validunits/>
+		<trainbuilding>1</trainbuilding>
+	</building>
+	<building>
+		<name>Customs House</name>
+		<visual>
+			<file>WOTTA\Ambassadors\Spanish.xml</file>
+			<bone>bone_dock</bone>
+			<animstatemachine>SM_SIO_Messenger</animstatemachine>
+		</visual>
+		<uix>200</uix>
+		<uiy>250</uiy>
+		<camera>sioux\sioux_homecity_dock_camera.cam</camera>
+		<widescreencamera>sioux\sioux_homecity_dock_widescreencamera.cam</widescreencamera>
+		<unlocklevel>0</unlocklevel>
+		<portrait>homecity\buildings_west\dock_icon</portrait>
+		<displaynamestringid>601040</displaynamestringid>
+		<rolloverstringid>601041</rolloverstringid>
+		<obtainabletechs>
+			<tech x="0.0" y="1.0">HCEGYSpain1</tech>
+			<tech x="0.0" y="2.0">HCEGYSpain2</tech>
+			<tech x="0.0" y="3.0">HCEGYSpain3</tech>
+			<tech x="0.0" y="4.0">HCEGYSpain4</tech>
+			<tech x="3.2" y="1.0">HCEGYSpain6</tech>
+			<tech x="2.4" y="2.0">HCEGYSpain7</tech>
+			<tech x="3.3" y="5.0">HCEGYSpain8</tech>
+			<tech x="2.4" y="4.0">HCEGYSpain9</tech>
+			<tech x="0.8" y="1.0">HCEGYSpain12</tech>
+			<tech x="0.8" y="2.0">HCEGYSpain13</tech>
+			<tech x="3.2" y="2.0">HCEGYSpain14</tech>
+			<tech x="4.0" y="1.0">HCEGYSpain10</tech>
+			<tech x="4.7" y="1.0">HCEGYSpain11</tech>
+			<tech x="6.3" y="4.0">HCEGYSpain15</tech>
+			<tech x="4.7" y="5.0">HCEGYSpain16</tech>
+			<tech x="6.3" y="1.0">HCEGYSpain17</tech>
+			<tech x="4.0" y="2.0">HCEGYSpain18</tech>
+			<tech x="0.8" y="3.0">HCEGYSpain19</tech>
+			<tech x="6.3" y="3.0">HCEGYSpain20</tech>
+			<tech x="5.4" y="1.0">HCEGYSpain21</tech>
+			<tech x="5.4" y="3.0">HCEGYSpain22</tech>
+			<tech x="5.4" y="5.0">HCEGYSpain23</tech>
+			<tech x="1.6" y="1.0">HCEGYSpain24</tech>
+			<tech x="1.6" y="3.0">HCEGYSpain25</tech>
+			<tech x="1.6" y="5.0">HCEGYSpain26</tech>
+			<tech x="7.2" y="1.0">HCEGYSpain27</tech>
+			<tech x="7.2" y="3.0">HCEGYSpain28</tech>
+			<tech x="7.2" y="5.0">HCEGYSpain29</tech>
+			<tech x="7.2" y="7.0">HCEGYSpain30</tech>
+		</obtainabletechs>
+		<activetechs>
+			<tech x="0.0" y="1.0">HCEGYSpain1</tech>
+			<tech x="0.0" y="2.0">HCEGYSpain2</tech>
+			<tech x="0.0" y="3.0">HCEGYSpain3</tech>
+			<tech x="0.0" y="4.0">HCEGYSpain4</tech>
+			<tech x="3.2" y="1.0">HCEGYSpain6</tech>
+			<tech x="2.4" y="2.0">HCEGYSpain7</tech>
+			<tech x="3.3" y="5.0">HCEGYSpain8</tech>
+			<tech x="2.4" y="4.0">HCEGYSpain9</tech>
+			<tech x="0.8" y="1.0">HCEGYSpain12</tech>
+			<tech x="0.8" y="2.0">HCEGYSpain13</tech>
+			<tech x="3.2" y="2.0">HCEGYSpain14</tech>
+			<tech x="4.0" y="1.0">HCEGYSpain10</tech>
+			<tech x="4.7" y="1.0">HCEGYSpain11</tech>
+			<tech x="6.3" y="4.0">HCEGYSpain15</tech>
+			<tech x="4.7" y="5.0">HCEGYSpain16</tech>
+			<tech x="6.3" y="1.0">HCEGYSpain17</tech>
+			<tech x="4.0" y="2.0">HCEGYSpain18</tech>
+			<tech x="0.8" y="3.0">HCEGYSpain19</tech>
+			<tech x="6.3" y="3.0">HCEGYSpain20</tech>
+			<tech x="5.4" y="1.0">HCEGYSpain21</tech>
+			<tech x="5.4" y="3.0">HCEGYSpain22</tech>
+			<tech x="5.4" y="5.0">HCEGYSpain23</tech>
+			<tech x="1.6" y="1.0">HCEGYSpain24</tech>
+			<tech x="1.6" y="3.0">HCEGYSpain25</tech>
+			<tech x="1.6" y="5.0">HCEGYSpain26</tech>
+			<tech x="7.2" y="1.0">HCEGYSpain27</tech>
+			<tech x="7.2" y="3.0">HCEGYSpain28</tech>
+			<tech x="7.2" y="5.0">HCEGYSpain29</tech>
+			<tech x="7.2" y="7.0">HCEGYSpain30</tech>
+		</activetechs>
+		<validunits/>
+		<units/>
+		<trainbuilding>1</trainbuilding>
+		<mercbuilding>1</mercbuilding>
+	</building>
+	<building>
+		<name>Customization</name>
+		<camera>india\india_homecity_camera.cam</camera>
+		<widescreencamera>india\india_homecity_widescreencamera.cam</widescreencamera>
+		<unlocklevel>0</unlocklevel>
+		<portrait>homecity\buildings_west\dock_icon</portrait>
+		<displaynamestringid>24966</displaynamestringid>
+		<rolloverstringid>25540</rolloverstringid>
+		<customizationbuilding>1</customizationbuilding>
+	</building>
+	<waypoints>
+		<waypoint>
+			<bone>bone_pathnode01</bone>
+			<exit>1</exit>
+			<dock>1</dock>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode02</bone>
+			<exit>1</exit>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode03</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode04</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode05</bone>
+			<exit>1</exit>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode06</bone>
+			<exit>1</exit>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode07</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_shipment_start01</bone>
+			<shipmentstart>1</shipmentstart>
+		</waypoint>
+		<waypoint>
+			<bone>bone_shipment_start02</bone>
+			<shipmentstart>1</shipmentstart>
+		</waypoint>
+		<waypoint>
+			<bone>bone_shipment_start03</bone>
+			<shipmentstart>1</shipmentstart>
+		</waypoint>
+		<waypoint>
+			<bone>bone_shipment_end</bone>
+			<shipmentend>1</shipmentend>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode08</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode09</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode10</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode11</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode12</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode13</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode14</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode15</bone>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode16</bone>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode17</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode18</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode19</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode20</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode21</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode22</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode23</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode24</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode25</bone>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode26</bone>
+			<performancearea>1</performancearea>
+		</waypoint>
+		<waypoint>
+			<bone>bone_buffalo1</bone>
+		</waypoint>
+		<waypoint>
+			<bone>bone_buffalo03</bone>
+		</waypoint>
+		<waypoint>
+			<bone>bone_buffalo04</bone>
+		</waypoint>
+	</waypoints>
+	<obtainableprops>
+		<prop>Janissary</prop>
+		<prop>spahi</prop>
+		<prop active="1">Imam</prop>
+		<prop>UnitChats</prop>
+		<prop>Spanish_AcadProp01</prop>
+		<prop>Spanish_AcadProp02</prop>
+		<prop>Spanish_AcadProp03</prop>
+		<prop>Spanish_AcadProp04</prop>
+		<prop>Church_RiderStatueProp</prop>
+		<prop>Spanish_CathProp01</prop>
+		<prop>Spanish_NWCTProp01</prop>
+		<prop>Spanish_NWCTProp02</prop>
+		<prop>Spanish_NWCTProp03</prop>
+		<prop>Spn_FactProp01</prop>
+		<prop>Spn_FactProp02</prop>
+		<prop>Spn_DockProp01</prop>
+		<prop>Spn_DockProp02</prop>
+		<prop>Spn_DockProp03</prop>
+		<prop>Spn_DockProp04</prop>
+		<prop>Spn_DockProp05</prop>
+		<prop active="1">Spanish_NWTCTexture0</prop>
+		<prop>Spanish_NWTCTexture1</prop>
+		<prop>Spanish_NWTCTexture2</prop>
+		<prop>Spanish_NWTCTexture3</prop>
+		<prop>Spanish_NWTCTexture4</prop>
+		<prop>Spanish_NWTCTexture5</prop>
+		<prop>Spanish_NWTCTexture6</prop>
+		<prop>Spanish_NWTCTexture7</prop>
+		<prop active="1">Spanish_AcademyTexture0</prop>
+		<prop>Spanish_AcademyTexture1</prop>
+		<prop>Spanish_AcademyTexture2</prop>
+		<prop>Spanish_AcademyTexture3</prop>
+		<prop active="1">Spanish_ManuPlantTexture0</prop>
+		<prop>Spanish_ManuPlantTexture1</prop>
+		<prop>Spanish_ManuPlantTexture2</prop>
+		<prop>Spanish_ManuPlantTexture3</prop>
+		<prop>Spanish_ManuPlantTexture4</prop>
+		<prop>Spanish_ManuPlantTexture5</prop>
+		<prop>Spanish_ManuPlantTexture6</prop>
+		<prop>Spanish_ManuPlantTexture7</prop>
+		<prop active="1">Spanish_CathedralTexture0</prop>
+		<prop>Spanish_CathedralTexture1</prop>
+		<prop>Spanish_CathedralTexture2</prop>
+		<prop>Spanish_CathedralTexture3</prop>
+		<prop active="1">Spanish_DockTexture0</prop>
+		<prop>Spanish_DockTexture1</prop>
+		<prop>Spanish_DockTexture2</prop>
+		<prop>Spanish_DockTexture3</prop>
+		<prop>Spanish_DockTexture4</prop>
+		<prop>Spanish_DockTexture5</prop>
+		<prop>Spanish_DockTexture6</prop>
+		<prop>Spanish_DockTexture7</prop>
+		<prop active="1">IndianGirl</prop>
+		<prop active="1">Camel</prop>
+		<prop active="1">IndianWoman</prop>
+		<prop active="1">IndianMan</prop>
+	</obtainableprops>
+</homecity>

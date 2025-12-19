@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="81599">AutoGatherCoin</name>
+		<type>AutoGather</type>
+		<active>1</active>
+		<persistent>1</persistent>
+		<Rate type ='Gold'>0.600000</Rate>
+	</action>
+	<action>
+		<name stringid="81597">EconomicAuraStand</name>
+		<type>AutoRangedModify</type>
+		<targetenemy>1</targetenemy>
+		<active>1</active>
+		<maxrange>48</maxrange>
+		<modifyabstracttype>AbstractVillager</modifyabstracttype>
+		<persistent>1</persistent>
+		<modifytype>GatherRate</modifytype>
+		<modifymultiplier>0.98</modifymultiplier>
+		<!-- modelattachment>effects\ypack_auras\econpower.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone -->
+	</action>
+	<tactic>
+		Normal
+		<action>AutoGatherCoin</action>
+		<action>EconomicAuraStand</action>
+	</tactic>
+</tactics>

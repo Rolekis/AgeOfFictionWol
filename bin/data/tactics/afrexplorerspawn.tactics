@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="550600">MaintainMenelik</name>
+		<type>Maintain</type>
+		<rate type="AFRICANmenelik">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="550600">MaintainShaka</name>
+		<type>Maintain</type>
+		<rate type="AFRICANshaka">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="550600">MaintainAliPasha</name>
+		<type>Maintain</type>
+		<rate type="AFRICANalipasha">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<tactic>
+		Normal
+		<action>MaintainMenelik</action>
+        <action>MaintainShaka</action>
+        <action>MaintainAliPasha</action>
+	</tactic>
+</tactics>

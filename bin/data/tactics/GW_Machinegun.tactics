@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="38119">CannonAttack</name>
+		<type>Attack</type>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<anim>Bombard_ranged_attack</anim>
+		<idleanim>Bombard_ranged_idle</idleanim>
+		<maxheight>0</maxheight>
+		<accuracy>1.0</accuracy>
+		<accuracyreductionfactor>0.5</accuracyreductionfactor>
+		<aimbonus>0</aimbonus>
+		<maxspread>5</maxspread>
+		<spreadfactor>0.25</spreadfactor>
+		<trackrating>12</trackrating>
+		<unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+		<projectile>Machinegun</projectile>
+		<impacteffect>effects\impacts\gun</impacteffect>
+		<rate type="All">1.0 </rate>
+	</action>
+	<action>
+		<name stringid="38142">TrampleHandAttack</name>
+		<type>TruckAttack</type>
+		<maxrange>0</maxrange>
+		<rate type="All">1.0 </rate>
+		<attackaction>1</attackaction>
+		<handlogic>1</handlogic>
+		<speedboost>1</speedboost>
+		<anim>Walk</anim>
+		<idleanim>Idle</idleanim>
+		<damage>0.0</damage>
+		<rof>0.0</rof>
+		<targetspeedboost>1</targetspeedboost>
+		<basedamagecap>1</basedamagecap>
+		<persistent>1</persistent>
+		<projectile>InvisibleProjectileNoTracer</projectile>
+		<throw>1</throw>
+	</action>
+	<tactic>
+		Limber
+		<speedmodifier>1.0</speedmodifier>
+		<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
+		<attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype>
+		<transition>
+			<tactic>Bombard</tactic>
+			<action>Limber</action>
+			<anim>Bombard_unlimber</anim>
+			<length>2</length>
+			<exit>1</exit>
+			<commandautomatic>1</commandautomatic>
+			<automatic>1</automatic>
+		</transition>
+		<deathanim>Death_by_melee</deathanim>
+	</tactic>
+	<tactic>
+		Bombard
+		<speedmodifier>0.4</speedmodifier>
+		<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
+		<autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype>
+		<attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype>
+		<exclusive>1</exclusive>
+		<action priority="100">CannonAttack</action>
+		<action>TrampleHandAttack</action>
+		<transition>
+			<tactic>Limber</tactic>
+			<action>Limber</action>
+			<anim>Bombard_limber</anim>
+			<length>4</length>
+			<exit>1</exit>
+		</transition>
+		<throw>1</throw>
+		<idleanim>Bombard_ranged_idle</idleanim>
+		<walkanim>Bombard_Walk</walkanim>
+		<joganim>Bombard_Run</joganim>
+		<runanim>Bombard_Run</runanim>
+		<deathanim>Bombard_Death</deathanim>
+	</tactic>
+</tactics>

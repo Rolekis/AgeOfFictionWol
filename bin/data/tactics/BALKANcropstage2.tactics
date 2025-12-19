@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+    <action>
+        <name stringid="43295">AutoGatherFood</name>
+        <type>AutoGather</type>
+        <persistent>1</persistent>
+        <addresourcestoinventory>1</addresourcestoinventory>
+    </action>
+	<tactic>
+		Normal
+        <action priority="100">Harvest</action>
+		<action>AutoGatherFood</action>
+	</tactic>
+</tactics>

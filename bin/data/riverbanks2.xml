@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<cliffs>
+	<cliff name="Deccan Plateau River" blockland="1" blockwater="1" iconname="ui\editor\cliffAndes">
+		<modelset>Default</modelset>
+		<texturing>
+			<bump/>
+			<topedge>deccan\ground_grass4_deccan</topedge>
+			<top>deccan\ground_grass4_deccan</top>
+			<side>deccan\ground_grass4_deccan</side>
+			<edge>deccan\ground_grass4_deccan</edge>
+			<bottomedge>deccan\ground_grass4_deccan</bottomedge>
+			<piecetex height="6.0" bump="terrain\texas\cliff_diffuse_tex_bump">terrain\deccan\cliff_river_deccan_01</piecetex>
+			<cappiecetex bump="terrain\amazon\cliff_bump_ama">terrain\amazon\cliff_ama</cappiecetex>
+			<displacement>terrain\deccan\cliff_displacement_deccan</displacement>
+		</texturing>
+		<topobjects>
+			<object name="terrain\underbrush\underbrush_deccan_rocks_01" minedgedist="1.75" maxedgedist="2.0" chance="0.02" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_deccan_shrub_01" minedgedist="0.5" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_deccan_shrub_02" minedgedist="0.5" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_deccan_rocks_01" minedgedist="2.0" maxedgedist="2.3" chance="0.02" randomyaw="true"/>
+		</topobjects>
+	</cliff>
+	<cliff name="Yellow River" blockland="1" blockwater="1" iconname="ui\editor\cliffdeccan">
+		<modelset>Default</modelset>
+		<texturing>
+			<bump/>
+			<topedge>yellow_river\grass1_yellow_riv</topedge>
+			<top>yellow_river\grass2_yellow_riv</top>
+			<side>yellow_river\grass4_yellow_riv</side>
+			<edge>yellow_river\grass3_yellow_riv</edge>
+			<bottomedge>yellow_river\grass1_yellow_riv</bottomedge>
+			<piecetex height="6.0" bump="terrain\yellow_river\cliff_bumpspec_yellow_riv_01">terrain\yellow_river\cliff_yellow_riv_01</piecetex>
+			<cappiecetex bump="terrain\yellow_river\cliff_bumpspec_yellow_riv_01">terrain\yellow_river\cliff_yellow_riv_01</cappiecetex>
+			<displacement>terrain\yellow_river\cliff_displacement_yellow_riv_01</displacement>
+		</texturing>
+		<topobjects>
+			<object name="terrain\underbrush\underbrush_yellow_riv_rocks_01" minedgedist="2" maxedgedist="5.0" chance="0.02" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_yellow_riv_rocks_03" minedgedist="1.5" maxedgedist="2" chance="0.02" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_yellow_riv_shrub_01" minedgedist="0.5" maxedgedist="5.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_yellow_riv_shrub_02" minedgedist="0.5" maxedgedist="5.0" chance="0.05" randomyaw="true"/>
+		</topobjects>
+	</cliff>
+</cliffs>

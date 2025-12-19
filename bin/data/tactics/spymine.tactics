@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="444176">MineBlow</name>
+		<type>Attack</type>
+		<attackaction>1</attackaction>
+		<anim>MineBlow</anim>
+		<idleanim>Idle</idleanim>
+		<rangedlogic>1</rangedlogic>
+		<maxrange>3</maxrange>
+		<impacteffect>effects\impacts\cannon</impacteffect>
+		<rate type="Guardian">1.0 </rate>
+		<rate type="Unit">1.0 </rate>
+		<basedamagecap>1</basedamagecap>
+		<projectile>InvisibleProjectile</projectile>
+		<throw>1</throw>
+		<impactforcemin>500.0f</impactforcemin>
+		<impactforcemax>800.0f</impactforcemax>
+		<outerdamageareadistance>.45</outerdamageareadistance>
+		<outerdamageareafactor>.5</outerdamageareafactor>
+		<impactlaunchangle>65.0</impactlaunchangle>
+		<areasortmode>Directional</areasortmode>
+		<targetground>1</targetground>
+		<numberbounces>0</numberbounces>
+		<basedamagecap>1</basedamagecap>
+		<perfectaccuracy>1</perfectaccuracy>
+
+		<selfdestruct>1</selfdestruct>
+		<physicsonselfdestruct>1</physicsonselfdestruct>
+	</action>
+	<action>
+		<name stringid="444176">MineBlow2</name>
+		<type>Attack</type>
+		<attackaction>1</attackaction>
+		<anim>MineBlow</anim>
+		<idleanim>Idle</idleanim>
+		<rangedlogic>1</rangedlogic>
+		<maxrange>3</maxrange>
+		<impacteffect>effects\impacts\cannon</impacteffect>
+		<rate type="Guardian">1.0 </rate>
+		<rate type="Unit">1.0 </rate>
+		<basedamagecap>1</basedamagecap>
+		<projectile>InvisibleProjectile</projectile>
+		<throw>1</throw>
+		<impactforcemin>500.0f</impactforcemin>
+		<impactforcemax>800.0f</impactforcemax>
+		<outerdamageareadistance>.45</outerdamageareadistance>
+		<outerdamageareafactor>.5</outerdamageareafactor>
+		<impactlaunchangle>65.0</impactlaunchangle>
+		<areasortmode>Directional</areasortmode>
+		<targetground>1</targetground>
+		<numberbounces>0</numberbounces>
+		<basedamagecap>1</basedamagecap>
+		<perfectaccuracy>1</perfectaccuracy>
+		<active>0</active>
+		<selfdestruct>1</selfdestruct>
+		<physicsonselfdestruct>1</physicsonselfdestruct>
+	</action>
+	<action>
+		<name stringid="444176">MineBlow3</name>
+		<type>Attack</type>
+		<attackaction>1</attackaction>
+		<anim>MineBlow</anim>
+		<idleanim>Idle</idleanim>
+		<rangedlogic>1</rangedlogic>
+		<maxrange>3</maxrange>
+		<impacteffect>effects\impacts\cannon</impacteffect>
+		<rate type="Guardian">1.0 </rate>
+		<rate type="Unit">1.0 </rate>
+		<basedamagecap>1</basedamagecap>
+		<projectile>InvisibleProjectile</projectile>
+		<throw>1</throw>
+		<impactforcemin>500.0f</impactforcemin>
+		<impactforcemax>800.0f</impactforcemax>
+		<outerdamageareadistance>.45</outerdamageareadistance>
+		<outerdamageareafactor>.5</outerdamageareafactor>
+		<impactlaunchangle>65.0</impactlaunchangle>
+		<areasortmode>Directional</areasortmode>
+		<targetground>1</targetground>
+		<numberbounces>0</numberbounces>
+		<basedamagecap>1</basedamagecap>
+		<perfectaccuracy>1</perfectaccuracy>
+		<active>0</active>
+		<selfdestruct>1</selfdestruct>
+		<physicsonselfdestruct>1</physicsonselfdestruct>
+	</action>
+	<tactic>
+		Normal
+		<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
+		<autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype>
+		<attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype>
+		<action priority="100">MineBlow3</action>
+		<action priority="70">MineBlow2</action>
+		<action priority="50">MineBlow</action>
+	</tactic>
+</tactics>

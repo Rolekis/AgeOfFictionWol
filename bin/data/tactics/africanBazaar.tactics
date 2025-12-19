@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="82092">MaintainSpiceStalls</name>
+		<type>Maintain</type>
+		<rate type="AfricanBazaarTent">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="603173">PianoXPTrickle</name>
+		<type>AutoGather</type>
+		<active>0</active>
+		<persistent>1</persistent>
+		<Rate type ='XP'>0.250001</Rate>
+	</action>
+	<tactic>
+		Normal
+		<action>MaintainSpiceStalls</action>
+		<action>PianoXPTrickle</action>
+	</tactic>
+</tactics>

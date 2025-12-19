@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="80739">SpawnGuerrillaInfantry</name>
+		<type>Spawn</type>
+		<rate type="GuerillaInfantry">10.0</rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="80740">SpawnIroquoisResource</name>
+		<type>Spawn</type>
+		<rate type="MineGold">2.0</rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>SpawnTownCenterCaravan</name>
+		<type>Spawn</type>
+		<rate type="EGYtowncenterCARAVAN">1.0</rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>Spawn5</name>
+		<type>Spawn</type>
+		<rate type="BALKANruins">1.0</rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="82332">RussianWinter</name>
+		<type>AutoRangedModify</type>
+		<modifyprotoid>Unit</modifyprotoid>
+		<targetenemy>1</targetenemy>
+		<active>0</active>
+		<maxrange>30</maxrange>
+		<persistent>1</persistent>
+		<modifytype>Speed</modifytype>
+		<modifymultiplier>0.75</modifymultiplier>
+		<modelattachment>War of the Triple Alliance\Units\Delta\Danish\Ice\icerussian.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+	</action>
+	<tactic>
+		Normal
+		<action>SpawnGuerrillaInfantry</action>
+		<action>SpawnIroquoisResource</action>
+		<action>SpawnTownCenterCaravan</action>
+		<action>Spawn5</action>
+		<action>RussianWinter</action>
+	</tactic>
+</tactics>

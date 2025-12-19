@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="38133">RangedAttack</name>
+		<type>Attack</type>
+		<active>1</active>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<activeifcontainsunits>1</activeifcontainsunits>
+		<damagefactorcap>10</damagefactorcap>
+		<scalebycontainedunits>1</scalebycontainedunits>
+		<anim>RangedAttack</anim>
+		<maxheight>0</maxheight>
+		<accuracy>1.0</accuracy>
+		<aimbonus>0</aimbonus>
+		<maxspread>5</maxspread>
+		<rate type="Building">1.0</rate>
+		<spreadfactor>0.25</spreadfactor>
+		<trackrating>12</trackrating>
+		<unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+		<projectile>InvisibleProjectile</projectile>
+		<impacteffect>effects\impacts\gun</impacteffect>
+		<rate type="Unit">1.0</rate>
+		<instantballistics>1</instantballistics>
+	</action>
+	<action>
+		<name stringid="38133">CitadelAttack</name>
+		<type>Attack</type>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<anim>RangedAttack</anim>
+		<maxheight>0</maxheight>
+		<accuracy>1.0</accuracy>
+		<aimbonus>0</aimbonus>
+		<maxspread>5</maxspread>
+		<rate type="Building">1.0</rate>
+		<spreadfactor>0.25</spreadfactor>
+		<trackrating>12</trackrating>
+		<unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+		<projectile>InvisibleProjectile</projectile>
+		<impacteffect>effects\impacts\gun</impacteffect>
+		<rate type="Unit">1.0</rate>
+		<instantballistics>1</instantballistics>
+		<active>0</active>
+	</action>
+	<action>
+		<name stringid="38121">CitadelBombardAttack</name>
+		<type>Attack</type>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<anim>RangedAttackShip</anim>
+		<maxheight>0</maxheight>
+		<accuracy>1.0</accuracy>
+		<aimbonus>0</aimbonus>
+		<maxspread>5</maxspread>
+		<spreadfactor>0.25</spreadfactor>
+		<trackrating>12</trackrating>
+		<unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+		<projectile>Cannonball</projectile>
+		<impacteffect>effects\impacts\cannon</impacteffect>
+		<perfectaccuracy>1</perfectaccuracy>
+		<rate type="Unit">1.0</rate>
+		<rate type="Building">1.0</rate>
+		<active>0</active>
+	</action>
+	<action>
+		<name stringid="38121">AntiShipAttack</name>
+		<type>Attack</type>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<anim>RangedAttackShip</anim>
+		<maxheight>0</maxheight>
+		<accuracy>1.0</accuracy>
+		<aimbonus>0</aimbonus>
+		<maxspread>5</maxspread>
+		<spreadfactor>0.25</spreadfactor>
+		<trackrating>12</trackrating>
+		<unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+		<projectile>Cannonball</projectile>
+		<impacteffect>effects\impacts\cannon</impacteffect>
+		<perfectaccuracy>1</perfectaccuracy>
+		<rate type="Ship">1.0</rate>
+	</action>
+	<action>
+		<name>SpawnJews</name>
+		<type>Spawn</type>
+		<rate type="Settler">5.0 </rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="6000588">SpawnMosquitiaConfeds</name>
+		<type>Spawn</type>
+		<rate type="IMFilibuster">6.0 </rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="6000589">SpawnMosquitiaScandinavian</name>
+		<type>Spawn</type>
+		<rate type="IMSkiTrooper">5.0 </rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="6000590">SpawnMosquitiaPolish</name>
+		<type>Spawn</type>
+		<rate type="IMAuxiliar">6.0 </rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="60005901">SpawnMosquitiaSpanish</name>
+		<type>Spawn</type>
+		<rate type="IMCriollo">6.0 </rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name>SpawnPilgrimage</name>
+		<type>Spawn</type>
+		<rate type="Priest">3.0 </rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>SpawnSearchLight</name>
+		<type>Spawn</type>
+		<rate type="SearchLight">1.0 </rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="68972">SpawnSaiga</name>
+		<type>Maintain</type>
+		<rate type="ypSaiga">5.0</rate>
+		<active>1</active>
+		<persistent>0</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="68971">SpawnRefugees1</name>
+		<type>Maintain</type>
+		<rate type="ypMigrantArmySmall">1</rate>
+		<active>1</active>
+		<persistent>0</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="68971">SpawnRefugees2</name>
+		<type>Maintain</type>
+		<rate type="ypMigrantArmySmall">1</rate>
+		<active>1</active>
+		<persistent>0</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="68973">SpawnLivestock1</name>
+		<type>Maintain</type>
+		<rate type="ypMigrantGoats">1</rate>
+		<active>1</active>
+		<persistent>0</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="68973">SpawnLivestock2</name>
+		<type>Maintain</type>
+		<rate type="ypMigrantOx">1</rate>
+		<active>1</active>
+		<persistent>0</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="68973">SpawnLivestock3</name>
+		<type>Maintain</type>
+		<rate type="ypMigrantGoats">1</rate>
+		<active>1</active>
+		<persistent>0</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="68971">SpawnMigrants3</name>
+		<type>Maintain</type>
+		<rate type="ypMigrantArmyLarge">1</rate>
+		<active>1</active>
+		<persistent>0</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="68971">MaintainRicePaddyWagons</name>
+		<type>Maintain</type>
+		<rate type="YPRicePaddyWagon">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="68971">MaintainSettlersOttoman</name>
+		<type>Maintain</type>
+		<rate type="Settler">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="68971">MaintainSettlersAfrican</name>
+		<type>Maintain</type>
+		<rate type="africanvillager">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="68971">MaintainAfricanbuilder</name>
+		<type>Maintain</type>
+		<rate type="AFRICANtravois">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="68971">MaintainLegionAgri</name>
+		<type>Maintain</type>
+		<rate type="IMLegioneAgricola">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>MaintainMilitiaOttoman</name>
+		<type>Maintain</type>
+		<rate type="xpColonialMilitia">3.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="2040043">MaintainNomads</name>
+		<type>Maintain</type>
+		<rate type="Nomad">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="2040043">MaintainBedouins</name>
+		<type>Maintain</type>
+		<rate type="Bedouin">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="68971">MaintainServants</name>
+		<type>Maintain</type>
+		<rate type="SettlerME">2.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="72745">SpawnGaucho</name>
+		<type>Maintain</type>
+		<rate type="MountedSettler">4</rate>
+		<active>1</active>
+		<persistent>0</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="69182">SpawnCanadianTrees</name>
+		<type>Maintain</type>
+		<rate type="TreeCanadian">3.0 </rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="430510">SpawnMidfa</name>
+		<type>Maintain</type>
+		<rate type="Midfa">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="444901">ManifestDestiny1</name>
+		<type>AutoRangedModify</type>
+		<modifyprotoid>TownCenter</modifyprotoid>
+		<active>0</active>
+		<maxrange>10000</maxrange>
+		<persistent>1</persistent>
+		<modifytype>MaxHP</modifytype>
+		<modifymultiplier>3.0</modifymultiplier>
+	</action>
+	<action>
+		<name stringid="444901">ManifestDestiny2</name>
+		<type>AutoRangedModify</type>
+		<modifyprotoid>TownCenter</modifyprotoid>
+		<active>0</active>
+		<maxrange>400</maxrange>
+		<persistent>1</persistent>
+		<modifytype>MaxHP</modifytype>
+		<modifymultiplier>0.83</modifymultiplier>
+	</action>
+	<action>
+		<name stringid="444901">ManifestDestiny3</name>
+		<type>AutoRangedModify</type>
+		<modifyprotoid>TownCenter</modifyprotoid>
+		<active>0</active>
+		<maxrange>300</maxrange>
+		<persistent>1</persistent>
+		<modifytype>MaxHP</modifytype>
+		<modifymultiplier>0.80</modifymultiplier>
+	</action>
+	<action>
+		<name stringid="444901">ManifestDestiny4</name>
+		<type>AutoRangedModify</type>
+		<modifyprotoid>TownCenter</modifyprotoid>
+		<active>0</active>
+		<maxrange>200</maxrange>
+		<persistent>1</persistent>
+		<modifytype>MaxHP</modifytype>
+		<modifymultiplier>0.75</modifymultiplier>
+	</action>
+	<action>
+		<name stringid="444901">ManifestDestiny5</name>
+		<type>AutoRangedModify</type>
+		<modifyprotoid>TownCenter</modifyprotoid>
+		<active>0</active>
+		<maxrange>100</maxrange>
+		<persistent>1</persistent>
+		<modifytype>MaxHP</modifytype>
+		<modifymultiplier>0.66</modifymultiplier>
+	</action>
+	<action>
+		<name stringid="444901">ManifestDestiny6</name>
+		<type>AutoRangedModify</type>
+		<modifyprotoid>TownCenter</modifyprotoid>
+		<active>0</active>
+		<maxrange>30</maxrange>
+		<persistent>1</persistent>
+		<modifytype>MaxHP</modifytype>
+		<modifymultiplier>0.75</modifymultiplier>
+	</action>
+	<action>
+		<name stringid="444901">ManifestDestiny7</name>
+		<type>AutoRangedModify</type>
+		<modifyprotoid>TownCenter</modifyprotoid>
+		<active>0</active>
+		<maxrange>20</maxrange>
+		<persistent>1</persistent>
+		<modifytype>MaxHP</modifytype>
+		<modifymultiplier>0.66</modifymultiplier>
+	</action>
+	<action>
+		<name stringid="444901">ManifestDestiny8</name>
+		<type>AutoRangedModify</type>
+		<modifyprotoid>TownCenter</modifyprotoid>
+		<active>0</active>
+		<maxrange>10</maxrange>
+		<persistent>1</persistent>
+		<modifytype>MaxHP</modifytype>
+		<modifymultiplier>0.66</modifymultiplier>
+	</action>
+	<action>
+		<name stringid="48954">russianwinter</name>
+		<type>AutoRangedModify</type>
+		<modifyprotoid>Unit</modifyprotoid>
+		<active>0</active>
+		<targetenemy>1</targetenemy>
+		<maxrange>24</maxrange>
+		<persistent>1</persistent>
+		<modifytype>Speed</modifytype>
+		<modifymultiplier>0.75</modifymultiplier>
+		<modelattachment>War of the Triple Alliance\Units\Delta\Danish\Ice\icerussian.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+	</action>
+	<action>
+		<name stringid="700306">AutoGatherItalianBonus</name>
+		<type>AutoGather</type>
+		<active>0</active>
+		<persistent>1</persistent>
+		<Rate type ='Gold'>0.250001</Rate>
+	</action>
+	<action>
+		<name>SpawnItalianHouses</name>
+		<type>Maintain</type>
+		<rate type="HouseItalian">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="6000545">AutoGatherXPgreeklvl1</name>
+		<type>AutoGather</type>
+		<active>0</active>
+		<persistent>1</persistent>
+		<Rate type ='XP'>1.0000</Rate>
+	</action>
+	<action>
+		<name stringid="6000545">AutoGatherXPgreeklvl2</name>
+		<type>AutoGather</type>
+		<active>0</active>
+		<persistent>1</persistent>
+		<Rate type ='XP'>1.5000</Rate>
+	</action>
+	<action>
+		<name stringid="68971">MaintainYouth</name>
+		<type>Maintain</type>
+		<rate type="AFRICANyouth">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+    <action>
+        <name stringid="603004">MeatStorageMaintainCows</name>
+        <type>Maintain</type>
+        <rate type="Cow">1.0</rate>
+        <active>0</active>
+        <persistent>1</persistent>
+    </action>
+	<action>
+		<name>SpawnIrishImmigrantsFenian</name>
+		<type>Maintain</type>
+		<rate type="IMFenian">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>SpawnIrishImmigrantsPatricio</name>
+		<type>Maintain</type>
+		<rate type="IMPatricio">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>SpawnIrishImmigrantsWildGoose</name>
+		<type>Maintain</type>
+		<rate type="IMWildGoose">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="603173">PianoXPTrickle</name>
+		<type>AutoGather</type>
+		<active>0</active>
+		<persistent>1</persistent>
+		<Rate type ='XP'>0.250001</Rate>
+	</action>
+	<action>
+		<name>MaintainTownWagon</name>
+		<type>Maintain</type>
+		<rate type="WOLTownWagon">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="24102">BuildAnnex</name>
+		<type>Build</type>
+		<maxrange>5</maxrange>
+		<rate type="Building">1.0</rate>
+	</action>	
+	<action>
+		<name>HaitiInvasionATK</name>
+		<type>AutoRangedModify</type>
+		<modifyprotoid>AbstractInfantry</modifyprotoid>
+		<active>0</active>
+		<maxrange>90</maxrange>
+		<modifyexclusive>1</modifyexclusive>
+		<persistent>1</persistent>
+		<modifytype>Damage</modifytype>
+		<modifymultiplier>0.85</modifymultiplier>
+		<modelattachment>effects\ypack_auras\frightpower.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+	</action>
+	<action>
+		<name>HaitiInvasionATK2</name>
+		<type>AutoRangedModify</type>
+		<modifyprotoid>AbstractCavalry</modifyprotoid>
+		<active>0</active>
+		<maxrange>90</maxrange>
+		<modifyexclusive>1</modifyexclusive>
+		<persistent>1</persistent>
+		<modifytype>Damage</modifytype>
+		<modifymultiplier>0.85</modifymultiplier>
+		<modelattachment>effects\ypack_auras\frightpower.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+	</action>
+	<action>
+		<name>HaitiInvasionATK3</name>
+		<type>AutoRangedModify</type>
+		<modifyprotoid>AbstractArtillery</modifyprotoid>
+		<active>0</active>
+		<maxrange>90</maxrange>
+		<modifyexclusive>1</modifyexclusive>
+		<persistent>1</persistent>
+		<modifytype>Damage</modifytype>
+		<modifymultiplier>0.85</modifymultiplier>
+		<modelattachment>effects\ypack_auras\frightpower.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+	</action>
+	<action>
+		<name stringid="800990">Racism</name>
+		<type>AutoRangedModify</type>
+		<maxrange>50</maxrange>
+		<modifyprotoid>RomaSlave</modifyprotoid>
+		<persistent>1</persistent>
+		<active>0</active>		
+		<modifyexclusive>1</modifyexclusive>
+		<modifytype>GatherRate</modifytype>
+		<modifymultiplier>0.7</modifymultiplier>
+		<modelattachment>effects\ypack_auras\frightpower.xml</modelattachment>
+		<modelattachmentbone>bone_smoke</modelattachmentbone>
+	</action>
+	<action>
+		<name stringid="6055551">ShearerHitpoints</name>
+		<type>AutoRangedModify</type>
+		<modifyprotoid>IMWorkerSPA</modifyprotoid>
+		<active>0</active>
+		<maxrange>15</maxrange>
+		<persistent>1</persistent>
+		<modifytype>MaxHP</modifytype>
+		<modifymultiplier>2.0</modifymultiplier>
+		<modifyexclusive>1</modifyexclusive>
+	</action>
+	<!-- ANTI LAME AURA -->
+	<action>
+		<name>VillFrightAura</name>
+		<type>AutoRangedModify</type>
+		<modifyprotoid>AbstractVillager</modifyprotoid>
+		<active>1</active>
+		<maxrange>90</maxrange>
+		<persistent>1</persistent>
+		<modifytype>Damage</modifytype>
+		<modifymultiplier>0.0</modifymultiplier>
+	</action>
+	<action>
+		<name>CaravanFrightAuraATK</name>
+		<type>AutoRangedModify</type>
+		<modifyabstracttype>AbstractWoLSaudCaravan</modifyabstracttype>
+		<active>1</active>
+		<maxrange>50</maxrange>
+		<persistent>1</persistent>
+		<modifytype>Damage</modifytype>
+		<modifymultiplier>0.5</modifymultiplier>
+		<modelattachment>effects\ypack_auras\frightpower.xml</modelattachment>
+		<modelattachmentbone>bone_smoke</modelattachmentbone>
+		<targetenemy>1</targetenemy>
+	</action>
+	<action>
+		<name>CaravanFrightAuraHP</name>
+		<type>AutoRangedModify</type>
+		<modifyabstracttype>AbstractWoLSaudCaravan</modifyabstracttype>
+		<active>1</active>
+		<maxrange>50</maxrange>
+		<persistent>1</persistent>
+		<modifytype>MaxHP</modifytype>
+		<modifymultiplier>0.5</modifymultiplier>
+		<targetenemy>1</targetenemy>
+	</action>
+	<action>
+		<name stringid="700306">AutoGatherFood</name>
+		<type>AutoGather</type>
+		<active>0</active>
+		<persistent>1</persistent>
+		<Rate type ='Food'>0.250001</Rate>
+	</action>
+	<action>
+		<name stringid="700306">AutoGatherFoodGerman</name>
+		<type>AutoGather</type>
+		<active>0</active>
+		<persistent>1</persistent>
+		<Rate type ='Food'>3.000000</Rate>
+	</action>
+	<action>
+		<name stringid="2030307">SpawnJezailchi</name>
+		<type>Maintain</type>
+		<rate type="Jezailchi">3</rate>
+		<active>1</active>
+		<persistent>0</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="2040092">UzbekUrbanizedCitadel</name>
+		<type>AutoRangedModify</type>
+		<ModifyAbstractType>Building</ModifyAbstractType>
+		<active>0</active>
+		<maxrange>32</maxrange>
+		<persistent>1</persistent>
+		<modifytype>MaxHP</modifytype>
+		<modifymultiplier>1.10</modifymultiplier>
+		<modifyexclusive>1</modifyexclusive>
+		<modelattachment>War of the Triple Alliance\Units\Priest\holyglow.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+	</action>
+	<action>
+		<name stringid="2040093">CitadelSpawnKarakalpak</name>
+		<type>Maintain</type>
+		<rate type="NomadKarakalpak">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="2040095">CitadelSpawnTurkman</name>
+		<type>Maintain</type>
+		<rate type="NomadTurkman">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="2040097">CitadelSpawnKyrgyz</name>
+		<type>Maintain</type>
+		<rate type="NomadKyrgyz">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="2040075">WarlordAuraATKAf</name>
+		<type>AutoRangedModify</type>
+		<active>0</active>
+		<maxrange>24</maxrange>
+		<persistent>1</persistent>
+		<modifytype>Damage</modifytype>
+		<modifymultiplier>1.05</modifymultiplier>
+		<modifyprotoid>Jezailchi</modifyprotoid>
+		<!-- <ModifyExclusive>1</ModifyExclusive> -->
+	</action>
+	<action>
+		<name stringid="2040075">WarlordAuraHPAf</name>
+		<type>AutoRangedModify</type>
+		<active>0</active>
+		<maxrange>24</maxrange>
+		<persistent>1</persistent>
+		<modifytype>MaxHP</modifytype>
+		<modifymultiplier>1.025</modifymultiplier>
+		<modifyprotoid>Jezailchi</modifyprotoid>
+		<modelattachment>effects\me_auras\aura_warlord.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+		<!-- <ModifyExclusive>1</ModifyExclusive> -->
+	</action>
+	<action>
+		<name stringid="2040075">MiragnAuraATKUz</name>
+		<type>AutoRangedModify</type>
+		<active>0</active>
+		<maxrange>30</maxrange>
+		<persistent>1</persistent>
+		<modifytype>Damage</modifytype>
+		<modifymultiplier>1.25</modifymultiplier>
+		<modifyprotoid>Mirgan</modifyprotoid>
+		<ModifyExclusive>1</ModifyExclusive>
+		<modelattachment>effects\me_auras\aura_warlord.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+	</action>
+	<action>
+		<name stringid="2040149">Spawn25Gold</name>
+		<type>Spawn</type>
+		<rate type="DutchgoldIV">1.0 </rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="2040149">Spawn50Gold</name>
+		<type>Spawn</type>
+		<rate type="DutchgoldIV">2.0 </rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="2030766">TimuridXPTrickle</name>
+		<type>AutoGather</type>
+		<active>0</active>
+		<persistent>1</persistent>
+		<Rate type ='XP'>0.25</Rate>
+	</action>
+	<action>
+		<name stringid="2030457">MaintainConsulateSepoy</name>
+		<type>Maintain</type>
+		<rate type="ypSepoy">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="2018553">SpawnPoppies</name>
+		<type>Spawn</type>
+		<rate type="Poppy">2.0 </rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<tactic>
+		Normal
+		<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
+		<autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype>
+		<attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype>
+		<action priority="100">AntiShipAttack</action>
+		<action priority="77">CitadelBombardAttack</action>
+		<action priority="76">CitadelAttack</action>
+		<action priority="75">RangedAttack</action>
+		<action priority="15">SpawnSaiga</action>
+		<action priority="15">SpawnRefugees1</action>
+		<action priority="15">SpawnRefugees2</action>
+		<action priority="15">SpawnMigrants3</action>
+		<action priority="15">SpawnLivestock1</action>
+		<action priority="15">SpawnLivestock2</action>
+		<action priority="15">SpawnLivestock3</action>
+		<action priority="15">SpawnGaucho</action>
+		<action priority="15">SpawnIrishImmigrantsFenian</action>
+		<action priority="15">SpawnIrishImmigrantsPatricio</action>
+		<action priority="15">SpawnIrishImmigrantsWildGoose</action>
+		<action>TimuridXPTrickle</action>
+		<action>SpawnMosquitiaConfeds</action>
+		<action>SpawnMosquitiaPolish</action>
+		<action>SpawnMosquitiaScandinavian</action>
+		<action>SpawnMosquitiaSpanish</action>
+		<action>VillFrightAura</action>
+		<action>MaintainTownWagon</action>
+		<action>MaintainRicePaddyWagons</action>
+		<action>MaintainSettlersOttoman</action>
+		<action>MaintainSettlersAfrican</action>
+		<action>AutoGatherXPgreeklvl1</action>
+		<action>AutoGatherXPgreeklvl2</action>
+		<action>SpawnItalianHouses</action>
+		<action>MaintainYouth</action>
+		<action>SpawnJews</action>
+		<action>Russianwinter</action>
+		<action>AutoGatherFood</action>
+		<action>AutoGatherFoodGerman</action>
+		<action>SpawnCanadianTrees</action>
+		<action>SpawnMidfa</action>
+		<action>SpawnPilgrimage</action>
+		<action>SpawnSearchLight</action>
+		<action>MaintainMilitiaOttoman</action>
+		<action>Maintainafricanbuilder</action>
+		<action>MaintainNomads</action>
+		<action>MaintainBedouins</action>
+		<action>MaintainServants</action>
+		<action>ManifestDestiny1</action>
+		<action>ManifestDestiny2</action>
+		<action>ManifestDestiny3</action>
+		<action>ManifestDestiny4</action>
+		<action>ManifestDestiny5</action>
+		<action>ManifestDestiny6</action>
+		<action>ManifestDestiny7</action>
+		<action>ManifestDestiny8</action>
+		<action>AutoGatherItalianBonus</action>
+		<action>MeatStorageMaintainCows</action>
+		<action>PianoXPTrickle</action>
+		<action>SpawnPa</action>
+		<action>BuildAnnex</action>		
+		<action>HaitiInvasionATK</action>
+		<action>HaitiInvasionATK2</action>
+		<action>HaitiInvasionATK3</action>
+		<action>Racism</action>
+		<action>AnimismAuraDamage</action>
+		<action>AnimismAuraHealth</action>
+		<action>AnimismAuraGatherRate</action>
+		<action>AnimismAuraSpeed</action>
+		<action>MaintainLegionAgri</action>
+		<action>SpawnJezailchi</action>
+		<action>UzbekTimuridCitadel</action>
+		<action>CitadelSpawnKarakalpak</action>
+		<action>CitadelSpawnTurkman</action>
+		<action>CitadelSpawnKyrgyz</action>
+		<action>WarlordAuraATKAf</action>
+		<action>WarlordAuraHPAf</action>
+		<action>MiragnAuraATKUz</action>
+		<action>CaravanFrightAuraHP</action>
+		<action>CaravanFrightAuraATK</action>
+		<action>UzbekUrbanizedCitadel</action>
+		<action>Spawn25Gold</action>
+        <action>Spawn50Gold</action>
+		<action>MaintainConsulateSepoy</action>
+		<action>SpawnPoppies</action>
+	</tactic>
+</tactics>

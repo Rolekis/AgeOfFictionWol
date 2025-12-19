@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name>SpawnSpawner</name>
+		<type>Spawn</type>
+		<rate type="PeonSpawner">1.0 </rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	
+	<action>
+		<name stringid="2040149">Spawn25Gold</name>
+		<type>Spawn</type>
+		<rate type="DutchgoldIV">1.0 </rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="2040149">Spawn50Gold</name>
+		<type>Spawn</type>
+		<rate type="DutchgoldIV">2.0 </rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="68971">MaintainPrimero</name>
+		<type>Maintain</type>
+		<rate type="Vanguardia">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="68971">MaintainAcacaraya</name>
+		<type>Maintain</type>
+		<rate type="Acacaraya">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="68971">MaintainCohete</name>
+		<type>Maintain</type>
+		<rate type="Cohete">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="68971">MaintainLightCavalry</name>
+		<type>Maintain</type>
+		<rate type="NALightCavalry">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="69182">SpawnCanadianTrees</name>
+		<type>Spawn</type>
+		<rate type="TreeCanadian">3.0 </rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="69182">SpawnMusketeers</name>
+		<type>Spawn</type>
+		<rate type="WOLLandwehr">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="69182">SpawnMusketeers2</name>
+		<type>Spawn</type>
+		<rate type="WolLandwehrCav">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="700306">AutoGatherItalianBonus</name>
+		<type>AutoGather</type>
+		<active>0</active>
+		<persistent>1</persistent>
+		<Rate type ='Gold'>0.250001</Rate>
+	</action>
+	<action>
+		<name stringid="82589">SpawnKlepht1</name>
+		<type>Maintain</type>
+		<rate type="Klepht">2</rate>
+		<active>1</active>
+		<persistent>0</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="68971">SpawnRedC</name>
+		<type>Spawn</type>
+		<rate type="Redcoat">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="82589">SpawnKlepht2</name>
+		<type>Maintain</type>
+		<rate type="Klepht">1</rate>
+		<active>1</active>
+		<persistent>0</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="603173">AutoGatherXP</name>
+		<type>AutoGather</type>
+		<active>0</active>
+		<persistent>1</persistent>
+		<Rate type ='XP'>0.250001</Rate>
+	</action>
+	<action>
+		<name stringid="43294">AutoGatherCoin</name>
+		<type>AutoGather</type>
+		<persistent>1</persistent>
+		<active>0</active>
+	</action>
+	<action>
+		<name stringid="48955">ExtraSpeedKoreanNavy</name>
+		<type>AutoRangedModify</type>
+		<targetenemy>1</targetenemy>
+		<modifyprotoid>WOLHyeopseon</modifyprotoid>
+		<active>1</active>
+		<maxrange>4096</maxrange>
+		<persistent>1</persistent>
+		<modifytype>Speed</modifytype>
+		<modifymultiplier>1.005</modifymultiplier>
+	</action>
+	<action>
+		<name stringid="68961">EconomicAuraKoreanNavy</name>
+		<type>AutoRangedModify</type>
+		<targetenemy>1</targetenemy>
+		<modifyprotoid>WOLHyeopseon</modifyprotoid>
+		<active>1</active>
+		<maxrange>4096</maxrange>
+		<persistent>1</persistent>
+		<modifytype>GatherRate</modifytype>
+		<modifymultiplier>1.01</modifymultiplier>
+	</action>
+	<action>
+		<name stringid="48958">ExtraDamageKoreanNavy</name>
+		<type>AutoRangedModify</type>
+		<targetenemy>1</targetenemy>
+		<modifyprotoid>WOLPanokseon</modifyprotoid>
+		<active>1</active>
+		<maxrange>4096</maxrange>
+		<persistent>1</persistent>
+		<modifytype>Damage</modifytype>
+		<modifymultiplier>1.01</modifymultiplier>
+	</action>
+	<action>
+		<name stringid="48954">GreatHeartKoreanNavy</name>
+		<type>AutoRangedModify</type>
+		<targetenemy>1</targetenemy>
+		<modifyprotoid>WOLGeobukseon</modifyprotoid>
+		<active>1</active>
+		<maxrange>4096</maxrange>
+		<persistent>1</persistent>
+		<modifytype>MaxHP</modifytype>
+		<modifymultiplier>1.01</modifymultiplier>
+	</action>
+	<action>
+		<name stringid="24102">BuildAnnex</name>
+		<type>Build</type>
+		<maxrange>5</maxrange>
+		<rate type="Building">1.0</rate>
+	</action>
+	<action>
+		<name stringid="61766">AutoGatherXPNeoclassicalMedium</name>
+		<type>AutoGather</type>
+		<active>0</active>
+		<persistent>1</persistent>
+		<Rate type ='XP'>0.2500</Rate>
+	</action>
+	<action>
+		<name stringid="61766">AutoGatherXPNeoclassicalSmall</name>
+		<type>AutoGather</type>
+		<active>0</active>
+		<persistent>1</persistent>
+		<Rate type ='XP'>0.1000</Rate>
+	</action>
+	<action>
+		<name stringid="2030766">TimuridXPTrickle</name>
+		<type>AutoGather</type>
+		<active>0</active>
+		<persistent>1</persistent>
+		<Rate type ='XP'>0.10</Rate>
+	</action>
+	<tactic>
+		Normal
+		<action>AutoGatherXP</action>
+		<action>AutoGatherCoin</action>
+		<action>TimuridXPTrickle</action>
+		<action>AutoGatherItalianBonus</action>
+		<action>EconomicAuraKoreanNavy</action>
+		<action>ExtraDamageKoreanNavy</action>
+		<action>ExtraSpeedKoreanNavy</action>
+		<action>GreatHeartKoreanNavy</action>
+		<action>MaintainAcacaraya</action>
+		<action>MaintainCohete</action>
+		<action>MaintainLightCavalry</action>
+		<action>MaintainPrimero</action>
+		<action>SpawnCanadianTrees</action>
+		<action>SpawnKlepht1</action>
+		<action>SpawnKlepht2</action>
+		<action>SpawnMusketeers</action>
+		<action>SpawnMusketeers2</action>
+		<action>SpawnRedC</action>
+		<action>SpawnSpawner</action>
+		<action>BuildAnnex</action>
+		<action>AutoGatherXPNeoclassicalMedium</action>
+		<action>AutoGatherXPNeoclassicalSmall</action>
+		<action>Spawn25Gold</action>
+        <action>Spawn50Gold</action>
+	</tactic>
+</tactics>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="38119">MortarAttack</name>
+		<type>Attack</type>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<anim>RangedAttack</anim>
+		<idleanim>Idle</idleanim>
+		<projectile>Tankshell</projectile>
+		<maxheight>0</maxheight>
+		<numberprojectiles>1</numberprojectiles>
+		<impacteffect>units\Great War\effects\impacts\ww1</impacteffect>
+		<accuracy>1.0</accuracy>
+		<aimbonus>0</aimbonus>
+		<throw>1</throw>
+		<rate type="All">1.0 </rate>
+		<areasortmode>Radial</areasortmode>
+		<impactforcemin>700.0f</impactforcemin>
+		<impactforcemax>900.0f</impactforcemax>
+		<impactlaunchangle>12.0</impactlaunchangle>
+		<perfectaccuracy>1</perfectaccuracy>
+		<targetground>1</targetground>
+		<basedamagecap>1</basedamagecap>
+	</action>
+	<action>
+		<name stringid="38142">TrampleHandAttack</name>
+		<type>TruckAttack</type>
+		<maxrange>3</maxrange>
+		<rate type="All">1.0 </rate>
+		<attackaction>1</attackaction>
+		<handlogic>1</handlogic>
+		<speedboost>1</speedboost>
+		<anim>Walk</anim>
+		<idleanim>Walk</idleanim>
+		<damage>6.5</damage>
+		<rof>1.0</rof>
+		<targetspeedboost>1</targetspeedboost>
+		<basedamagecap>1</basedamagecap>
+		<persistent>1</persistent>
+		<projectile>InvisibleProjectileNoTracer</projectile>
+		<throw>1</throw>
+	</action>
+	<action>
+		<name stringid="38122">LongRangeAttack</name>
+		<type>Attack</type>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<anim>BombardAttack</anim>
+		<idleanim>Idle</idleanim>
+		<projectile>Tankshell</projectile>
+		<numberprojectiles>1</numberprojectiles>
+		<impacteffect>effects\impacts\mortar</impacteffect>
+		<accuracy>1.0</accuracy>
+		<aimbonus>5</aimbonus>
+		<throw>1</throw>
+		<rate type="All">1.0 </rate>
+		<perfectaccuracy>1</perfectaccuracy>
+		<areasortmode>Radial</areasortmode>
+		<targetground>1</targetground>
+		<basedamagecap>1</basedamagecap>
+	</action>
+	<tactic>
+		Normal
+		<speedmodifier>1.0</speedmodifier>
+		<action priority="100">MortarAttack</action>
+		<action priority="1">LongRangeAttack</action>
+		<action>TrampleHandAttack</action>
+		<idleanim>Idle</idleanim>
+		<moveanim>Walk</moveanim>
+		<deathanim>Death</deathanim>
+				<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
+		<autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype>
+		<attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype>
+		<runaway>1</runaway>
+		<exclusive>1</exclusive>
+		<throw>1</throw>
+		<autoretarget>1</autoretarget>
+	</tactic>
+</tactics>

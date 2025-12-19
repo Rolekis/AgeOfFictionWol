@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="42178">Gather</name>
+		<type>Gather</type>
+		<maxrange>0.5</maxrange>
+		<rate type="Farm">1.0</rate>
+		<rate type="WOLFarmIroquois">1.0</rate>
+		<rate type="Mill">1.0</rate>
+		<rate type="BalkanBeetStage2">1.0</rate>
+		<rate type="BalkanWheatStage2">1.0</rate>
+		<rate type="BalkanCabbageStage2">1.0</rate>
+		<rate type="BalkanStrawberryStage2">1.0</rate>
+		<rate type="ypBerryBuilding">1.0</rate>
+		<rate type="ypGroveBuilding">1.0</rate>
+	</action>
+	<action>
+		<name stringid="69183">NoWork</name>
+		<type>NoWork</type>
+		<maxrange>10</maxrange>
+		<rate type="Herdable">1.0</rate>
+		<rate type="Huntable">1.0</rate>
+		<typedmaxrange type="Herdable">0</typedmaxrange>
+		<typedmaxrange type="AbstractNuggetWater">0</typedmaxrange>
+		<typedmaxrange type="Huntable">10</typedmaxrange>
+	</action>
+	<tactic>
+		Normal
+		<speedmodifier>1.0</speedmodifier>
+		<action>Gather</action>
+		<attacktype>LogicalTypeVillagersAttack</attacktype>
+		<attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype>
+		<runaway>0</runaway>
+		<autoretarget>1</autoretarget>
+	</tactic>
+</tactics>

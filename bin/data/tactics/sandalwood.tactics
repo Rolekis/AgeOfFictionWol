@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="68971">MaintainSandalwood</name>
+		<type>Maintain</type>
+		<rate type="TreeSandalwood">1.0</rate>
+		<active>1</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="68971">ElNinoCycle</name>
+		<type>Maintain</type>
+		<rate type="TreeSandalwood">5</rate>
+		<active>1</active>
+		<persistent>0</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<tactic>
+		Normal
+		<action>MaintainSandalwood</action>
+		<action>ElNinoCycle</action>
+	</tactic>
+</tactics>

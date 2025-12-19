@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<definebone>Bip01 Prop1</definebone>
+	<definebone>bone_gun</definebone>
+	<definebone>bone_hat</definebone>
+	<definebone>bone_sword</definebone>
+	<attachment>
+		gun
+		<include>WoL\units\attachments\gun_colt.xml</include>
+	</attachment>
+	<attachment>
+		hat
+		<include>WoL\units\attachments\hat_voivode.xml</include>
+	</attachment>
+	<attachment>
+		sword
+		<include>WoL\units\attachments\sword_karabela.xml</include>
+	</attachment>
+	<attachment>
+		torch
+		<include>effects\projectiles\torch.xml</include>
+	</attachment>
+	<component>
+		ModelComp
+		<assetreference type="GrannyModel">
+			<file>WoL\units\infantry_ranged\infantry_voivod\infantry_voivod</file>
+		</assetreference>
+		<decal>
+			<effecttype>default</effecttype>
+			<texture isfakeshadow="1">shadows_selections\shadow_circle_32x32</texture>
+			<selectedtexture>shadows_selections\selection_circle_32x32</selectedtexture>
+			<width>1.0</width>
+			<height>1.0</height>
+		</decal>
+		<attach a="hat" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
+	</component>
+	<anim>
+		Idle
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\human_idle_generic_A</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Bored
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\human_bored_generic_A</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		RangedAttack
+		<assetreference type="GrannyAnim">
+			<file>nuggets\outlaw_kidnap\outlaw_pistol_attackA</file>
+			<tag type="Attack">0.39</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="PistolShot">0.39</tag>
+			<tag type="Particles" particlename="musketshot">0.39</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="gun" frombone="bone_gun" tobone="Bip01 Prop1" syncanims="1"/>
+	</anim>
+	<anim>
+		Reload
+		<assetreference type="GrannyAnim">
+			<file>nuggets\outlaw_kidnap\outlaw_pistol_reload</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="gun" frombone="bone_gun" tobone="Bip01 Prop1" syncanims="1"/>
+	</anim>
+	<anim>
+		HandAttack
+		<assetreference type="GrannyAnim">
+			<file>animation_library\explorer\melee_attack</file>
+			<tag type="Attack">0.27</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="sword" frombone="bone_sword" tobone="Bip01 Prop1" syncanims="1"/>
+	</anim>
+	<anim>
+		CombatIdle
+		<assetreference type="GrannyAnim">
+			<file>animation_library\explorer\combat_idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="sword" frombone="bone_sword" tobone="Bip01 Prop1" syncanims="1"/>
+	</anim>
+	<anim>
+		Walk
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\human_walk_generic_A</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.14</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.61</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Jog
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\jog_generic</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.60</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.10</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Run
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\run_generic</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.08</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.60</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Raze_idle
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\torch_throw_idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="torch" frombone="ATTACHPOINT" tobone="L HAND" syncanims="0"/>
+	</anim>
+	<anim>
+		Raze_attack
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\torch_throwA</file>
+			<tag type="Attack">0.61</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="TorchSwing">0.44</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\torch_throwB</file>
+			<tag type="Attack">0.56</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="TorchSwing">0.41</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="torch" frombone="ATTACHPOINT" tobone="L HAND" syncanims="0"/>
+	</anim>
+	<anim>
+		Death
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\human_death_generic_A</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.84</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+</animfile>

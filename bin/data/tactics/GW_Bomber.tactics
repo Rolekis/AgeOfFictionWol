@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="38119">MortarAttack</name>
+		<type>Attack</type>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<anim>RangedAttack</anim>
+		<projectile>Bomb</projectile>
+		<numberprojectiles>1</numberprojectiles>
+		<idleanim>Idle</idleanim>
+		<maxheight>0</maxheight>
+		<impacteffect>effects\impacts\mortar</impacteffect>
+		<accuracy>1.0</accuracy>
+		<aimbonus>5</aimbonus>
+		<throw>1</throw>
+		<rate type="LogicalTypeShipsAndBuildings">1.0 </rate>
+		<areasortmode>Radial</areasortmode>
+		<targetground>1</targetground>
+		<basedamagecap>1</basedamagecap>
+		<perfectaccuracy>1</perfectaccuracy>
+	</action>
+	<tactic>
+		Normal
+		<speedmodifier>1.0</speedmodifier>
+		<action priority="100">MortarAttack</action>
+		<action priority="1">MustardAttack</action>
+		<idleanim>Idle</idleanim>
+		<moveanim>Walk</moveanim>
+		<deathanim>Death</deathanim>
+		<attacktype>LogicalTypeShipsAndBuildings</attacktype>
+		<autoattacktype>LogicalTypeShipsAndBuildings</autoattacktype>
+		<attackresponsetype>LogicalTypeShipsAndBuildings</attackresponsetype>
+		<runaway>0</runaway>
+		<autoretarget>1</autoretarget>
+	</tactic>
+</tactics>

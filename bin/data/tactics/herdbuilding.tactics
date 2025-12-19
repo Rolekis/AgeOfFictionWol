@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="69181">MaintainSheep</name>
+		<type>Maintain</type>
+		<rate type="Sheep">1.0 </rate>
+		<active>1</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="69182">SpawnCanadianTrees</name>
+		<type>Maintain</type>
+		<rate type="TreeCanadian">3.0 </rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="700306">AutoGatherItalianBonus</name>
+		<type>AutoGather</type>
+		<active>0</active>
+		<persistent>1</persistent>
+		<Rate type ='Gold'>0.250001</Rate>
+	</action>
+	<tactic>
+		Normal
+		<action>MaintainSheep</action>
+		<action>SpawnCanadianTrees</action>
+		<action>AutoGatherItalianBonus</action>
+	</tactic>
+</tactics>

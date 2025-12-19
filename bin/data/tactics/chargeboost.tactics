@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="48954">ExtraDamage</name>
+		<type>AutoRangedModify</type>
+		<active>1</active>
+		<maxrange>1000000</maxrange>
+		<persistent>1</persistent>
+		<modifytype>Damage</modifytype>
+		<modifymultiplier>1.30</modifymultiplier>
+		<modifyprotoid>Unit</modifyprotoid>
+	</action>
+	<action>
+		<name stringid="48954">IncreaseSpeed</name>
+		<type>AutoRangedModify</type>
+		<active>1</active>
+		<maxrange>1000000</maxrange>
+		<persistent>1</persistent>
+		<modifytype>Speed</modifytype>
+		<modifymultiplier>1.25</modifymultiplier>
+		<modifyprotoid>Unit</modifyprotoid>
+	</action>
+	<tactic>
+		Normal
+		<action>IncreaseSpeed</action>
+		<action>ExtraDamage</action>
+	</tactic>
+</tactics>

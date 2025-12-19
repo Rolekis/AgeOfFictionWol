@@ -1,0 +1,1367 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<homecity>
+	<civ>Zulu</civ>
+	<name>$$600018$$</name>
+	<heroname>$$711034$$</heroname>
+	<gatherpointunit>HomeCityGatherFlag</gatherpointunit>
+	<visual>WOTTA\zulu_homecity.xml</visual>
+	<watervisual>iroquois\iroquois_homecity_water.xml</watervisual>
+	<backgroundvisual>wotta\zulu_background.xml</backgroundvisual>
+	<pathdata>iroquois\pathable_area.gr2</pathdata>
+	<camera>iroquois\iroquois_homecity_widescreencamera.cam</camera>
+	<widescreencamera>iroquois\iroquois_homecity_camera.cam</widescreencamera>
+	<transportroundtriptime>1</transportroundtriptime>
+	<transportactivationtime>0</transportactivationtime>
+	<level>10</level>
+	<skillpoints>9</skillpoints>
+	<lightset>carribean</lightset>
+	<watertype>london</watertype>
+	<numpropunlocksearned>0</numpropunlocksearned>
+	<ambientsounds>Wotta\Delta\zuluhomecity.xml</ambientsounds>
+	<xsai>generic_city</xsai>
+	<coffers>
+		<current>
+			<food>0</food>
+			<wood>0</wood>
+			<gold>0</gold>
+			<fame>0</fame>
+			<ships>0</ships>
+			<skillpoints>0</skillpoints>
+			<xp>0</xp>
+		</current>
+		<maximum>
+			<food>0</food>
+			<wood>0</wood>
+			<gold>0</gold>
+			<fame>0</fame>
+			<ships>0</ships>
+			<skillpoints>-1</skillpoints>
+			<xp>-1</xp>
+		</maximum>
+	</coffers>
+	<cards>
+		<card>
+			<name>HCShipAFRICANvillagers1</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>0</age>
+			<displayunitcount>2</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipAFRICANvillagers2</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipAFRICANvillagers1</prereqtech>
+			<age>1</age>
+			<displayunitcount>4</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCREVcharge</name>
+			<maxcount>2</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+			<name>HCShipAFRICANvillagers3</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCShipAFRICANvillagers2</prereqtech>
+			<age>0</age>
+			<displayunitcount>3</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipAFRICANvillagers4</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCShipAFRICANvillagers3</prereqtech>
+			<age>1</age>
+			<displayunitcount>5</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCShipMatriarchs1</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<age>1</age>
+			<displayunitcount>4</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCShipMatriarchs2</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>WOLHCShipMatriarchs1</prereqtech>
+			<age>2</age>
+			<displayunitcount>7</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCShipMatriarchs3</name>
+			<maxcount>1</maxcount>
+			<level>40</level>
+			<prereqtech>WOLHCShipMatriarchs2</prereqtech>
+			<age>3</age>
+			<displayunitcount>11</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipFoodCrates1</name>
+			<maxcount>-1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>0</age>
+			<displayunitcount>300</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipFoodCrates2</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipFoodCrates1</prereqtech>
+			<age>1</age>
+			<infiniteinlastage>1</infiniteinlastage>
+			<displayunitcount>600</displayunitcount>
+		</card>
+		<card>
+			<name>HCShipFoodCrates3</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCShipFoodCrates2</prereqtech>
+			<age>1</age>
+			<infiniteinlastage>1</infiniteinlastage>
+			<displayunitcount>700</displayunitcount>
+		</card>
+		<card>
+			<name>HCShipFoodCrates4</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCShipFoodCrates3</prereqtech>
+			<age>2</age>
+			<infiniteinlastage>1</infiniteinlastage>
+			<displayunitcount>1000</displayunitcount>
+		</card>
+		<card>
+			<name>HCShipWoodCrates1</name>
+			<maxcount>-1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>0</age>
+			<displayunitcount>300</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipWoodCrates2</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipWoodCrates1</prereqtech>
+			<age>1</age>
+			<displayunitcount>600</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipWoodCrates3</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCShipWoodCrates2</prereqtech>
+			<age>1</age>
+			<displayunitcount>700</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipCoinCrates1</name>
+			<maxcount>-1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>0</age>
+			<displayunitcount>300</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipCoinCrates2</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipCoinCrates1</prereqtech>
+			<age>1</age>
+			<displayunitcount>600</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipCoinCrates3</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCShipCoinCrates2</prereqtech>
+			<age>1</age>
+			<displayunitcount>700</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipAFRICANibutho1</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+			<displayunitcount>6</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipAFRICANibutho2</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipAFRICANibutho1</prereqtech>
+			<age>2</age>
+			<displayunitcount>8</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipAFRICANibutho3</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCShipAFRICANibutho2</prereqtech>
+			<age>3</age>
+			<displayunitcount>14</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipAFRICANibutho4</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCShipAFRICANibutho3</prereqtech>
+			<age>2</age>
+			<displayunitcount>9</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipAFRICANibutho5</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>HCShipAFRICANibutho4</prereqtech>
+			<age>3</age>
+			<displayunitcount>15</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipumpakati1</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>2</age>
+			<displayunitcount>8</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipumpakati2</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCShipumpakati1</prereqtech>
+			<age>3</age>
+			<displayunitcount>15</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipumpakati3</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCShipumpakati2</prereqtech>
+			<age>1</age>
+			<displayunitcount>6</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipumpakati4</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>HCShipumpakati3</prereqtech>
+			<age>2</age>
+			<displayunitcount>9</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCShipFirebrands1Zulu</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>2</age>
+			<displayunitcount>7</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCShipFirebrands2Zulu</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>WOLHCShipFirebrands1Zulu</prereqtech>
+			<age>3</age>
+			<displayunitcount>12</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCShipFirebrands3Zulu</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>WOLHCShipFirebrands2Zulu</prereqtech>
+			<age>1</age>
+			<displayunitcount>5</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCShipFirebrands4Zulu</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>WOLHCShipFirebrands3Zulu</prereqtech>
+			<age>2</age>
+			<displayunitcount>8</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipConsulateCzapkas1</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+			<displayunitcount>6</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipConsulateCzapkas2</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCShipConsulateCzapkas1</prereqtech>
+			<age>2</age>
+			<displayunitcount>10</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipConsulateCzapkas3</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCShipConsulateCzapkas2</prereqtech>
+			<age>3</age>
+			<displayunitcount>17</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipCannonsCzapkaRepeat</name>
+			<maxcount>-1</maxcount>
+			<level>25</level>
+			<prereqtech>HCShipConsulateCzapkas3</prereqtech>
+			<age>3</age>
+			<displayunitcount>15</displayunitcount>
+		</card>
+		<card>
+			<name>HCShipConsulateZwarte1</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+			<displayunitcount>6</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipConsulateZwarte2</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCShipConsulateZwarte1</prereqtech>
+			<age>2</age>
+			<displayunitcount>10</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipConsulateCarabineers</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCShipConsulateZwarte2</prereqtech>
+			<age>3</age>
+			<displayunitcount>24</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipZwarteCarabineers</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>HCShipConsulateCarabineers</prereqtech>
+			<age>3</age>
+			<displayunitcount>27</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipbelgianassegai1</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+			<displayunitcount>8</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipbelgianassegai2</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipbelgianassegai1</prereqtech>
+			<age>2</age>
+			<displayunitcount>12</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipbelgianassegai3</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCShipbelgianassegai2</prereqtech>
+			<age>3</age>
+			<displayunitcount>24</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCShipAssegais4Zulu</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>HCShipbelgianassegai3</prereqtech>
+			<age>2</age>
+			<displayunitcount>10</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCShipAskaris1Zulu</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>2</age>
+			<displayunitcount>7</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCShipAskaris2Zulu</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>WOLHCShipAskaris1Zulu</prereqtech>
+			<age>3</age>
+			<displayunitcount>10</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCShipAskaris3Zulu</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>WOLHCShipAskaris2Zulu</prereqtech>
+			<age>2</age>
+			<displayunitcount>8</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCShipAskaris4Zulu</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>WOLHCShipAskaris3Zulu</prereqtech>
+			<age>3</age>
+			<displayunitcount>12</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipAFRICANisikhulu1</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>3</age>
+			<displayunitcount>7</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipAFRICANbowmenDutch1</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>2</age>
+			<displayunitcount>12</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipAFRICANbowmenDutch2</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipAFRICANbowmenDutch1</prereqtech>
+			<age>1</age>
+			<displayunitcount>8</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipAFRICANbowmenDutch3</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCShipAFRICANbowmenDutch2</prereqtech>
+			<age>3</age>
+			<displayunitcount>24</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipAFRICANbowmenDutch4</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCShipAFRICANbowmenDutch3</prereqtech>
+			<age>3</age>
+			<displayunitcount>20</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipAFRICANbowmenDutch5</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>HCShipAFRICANbowmenDutch4</prereqtech>
+			<age>2</age>
+			<displayunitcount>10</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipAFRICANisikhulu2</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCShipAFRICANisikhulu1</prereqtech>
+			<age>3</age>
+			<displayunitcount>8</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>WOLHCBattleOfIsandlwana</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>WOLHCNewImperialism</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+			<name>WOLHCBattleOfRorkesDrift</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>WOLHCBattleOfIsandlwana</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+			<name>WOLHCBeerBrewing</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+			<name>WOLHCBerlinConference</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>WOLHCBoerGoat</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>WOLHCBoerboel</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+			<name>WOLHCBottling</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>WOLHCTriangularTrade</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>WOLHCCapriviStrip</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>WOLHCBerlinConference</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+			<name>WOLHCChefferies</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>WOLHCChimurenga</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>WOLHCTriangularTrade</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>WOLHCDanceOfTheSmallShield</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>WOLHCMusicalBows</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>WOLHCDiamondRush</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>-1</prereqtech>
+			<age>2</age>
+			<displayunitcount>1</displayunitcount>
+		</card>
+		<card>
+			<name>WOLHCFlemishMigration</name>
+			<maxcount>1</maxcount>
+			<level>40</level>
+			<prereqtech>WOLHCDiamondRush</prereqtech>
+			<age>2</age>
+			<displayunitcount>5</displayunitcount>
+		</card>
+		<card>
+			<name>WOLHCGumbootDance</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>WOLHCBeerBrewing</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>WOLHCHeadRing</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>HCShipAFRICANvillagers4</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>WOLHCHeligolandZanzibarTreaty</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>WOLHCIndigenousCourts</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>WOLHCChefferies</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>WOLHCInDuna</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>WOLHCInternationalAfricanAssociation</name>
+			<maxcount>1</maxcount>
+			<level>40</level>
+			<prereqtech>WOLHCDiamondRush</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+			<name>WOLHCIsivivane</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>-1</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+			<name>WOLHCJamesonRaid</name>
+			<maxcount>1</maxcount>
+			<level>40</level>
+			<prereqtech>WOLHCChimurenga</prereqtech>
+			<age>3</age>
+		</card>
+		<card>
+			<name>WOLHCKolonialfreunde</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>WOLHCKrugerTelegram</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>WOLHCSchutztruppen</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>WOLHCMajiMajiRebellion</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>WOLHCKolonialfreunde</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+			<name>WOLHCMfecane</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>WOLHCShakasMilitaryReforms</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>WOLHCMineralConcessions</name>
+			<maxcount>1</maxcount>
+			<level>40</level>
+			<prereqtech>WOLHCBottling</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>WOLHCMiscigenation</name>
+			<maxcount>1</maxcount>
+			<level>40</level>
+			<prereqtech>WOLHCOverseasProtectorates</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+			<name>WOLHCMusicalBows</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>WOLHCMuti</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>WOLHCIsivivane</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>WOLHCNewImperialism</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+			<name>WOLHCNguniCows</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>WOLHCGumbootDance</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>WOLHCOtaviMiningCompany</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>WOLHCCapriviStrip</prereqtech>
+			<age>3</age>
+		</card>
+		<card>
+			<name>WOLHCOverseasProtectorates</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>WOLHCTogolandCampaign</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+			<name>WOLHCShipEscorts1Zulu</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>2</age>
+			<displayunitcount>4</displayunitcount>
+		</card>
+		<card>
+			<name>WOLHCShipEscorts2Zulu</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>WOLHCShipEscorts1Zulu</prereqtech>
+			<age>2</age>
+			<displayunitcount>5</displayunitcount>
+		</card>
+		<card>
+			<name>WOLHCShipEscorts3Zulu</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>WOLHCShipEscorts1Zulu</prereqtech>
+			<age>3</age>
+			<displayunitcount>6</displayunitcount>
+		</card>
+		<card>
+			<name>WOLHCPithHelmets</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>WOLHCShipEscorts2Zulu</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+			<name>WOLHCPoisonedTea</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>WOLHCRedFez</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>WOLHCShipAskaris2</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+			<name>WOLHCRhenishMissionarySociety</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>WOLHCHeligolandZanzibarTreaty</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>WOLHCSchutztruppen</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>-1</prereqtech>
+			<age>3</age>
+		</card>
+		<card>
+			<name>WOLHCShakasMilitaryReforms</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCShipAFRICANibutho2</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+			<name>WOLHCSisalCultivation</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>WOLHCBerlinConference</prereqtech>
+			<age>3</age>
+		</card>
+		<card>
+			<name>WOLHCStickFighting</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>HCShipumpakati4</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>WOLHCTheRhodesColossus</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>WOLHCBattleOfRorkesDrift</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>WOLHCTogolandCampaign</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>WOLHCSchutztruppen</prereqtech>
+			<age>3</age>
+		</card>
+		<card>
+			<name>WOLHCTriangularTrade</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>WOLHCNewImperialism</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>WOLHCTroupesDeKatanga</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+			<name>WOLHCTwins</name>
+			<maxcount>1</maxcount>
+			<level>40</level>
+			<prereqtech>WOLHCDanceOfTheSmallShield</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>WOLHCUbuntu</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>WOLHCNguniCows</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+			<name>WOLHCShipTradesmen1Zulu</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>0</age>
+			<displayunitcount>2</displayunitcount>
+		</card>
+		<card>
+			<name>WOLHCShipTradesmen2Zulu</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>WOLHCShipTradesmen1Zulu</prereqtech>
+			<age>1</age>
+			<displayunitcount>3</displayunitcount>
+		</card>
+		<card>
+			<name>WOLHCShipTradesmen3Zulu</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>WOLHCShipTradesmen2Zulu</prereqtech>
+			<age>2</age>
+			<displayunitcount>4</displayunitcount>
+		</card>
+		<card>
+			<name>WOLHCUnionOfSouthAfrica</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>-1</prereqtech>
+			<age>2</age>
+			<displayunitcount>8</displayunitcount>
+		</card>
+	</cards>
+	<decks>
+		<deck>
+			<name>$$41681$$</name>
+			<cards>
+				<card >WOLHCSisalCultivation</card>
+				<card >HCShipAFRICANvillagers3</card>
+				<card >HCShipAFRICANvillagers4</card>
+				<card>HCShipWoodCrates3</card>
+				<card>HCShipWoodCrates2</card>
+				<card>HCShipCoinCrates3</card>
+				<card >WOLHCShipFirebrands3Zulu</card>
+				<card >HCShipAFRICANibutho1</card>
+				<card >HCShipAFRICANbowmenDutch2</card>
+				<card >HCShipbelgianassegai1</card>
+				<card >HCShipConsulateZwarte1</card>
+				<card >HCShipAFRICANibutho4</card>
+				<card >WOLHCShipAskaris3Zulu</card>
+				<card >WOLHCRedFez</card>
+				<card >HCShipumpakati4</card>
+				<card >WOLHCChimurenga</card>
+				<card >WOLHCShipAskaris1Zulu</card>
+				<card >WOLHCTogolandCampaign</card>
+				<card >WOLHCSchutztruppen</card>
+				<card >WOLHCShipAskaris4Zulu</card>
+				<card >WOLHCShakasMilitaryReforms</card>
+				<card >WOLHCShipEscorts2Zulu</card>
+				<card >HCShipbelgianassegai2</card>
+				<card >WOLHCCapriviStrip</card>
+				<card >WOLHCMineralConcessions</card>
+			</cards>
+		</deck>
+	</decks>
+	<building>
+		<name>Estate</name>
+		<visual>
+			<file>WOTTA\Ambassadors\zulu.xml</file>
+			<bone>bone_estate</bone>
+		</visual>
+		<uix>150</uix>
+		<uiy>200</uiy>
+		<camera>iroquois\iroquois_homecity_estate_camera.cam</camera>
+		<widescreencamera>iroquois\iroquois_homecity_estate_camera.cam</widescreencamera>
+		<unlocklevel>0</unlocklevel>
+		<portrait>homecity\buildings_west\estate_icon</portrait>
+		<displaynamestringid>24968</displaynamestringid>
+		<rolloverstringid>25537</rolloverstringid>
+		<obtainabletechs/>
+		<activetechs/>
+		<validunits/>
+		<units/>
+		<trainbuilding>1</trainbuilding>
+		<mercbuilding>1</mercbuilding>
+	</building>
+	<building>
+		<name>Market</name>
+		<visual>
+			<file>WOTTA\Ambassadors\zulu.xml</file>
+			<bone>bone_cathedral</bone>
+			<animstatemachine>SM_IRO_WarLeader</animstatemachine>
+		</visual>
+		<uix>250</uix>
+		<uiy>375</uiy>
+		<camera>iroquois\iroquois_homecity_cathedral_camera.cam</camera>
+		<widescreencamera>iroquois\iroquois_homecity_cathedral_widescreencamera.cam</widescreencamera>
+		<unlocklevel>0</unlocklevel>
+		<portrait>homecity\buildings_west\market_icon</portrait>
+		<displaynamestringid>601042</displaynamestringid>
+		<rolloverstringid>601043</rolloverstringid>
+		<obtainabletechs>
+			<tech x="0.0" y="1.0">HCShipAFRICANvillagers1</tech>
+			<tech x="0.0" y="2.0">HCShipAFRICANvillagers2</tech>
+			<tech x="0.0" y="3.0">HCShipAFRICANvillagers3</tech>
+			<tech x="0.0" y="4.0">HCShipAFRICANvillagers4</tech>
+			<tech x="0.0" y="5.0">WOLHCHeadRing</tech>
+			<tech x="1.6" y="1.0">HCShipFoodCrates1</tech>
+			<tech x="1.6" y="2.0">HCShipFoodCrates2</tech>
+			<tech x="1.6" y="3.0">HCShipFoodCrates3</tech>
+			<tech x="1.6" y="4.0">HCShipFoodCrates4</tech>
+			<tech x="2.3" y="1.0">HCShipWoodCrates1</tech>
+			<tech x="2.3" y="2.0">HCShipWoodCrates2</tech>
+			<tech x="2.3" y="3.0">HCShipWoodCrates3</tech>
+			<tech x="3.0" y="1.0">HCShipCoinCrates1</tech>
+			<tech x="3.0" y="2.0">HCShipCoinCrates2</tech>
+			<tech x="3.0" y="3.0">HCShipCoinCrates3</tech>
+			<tech x="3.8" y="1.0">WOLHCBeerBrewing</tech>
+			<tech x="3.8" y="3.0">WOLHCGumbootDance</tech>
+			<tech x="3.8" y="4.0">WOLHCNguniCows</tech>
+			<tech x="3.8" y="5.0">WOLHCUbuntu</tech>
+			<tech x="4.6" y="1.0">HCShipumpakati1</tech>
+			<tech x="4.6" y="3.0">HCShipumpakati2</tech>
+			<tech x="4.6" y="4.0">HCShipumpakati3</tech>
+			<tech x="4.6" y="5.0">HCShipumpakati4</tech>
+			<tech x="4.6" y="6.0">WOLHCStickFighting</tech>
+			<tech x="5.3" y="1.0">HCShipAFRICANibutho1</tech>
+			<tech x="5.3" y="2.0">HCShipAFRICANibutho2</tech>
+			<tech x="5.3" y="3.0">HCShipAFRICANibutho3</tech>
+			<tech x="5.3" y="4.0">HCShipAFRICANibutho4</tech>
+			<tech x="5.3" y="5.0">HCShipAFRICANibutho5</tech>
+			<tech x="6.1" y="3.0">WOLHCShakasMilitaryReforms</tech>
+			<tech x="6.1" y="5.0">WOLHCMfecane</tech>
+			<tech x="7.0" y="1.0">WOLHCInDuna</tech>
+			<tech x="7.0" y="4.0">WOLHCIsivivane</tech>
+			<tech x="7.0" y="5.0">WOLHCMuti</tech>
+			<tech x="0.8" y="1.0">WOLHCMusicalBows</tech>
+			<tech x="0.8" y="3.0">WOLHCDanceOfTheSmallShield</tech>
+			<tech x="0.8" y="7.0">WOLHCTwins</tech>
+		</obtainabletechs>
+		<activetechs>
+			<tech x="0.0" y="1.0">HCShipAFRICANvillagers1</tech>
+			<tech x="0.0" y="2.0">HCShipAFRICANvillagers2</tech>
+			<tech x="0.0" y="3.0">HCShipAFRICANvillagers3</tech>
+			<tech x="0.0" y="4.0">HCShipAFRICANvillagers4</tech>
+			<tech x="0.0" y="5.0">WOLHCHeadRing</tech>
+			<tech x="1.6" y="1.0">HCShipFoodCrates1</tech>
+			<tech x="1.6" y="2.0">HCShipFoodCrates2</tech>
+			<tech x="1.6" y="3.0">HCShipFoodCrates3</tech>
+			<tech x="1.6" y="4.0">HCShipFoodCrates4</tech>
+			<tech x="2.3" y="1.0">HCShipWoodCrates1</tech>
+			<tech x="2.3" y="2.0">HCShipWoodCrates2</tech>
+			<tech x="2.3" y="3.0">HCShipWoodCrates3</tech>
+			<tech x="3.0" y="1.0">HCShipCoinCrates1</tech>
+			<tech x="3.0" y="2.0">HCShipCoinCrates2</tech>
+			<tech x="3.0" y="3.0">HCShipCoinCrates3</tech>
+			<tech x="3.8" y="1.0">WOLHCBeerBrewing</tech>
+			<tech x="3.8" y="3.0">WOLHCGumbootDance</tech>
+			<tech x="3.8" y="4.0">WOLHCNguniCows</tech>
+			<tech x="3.8" y="5.0">WOLHCUbuntu</tech>
+			<tech x="4.6" y="1.0">HCShipumpakati1</tech>
+			<tech x="4.6" y="3.0">HCShipumpakati2</tech>
+			<tech x="4.6" y="4.0">HCShipumpakati3</tech>
+			<tech x="4.6" y="5.0">HCShipumpakati4</tech>
+			<tech x="4.6" y="6.0">WOLHCStickFighting</tech>
+			<tech x="5.3" y="1.0">HCShipAFRICANibutho1</tech>
+			<tech x="5.3" y="2.0">HCShipAFRICANibutho2</tech>
+			<tech x="5.3" y="3.0">HCShipAFRICANibutho3</tech>
+			<tech x="5.3" y="4.0">HCShipAFRICANibutho4</tech>
+			<tech x="5.3" y="5.0">HCShipAFRICANibutho5</tech>
+			<tech x="6.1" y="3.0">WOLHCShakasMilitaryReforms</tech>
+			<tech x="6.1" y="5.0">WOLHCMfecane</tech>
+			<tech x="7.0" y="1.0">WOLHCInDuna</tech>
+			<tech x="7.0" y="4.0">WOLHCIsivivane</tech>
+			<tech x="7.0" y="5.0">WOLHCMuti</tech>
+			<tech x="0.8" y="1.0">WOLHCMusicalBows</tech>
+			<tech x="0.8" y="3.0">WOLHCDanceOfTheSmallShield</tech>
+			<tech x="0.8" y="7.0">WOLHCTwins</tech>
+		</activetechs>
+		<validunits/>
+		<units/>
+		<trainbuilding>1</trainbuilding>
+	</building>
+	<building>
+		<name>Academy</name>
+		<visual>
+			<file>WOTTA\Ambassadors\german.xml</file>
+			<bone>bone_academy</bone>
+			<animstatemachine>SM_IRO_WarLeader</animstatemachine>
+		</visual>
+		<uix>460</uix>
+		<uiy>125</uiy>
+		<camera>iroquois\iroquois_homecity_academy_camera.cam</camera>
+		<widescreencamera>iroquois\iroquois_homecity_academy_widescreencamera.cam</widescreencamera>
+		<unlocklevel>0</unlocklevel>
+		<portrait>homecity\buildings_west\academy_icon</portrait>
+		<displaynamestringid>601044</displaynamestringid>
+		<rolloverstringid>601045</rolloverstringid>
+		<obtainabletechs>
+			<tech x="0.0" y="1.0">WOLHCKolonialfreunde</tech>
+			<tech x="0.0" y="3.0">WOLHCMajiMajiRebellion</tech>
+			<tech x="1.0" y="3.0">WOLHCSchutztruppen</tech>
+			<tech x="1.0" y="2.0">HCREVcharge</tech>
+			<tech x="0.6" y="5.0">WOLHCTogolandCampaign</tech>
+			<tech x="0.6" y="6.0">WOLHCOverseasProtectorates</tech>
+			<tech x="0.6" y="7.0">WOLHCMiscigenation</tech>
+			<tech x="1.4" y="5.0">WOLHCKrugerTelegram</tech>
+			<tech x="2.5" y="1.0">WOLHCShipFirebrands1Zulu</tech>
+			<tech x="2.5" y="3.0">WOLHCShipFirebrands2Zulu</tech>
+			<tech x="2.5" y="4.0">WOLHCShipFirebrands3Zulu</tech>
+			<tech x="2.5" y="5.0">WOLHCShipFirebrands4Zulu</tech>
+			<tech x="4.35" y="1.0">WOLHCBerlinConference</tech>
+			<tech x="4.0" y="3.0">WOLHCCapriviStrip</tech>
+			<tech x="4.0" y="5.0">WOLHCOtaviMiningCompany</tech>
+			<tech x="4.7" y="3.0">WOLHCSisalCultivation</tech>
+			<tech x="5.5" y="1.0">WOLHCHeligolandZanzibarTreaty</tech>
+			<tech x="5.5" y="3.0">WOLHCRhenishMissionarySociety</tech>
+			<tech x="6.5" y="1.0">HCShipAFRICANisikhulu1</tech>
+			<tech x="6.5" y="3.0">HCShipAFRICANisikhulu2</tech>
+			<tech x="7.2" y="1.0">HCShipConsulateCzapkas1</tech>
+			<tech x="7.2" y="3.0">HCShipConsulateCzapkas2</tech>
+			<tech x="7.2" y="4.0">HCShipConsulateCzapkas3</tech>
+			<tech x="7.2" y="6.0">HCShipCannonsCzapkaRepeat</tech>
+		</obtainabletechs>
+		<activetechs>
+			<tech x="0.0" y="1.0">WOLHCKolonialfreunde</tech>
+			<tech x="0.0" y="3.0">WOLHCMajiMajiRebellion</tech>
+			<tech x="1.0" y="3.0">WOLHCSchutztruppen</tech>
+			<tech x="1.0" y="2.0">HCREVcharge</tech>
+			<tech x="0.6" y="5.0">WOLHCTogolandCampaign</tech>
+			<tech x="0.6" y="6.0">WOLHCOverseasProtectorates</tech>
+			<tech x="0.6" y="7.0">WOLHCMiscigenation</tech>
+			<tech x="1.4" y="5.0">WOLHCKrugerTelegram</tech>
+			<tech x="2.5" y="1.0">WOLHCShipFirebrands1Zulu</tech>
+			<tech x="2.5" y="3.0">WOLHCShipFirebrands2Zulu</tech>
+			<tech x="2.5" y="4.0">WOLHCShipFirebrands3Zulu</tech>
+			<tech x="2.5" y="5.0">WOLHCShipFirebrands4Zulu</tech>
+			<tech x="4.35" y="1.0">WOLHCBerlinConference</tech>
+			<tech x="4.0" y="3.0">WOLHCCapriviStrip</tech>
+			<tech x="4.0" y="5.0">WOLHCOtaviMiningCompany</tech>
+			<tech x="4.7" y="3.0">WOLHCSisalCultivation</tech>
+			<tech x="5.5" y="1.0">WOLHCHeligolandZanzibarTreaty</tech>
+			<tech x="5.5" y="3.0">WOLHCRhenishMissionarySociety</tech>
+			<tech x="6.5" y="1.0">HCShipAFRICANisikhulu1</tech>
+			<tech x="6.5" y="3.0">HCShipAFRICANisikhulu2</tech>
+			<tech x="7.2" y="1.0">HCShipConsulateCzapkas1</tech>
+			<tech x="7.2" y="3.0">HCShipConsulateCzapkas2</tech>
+			<tech x="7.2" y="4.0">HCShipConsulateCzapkas3</tech>
+			<tech x="7.2" y="6.0">HCShipCannonsCzapkaRepeat</tech>
+		</activetechs>
+		<validunits/>
+		<units/>
+		<trainbuilding>1</trainbuilding>
+	</building>
+	<building>
+		<name>Cathedral</name>
+		<visual>
+			<file>WOTTA\Ambassadors\belgian.xml</file>
+			<bone>bone_market</bone>
+			<animstatemachine>SM_IRO_Shaman</animstatemachine>
+		</visual>
+		<uix>80</uix>
+		<uiy>475</uiy>
+		<camera>iroquois\iroquois_homecity_market_camera.cam</camera>
+		<widescreencamera>iroquois\iroquois_homecity_market_widescreencamera.cam</widescreencamera>
+		<unlocklevel>0</unlocklevel>
+		<portrait>homecity\buildings_west\cathedral_icon</portrait>
+		<displaynamestringid>601046</displaynamestringid>
+		<rolloverstringid>601047</rolloverstringid>
+		<obtainabletechs>
+			<tech x="0.0" y="1.0">HCShipbelgianassegai1</tech>
+			<tech x="0.0" y="2.0">HCShipbelgianassegai2</tech>
+			<tech x="0.0" y="3.0">HCShipbelgianassegai3</tech>
+			<tech x="0.0" y="5.0">WOLHCShipAssegais4Zulu</tech>
+			<tech x="1.0" y="2.0">WOLHCShipAskaris1Zulu</tech>
+			<tech x="1.0" y="3.0">WOLHCShipAskaris2Zulu</tech>
+			<tech x="1.0" y="5.0">WOLHCShipAskaris3Zulu</tech>
+			<tech x="1.0" y="6.0">WOLHCShipAskaris4Zulu</tech>
+			<tech x="2.0" y="2.0">WOLHCChefferies</tech>
+			<tech x="2.0" y="3.0">WOLHCIndigenousCourts</tech>
+			<tech x="2.0" y="5.0">WOLHCRedFez</tech>
+			<tech x="2.0" y="6.0">WOLHCDiamondRush</tech>
+			<tech x="1.0" y="7.0">WOLHCFlemishMigration</tech>
+			<tech x="2.0" y="7.0">WOLHCInternationalAfricanAssociation</tech>
+			<tech x="3.0" y="1.0">WOLHCTroupesDeKatanga</tech>
+			<tech x="4.0" y="1.0">WOLHCPoisonedTea</tech>
+		</obtainabletechs>
+		<activetechs>
+			<tech x="0.0" y="1.0">HCShipbelgianassegai1</tech>
+			<tech x="0.0" y="2.0">HCShipbelgianassegai2</tech>
+			<tech x="0.0" y="3.0">HCShipbelgianassegai3</tech>
+			<tech x="0.0" y="5.0">WOLHCShipAssegais4Zulu</tech>
+			<tech x="1.0" y="2.0">WOLHCShipAskaris1Zulu</tech>
+			<tech x="1.0" y="3.0">WOLHCShipAskaris2Zulu</tech>
+			<tech x="1.0" y="5.0">WOLHCShipAskaris3Zulu</tech>
+			<tech x="1.0" y="6.0">WOLHCShipAskaris4Zulu</tech>
+			<tech x="2.0" y="2.0">WOLHCChefferies</tech>
+			<tech x="2.0" y="3.0">WOLHCIndigenousCourts</tech>
+			<tech x="2.0" y="5.0">WOLHCRedFez</tech>
+			<tech x="2.0" y="6.0">WOLHCDiamondRush</tech>
+			<tech x="1.0" y="7.0">WOLHCFlemishMigration</tech>
+			<tech x="2.0" y="7.0">WOLHCInternationalAfricanAssociation</tech>
+			<tech x="3.0" y="1.0">WOLHCTroupesDeKatanga</tech>
+			<tech x="4.0" y="1.0">WOLHCPoisonedTea</tech>
+		</activetechs>
+		<validunits/>
+		<units/>
+		<trainbuilding>1</trainbuilding>
+	</building>
+	<building>
+		<name>ManufacturingPlant</name>
+		<visual>
+			<file>WOTTA\Ambassadors\dutch.xml</file>
+			<bone>bone_plant</bone>
+			<animstatemachine>SM_IRO_WiseWoman</animstatemachine>
+		</visual>
+		<uix>450</uix>
+		<uiy>275</uiy>
+		<camera>iroquois\iroquois_homecity_manufacturing_plant_camera.cam</camera>
+		<widescreencamera>iroquois\iroquois_homecity_plant_widescreencamera.cam</widescreencamera>
+		<unlocklevel>0</unlocklevel>
+		<portrait>homecity\buildings_west\manufacturing_plant_icon</portrait>
+		<displaynamestringid>601048</displaynamestringid>
+		<rolloverstringid>601049</rolloverstringid>
+		<obtainabletechs>
+			<tech x="0.0" y="1.0">HCShipAFRICANbowmenDutch1</tech>
+			<tech x="0.0" y="2.0">HCShipAFRICANbowmenDutch2</tech>
+			<tech x="0.0" y="3.0">HCShipAFRICANbowmenDutch3</tech>
+			<tech x="0.0" y="4.0">HCShipAFRICANbowmenDutch4</tech>
+			<tech x="0.0" y="5.0">HCShipAFRICANbowmenDutch5</tech>
+			<tech x="7.3" y="1.0">HCShipConsulateZwarte1</tech>
+			<tech x="7.3" y="3.0">HCShipConsulateZwarte2</tech>
+			<tech x="7.3" y="4.0">HCShipConsulateCarabineers</tech>
+			<tech x="7.3" y="6.0">HCShipZwarteCarabineers</tech>
+			<tech x="0.9" y="1.0">WOLHCBoerGoat</tech>
+			<tech x="0.9" y="2.0">WOLHCBoerBoel</tech>
+			<tech x="1.8" y="2.0">WOLHCShipMatriarchs1</tech>
+			<tech x="1.8" y="4.0">WOLHCShipMatriarchs2</tech>
+			<tech x="1.8" y="7.0">WOLHCShipMatriarchs3</tech>			
+		</obtainabletechs>
+		<activetechs>
+			<tech x="0.0" y="1.0">HCShipAFRICANbowmenDutch1</tech>
+			<tech x="0.0" y="2.0">HCShipAFRICANbowmenDutch2</tech>
+			<tech x="0.0" y="3.0">HCShipAFRICANbowmenDutch3</tech>
+			<tech x="0.0" y="4.0">HCShipAFRICANbowmenDutch4</tech>
+			<tech x="0.0" y="5.0">HCShipAFRICANbowmenDutch5</tech>
+			<tech x="7.3" y="1.0">HCShipConsulateZwarte1</tech>
+			<tech x="7.3" y="3.0">HCShipConsulateZwarte2</tech>
+			<tech x="7.3" y="4.0">HCShipConsulateCarabineers</tech>
+			<tech x="7.3" y="6.0">HCShipZwarteCarabineers</tech>
+			<tech x="0.9" y="1.0">WOLHCBoerGoat</tech>
+			<tech x="0.9" y="2.0">WOLHCBoerBoel</tech>
+			<tech x="1.8" y="2.0">WOLHCShipMatriarchs1</tech>
+			<tech x="1.8" y="4.0">WOLHCShipMatriarchs2</tech>
+			<tech x="1.8" y="7.0">WOLHCShipMatriarchs3</tech>
+		</activetechs>
+		<validunits/>
+		<trainbuilding>1</trainbuilding>
+	</building>
+	<building>
+		<name>Dock</name>
+		<visual>
+			<file>WOTTA\Ambassadors\british.xml</file>
+			<bone>bone_dock</bone>
+			<animstatemachine>SM_IRO_Messenger</animstatemachine>
+		</visual>
+		<uix>200</uix>
+		<uiy>250</uiy>
+		<camera>iroquois\iroquois_homecity_dock_camera.cam</camera>
+		<widescreencamera>iroquois\iroquois_homecity_dock_widescreencamera.cam</widescreencamera>
+		<unlocklevel>0</unlocklevel>
+		<portrait>homecity\buildings_west\dock_icon</portrait>
+		<displaynamestringid>601050</displaynamestringid>
+		<rolloverstringid>601051</rolloverstringid>
+		<obtainabletechs>
+			<tech x="0.0" y="3.0">WOLHCBattleOfIsandlwana</tech>
+			<tech x="0.0" y="4.0">WOLHCBattleOfRorkesDrift</tech>
+			<tech x="0.0" y="5.0">WOLHCTheRhodesColossus</tech>
+			<tech x="1.05" y="1.0">WOLHCNewImperialism</tech>
+			<tech x="1.05" y="3.0">WOLHCTriangularTrade</tech>
+			<tech x="0.7" y="4.0">WOLHCChimurenga</tech>
+			<tech x="0.7" y="7.0">WOLHCJamesonRaid</tech>
+			<tech x="3.0" y="2.0">WOLHCShipTradesmen1Zulu</tech>
+			<tech x="3.0" y="3.0">WOLHCShipTradesmen2Zulu</tech>
+			<tech x="3.0" y="4.0">WOLHCShipTradesmen3Zulu</tech>
+			<tech x="1.4" y="5.0">WOLHCBottling</tech>
+			<tech x="1.4" y="7.0">WOLHCMineralConcessions</tech>
+			<tech x="4.0" y="5.0">WOLHCUnionOfSouthAfrica</tech>
+			<tech x="4.9" y="2.0">WOLHCShipEscorts1Zulu</tech>
+			<tech x="4.9" y="3.0">WOLHCShipEscorts2Zulu</tech>
+			<tech x="4.9" y="5.0">WOLHCShipEscorts3Zulu</tech>
+			<tech x="5.9" y="4.0">WOLHCPithHelmets</tech>
+		</obtainabletechs>
+		<activetechs>
+			<tech x="0.0" y="3.0">WOLHCBattleOfIsandlwana</tech>
+			<tech x="0.0" y="4.0">WOLHCBattleOfRorkesDrift</tech>
+			<tech x="0.0" y="5.0">WOLHCTheRhodesColossus</tech>
+			<tech x="1.05" y="1.0">WOLHCNewImperialism</tech>
+			<tech x="1.05" y="3.0">WOLHCTriangularTrade</tech>
+			<tech x="0.7" y="4.0">WOLHCChimurenga</tech>
+			<tech x="0.7" y="7.0">WOLHCJamesonRaid</tech>
+			<tech x="3.0" y="2.0">WOLHCShipTradesmen1Zulu</tech>
+			<tech x="3.0" y="3.0">WOLHCShipTradesmen2Zulu</tech>
+			<tech x="3.0" y="4.0">WOLHCShipTradesmen3Zulu</tech>
+			<tech x="1.4" y="5.0">WOLHCBottling</tech>
+			<tech x="1.4" y="7.0">WOLHCMineralConcessions</tech>
+			<tech x="4.0" y="5.0">WOLHCUnionOfSouthAfrica</tech>
+			<tech x="4.9" y="2.0">WOLHCShipEscorts1Zulu</tech>
+			<tech x="4.9" y="3.0">WOLHCShipEscorts2Zulu</tech>
+			<tech x="4.9" y="5.0">WOLHCShipEscorts3Zulu</tech>
+			<tech x="5.9" y="4.0">WOLHCPithHelmets</tech>
+		</activetechs>
+		<validunits/>
+		<units/>
+		<trainbuilding>1</trainbuilding>
+		<mercbuilding>1</mercbuilding>
+	</building>
+	<building>
+		<name>Customization</name>
+		<camera>iroquois\iroquois_homecity_camera.cam</camera>
+		<widescreencamera>iroquois\iroquois_homecity_widescreencamera.cam</widescreencamera>
+		<unlocklevel>0</unlocklevel>
+		<portrait>homecity\buildings_west\dock_icon</portrait>
+		<displaynamestringid>24966</displaynamestringid>
+		<rolloverstringid>25540</rolloverstringid>
+		<customizationbuilding>1</customizationbuilding>
+	</building>
+	<waypoints>
+		<waypoint>
+			<bone>bone_pathnode01</bone>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode02</bone>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode03</bone>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode04</bone>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode05</bone>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode06</bone>
+		</waypoint>
+		<waypoint>
+			<bone>bone_pathnode07</bone>
+			<dock>1</dock>
+			<exit>1</exit>
+		</waypoint>
+		<waypoint>
+			<bone>bone_shipment_start01</bone>
+			<shipmentstart>1</shipmentstart>
+		</waypoint>
+		<waypoint>
+			<bone>bone_shipment_start02</bone>
+			<shipmentstart>1</shipmentstart>
+		</waypoint>
+		<waypoint>
+			<bone>bone_shipment_start03</bone>
+			<shipmentstart>1</shipmentstart>
+		</waypoint>
+		<waypoint>
+			<bone>bone_shipment_start04</bone>
+			<shipmentstart>1</shipmentstart>
+		</waypoint>
+		<waypoint>
+			<bone>bone_shipment_start05</bone>
+			<shipmentstart>1</shipmentstart>
+		</waypoint>
+		<waypoint>
+			<bone>bone_shipment_start06</bone>
+			<shipmentstart>1</shipmentstart>
+		</waypoint>
+		<waypoint>
+			<bone>bone_shipment_start07</bone>
+			<shipmentstart>1</shipmentstart>
+		</waypoint>
+		<waypoint>
+			<bone>bone_shipment_end</bone>
+			<shipmentend>1</shipmentend>
+		</waypoint>
+	</waypoints>
+	<obtainableprops>
+	</obtainableprops>
+</homecity>

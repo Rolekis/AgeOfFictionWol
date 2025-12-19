@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<dbaction>Move</dbaction>
+		<name stringid="69156">Move</name>
+		<type>Move</type>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="43294">AutoGatherCoin</name>
+		<type>AutoGather</type>
+		<persistent>1</persistent>
+	</action>
+	<tactic>
+		Normal
+		<action>Move</action>
+		<action>AutoGatherCoin</action>
+		<speedmodifier>1.0</speedmodifier>
+		<attacktype>LogicalTypeHandUnitsAttack</attacktype>
+		<autoattacktype>LogicalTypeHandUnitsAutoAttack</autoattacktype>
+		<attackresponsetype>LogicalTypeHandUnitsAttack</attackresponsetype>
+		<runaway>1</runaway>
+		<autoretarget>1</autoretarget>
+		<idleanim>Idle</idleanim>
+		<walkanim>Walk</walkanim>
+	</tactic>
+</tactics>

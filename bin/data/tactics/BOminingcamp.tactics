@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="68971">MaintainMitayo</name>
+		<type>Maintain</type>
+		<rate type="Mitayo">2.0</rate>
+		<active>1</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="68971">MaintainMitayo2</name>
+		<type>Maintain</type>
+		<rate type="Mitayo">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<tactic>
+		Normal
+		<action>MaintainMitayo</action>
+		<action>MaintainMitayo2</action>
+	</tactic>
+</tactics>

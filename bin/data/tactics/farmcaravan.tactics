@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="43019">AutoGather</name>
+		<type>AutoGather</type>
+		<persistent>1</persistent>
+	</action>
+	<tactic>
+		Pack
+		<speedmodifier>1.0</speedmodifier>
+		<runaway>0</runaway>
+		<autoretarget>1</autoretarget>
+		<transition>
+			<tactic>Unpack1</tactic>
+			<length>0</length>
+			<exit>1</exit>
+		</transition>
+		<idleanim>Idle</idleanim>
+		<deathanim>Death</deathanim>
+		<walkanim>Walk</walkanim>
+	</tactic>
+	<tactic>
+		Unpack
+		<speedmodifier>0.0</speedmodifier>
+		<action>AutoGather</action>
+		<runaway>0</runaway>
+		<autoretarget>1</autoretarget>
+		<transition>
+			<tactic>Pack1</tactic>
+			<length>0</length>
+			<exit>1</exit>
+		</transition>
+		<idleanim>Idle</idleanim>
+		<deathanim>Death</deathanim>
+		<walkanim>Walk</walkanim>
+	</tactic>
+</tactics>

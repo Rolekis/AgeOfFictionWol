@@ -1,0 +1,1064 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<buttonsets>
+	<set name="checkBtn" texturecoords="0 0 0.72 0.72">
+		<normal>ui\core_ui\checkbox</normal>
+		<depressed>ui\core_ui\checkbox_checked</depressed>
+		<highlight>ui\core_ui\checkbox_rollover</highlight>
+		<disabled>ui\core_ui\checkbox_disabled</disabled>
+	</set>
+	<set name="PauseBtn" texturecoords="0 0 1 1">
+		<normal>ui\core_ui\checkbox_16_pause</normal>
+		<depressed>ui\core_ui\checkbox_16_pause_clicked</depressed>
+		<highlight>ui\core_ui\checkbox_16_pause</highlight>
+		<disabled>ui\core_ui\checkbox_16_pause</disabled>
+	</set>
+	<set name="buttonLong" texturecoords="0 0 0.75 1">
+		<normal>ui\ui button long 96X32</normal>
+		<depressed>ui\ui button long 96X32 clicked</depressed>
+		<highlight>ui\ui button long 96X32 rollover</highlight>
+		<disabled>ui\ui button long 96X32 grey</disabled>
+	</set>
+	<set name="sliderRightBtn" texturecoords="0 0 1 1">
+		<normal>ui\file_system\slider_arrow_right</normal>
+		<depressed>ui\file_system\slider_arrow_right_clicked</depressed>
+		<highlight>ui\file_system\slider_arrow_right_rollover</highlight>
+		<disabled>ui\file_system\slider_arrow_right_disabled</disabled>
+	</set>
+	<set name="sliderLeftBtn" texturecoords="0 0 1 1">
+		<normal>ui\file_system\slider_arrow_left</normal>
+		<depressed>ui\file_system\slider_arrow_left_clicked</depressed>
+		<highlight>ui\file_system\slider_arrow_left_rollover</highlight>
+		<disabled>ui\file_system\slider_arrow_left_disabled</disabled>
+	</set>
+	<set name="sliderUpBtn" texturecoords="0 0 1 1">
+		<normal>ui\file_system\slider_arrow_up</normal>
+		<depressed>ui\file_system\slider_arrow_up_clicked</depressed>
+		<highlight>ui\file_system\slider_arrow_up_rollover</highlight>
+		<disabled>ui\file_system\slider_arrow_up_disabled</disabled>
+	</set>
+	<set name="sliderDownBtn" texturecoords="0 0 1 1">
+		<normal>ui\file_system\slider_arrow_down</normal>
+		<depressed>ui\file_system\slider_arrow_down_clicked</depressed>
+		<highlight>ui\file_system\slider_arrow_down_rollover</highlight>
+		<disabled>ui\file_system\slider_arrow_down_disabled</disabled>
+	</set>
+	<set name="sliderRightBtn_18" texturecoords="0 0 0.5625 0.5625">
+		<normal>ui\file_system\slider_arrow_18_right</normal>
+		<depressed>ui\file_system\slider_arrow_18_right_clicked</depressed>
+		<highlight>ui\file_system\slider_arrow_18_right_rollover</highlight>
+		<disabled>ui\file_system\slider_arrow_18_right_disabled</disabled>
+	</set>
+	<set name="sliderLeftBtn_18" texturecoords="0 0 0.5625 0.5625">
+		<normal>ui\file_system\slider_arrow_18_left</normal>
+		<depressed>ui\file_system\slider_arrow_18_left_clicked</depressed>
+		<highlight>ui\file_system\slider_arrow_18_left_rollover</highlight>
+		<disabled>ui\file_system\slider_arrow_18_left_disabled</disabled>
+	</set>
+	<set name="sliderUpBtn_18" texturecoords="0 0 0.5625 0.5625">
+		<normal>ui\file_system\slider_arrow_18_up</normal>
+		<depressed>ui\file_system\slider_arrow_18_up_clicked</depressed>
+		<highlight>ui\file_system\slider_arrow_18_up_rollover</highlight>
+		<disabled>ui\file_system\slider_arrow_18_up_disabled</disabled>
+	</set>
+	<set name="sliderDownBtn_18" texturecoords="0 0 0.5625 0.5625">
+		<normal>ui\file_system\slider_arrow_18_down</normal>
+		<depressed>ui\file_system\slider_arrow_18_down_clicked</depressed>
+		<highlight>ui\file_system\slider_arrow_18_down_rollover</highlight>
+		<disabled>ui\file_system\slider_arrow_18_down_disabled</disabled>
+	</set>
+	<set name="defaultSliderRightBtn" bevel="">
+		<normal>ui\core_ui\arrow_right</normal>
+		<depressed>ui\core_ui\arrow_right_clicked</depressed>
+		<highlight>ui\core_ui\arrow_right_rollover</highlight>
+		<disabled>ui\core_ui\arrow_right_disabled</disabled>
+	</set>
+	<set name="defaultSliderLeftBtn" bevel="">
+		<normal>ui\core_ui\arrow_left</normal>
+		<depressed>ui\core_ui\arrow_left_clicked</depressed>
+		<highlight>ui\core_ui\arrow_left_rollover</highlight>
+		<disabled>ui\core_ui\arrow_left_disabled</disabled>
+	</set>
+	<set name="defaultSliderUpBtn" bevel="">
+		<normal>ui\core_ui\arrow_up</normal>
+		<depressed>ui\core_ui\arrow_up_clicked</depressed>
+		<highlight>ui\core_ui\arrow_up_rollover</highlight>
+		<disabled>ui\core_ui\arrow_up_disabled</disabled>
+	</set>
+	<set name="defaultSliderDownBtn" bevel="">
+		<normal>ui\core_ui\arrow_down</normal>
+		<depressed>ui\core_ui\arrow_down_clicked</depressed>
+		<highlight>ui\core_ui\arrow_down_rollover</highlight>
+		<disabled>ui\core_ui\arrow_down_disabled</disabled>
+	</set>
+	<set name="spanishFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_spain_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_spain_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_spain_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_spain_disable</disabled>
+	</set>
+	<set name="britishFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>ui\eso\flag_british_normal</normal>
+		<depressed>ui\eso\flag_british_clcik</depressed>
+		<highlight>ui\eso\flag_british_high</highlight>
+		<disabled>ui\eso\flag_british_disable</disabled>
+	</set>
+	<set name="dutchFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>ui\eso\flag_dutch_normal</normal>
+		<depressed>ui\eso\flag_dutch_clcik</depressed>
+		<highlight>ui\eso\flag_dutch_high</highlight>
+		<disabled>ui\eso\flag_dutch_disable</disabled>
+	</set>
+	<set name="frenchFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_france_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_france_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_france_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_france_disable</disabled>
+	</set>
+	<set name="belgiumFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_belgium_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_belgium_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_belgium_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_belgium_disable</disabled>
+	</set>
+	<set name="germanFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_prussia_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_prussia_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_prussia_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_prussia_disable</disabled>
+	</set>
+	<set name="ottomanFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>ui\eso\flag_ottoman_normal</normal>
+		<depressed>ui\eso\flag_ottoman_clcik</depressed>
+		<highlight>ui\eso\flag_ottoman_high</highlight>
+		<disabled>ui\eso\flag_ottoman_disable</disabled>
+	</set>
+	<set name="portugueseFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_portugal_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_portugal_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_portugal_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_portugal_disable</disabled>
+	</set>
+	<set name="russianFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_russian_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_russian_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_russian_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_russian_disable</disabled>
+	</set>
+	<set name="randomFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>ui\eso\flag_random_normal</normal>
+		<depressed>ui\eso\flag_random_clcik</depressed>
+		<highlight>ui\eso\flag_random_high</highlight>
+		<disabled>ui\eso\flag_random_disable</disabled>
+	</set>
+	<set name="maltaFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_malta_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_malta_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_malta_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_malta_disable</disabled>
+	</set>
+	<set name="blackFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>ui\eso\flag_black_normal</normal>
+		<depressed>ui\eso\flag_black_clcik</depressed>
+		<highlight>ui\eso\flag_black_high</highlight>
+		<disabled>ui\eso\flag_black_disable</disabled>
+	</set>
+	<set name="boneFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>ui\eso\flag_bone_normal</normal>
+		<depressed>ui\eso\flag_bone_clcik</depressed>
+		<highlight>ui\eso\flag_bone_high</highlight>
+		<disabled>ui\eso\flag_bone_disable</disabled>
+	</set>
+	<set name="nativeFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>ui\eso\flag_native_normal</normal>
+		<depressed>ui\eso\flag_native_clcik</depressed>
+		<highlight>ui\eso\flag_native_high</highlight>
+		<disabled>ui\eso\flag_native_disable</disabled>
+	</set>
+	<set name="iroquoisFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_iroquois_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_iroquois_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_iroquois_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_iroquois_disable</disabled>
+	</set>
+	<set name="SiouxFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_Sioux_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_Sioux_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_Sioux_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_Sioux_disable</disabled>
+	</set>
+	<set name="AztecFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_Aztec_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_Aztec_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_Aztec_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_Aztec_disable</disabled>
+	</set>
+	<set name="ChineseFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>ui\eso\flag_China_normal</normal>
+		<depressed>ui\eso\flag_China_click</depressed>
+		<highlight>ui\eso\flag_China_high</highlight>
+		<disabled>ui\eso\flag_China_disable</disabled>
+	</set>
+	<set name="JapaneseFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_japan_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_japan_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_japan_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_japan_disable</disabled>
+	</set>
+	<set name="IndianFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>ui\eso\flag_India_normal</normal>
+		<depressed>ui\eso\flag_India_click</depressed>
+		<highlight>ui\eso\flag_India_high</highlight>
+		<disabled>ui\eso\flag_India_disable</disabled>
+	</set>
+	<set name="TokugawaFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>ui\eso\flag_tokugawa_normal</normal>
+		<depressed>ui\eso\flag_tokugawa_click</depressed>
+		<highlight>ui\eso\flag_tokugawa_high</highlight>
+		<disabled>ui\eso\flag_tokugawa_disable</disabled>
+	</set>
+	<set name="EastIndiaTradingCompanyFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>ui\eso\flag_eastindiatradingcompany_normal</normal>
+		<depressed>ui\eso\flag_eastindiatradingcompany_click</depressed>
+		<highlight>ui\eso\flag_eastindiatradingcompany_high</highlight>
+		<disabled>ui\eso\flag_eastindiatradingcompany_disable</disabled>
+	</set>
+	<set name="LouvertureFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_haitian_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_haitian_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_haitian_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_haitian_disable</disabled>
+	</set>
+	<set name="WashingtonFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_americas_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_americas_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_americas_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_americas_disable</disabled>
+	</set>
+	<set name="HidalgoFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_texas_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_texas_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_texas_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_texas_disable</disabled>
+	</set>
+	<set name="BonifacioFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_california_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_california_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_california_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_california_disable</disabled>
+	</set>
+	<set name="BolivarFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_ca_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_ca_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_ca_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_ca_disable</disabled>
+	</set>
+	<set name="SanMartinFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_piratini_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_piratini_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_piratini_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_piratini_disable</disabled>
+	</set>
+	<set name="SantanderFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_uruguayan_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_uruguayan_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_uruguayan_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_uruguayan_disable</disabled>
+	</set>
+	<set name="OHigginsFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_maranhao_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_maranhao_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_maranhao_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_maranhao_disable</disabled>
+	</set>
+	<set name="MinimapFilterNormal" texturecoords="0 0 1 1">
+		<normal>ui\ingame\ingame_minimap_all_normal_ypack</normal>
+		<depressed>ui\ingame\ingame_minimap_all_depressed_ypack</depressed>
+		<highlight>ui\ingame\ingame_minimap_all_active_ypack</highlight>
+		<disabled>ui\ingame\ingame_minimap_all_disabled_ypack</disabled>
+	</set>
+	<set name="MinimapFilterMilitary" texturecoords="0 0 1 1">
+		<normal>ui\ingame\ingame_minimap_military_normal_ypack</normal>
+		<depressed>ui\ingame\ingame_minimap_military_depressed_ypack</depressed>
+		<highlight>ui\ingame\ingame_minimap_military_active_ypack</highlight>
+		<disabled>ui\ingame\ingame_minimap_military_disabled_ypack</disabled>
+	</set>
+	<set name="MinimapFilterEconomic" texturecoords="0 0 1 1">
+		<normal>ui\ingame\ingame_minimap_econ_normal_ypack</normal>
+		<depressed>ui\ingame\ingame_minimap_econ_depressed_ypack</depressed>
+		<highlight>ui\ingame\ingame_minimap_econ_active_ypack</highlight>
+		<disabled>ui\ingame\ingame_minimap_econ_disabled_ypack</disabled>
+	</set>
+	<set name="MinimapFilterNormalMin" texturecoords="0 0 1 1">
+		<normal>ui\ingame\ingame_minimap_small_all_normal_ypack</normal>
+		<depressed>ui\ingame\ingame_minimap_small_all_depressed_ypack</depressed>
+		<highlight>ui\ingame\ingame_minimap_small_all_active_ypack</highlight>
+		<disabled>ui\ingame\ingame_minimap_small_all_active_ypack</disabled>
+	</set>
+	<set name="MinimapFilterMilitaryMin" texturecoords="0 0 1 1">
+		<normal>ui\ingame\ingame_minimap_small_military_normal_ypack</normal>
+		<depressed>ui\ingame\ingame_minimap_small_military_depressed_ypack</depressed>
+		<highlight>ui\ingame\ingame_minimap_small_military_active_ypack</highlight>
+		<disabled>ui\ingame\ingame_minimap_small_military_active_ypack</disabled>
+	</set>
+	<set name="MinimapFilterEconomicMin" texturecoords="0 0 1 1">
+		<normal>ui\ingame\ingame_minimap_small_econ_normal_ypack</normal>
+		<depressed>ui\ingame\ingame_minimap_small_econ_depressed_ypack</depressed>
+		<highlight>ui\ingame\ingame_minimap_small_econ_active_ypack</highlight>
+		<disabled>ui\ingame\ingame_minimap_small_econ_active_ypack</disabled>
+	</set>
+	<set name="spanishFlagBtnLarge" texturecoords="0 0 1 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_spain_large_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_spain_large_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_spain_large_high</highlight>
+		<disabled>ui\ingame\flag_spanish_large_disable</disabled>
+	</set>
+	<set name="britishFlagBtnLarge" texturecoords="0 0 1 0.75">
+		<normal>ui\ingame\flag_british_large_normal</normal>
+		<depressed>ui\ingame\flag_british_large_click</depressed>
+		<highlight>ui\ingame\flag_british_large_high</highlight>
+		<disabled>ui\ingame\flag_british_large_disable</disabled>
+	</set>
+	<set name="dutchFlagBtnLarge" texturecoords="0 0 1 0.75">
+		<normal>ui\ingame\flag_dutch_large_normal</normal>
+		<depressed>ui\ingame\flag_dutch_large_click</depressed>
+		<highlight>ui\ingame\flag_dutch_large_high</highlight>
+		<disabled>ui\ingame\flag_dutch_large_disable</disabled>
+	</set>
+	<set name="belgiumFlagBtnLarge" texturecoords="0 0 1 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_belgium_large_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_belgium_large_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_belgium_large_high</highlight>
+		<disabled>ui\ingame\flag_french_large_disable</disabled>
+	</set>
+	<set name="frenchFlagBtnLarge" texturecoords="0 0 1 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_france_large_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_france_large_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_france_large_high</highlight>
+		<disabled>ui\ingame\flag_french_large_disable</disabled>
+	</set>
+	<set name="germanFlagBtnLarge" texturecoords="0 0 1 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_prussia_large_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_prussia_large_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_prussia_large_high</highlight>
+		<disabled>ui\ingame\flag_germans_large_disable</disabled>
+	</set>
+	<set name="ottomanFlagBtnLarge" texturecoords="0 0 1 0.75">
+		<normal>ui\ingame\flag_ottomans_large_normal</normal>
+		<depressed>ui\ingame\flag_ottomans_large_click</depressed>
+		<highlight>ui\ingame\flag_ottomans_large_high</highlight>
+		<disabled>ui\ingame\flag_ottomans_large_disable</disabled>
+	</set>
+	<set name="portugueseFlagBtnLarge" texturecoords="0 0 1 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_portugal_large_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_portugal_large_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_portugal_large_high</highlight>
+		<disabled>ui\ingame\flag_portuguese_large_disable</disabled>
+	</set>
+	<set name="russianFlagBtnLarge" texturecoords="0 0 1 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_russian_large_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_russian_large_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_russian_large_high</highlight>
+		<disabled>ui\ingame\flag_russians_large_disable</disabled>
+	</set>
+	<set name="randomFlagBtnLarge" texturecoords="0 0 1 0.75">
+		<normal>ui\ingame\flag_random_large_normal</normal>
+		<depressed>ui\ingame\flag_random_large_click</depressed>
+		<highlight>ui\ingame\flag_random_large_high</highlight>
+		<disabled>ui\ingame\flag_random_large_disable</disabled>
+	</set>
+	<set name="iroquoisFlagBtnLarge" texturecoords="0 0 1 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_iroquois_large_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_iroquois_large_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_iroquois_large_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_iroquois_large_disable</disabled>
+	</set>
+	<set name="SiouxFlagBtnLarge" texturecoords="0 0 1 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_Sioux_large_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_Sioux_large_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_Sioux_large_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_Sioux_large_disable</disabled>
+	</set>
+	<set name="AztecFlagBtnLarge" texturecoords="0 0 1 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_Aztec_large_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_Aztec_large_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_Aztec_large_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_Aztec_large_disable</disabled>
+	</set>
+	<set name="ChineseFlagBtnLarge" texturecoords="0 0 1 0.75">
+		<normal>ui\ingame\flag_Chinese_large_normal</normal>
+		<depressed>ui\ingame\flag_Chinese_large_click</depressed>
+		<highlight>ui\ingame\flag_Chinese_large_high</highlight>
+		<disabled>ui\ingame\flag_Chinese_large_disable</disabled>
+	</set>
+	<set name="JapaneseFlagBtnLarge" texturecoords="0 0 1 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_japan_large_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_japan_large_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_japan_large_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_japan_large_disable</disabled>
+	</set>
+	<set name="IndianFlagBtnLarge" texturecoords="0 0 1 0.75">
+		<normal>ui\ingame\flag_Indian_large_normal</normal>
+		<depressed>ui\ingame\flag_Indian_large_click</depressed>
+		<highlight>ui\ingame\flag_Indian_large_high</highlight>
+		<disabled>ui\ingame\flag_Indian_large_disable</disabled>
+	</set>
+	<set name="TokugawaFlagBtnLarge" texturecoords="0 0 1 0.75">
+		<normal>ui\ingame\flag_tokugawa_large_normal</normal>
+		<depressed>ui\ingame\flag_tokugawa_large_click</depressed>
+		<highlight>ui\ingame\flag_tokugawa_large_high</highlight>
+		<disabled>ui\ingame\flag_tokugawa_large_disable</disabled>
+	</set>
+	<set name="EastindiatradingcompanyFlagBtnLarge" texturecoords="0 0 1 0.75">
+		<normal>ui\ingame\flag_Eastindiatradingcompany_large_normal</normal>
+		<depressed>ui\ingame\flag_Eastindiatradingcompany_large_click</depressed>
+		<highlight>ui\ingame\flag_Eastindiatradingcompany_large_high</highlight>
+		<disabled>ui\ingame\flag_Eastindiatradingcompany_large_disable</disabled>
+	</set>
+	<set name="LouvertureFlagBtnLarge" texturecoords="0 0 0.5859375 0.75">
+		<normal>ui\ingame\flag_haitian_large_normal</normal>
+		<depressed>ui\ingame\flag_haitian_large_click</depressed>
+		<highlight>ui\ingame\flag_haitian_large_high</highlight>
+		<disabled>ui\ingame\flag_haitian_large_disable</disabled>
+	</set>
+	<set name="MackenzieFlagBtnLarge" texturecoords="0 0 0.5859375 0.75">
+		<normal>ui\ingame\flag_USA_large_normal</normal>
+		<depressed>ui\ingame\flag_USA_large_click</depressed>
+		<highlight>ui\ingame\flag_USA_large_high</highlight>
+		<disabled>ui\ingame\flag_USA_large_disable</disabled>
+	</set>
+	<set name="HoustonFlagBtnLarge" texturecoords="0 0 0.5859375 0.75">
+		<normal>ui\ingame\flag_mexican_large_normal</normal>
+		<depressed>ui\ingame\flag_mexican_large_click</depressed>
+		<highlight>ui\ingame\flag_mexican_large_high</highlight>
+		<disabled>ui\ingame\flag_mexican_large_disable</disabled>
+	</set>
+	<set name="TiradentesFlagBtnLarge" texturecoords="0 0 0.5859375 0.75">
+		<normal>ui\ingame\flag_brazilian_large_normal</normal>
+		<depressed>ui\ingame\flag_brazilian_large_click</depressed>
+		<highlight>ui\ingame\flag_brazilian_large_high</highlight>
+		<disabled>ui\ingame\flag_brazilian_large_disable</disabled>
+	</set>
+	<set name="SucreFlagBtnLarge" texturecoords="0 0 0.5859375 0.75">
+		<normal>ui\ingame\flag_peruvian_large_normal</normal>
+		<depressed>ui\ingame\flag_peruvian_large_click</depressed>
+		<highlight>ui\ingame\flag_peruvian_large_high</highlight>
+		<disabled>ui\ingame\flag_peruvian_large_disable</disabled>
+	</set>
+	<set name="ArtigasFlagBtnLarge" texturecoords="0 0 0.5859375 0.75">
+		<normal>ui\ingame\flag_argentinian_large_normal</normal>
+		<depressed>ui\ingame\flag_argentinian_large_click</depressed>
+		<highlight>ui\ingame\flag_argentinian_large_high</highlight>
+		<disabled>ui\ingame\flag_argentinian_large_disable</disabled>
+	</set>
+	<set name="GoncalvesFlagBtnLarge" texturecoords="0 0 0.5859375 0.75">
+		<normal>ui\ingame\flag_colombian_large_normal</normal>
+		<depressed>ui\ingame\flag_colombian_large_click</depressed>
+		<highlight>ui\ingame\flag_colombian_large_high</highlight>
+		<disabled>ui\ingame\flag_colombian_large_disable</disabled>
+	</set>
+	<set name="OHigginsFlagBtnLarge" texturecoords="0 0 0.5859375 0.75">
+		<normal>ui\ingame\flag_chilean_large_normal</normal>
+		<depressed>ui\ingame\flag_chilean_large_click</depressed>
+		<highlight>ui\ingame\flag_chilean_large_high</highlight>
+		<disabled>ui\ingame\flag_chilean_large_disable</disabled>
+	</set>
+	<set name="brazilFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_brazil_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_brazil_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_brazil_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_brazil_disable</disabled>
+	</set>
+	<set name="brazilFlagBtnLarge" texturecoords="0 0 1 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_brazil_large_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_brazil_large_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_brazil_large_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_brazil_large_disable</disabled>
+	</set>
+	<set name="argentineFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_argentine_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_argentine_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_argentine_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_argentine_disable</disabled>
+	</set>
+	<set name="argentineFlagBtnLarge" texturecoords="0 0 1 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_argentine_large_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_argentine_large_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_argentine_large_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_argentine_large_disable</disabled>
+	</set>
+	<set name="paraguayanFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_paraguay_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_paraguay_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_paraguay_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_paraguay_disable</disabled>
+	</set>
+	<set name="paraguayanFlagBtnLarge" texturecoords="0 0 1 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_paraguay_large_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_paraguay_large_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_paraguay_large_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_paraguay_large_disable</disabled>
+	</set>
+	<set name="tupiFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_tupi_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_tupi_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_tupi_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_tupi_disable</disabled>
+	</set>
+	<set name="tupiFlagBtnLarge" texturecoords="0 0 1 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_tupi_large_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_tupi_large_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_tupi_large_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_tupi_large_disable</disabled>
+	</set>
+	<set name="colombiaFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_greatcolombian_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_greatcolombian_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_greatcolombian_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_greatcolombian_disable</disabled>
+	</set>
+	<set name="colombiaFlagBtnLarge" texturecoords="0 0 1 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_colombia_large_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_colombia_large_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_colombia_large_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_colombia_large_disable</disabled>
+	</set>
+	<set name="americaFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_americas_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_americas_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_americas_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_americas_disable</disabled>
+	</set>
+	<set name="americaFlagBtnLarge" texturecoords="0 0 1 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_american_large_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_american_large_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_american_large_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_american_large_disable</disabled>
+	</set>
+	<set name="canadaFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_canadian_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_canadian_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_canadian_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_canadian_disable</disabled>
+	</set>
+	<set name="canadaFlagBtnLarge" texturecoords="0 0 1 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_canadian_large_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_canadian_large_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_canadian_large_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_canadian_large_disable</disabled>
+	</set>
+	<set name="unitedkingdomFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_british_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_british_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_british_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_british_disable</disabled>
+	</set>
+	<set name="unitedkingdomFlagBtnLarge" texturecoords="0 0 1 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_british_large_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_british_large_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_british_large_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_british_large_disable</disabled>
+	</set>
+	<set name="incaFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_inca_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_inca_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_inca_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_inca_disable</disabled>
+	</set>
+	<set name="incaFlagBtnLarge" texturecoords="0 0 1 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_inca_large_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_inca_large_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_inca_large_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_inca_large_disable</disabled>
+	</set>
+	<set name="mapucheFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_mapuche_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_mapuche_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_mapuche_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_mapuche_disable</disabled>
+	</set>
+	<set name="mapucheFlagBtnLarge" texturecoords="0 0 1 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_mapuche_large_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_mapuche_large_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_mapuche_large_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_mapuche_large_disable</disabled>
+	</set>
+	<set name="mexicoFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_mexican_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_mexican_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_mexican_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_mexican_disable</disabled>
+	</set>
+	<set name="mexicoFlagBtnLarge" texturecoords="0 0 1 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_mexican_large_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_mexican_large_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_mexican_large_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_mexican_large_disable</disabled>
+	</set>
+	<set name="koreaFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_korean_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_korean_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_korean_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_korean_disable</disabled>
+	</set>
+	<set name="koreaFlagBtnLarge" texturecoords="0 0 1 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_korean_large_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_korean_large_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_korean_large_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_korean_large_disable</disabled>
+	</set>
+	<set name="italianFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_italian_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_italian_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_italian_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_italian_disable</disabled>
+	</set>
+	<set name="mamelukeFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_mameluke_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_mameluke_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_mameluke_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_mameluke_disable</disabled>
+	</set>
+	<set name="mamelukeFlagBtnLarge" texturecoords="0 0 1 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_mameluke_large_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_mameluke_large_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_mameluke_large_high</highlight>
+		<disabled>ui\ingame\flag_french_large_disable</disabled>
+	</set>
+	<set name="italianFlagBtnLarge" texturecoords="0 0 1 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_italian_large_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_italian_large_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_italian_large_high</highlight>
+		<disabled>ui\ingame\flag_french_large_disable</disabled>
+	</set>
+	<set name="revaztec" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_Maztec_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_Maztec_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_Maztec_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_Maztec_disable</disabled>
+	</set>
+	<set name="revsioux" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_Msioux_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_Msioux_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_Msioux_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_Msioux_disable</disabled>
+	</set>
+	<set name="reviroquois" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_Miroquois_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_Miroquois_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_Miroquois_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_Miroquois_disable</disabled>
+	</set>
+	<set name="australiaFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_australian_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_australian_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_australian_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_australian_disable</disabled>
+	</set>
+	<set name="australiaFlagBtnLarge" texturecoords="0 0 1 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_australian_large_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_australian_large_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_australian_large_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_australian_large_disable</disabled>
+	</set>
+	<set name="chileFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_chilean_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_chilean_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_chilean_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_chilean_disable</disabled>
+	</set>
+	<set name="chileFlagBtnLarge" texturecoords="0 0 1 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_chilean_large_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_chilean_large_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_chilean_large_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_chilean_large_disable</disabled>
+	</set>
+	<set name="danishFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_danish_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_danish_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_danish_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_danish_disable</disabled>
+	</set>
+	<set name="danishFlagBtnLarge" texturecoords="0 0 1 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_danish_large_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_danish_large_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_danish_large_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_danish_large_disable</disabled>
+	</set>
+	<set name="greekFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_greek_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_greek_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_greek_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_greek_disable</disabled>
+	</set>
+	<set name="romaniaFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_romania_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_romania_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_romania_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_romania_disable</disabled>
+	</set>
+	<set name="serbiaFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_serbia_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_serbia_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_serbia_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_serbia_disable</disabled>
+	</set>
+	<set name="bulgariaFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_bulgaria_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_bulgaria_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_bulgaria_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_bulgaria_disable</disabled>
+	</set>
+	<set name="greekFlagBtnLarge" texturecoords="0 0 1 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_greek_large_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_greek_large_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_greek_large_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_greek_large_disable</disabled>
+	</set>
+	<set name="abyssFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_abyss_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_abyss_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_abyss_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_abyss_disable</disabled>
+	</set>
+	<set name="abyssFlagBtnLarge" texturecoords="0 0 1 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_abyss_large_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_abyss_large_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_abyss_large_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_abyss_large_disable</disabled>
+	</set>
+	<set name="zuluFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_zulu_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_zulu_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_zulu_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_zulu_disable</disabled>
+	</set>
+	<set name="zuluFlagBtnLarge" texturecoords="0 0 1 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_zulu_large_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_zulu_large_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_zulu_large_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_zulu_large_disable</disabled>
+	</set>
+	<set name="austrohungarianFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_austrohungarian_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_austrohungarian_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_austrohungarian_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_austrohungarian_disable</disabled>
+	</set>
+	<set name="austrohungarianFlagBtnLarge" texturecoords="0 0 1 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_austrohungarian_large_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_austrohungarian_large_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_austrohungarian_large_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_austrohungarian_disable</disabled>
+	</set>
+	<set name="serbiaFlagBtnLarge" texturecoords="0 0 1 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_serbia_large_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_serbia_large_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_serbia_large_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_serbia_large_disable</disabled>
+	</set>
+	<set name="bulgariaFlagBtnLarge" texturecoords="0 0 1 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_bulgaria_large_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_bulgaria_large_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_bulgaria_large_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_bulgaria_large_disable</disabled>
+	</set>
+	<set name="romaniaFlagBtnLarge" texturecoords="0 0 1 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_romania_large_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_romania_large_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_romania_large_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_romania_large_disable</disabled>
+	</set>
+	<set name="swedishFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_swedish_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_swedish_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_swedish_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_swedish_disable</disabled>
+	</set>
+	<set name="swedishFlagBtnLarge" texturecoords="0 0 1 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_swedish_large_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_swedish_large_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_swedish_large_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_swedish_large_disable</disabled>
+	</set>
+	<set name="PeruFlagBtnLarge" texturecoords="0 0 1 0.75">
+		<normal>War of the Triple Alliance\DLC\Sommer\Peru\Flag\flag_peru_large_normal</normal>
+		<depressed>War of the Triple Alliance\DLC\Sommer\Peru\Flag\flag_peru_large_click</depressed>
+		<highlight>War of the Triple Alliance\DLC\Sommer\Peru\Flag\flag_peru_large_high</highlight>
+		<disabled>War of the Triple Alliance\DLC\Sommer\Peru\Flag\flag_peru_large_disable</disabled>
+	</set>
+	<set name="PeruFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\DLC\Sommer\Peru\Flag\flag_peru_normal</normal>
+		<depressed>War of the Triple Alliance\DLC\Sommer\Peru\Flag\flag_peru_click</depressed>
+		<highlight>War of the Triple Alliance\DLC\Sommer\Peru\Flag\flag_peru_high</highlight>
+		<disabled>War of the Triple Alliance\DLC\Sommer\Peru\Flag\flag_peru_disable</disabled>
+	</set>
+	<set name="AlbaniaFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_albania_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_albania_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_albania_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_albania_disable</disabled>
+	</set>
+	<set name="AlgeriaFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_algeria_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_algeria_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_algeria_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_algeria_disable</disabled>
+	</set>
+	<set name="DervishFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_dervish_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_dervish_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_dervish_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_dervish_disable</disabled>
+	</set>
+	<set name="FinlandFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_finland_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_finland_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_finland_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_finland_disable</disabled>
+	</set>
+	<set name="GaribaldiFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_garibaldi_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_garibaldi_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_garibaldi_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_garibaldi_disable</disabled>
+	</set>
+	<set name="HungaryFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_hungary_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_hungary_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_hungary_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_hungary_disable</disabled>
+	</set>
+	<set name="IrelandFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_ireland_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_ireland_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_ireland_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_ireland_disable</disabled>
+	</set>
+	<set name="JavaFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_java_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_java_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_java_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_java_disable</disabled>
+	</set>
+	<set name="NorwayFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_norway_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_norway_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_norway_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_norway_disable</disabled>
+	</set>
+	<set name="PhilippinesFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_philippines_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_philippines_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_philippines_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_philippines_disable</disabled>
+	</set>
+	<set name="RifFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_rif_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_rif_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_rif_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_rif_disable</disabled>
+	</set>
+	<set name="TaiwanFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_taiwan_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_taiwan_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_taiwan_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_taiwan_disable</disabled>
+	</set>
+	<set name="UruguayFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_uruguayan_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_uruguayan_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_uruguayan_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_uruguayan_disable</disabled>
+	</set>
+	<set name="USSRFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_ussr_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_ussr_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_ussr_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_ussr_disable</disabled>
+	</set>
+	<set name="MinasFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_minas_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_minas_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_minas_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_minas_disable</disabled>
+	</set>
+	<set name="PiratiniFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_piratini_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_piratini_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_piratini_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_piratini_disable</disabled>
+	</set>
+	<set name="EcuadorFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_ecuador_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_ecuador_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_ecuador_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_ecuador_disable</disabled>
+	</set>
+	<set name="UPCAFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_upca_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_upca_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_upca_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_upca_disable</disabled>
+	</set>
+	<set name="VenezuelaFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_venezuela_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_venezuela_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_venezuela_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_venezuela_disable</disabled>
+	</set>
+	<set name="HaitiFlagBtnLarge" texturecoords="0 0 1 0.75">
+		<normal>WoL\ui\eso\flag_haitian_large_normal</normal>
+		<depressed>WoL\ui\eso\flag_haitian_large_click</depressed>
+		<highlight>WoL\ui\eso\flag_haitian_large_high</highlight>
+		<disabled>WoL\ui\eso\flag_haitian_large_disable</disabled>
+	</set>
+	<set name="HaitiFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>WoL\ui\eso\flag_haitian_normal</normal>
+		<depressed>WoL\ui\eso\flag_haitian_click</depressed>
+		<highlight>WoL\ui\eso\flag_haitian_high</highlight>
+		<disabled>WoL\ui\eso\flag_haitian_disable</disabled>
+	</set>
+		<set name="MaoriFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_maori_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_maori_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_maori_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_maori_disable</disabled>
+	</set>
+		<set name="MaoriFlagBtnLarge" texturecoords="0 0 1 0.75">
+		<normal>War of the Triple Alliance\Buttons\flag_maori_large_normal</normal>
+		<depressed>War of the Triple Alliance\Buttons\flag_maori_large_click</depressed>
+		<highlight>War of the Triple Alliance\Buttons\flag_maori_large_high</highlight>
+		<disabled>War of the Triple Alliance\Buttons\flag_maori_large_disable</disabled>
+	</set>
+
+	<!-- Bolivia -->
+
+	<set name="BoliviaFlagBtnLarge" texturecoords="0 0 1 0.75">
+		<normal>WoL\ui\eso\flag_bolivia_large_normal</normal>
+		<depressed>WoL\ui\eso\flag_bolivia_large_click</depressed>
+		<highlight>WoL\ui\eso\flag_bolivia_large_high</highlight>
+		<disabled>WoL\ui\eso\flag_bolivia_disable</disabled>
+	</set>
+	<set name="BoliviaFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>WoL\ui\eso\flag_bolivia_normal</normal>
+		<depressed>WoL\ui\eso\flag_bolivia_click</depressed>
+		<highlight>WoL\ui\eso\flag_bolivia_high</highlight>
+		<disabled>WoL\ui\eso\flag_bolivia_disable</disabled>
+	</set>	
+
+	<!-- Central America -->
+
+	<set name="CentralamericaFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>WoL\ui\eso\flag_centralamerica_normal</normal>
+		<depressed>WoL\ui\eso\flag_centralamerica_click</depressed>
+		<highlight>WoL\ui\eso\flag_centralamerica_high</highlight>
+		<disabled>WoL\ui\eso\flag_centralamerica_disable</disabled>
+	</set>
+	<set name="CentralamericaFlagBtnLarge" texturecoords="0 0 1 0.75">
+		<normal>WoL\ui\eso\flag_centralamerica_large_normal</normal>
+		<depressed>WoL\ui\eso\flag_centralamerica_large_click</depressed>
+		<highlight>WoL\ui\eso\flag_centralamerica_large_high</highlight>
+		<disabled>WoL\ui\eso\flag_centralamerica_large_disable</disabled>
+	</set>
+	<!-- SubCA -->
+	<set name="CostaRicaFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>WoL\ui\eso\CA\flag__0028_CostaRica_btn</normal>
+		<depressed>WoL\ui\eso\CA\flag__0026_CostaRica_click</depressed>
+		<highlight>WoL\ui\eso\CA\flag__0029_CostaRica_high</highlight>
+		<disabled>WoL\ui\eso\CA\flag__002_CostaRica_disabled</disabled>
+	</set>
+	<set name="ElSalvadorFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>WoL\ui\eso\CA\flag__0013_ElSalvador_btn</normal>
+		<depressed>WoL\ui\eso\CA\flag__0011_ElSalvador_click</depressed>
+		<highlight>WoL\ui\eso\CA\flag__0014_ElSalvador_high</highlight>
+		<disabled>WoL\ui\eso\CA\flag__0012_ElSalvador_disabled</disabled>
+	</set>
+	<set name="HondurasFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>WoL\ui\eso\CA\flag__0023_Honduras_btn</normal>
+		<depressed>WoL\ui\eso\CA\flag__0021_Honduras_click</depressed>
+		<highlight>WoL\ui\eso\CA\flag__0024_Honduras_high</highlight>
+		<disabled>WoL\ui\eso\CA\flag__0022_Honduras_disabled</disabled>
+	</set>
+	<set name="GuatemalaFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>WoL\ui\eso\CA\flag__0018_Guatemala_btn</normal>
+		<depressed>WoL\ui\eso\CA\flag__0016_Guatemala_click</depressed>
+		<highlight>WoL\ui\eso\CA\flag__0019_Guatemala_high</highlight>
+		<disabled>WoL\ui\eso\CA\flag__001_Guatemala_disabled</disabled>
+	</set>
+	<set name="NicaraguaFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>WoL\ui\eso\CA\flag__0003_Nicaragua_btn</normal>
+		<depressed>WoL\ui\eso\CA\flag__0001_Nicaragua_click</depressed>
+		<highlight>WoL\ui\eso\CA\flag__0004_Nicaragua_high</highlight>
+		<disabled>WoL\ui\eso\CA\flag__0002_Nicaragua_disabled</disabled>
+	</set>
+	<set name="LosAltosFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>WoL\ui\eso\CA\flag__0008_LosAltos_btn</normal>
+		<depressed>WoL\ui\eso\CA\flag__0006_LosAltos_click</depressed>
+		<highlight>WoL\ui\eso\CA\flag__0009_LosAltos_high</highlight>
+		<disabled>WoL\ui\eso\CA\flag__000_LosAltos_disabled</disabled>
+	</set>
+	<!-- Uruguay -->
+	<set name="UruguayanFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>WoL\ui\eso\flag_Uruguay_normal</normal>
+		<depressed>WoL\ui\eso\flag_Uruguay_click</depressed>
+		<highlight>WoL\ui\eso\flag_Uruguay_high</highlight>
+		<disabled>WoL\ui\eso\flag_Uruguay_disable</disabled>
+	</set>
+	<set name="UruguayanFlagBtnLarge" texturecoords="0 0 1 0.75">
+		<normal>WoL\ui\eso\flag_Uruguay_large_normal</normal>
+		<depressed>WoL\ui\eso\flag_Uruguay_large_click</depressed>
+		<highlight>WoL\ui\eso\flag_Uruguay_large_high</highlight>
+		<disabled>WoL\ui\eso\flag_Uruguay_large_disable</disabled>
+	</set>
+	<!-- MEMEMEMEMEMEME -->
+	<set name="afghanFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>WoL\ui\eso\flag_afghan_normal</normal>
+		<depressed>WoL\ui\eso\flag_afghan_click</depressed>
+		<highlight>WoL\ui\eso\flag_afghan_high</highlight>
+		<disabled>WoL\ui\eso\flag_afghan_disable</disabled>
+	</set>
+	<set name="afghanFlagBtnLarge" texturecoords="0 0 1 0.75">
+		<normal>WoL\ui\eso\flag_afghan_large_normal</normal>
+		<depressed>WoL\ui\eso\flag_afghan_large_click</depressed>
+		<highlight>WoL\ui\eso\flag_afghan_large_high</highlight>
+		<disabled>WoL\ui\eso\flag_afghan_disable</disabled>
+	</set>
+	<set name="persianFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>WoL\ui\eso\flag_persian_normal</normal>
+		<depressed>WoL\ui\eso\flag_persian_click</depressed>
+		<highlight>WoL\ui\eso\flag_persian_high</highlight>
+		<disabled>WoL\ui\eso\flag_persian_disable</disabled>
+	</set>
+	<set name="persianFlagBtnLarge" texturecoords="0 0 1 0.75">
+		<normal>WoL\ui\eso\flag_persian_large_normal</normal>
+		<depressed>WoL\ui\eso\flag_persian_large_click</depressed>
+		<highlight>WoL\ui\eso\flag_persian_large_high</highlight>
+		<disabled>WoL\ui\eso\flag_persian_disable</disabled>
+	</set>
+	<set name="saudiFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>WoL\ui\eso\flag_saudi_normal</normal>
+		<depressed>WoL\ui\eso\flag_saudi_click</depressed>
+		<highlight>WoL\ui\eso\flag_saudi_high</highlight>
+		<disabled>WoL\ui\eso\flag_saudi_disable</disabled>
+	</set>
+	<set name="saudiFlagBtnLarge" texturecoords="0 0 1 0.75">
+		<normal>WoL\ui\eso\flag_saudi_large_normal</normal>
+		<depressed>WoL\ui\eso\flag_saudi_large_click</depressed>
+		<highlight>WoL\ui\eso\flag_saudi_large_high</highlight>
+		<disabled>WoL\ui\eso\flag_saudi_disable</disabled>
+	</set>
+	<set name="uzbekFlagBtn" texturecoords="0 0 0.5859375 0.75">
+		<normal>WoL\ui\eso\flag_uzbeks_normal</normal>
+		<depressed>WoL\ui\eso\flag_uzbeks_click</depressed>
+		<highlight>WoL\ui\eso\flag_uzbeks_high</highlight>
+		<disabled>WoL\ui\eso\flag_uzbeks_disable</disabled>
+	</set>
+	<set name="uzbekFlagBtnLarge" texturecoords="0 0 1 0.75">
+		<normal>WoL\ui\eso\flag_uzbeks_large_normal</normal>
+		<depressed>WoL\ui\eso\flag_uzbeks_large_click</depressed>
+		<highlight>WoL\ui\eso\flag_uzbeks_large_high</highlight>
+		<disabled>WoL\ui\eso\flag_uzbeks_disable</disabled>
+	</set>
+	
+</buttonsets>

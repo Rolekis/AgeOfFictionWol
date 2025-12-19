@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name>SawmillAutogatherAura</name>
+		<type>AutoRangedModify</type>
+		<active>1</active>
+		<maxrange>24</maxrange>
+		<modifyprotoid>WOLSawmill</modifyprotoid>
+		<persistent>1</persistent>
+		<modifytype>AutoGatherRate</modifytype>
+		<modifymultiplier>1.01</modifymultiplier>
+	</action>
+	<tactic>
+		Normal
+		<action>SawmillAutogatherAura</action>
+	</tactic>
+</tactics>

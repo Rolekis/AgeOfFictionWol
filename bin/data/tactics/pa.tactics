@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>	
+	<action>
+		<name stringid="38133">RangedAttack1</name>
+		<type>Attack</type>
+		<active>1</active>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<activeifcontainsunits>1</activeifcontainsunits>
+		<damagefactorcap>9</damagefactorcap>
+		<scalebycontainedunits>1</scalebycontainedunits>
+		<anim>RangedAttack</anim>
+		<maxheight>0</maxheight>
+		<accuracy>1.0</accuracy>
+		<aimbonus>0</aimbonus>
+		<maxspread>5</maxspread>
+		<rate type="Building">1.0</rate>
+		<spreadfactor>0.25</spreadfactor>
+		<trackrating>12</trackrating>
+		<unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+		<projectile>Arrow</projectile>
+		<rate type="Unit">1.0</rate>
+		<instantballistics>1</instantballistics>
+	</action>
+	<action>
+		<name stringid="38133">GunAttack</name>
+		<type>Attack</type>
+		<active>0</active>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<activeifcontainsunits>1</activeifcontainsunits>
+		<damagefactorcap>12</damagefactorcap>
+		<scalebycontainedunits>1</scalebycontainedunits>
+		<anim>RangedAttack</anim>
+		<maxheight>0</maxheight>
+		<accuracy>1.0</accuracy>
+		<aimbonus>0</aimbonus>
+		<maxspread>5</maxspread>
+		<rate type="Building">1.0</rate>
+		<spreadfactor>0.25</spreadfactor>
+		<trackrating>12</trackrating>
+		<unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+		<projectile>InvisibleProjectile</projectile>
+		<impacteffect>effects\impacts\gun</impacteffect>
+		<rate type="Unit">1.0</rate>
+		<instantballistics>1</instantballistics>
+	</action>
+	<action>
+		<name stringid="38133">CannonAttack</name>
+		<type>Attack</type>
+		<active>0</active>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<activeifcontainsunits>1</activeifcontainsunits>
+		<damagefactorcap>15</damagefactorcap>
+		<scalebycontainedunits>1</scalebycontainedunits>
+		<anim>RangedAttack</anim>
+		<maxheight>0</maxheight>
+		<accuracy>1.0</accuracy>
+		<aimbonus>0</aimbonus>
+		<maxspread>5</maxspread>
+		<rate type="Building">1.0</rate>
+		<spreadfactor>0.25</spreadfactor>
+		<trackrating>12</trackrating>
+		<unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+		<projectile>Cannonball</projectile>
+		<impacteffect>effects\impacts\cannon</impacteffect>
+		<rate type="Unit">1.0</rate>
+		<instantballistics>1</instantballistics>
+	</action>			
+	<action>
+		<name stringid="38121">AntiShipAttack</name>
+		<type>Attack</type>
+		<active>0</active>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<anim>RangedAttackShip</anim>
+		<maxheight>0</maxheight>
+		<accuracy>1.0</accuracy>
+		<aimbonus>0</aimbonus>
+		<maxspread>5</maxspread>
+		<spreadfactor>0.25</spreadfactor>
+		<trackrating>12</trackrating>
+		<unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+		<projectile>Cannonball</projectile>
+		<impacteffect>effects\impacts\cannon</impacteffect>
+		<perfectaccuracy>1</perfectaccuracy>
+		<rate type="Ship">1.0</rate>
+	</action>
+	<action>
+		<name stringid="700306">AutoGatherFood</name>
+		<type>AutoGather</type>
+		<persistent>1</persistent>
+		<active>0</active>
+	</action>
+	<action>
+		<name stringid="69776">SpawnSettler</name>
+		<type>Maintain</type>
+		<rate type="Settler">1</rate>
+		<active>1</active>
+		<persistent>0</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="1000948">PaHPRadius</name>
+		<type>AutoRangedModify</type>
+		<modifyprotoid>MaoriPa</modifyprotoid>
+		<active>1</active>
+		<maxrange>20</maxrange>
+		<persistent>1</persistent>
+		<modifyexclusive>1</modifyexclusive>
+		<modifytype>MaxHP</modifytype>
+		<modifymultiplier>0.60</modifymultiplier>
+	</action>
+	<action>
+		<name stringid="68971">GatePa</name>
+		<type>Maintain</type>
+		<rate type="POLYMarauder">5</rate>
+		<active>1</active>
+		<persistent>0</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="68971">SpawnConvict</name>
+		<type>Maintain</type>
+		<rate type="ConvictLabourer">3</rate>
+		<active>1</active>
+		<persistent>0</persistent>
+		<singleuse>1</singleuse>
+	</action>	
+	<tactic>
+		Normal
+		<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
+		<autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype>
+		<attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype>
+		<action priority="100">AntiShipAttack</action>
+		<action priority="50">RangedAttack2</action>
+		<action priority="25">RangedAttack1</action>		
+		<action>AutoGatherFood</action>
+		<action>Spawn</action>
+		<action>SpawnConvict</action>					
+		<action>CannonAttack</action>
+		<action>GunAttack</action>
+		<action>PaHPRadius</action>	
+        <action>GatePa</action>
+ 		<action>CannonAttack2</action>
+		<action>GunAttack2</action>
+		<action>RangedAttack2</action>       		
+	</tactic>
+</tactics>

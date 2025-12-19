@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<power name="abilityHP" type="UnitModify">
+	<displaynameid>444234</displaynameid>
+	<rolloverid>444235</rolloverid>
+		<icon>art\War of the Triple Alliance\Icons\fieldpromotion</icon>
+	<activetime>30</activetime>
+	<unitmodify amount="1.1" apply="multiply">MaxHP</unitmodify>
+	<powerplayerrelation>own</powerplayerrelation>
+	<radius>10.0</radius>
+	<abstractattacktargettype>LogicalTypeLandMilitary</abstractattacktargettype>
+	<placement forceonmap="1">full</placement>
+	<rangeindicatorprotoid radius="10.0" indicatorcount="16" speed="0.6">PowerRanger</rangeindicatorprotoid>
+</power>

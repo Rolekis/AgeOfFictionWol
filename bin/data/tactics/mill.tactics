@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="69180">SpawnWagon</name>
+		<type>Maintain</type>
+		<rate type="SettlerWagon">1.0 </rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="6000563">HaciendaSpawn2FCrates</name>
+		<type>Spawn</type>
+		<rate type="CrateofFood">1.0 </rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="68971">MaintainVoluntario</name>
+		<type>Maintain</type>
+		<rate type="Volunteer">3.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="69182">SpawnCanadianTrees</name>
+		<type>Maintain</type>
+		<rate type="TreeCanadian">3.0 </rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="61766">AutoGatherFood</name>
+		<type>AutoGather</type>
+		<persistent>1</persistent>
+		<active>0</active>
+		<Rate type ='Food'>0.250001</Rate>
+	</action>
+	<action>
+		<name stringid="700306">AutoGatherItalianBonus</name>
+		<type>AutoGather</type>
+		<active>0</active>
+		<persistent>1</persistent>
+		<Rate type ='Gold'>0.250001</Rate>
+	</action>
+	<action>
+		<name stringid="48954">IncaStrengh</name>
+		<type>AutoRangedModify</type>
+		<modifyprotoid>Unit</modifyprotoid>
+		<active>0</active>
+		<maxrange>24</maxrange>
+		<persistent>1</persistent>
+		<modifytype>Damage</modifytype>
+		<modifymultiplier>1.02</modifymultiplier>
+
+	</action>
+	<action>
+		<name stringid="48954">IncaHP</name>
+		<type>AutoRangedModify</type>
+		<modifyprotoid>Unit</modifyprotoid>
+		<active>0</active>
+		<maxrange>24</maxrange>
+		<persistent>1</persistent>
+		<modifytype>MaxHP</modifytype>
+		<modifymultiplier>1.02</modifymultiplier>
+	</action>
+	<action>
+		<name stringid="61766">AutoGatherXPNeoclassicalMedium</name>
+		<type>AutoGather</type>
+		<active>0</active>
+		<persistent>1</persistent>
+		<Rate type ='XP'>0.2500</Rate>
+	</action>
+	<action>
+		<name stringid="69180">SpawnGalapagos</name>
+		<type>Maintain</type>
+		<rate type="Tortoise">3.0 </rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="68971">Ragamuffin</name>
+		<type>Maintain</type>
+		<rate type="IMFarrapo">1</rate>
+		<active>1</active>
+		<persistent>0</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="68971">JPIMM</name>
+		<type>Maintain</type>
+		<rate type="CrateofFoodLarge">1</rate>
+		<active>1</active>
+		<persistent>0</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="68971">FruitCompany</name>
+		<type>Maintain</type>
+		<rate type="IMFilibuster">3</rate>
+		<active>1</active>
+		<persistent>0</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<tactic>
+		Normal
+		<action>JPIMM</action>
+		<action>MaintainVoluntario</action>
+		<action>FruitCompany</action>
+		<action>SpawnGalapagos</action>
+		<action>SpawnWagon</action>
+		<action>HaciendaSpawn2FCrates</action>
+		<action>AutoGatherFood</action>
+		<action>AutoGatherItalianBonus</action>
+		<action>IncaStrenght</action>
+		<action>IncaHP</action>
+		<action>AutoGatherXPNeoclassicalMedium</action>
+		<action>Ragamuffin</action>
+	</tactic>
+</tactics>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="38133">RangedAttack</name>
+		<type>BroadsideAttack</type>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<anim>Idle</anim>
+		<idleanim>Idle</idleanim>
+		<projectile>Cannonball</projectile>
+		<numberprojectiles>1</numberprojectiles>
+		<impacteffect>effects\impacts\cannon</impacteffect>
+		<accuracy>1.0</accuracy>
+		<maxheight>0</maxheight>
+		<accuracyreductionfactor>0.5</accuracyreductionfactor>
+		<aimbonus>5</aimbonus>
+		<rof>3</rof>
+		<rate type="All">1.0 </rate>
+		<areasortmode>Directional</areasortmode>
+		<targetground>1</targetground>
+		<numberbounces>1</numberbounces>
+		<basedamagecap>1</basedamagecap>
+	</action>
+	<action>
+		<name stringid="38122">LongRangeAttack</name>
+		<type>BroadsideAttack</type>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<anim>Idle</anim>
+		<idleanim>Idle</idleanim>
+		<projectile>CannonballLoS</projectile>
+		<numberprojectiles>5</numberprojectiles>
+		<impacteffect>effects\impacts\mortar</impacteffect>
+		<accuracy>0.5</accuracy>
+		<maxheight>1</maxheight>
+		<aimbonus>5</aimbonus>
+		<accuracyreductionfactor>0.5</accuracyreductionfactor>
+		<throw>1</throw>
+		<rate type="All">1.0 </rate>
+		<areasortmode>Radial</areasortmode>
+		<targetground>1</targetground>
+		<basedamagecap>1</basedamagecap>
+	</action>
+	<action>
+		<dbaction>BoatManager</dbaction>
+		<name>BoatManager</name>
+		<type>BoatManager</type>
+		<persistent>1</persistent>
+	</action>
+	<tactic>
+		Normal
+		<speedmodifier>1.0</speedmodifier>
+		<action priority="100">RangedAttack</action>
+		<action priority="1">LongRangeAttack</action>
+		<action>BoatManager</action>
+		<idleanim>Idle</idleanim>
+		<moveanim>Walk</moveanim>
+		<deathanim>Death</deathanim>
+		<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
+		<autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype>
+		<attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype>
+		<runaway>1</runaway>
+		<autoretarget>1</autoretarget>
+	</tactic>
+</tactics>

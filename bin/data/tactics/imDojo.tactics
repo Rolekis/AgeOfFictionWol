@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="6000879">DojoSpawnShotai</name>
+		<type>Maintain</type>
+		<rate type="IMShotai">5.0</rate>
+		<active>1</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="6000881">DojoSpawnCavalryMedic</name>
+		<type>Maintain</type>
+		<rate type="IMmountedsamurai">3.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<tactic>
+		Normal
+		<action>DojoSpawnShotai</action>
+		<action>DojoSpawnCavalryMedic</action>
+	</tactic>
+</tactics>

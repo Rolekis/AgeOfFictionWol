@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="444186">CondemnHereticHand</name>
+		<type>Attack</type>
+		<active>0</active>
+		<maxrange>12.0</maxrange>
+		<rate type="Priest">1.0</rate>
+		<rate type="WOLPriestAustralian">1.0</rate>
+		<rate type="Missionary">1.0</rate>
+		<attackaction>1</attackaction>
+		<handlogic>1</handlogic>
+		<speedboost>1</speedboost>
+		<anim>RangedAttack</anim>
+		<impacteffect>War of the Triple Alliance\Units\Priest\holyblow</impacteffect>
+		<targetspeedboost>1</targetspeedboost>
+		<basedamagecap>1</basedamagecap>
+	</action>
+	<tactic>
+		Normal
+		<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
+		<autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype>
+		<attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype>
+		<action priority="100">CondemnHereticHand</action>
+	</tactic>
+</tactics>

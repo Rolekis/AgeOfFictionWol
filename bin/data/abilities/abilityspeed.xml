@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<power name="abilitySpeed" type="UnitModify">
+	<displaynameid>444232</displaynameid>
+	<rolloverid>444233</rolloverid>
+		<icon>art\War of the Triple Alliance\Icons\forcedmarch</icon>
+	<activetime>-1</activetime>
+	<unitmodify amount="1.2" apply="multiply">Speed</unitmodify>
+	<powerplayerrelation>own</powerplayerrelation>
+	<radius>10.0</radius>
+	<abstractattacktargettype>LogicalTypeLandMilitary</abstractattacktargettype>
+	<placement forceonmap="1">full</placement>
+	<rangeindicatorprotoid radius="10.0" indicatorcount="16" speed="0.6">PowerRanger</rangeindicatorprotoid>
+</power>

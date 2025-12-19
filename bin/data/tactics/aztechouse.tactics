@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name>SpawnMacehualtin</name>
+		<type>Maintain</type>
+		<rate type="xpMacehualtin">1.0 </rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name>Townaura</name>
+		<type>LikeBonus</type>
+		<active>1</active>
+		<maxrange>10</maxrange>
+		<persistent>1</persistent>
+		<modifytype>MaxHP</modifytype>
+		<modifymultiplier>0.10</modifymultiplier>
+		<modifyexponent>1.0</modifyexponent>
+		<modifybase>1.0</modifybase>
+	</action>
+	<tactic>
+		Normal
+		<action>SpawnMacehualtin</action>
+		<action>Townaura</action>
+	</tactic>
+</tactics>

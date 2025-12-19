@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="69181">MaintainSheep</name>
+		<type>Maintain</type>
+		<rate type="Sheep">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="69182">SpawnCanadianTrees</name>
+		<type>Maintain</type>
+		<rate type="TreeCanadian">3.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="603168">LeatherShoesExtraSpeed</name>
+		<type>AutoRangedModify</type>
+		<active>0</active>
+		<persistent>1</persistent>
+		<modifyexclusive>1</modifyexclusive>
+		<modifyabstracttype>AbstractInfantry</modifyabstracttype>
+		<modifytype>Speed</modifytype>
+		<modifymultiplier>1.2</modifymultiplier>
+	</action>
+	<action>
+		<name stringid="81600">WoolSheepGatherAura</name>
+		<type>AutoRangedModify</type>
+		<active>1</active>
+		<maxrange>4096</maxrange>
+		<modifyprotoid>WoolSheep</modifyprotoid>
+		<persistent>1</persistent>
+		<modifytype>AutoGatherRate</modifytype>
+		<modifymultiplier>100.1</modifymultiplier>
+	</action>
+	<tactic>
+		Normal
+		<action>LeatherShoesExtraSpeed</action>
+		<action>MaintainSheep</action>
+		<action>SpawnCanadianTrees</action>
+		<action>WoolSheepGatherAura</action>
+	</tactic>
+</tactics>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AbstractTypes>
+    <AbstractType stringId="430103">AbstractWoLCavalry</AbstractType> <!--Used for cavalry in techs and aura decals that specify all cavalry but not shock legacy abscav tag indicates shock-->
+	<AbstractType stringId="430104">AbstractWoLRangedCavalry</AbstractType><!-- Used for ranged cavalry in techs that specify ranged cavalry but not shock-->
+	<AbstractType stringId="430105">AbstractWoLHandCavalry</AbstractType><!-- Used for hand cavalry in techs that specify hand cavalry but not shock-->
+	<AbstractType>AbstractWoLTent</AbstractType><!-- Colombian tents-->
+	<AbstractType stringId="430106">AbstractWoLAssault</AbstractType> <!--used in the counter system to indicate assault-->
+	<AbstractType stringId="430107">AbstractWoLInfantry</AbstractType> <!--used for all foot soldiers wheter thay are infantry or shock in techs and aura decals-->
+	<AbstractType>AbstractTrainLimitOne</AbstractType>
+	<AbstractType stringId="430108">AbstractWoLImmigrantMilitary</AbstractType>
+	<AbstractType>AbstractWoLImmigrantMilitaryNotArt</AbstractType>
+	<AbstractType stringId="430211">AbstractWoLImmigrantInfantry</AbstractType>
+	<AbstractType stringId="430212">AbstractWoLImmigrantCavalry</AbstractType>
+	<AbstractType>AbstractWoLImmigrantArtillery</AbstractType>
+	<AbstractType>AbstractWoLImmigrantArtilleryIII</AbstractType><!-- used for techs-->
+	<AbstractType>AbstractWoLImmigrantArtilleryIV</AbstractType><!-- used for techs-->
+	<AbstractType>AbstractWoLImmigrantTC</AbstractType>
+	<AbstractType>AbstractImmigrantHouse</AbstractType>
+	<AbstractType>AbstractWoLUltimateBuildingLA</AbstractType> 
+	<AbstractType stringId="430109">AbstractWoLLightShip</AbstractType><!-- techs-->
+	<AbstractType stringId="430110">AbstractWoLHeavyShip</AbstractType> <!--techs-->
+	<AbstractType stringId="430203">AbstractWoLSiegeShip</AbstractType> <!--techs-->
+	<AbstractType stringId="430204">AbstractWoLImmigrantWorker</AbstractType> 
+	<AbstractType stringId="430205">AbstractWoLOutlaw</AbstractType> <!--techs + counter system-->
+	<AbstractType stringId="430206">AbstractWoLNavalTrooper</AbstractType> <!--techs-->
+	<AbstractType stringId="430207">AbstractWoLRangedInfantry</AbstractType> <!--used to indicate all ranged foot soldiers wheter they are inf or not in techs-->
+	<AbstractType>AbstractWoLCrop</AbstractType> <!--balkan economic buildings-->
+	<AbstractType stringId="430208">AbstractWoLIrregular</AbstractType> <!--used for archaic/irregular infantry such as pikemen or rangers in techs -->
+	<AbstractType>AFRICANmaturing</AbstractType>
+	<AbstractType>AbstractBayonet</AbstractType>
+	<AbstractType>AbstractWoLZwawa</AbstractType><!--  Used for the Zouave Pokedex -->
+    <AbstractType>AbstractTank</AbstractType>
+	<AbstractType>AbstractMechanized</AbstractType>
+	<AbstractType>AbstractAircraft</AbstractType>
+	<AbstractType>AbstractGWUnit</AbstractType>
+	<AbstractType>AbstractGWMilitary</AbstractType>
+	<AbstractType>AbstractGWInfantry</AbstractType>
+	<AbstractType>AbstractGWCavalry</AbstractType>
+	<AbstractType>AbstractGWArtillery</AbstractType>
+	<AbstractType>AbstractGWNavy</AbstractType>
+	<AbstractType stringId="430209">AbstractWoLGrenadier</AbstractType>
+	<AbstractType stringId="430210">AbstractContraGuerrilla</AbstractType><!--Not the unit lol-->
+	<AbstractType stringId="430213">AbstractWoLForgeUnit</AbstractType>
+	<AbstractType stringId="430214">AbstractWoLGunsmithUnit</AbstractType>
+	<AbstractType>AbstractFavouredUnit</AbstractType><!--me rg for aura and stuff-->
+	<AbstractType>AbstractWoLSaudCaravan</AbstractType>
+	<AbstractType>WoLConstructPrevent</AbstractType>
+	<AbstractType>WoLForeignUnit</AbstractType>
+	<AbstractType>AbstractWoLHowitzer</AbstractType><!--Denotes artillery that has a siege attack and a culverin attack-->
+</AbstractTypes>

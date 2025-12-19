@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="43019">AutoGather</name>
+		<type>AutoGather</type>
+		<persistent>1</persistent>
+		<active>1</active>
+	</action>
+	<action>
+		<name stringid="82334">SpawnLootingBonusFame</name>
+		<type>Spawn</type>
+		<rate type="WOLLootingBonusFame">1</rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="82334">SpawnLootingBonusFood</name>
+		<type>Spawn</type>
+		<rate type="WOLLootingBonusFood">1</rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="82334">SpawnLootingBonusCoin</name>
+		<type>Spawn</type>
+		<rate type="WOLLootingBonusCoin">0.25</rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="82334">SpawnLootingBonusPrivateer</name>
+		<type>Spawn</type>
+		<rate type="WOLLootingBonusPrivateer">1</rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="82334">SpawnLootingBonusTrade</name>
+		<type>Spawn</type>
+		<rate type="WOLLootingBonusTrade">1</rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="82334">SpawnLootingBonusWood</name>
+		<type>Spawn</type>
+		<rate type="WOLLootingBonusWood">1</rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="82334">SpawnLootingBonusXP</name>
+		<type>Spawn</type>
+		<rate type="WOLLootingBonusXP">1</rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<tactic>
+		Normal
+		<action>AutoGather</action>
+		<action>SpawnLootingBonusFame</action>
+		<action>SpawnLootingBonusFood</action>
+		<action>SpawnLootingBonusCoin</action>
+		<action>SpawnLootingBonusPrivateer</action>
+		<action>SpawnLootingBonusTrade</action>
+		<action>SpawnLootingBonusWood</action>
+		<action>SpawnLootingBonusXP</action>
+	</tactic>
+</tactics>

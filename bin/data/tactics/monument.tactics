@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="43019">AutoGatherXP</name>
+		<type>AutoGather</type>
+		<persistent>1</persistent>
+		<active>1</active>
+	</action>
+	<action>
+		<name>SpawnPriest</name>
+		<type>Spawn</type>
+		<rate type="Priest">1.0</rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="68971">MaintainPriests</name>
+		<type>Maintain</type>
+		<rate type="Priest">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="69182">SpawnCanadianTrees</name>
+		<type>Maintain</type>
+		<rate type="TreeCanadian">3.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<tactic>
+		Normal
+		<action>AutoGatherXP</action>
+		<action>MaintainPriests</action>
+		<action>SpawnPriest</action>
+		<action>SpawnCanadianTrees</action>
+	</tactic>
+</tactics>

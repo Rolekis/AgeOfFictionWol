@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="38133">RangedAttackKorean</name>
+		<type>Attack</type>
+		<active>0</active>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<anim>RangedAttack</anim>
+		<maxheight>0</maxheight>
+		<accuracy>1.0</accuracy>
+		<accuracyreductionfactor>0.01</accuracyreductionfactor>
+		<aimbonus>0</aimbonus>
+		<maxspread>5</maxspread>
+		<spreadfactor>0.25</spreadfactor>
+		<trackrating>12</trackrating>
+		<unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+		<projectile>InvisibleProjectile</projectile>
+		<impacteffect>effects\impacts\gun</impacteffect>
+		<rate type="Unit">1.0</rate>
+		<instantballistics>1</instantballistics>
+		<scalebycontainedunits>1</scalebycontainedunits>
+		<activeifcontainsunits>1</activeifcontainsunits>
+	</action>
+	<action>
+		<name stringid="69181">MaintainSheep</name>
+		<type>Maintain</type>
+		<rate type="Sheep">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="68971">MaintainVillagerGrandPalaceAge2</name>
+		<type>Maintain</type>
+		<rate type="WOLGrandPalaceVillagerSpawnAge2">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="68971">MaintainVillagerGrandPalaceAge3</name>
+		<type>Maintain</type>
+		<rate type="WOLGrandPalaceVillagerSpawnAge3">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="68971">MaintainVillagerGrandPalaceAge4</name>
+		<type>Maintain</type>
+		<rate type="WOLGrandPalaceVillagerSpawnAge4">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="68971">MaintainVillagerGrandPalaceAge5</name>
+		<type>Maintain</type>
+		<rate type="WOLGrandPalaceVillagerSpawnAge5">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="69182">SpawnCanadianTrees</name>
+		<type>Maintain</type>
+		<rate type="TreeCanadian">3.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name>SpawnTechtreeReloader</name>
+		<type>Spawn</type>
+		<rate type="WOLTechtreeReloader">1.0</rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>1</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>SpawnSpy</name>
+		<type>Spawn</type>
+		<rate type="xpSpy">1.0</rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="6010003">SpawnSheep</name>
+		<type>Spawn</type>
+		<rate type="Sheep">2.0</rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="48954">GreatHeartCapitol</name>
+		<type>AutoRangedModify</type>
+		<modifyabstracttype>Building</modifyabstracttype>
+		<active>0</active>
+		<maxrange>24</maxrange>
+		<persistent>1</persistent>
+		<modifytype>MaxHP</modifytype>
+		<modifymultiplier>1.2</modifymultiplier>
+	</action>
+	<action>
+		<name stringid="603168">LeatherShoesExtraSpeed</name>
+		<type>AutoRangedModify</type>
+		<active>0</active>
+		<persistent>1</persistent>
+		<modifyexclusive>1</modifyexclusive>
+		<modifyabstracttype>AbstractInfantry</modifyabstracttype>
+		<modifytype>Speed</modifytype>
+		<modifymultiplier>1.2</modifymultiplier>
+	</action>
+	<action>
+		<name stringid="48955">ExtraSpeedKoreanNavy</name>
+		<type>AutoRangedModify</type>
+		<modifyprotoid>WOLHyeopseon</modifyprotoid>
+		<active>0</active>
+		<maxrange>4096</maxrange>
+		<persistent>1</persistent>
+		<modifytype>Speed</modifytype>
+		<modifymultiplier>1.005</modifymultiplier>
+	</action>
+	<action>
+		<name stringid="68961">EconomicAuraKoreanNavy</name>
+		<type>AutoRangedModify</type>
+		<modifyprotoid>WOLHyeopseon</modifyprotoid>
+		<active>0</active>
+		<maxrange>4096</maxrange>
+		<persistent>1</persistent>
+		<modifytype>GatherRate</modifytype>
+		<modifymultiplier>1.01</modifymultiplier>
+	</action>
+	<action>
+		<name stringid="48958">ExtraDamageKoreanNavy</name>
+		<type>AutoRangedModify</type>
+		<modifyprotoid>WOLPanokseon</modifyprotoid>
+		<active>0</active>
+		<maxrange>4096</maxrange>
+		<persistent>1</persistent>
+		<modifytype>Damage</modifytype>
+		<modifymultiplier>1.01</modifymultiplier>
+	</action>
+	<action>
+		<name stringid="48954">GreatHeartKoreanNavy</name>
+		<type>AutoRangedModify</type>
+		<modifyprotoid>WOLGeobukseon</modifyprotoid>
+		<active>0</active>
+		<maxrange>4096</maxrange>
+		<persistent>1</persistent>
+		<modifytype>MaxHP</modifytype>
+		<modifymultiplier>1.01</modifymultiplier>
+	</action>
+	<action>
+		<name stringid="61766">AutoGatherXPNeoclassicalLarge</name>
+		<type>AutoGather</type>
+		<active>0</active>
+		<persistent>1</persistent>
+		<Rate type ='XP'>4.0000</Rate>
+	</action>
+	<action>
+		<name stringid="61766">AutoGatherXPNeoclassicalMedium</name>
+		<type>AutoGather</type>
+		<active>0</active>
+		<persistent>1</persistent>
+		<Rate type ='XP'>0.2500</Rate>
+	</action>
+	<action>
+		<name stringid="61766">AutoGatherXPNeoclassicalSmall</name>
+		<type>AutoGather</type>
+		<active>0</active>
+		<persistent>1</persistent>
+		<Rate type ='XP'>0.1000</Rate>
+	</action>
+	<action>
+		<name>MaintainCows</name>
+		<type>Maintain</type>
+		<rate type="Cow">1.00</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="6000532">Maintainhen</name>
+		<type>Maintain</type>
+		<rate type="Hen">1.00</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="810090">MaintainCaudillo</name>
+		<type>Maintain</type>
+		<rate type="Coronel">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="810090">MaintainCaudillo2</name>
+		<type>Maintain</type>
+		<rate type="Coronel">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+
+	</action>
+	<action>
+		<name stringid="9000059">MaintainFacundo</name>
+		<type>Maintain</type>
+		<rate type="Facundo">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+
+	</action>
+	<action>
+		<name stringid="2030663">ExtraDamageMinorTyranny</name>
+		<type>AutoRangedModify</type>
+		<modifyprotoid>AbstractArtillery</modifyprotoid>
+		<active>0</active>
+		<maxrange>24</maxrange>
+		<persistent>1</persistent>
+		<modifytype>Damage</modifytype>
+		<modifymultiplier>1.2</modifymultiplier>
+	</action>
+	<action>
+		<name stringid="2030664">GreatHeartMinorTyranny</name>
+		<type>AutoRangedModify</type>
+		<modifyprotoid>AbstractArtillery</modifyprotoid>
+		<active>0</active>
+		<maxrange>24</maxrange>
+		<persistent>1</persistent>
+		<modifytype>MaxHP</modifytype>
+		<modifymultiplier>1.2</modifymultiplier>
+	</action>
+	
+	<action>
+		<name stringid="2040149">Spawn25Gold</name>
+		<type>Spawn</type>
+		<rate type="DutchgoldIV">1.0 </rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="2040149">Spawn50Gold</name>
+		<type>Spawn</type>
+		<rate type="DutchgoldIV">2.0 </rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="2030766">TimuridXPTrickle</name>
+		<type>AutoGather</type>
+		<active>0</active>
+		<persistent>1</persistent>
+		<Rate type ='XP'>0.15</Rate>
+	</action>
+	<tactic>
+		Normal
+		<action>TimuridXPTrickle</action>
+		<action>EconomicAuraKoreanNavy</action>
+		<action>ExtraDamageKoreanNavy</action>
+		<action>ExtraSpeedKoreanNavy</action>
+		<action>GreatHeartCapitol</action>
+		<action>GreatHeartKoreanNavy</action>
+		<action>LeatherShoesExtraSpeed</action>
+		<action>MaintainSheep</action>
+		<action>Maintainhen</action>
+		<action>MaintainVillagerGrandPalaceAge2</action>
+		<action>MaintainVillagerGrandPalaceAge3</action>
+		<action>MaintainVillagerGrandPalaceAge4</action>
+		<action>MaintainVillagerGrandPalaceAge5</action>
+		<action>SpawnCanadianTrees</action>
+		<action>SpawnSpy</action>
+		<action>SpawnSheep</action>
+		<action>SpawnTechtreeReloader</action>
+		<action>AutoGatherXPNeoclassicalLarge</action>
+		<action>AutoGatherXPNeoclassicalMedium</action>
+		<action>AutoGatherXPNeoclassicalSmall</action>
+		<action>MaintainCows</action>
+		<action>ExtraDamageMinorTyranny</action>
+		<action>GreatHeartMinorTyranny</action>
+		<action>Spawn25Gold</action>
+        <action>Spawn50Gold</action>
+		<action>MaintainCaudillo</action>
+		<action>MaintainCaudillo2</action>
+		<action>MaintainFacundo</action>
+		<action priority="100">RangedAttackKorean</action>
+		<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
+		<autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype>
+		<attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype>
+	</tactic>
+</tactics>

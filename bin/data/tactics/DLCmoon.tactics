@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="68961">Helmet</name>
+		<type>AutoRangedModify</type>
+		<maxrange>150000</maxrange>
+		<modifyabstracttype>AbstractVillager</modifyabstracttype>
+		<modifyabstracttype>UnitClass</modifyabstracttype>
+		<targetenemy>1</targetenemy>
+		<persistent>1</persistent>
+		<modifytype>GatherRate</modifytype>
+		<modifymultiplier>1.0</modifymultiplier>
+		<modelattachment>War of the Triple Alliance\DLC\RMs\spacehelmet.xml</modelattachment>
+		<modelattachmentbone>HEAD</modelattachmentbone>
+	</action>
+	<action>
+		<name stringid="68961">NatureHelmet</name>
+		<type>AutoRangedModify</type>
+		<maxrange>150000</maxrange>
+		<modifyabstracttype>AbstractVillager</modifyabstracttype>
+		<modifyabstracttype>UnitClass</modifyabstracttype>
+		<targetenemy>0</targetenemy>
+		<persistent>1</persistent>
+		<modifytype>GatherRate</modifytype>
+		<modifymultiplier>1.0</modifymultiplier>
+		<modelattachment>War of the Triple Alliance\DLC\RMs\spacehelmet.xml</modelattachment>
+		<modelattachmentbone>HEAD</modelattachmentbone>
+	</action>
+<!--	<action>-->
+<!--		<name stringid="68961">Projectiles</name>-->
+<!--		<type>AutoRangedModify</type>-->
+<!--		<maxrange>150000</maxrange>-->
+<!--		<modifyabstracttype>Projectile</modifyabstracttype>-->
+<!--		<targetenemy>0</targetenemy>-->
+<!--		<persistent>1</persistent>-->
+<!--		<modifytype>Speed</modifytype>-->
+<!--		<modifymultiplier>0.001</modifymultiplier>-->
+<!--	</action>-->
+	<tactic>
+		Normal
+		<action>Helmet</action>
+		<action>NatureHelmet</action>
+<!--		<action>Projectiles</action>-->
+	</tactic>
+</tactics>

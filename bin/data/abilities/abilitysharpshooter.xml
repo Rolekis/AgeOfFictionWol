@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<power name="abilityTactic" type="UnitTactic">
+	<displaynameid>26162</displaynameid>
+	<rolloverid>26163</rolloverid>
+	<icon>art\ui\abilities\ability_sharpshooter</icon>
+	<activetime>10</activetime>
+	<radius>10.0</radius>
+	<placement forceonmap="1" enemy="" allowgaia="">unit</placement>
+	<unittactic>Sharpshooter</unittactic>
+</power>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="48958">GreatHeart</name>
+		<type>AutoRangedModify</type>
+		<active>1</active>
+		<modifyabstracttype>Building</modifyabstracttype>
+		<maxrange>40</maxrange>
+		<persistent>1</persistent>
+		<modifytype>MaxHP</modifytype>
+		<modifymultiplier>1.30</modifymultiplier>
+	</action>
+	<tactic>
+		Normal
+		<action>GreatHeart</action>
+	</tactic>
+</tactics>

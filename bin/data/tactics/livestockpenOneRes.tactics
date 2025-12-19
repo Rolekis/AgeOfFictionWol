@@ -1,0 +1,10 @@
+<tactics>
+  <action>
+    <name>MaintainSheep</name>
+    <type>Maintain</type>
+    <rate type="Sheep">1.0 </rate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <tactic>Normal<action>MaintainSheep</action></tactic>
+</tactics>

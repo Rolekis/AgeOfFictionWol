@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="43019">AutoGatherXP</name>
+		<type>AutoGather</type>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="72515">MatureVillager</name>
+		<type>Maintain</type>
+		<rate type="AFRICANvillager">1.0 </rate>
+		<singleuse>1</singleuse>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="72527">MatureTradesman</name>
+		<type>Maintain</type>
+		<rate type="AFRICANtradesman">1.0 </rate>
+		<singleuse>1</singleuse>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="72531">MatureBowman</name>
+		<type>Maintain</type>
+		<rate type="AFRICANbowman">1.0 </rate>
+		<singleuse>1</singleuse>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="72539">MatureSpearman</name>
+		<type>Maintain</type>
+		<rate type="AFRICANassegai">1.0 </rate>
+		<singleuse>1</singleuse>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="72535">MatureImpi</name>
+		<type>Maintain</type>
+		<rate type="AFRICANibutho">1.0 </rate>
+		<singleuse>1</singleuse>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="72543">MatureUmpakati</name>
+		<type>Maintain</type>
+		<rate type="AFRICANumpakati">1.0 </rate>
+		<singleuse>1</singleuse>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="72547">MatureFirebrand</name>
+		<type>Maintain</type>
+		<rate type="AFRICANincendiary">1.0 </rate>
+		<singleuse>1</singleuse>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="72551">MatureDoubleRam</name>
+		<type>Maintain</type>
+		<rate type="AFRICANdoubleram">1.0 </rate>
+		<singleuse>1</singleuse>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="72519">MatureMatriarch</name>
+		<type>Maintain</type>
+		<rate type="AFRICANmatriarch">1.0 </rate>
+		<singleuse>1</singleuse>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>AFRICANvillager</name>
+		<type>Spawn</type>
+		<rate type="AFRICANvillager">1.0 </rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>AFRICANspy</name>
+		<type>Spawn</type>
+		<rate type="xpspy">1.0 </rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>AFRICANmatriarch</name>
+		<type>Spawn</type>
+		<rate type="AFRICANmatriarch">1.0 </rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>AFRICANtradesman</name>
+		<type>Spawn</type>
+		<rate type="AFRICANtradesman">1.0 </rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>AFRICANbowman</name>
+		<type>Spawn</type>
+		<rate type="AFRICANbowman">1.0 </rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>AFRICANassegai</name>
+		<type>Spawn</type>
+		<rate type="AFRICANassegai">1.0 </rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>AFRICANincendiary</name>
+		<type>Spawn</type>
+		<rate type="AFRICANincendiary">1.0 </rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>AFRICANibutho</name>
+		<type>Spawn</type>
+		<rate type="AFRICANibutho">1.0 </rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>AFRICANumpakati</name>
+		<type>Spawn</type>
+		<rate type="AFRICANumpakati">1.0 </rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="82094">AFRICANbowmanTWINS</name>
+		<type>Spawn</type>
+		<rate type="AFRICANbowman">1.0</rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="82094">AFRICANassegaiTWINS</name>
+		<type>Spawn</type>
+		<rate type="AFRICANassegai">1.0</rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="82094">AFRICANincendiaryTWINS</name>
+		<type>Spawn</type>
+		<rate type="AFRICANincendiary">1.0</rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>AFRICANibuthoTWINS</name>
+		<type>Spawn</type>
+		<rate type="AFRICANibutho">2.0 </rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="82094">AFRICANumpakatiTWINS</name>
+		<type>Spawn</type>
+		<rate type="AFRICANumpakati">1.0</rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>AFRICANaskari</name>
+		<type>Spawn</type>
+		<rate type="AFRICANaskari">1.0 </rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>AFRICANescort</name>
+		<type>Spawn</type>
+		<rate type="AFRICANescort">1.0 </rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>AFRICANdoubleram</name>
+		<type>Spawn</type>
+		<rate type="AFRICANdoubleram">1.0 </rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>AFRICANmountaingun</name>
+		<type>Spawn</type>
+		<rate type="AFRICANmountaingun">1.0 </rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>AFRICANrevolvingcannon</name>
+		<type>Spawn</type>
+		<rate type="AFRICANrevolvingcannon">1.0 </rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>AFRICANisikhulu</name>
+		<type>Spawn</type>
+		<rate type="AFRICANisikhulu">1.0 </rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="82095">AfricanUhlan</name>
+		<type>Spawn</type>
+		<rate type="ypConsulateCzapakaUhlan">1.0</rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<!-- RizkyR: Fishing Boat transform to Pyrpolikon zulu style -->
+	<action>
+		<name stringid="82095">SpawnPyrpolikon</name>
+		<type>Spawn</type>
+		<rate type="Pyrpolikon">1.0</rate>
+		<singleuse>1</singleuse>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<tactic>
+		Normal
+		<action>MatureVillager</action>
+		<action>MatureTradesman</action>
+		<action>MatureBowman</action>
+		<action>MatureSpearman</action>
+		<action>MatureImpi</action>
+		<action>MatureUmpakati</action>
+		<action>MatureFirebrand</action>
+		<action>MatureDoubleRam</action>
+		<action>MatureMatriarch</action>
+		<action>AFRICANvillager</action>
+		<action>AFRICANmatriarch</action>
+		<action>AFRICANtradesman</action>
+		<action>AFRICANbowman</action>
+		<action>AFRICANassegai</action>
+		<action>AFRICANibutho</action>
+		<action>AFRICANumpakati</action>
+		<action>AFRICANincendiary</action>
+		<action>AFRICANaskari</action>
+		<action>AFRICANescort</action>
+		<action>AFRICANdoubleram</action>
+		<action>AFRICANisikhulu</action>
+		<action>AFRICANmountaingun</action>
+		<action>AFRICANrevolvingcannon</action>
+		<action>AFRICANbowmanTWINS</action>
+		<action>AFRICANassegaiTWINS</action>
+		<action>AFRICANibuthoTWINS</action>
+		<action>AFRICANumpakatiTWINS</action>
+		<action>AFRICANincendiaryTWINS</action>
+		<action>AFRICANspy</action>
+		<action>AfricanUhlan</action>
+		<action>AutoGatherXP</action>
+		<!-- RizkyR: Pyrpolikon zulu style -->
+		<action>SpawnPyrpolikon</action>
+	</tactic>
+</tactics>

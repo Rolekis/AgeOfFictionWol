@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="80739">SpawnGuerrillaInfantry</name>
+		<type>Spawn</type>
+		<rate type="GuerillaInfantry">1.0</rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="80740">SpawnIroquoisResource</name>
+		<type>Spawn</type>
+		<rate type="TreeNewEngland">1.0</rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>Spawn4</name>
+		<type>Spawn</type>
+		<rate type="BALKANruins2x2">1.0</rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="82332">RussianWinter</name>
+		<type>AutoRangedModify</type>
+		<modifyprotoid>Unit</modifyprotoid>
+		<targetenemy>1</targetenemy>
+		<active>0</active>
+		<maxrange>30</maxrange>
+		<persistent>1</persistent>
+		<modifytype>Speed</modifytype>
+		<modifymultiplier>0.75</modifymultiplier>
+		<modelattachment>War of the Triple Alliance\Units\Delta\Danish\Ice\icerussian.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+	</action>
+	<tactic>
+		Normal
+		<action>SpawnGuerrillaInfantry</action>
+		<action>SpawnIroquoisResource</action>
+		<action>Spawn4</action>
+		<action>RussianWinter</action>
+	</tactic>
+</tactics>

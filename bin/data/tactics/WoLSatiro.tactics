@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="700306">AutoGatherFood</name>
+		<type>AutoGather</type>
+		<active>0</active>
+		<persistent>1</persistent>
+		<Rate type ='Food'>0.250001</Rate>
+	</action>
+	<action>
+		<name stringid="38135">MeleeHandAttack</name>
+		<type>Attack</type>
+		<maxrange>2</maxrange>
+		<rate type="Unit">1.0</rate>
+		<attackaction>1</attackaction>
+		<handlogic>1</handlogic>
+		<speedboost>1</speedboost>
+		<anim>Charge_attack</anim>
+		<impacteffect>effects\impacts\melee</impacteffect>
+		<targetspeedboost>1</targetspeedboost>
+	</action>
+	<action>
+		<name stringid="38135">MeleeHandAttackMuyedobotongji</name>
+		<type>Attack</type>
+		<active>0</active>
+		<maxrange>2</maxrange>
+		<rate type="Unit">1.0</rate>
+		<attackaction>1</attackaction>
+		<handlogic>1</handlogic>
+		<speedboost>1</speedboost>
+		<anim>Charge_attack</anim>
+		<impacteffect>effects\impacts\melee</impacteffect>
+		<targetspeedboost>1</targetspeedboost>
+	</action>
+	<action>
+		<name stringid="38131">CoverHandAttack</name>
+		<type>Attack</type>
+		<maxrange>2</maxrange>
+		<rate type="Unit">1.0</rate>
+		<attackaction>1</attackaction>
+		<handlogic>1</handlogic>
+		<anim>Charge_attack</anim>
+		<damage>6.5</damage>
+		<rof>1.0</rof>
+		<targetspeedboost>1</targetspeedboost>
+	</action>
+	<action>
+		<name stringid="38131">CoverHandAttackMuyedobotongji</name>
+		<type>Attack</type>
+		<active>0</active>
+		<maxrange>2</maxrange>
+		<rate type="Unit">1.0</rate>
+		<attackaction>1</attackaction>
+		<handlogic>1</handlogic>
+		<anim>Charge_attack</anim>
+		<damage>6.5</damage>
+		<rof>1.0</rof>
+		<targetspeedboost>1</targetspeedboost>
+	</action>
+	<action>
+		<name stringid="38137">DefendHandAttack</name>
+		<type>Attack</type>
+		<maxrange>2</maxrange>
+		<rate type="Unit">1.0</rate>
+		<attackaction>1</attackaction>
+		<handlogic>1</handlogic>
+		<speedboost>1</speedboost>
+		<anim>Charge_attack</anim>
+		<impacteffect>effects\impacts\melee</impacteffect>
+		<damage>6.5</damage>
+		<rof>1.0</rof>
+		<targetspeedboost>1</targetspeedboost>
+	</action>
+	<action>
+		<name stringid="38137">DefendHandAttackMuyedobotongji</name>
+		<type>Attack</type>
+		<active>0</active>
+		<maxrange>2</maxrange>
+		<rate type="Unit">1.0</rate>
+		<attackaction>1</attackaction>
+		<handlogic>1</handlogic>
+		<speedboost>1</speedboost>
+		<anim>Charge_attack</anim>
+		<impacteffect>effects\impacts\melee</impacteffect>
+		<damage>6.5</damage>
+		<rof>1.0</rof>
+		<targetspeedboost>1</targetspeedboost>
+	</action>
+	<action>
+		<name stringid="38118">BuildingAttack</name>
+		<type>Attack</type>
+		<rangedlogic>1</rangedlogic>
+		<maxrange>6</maxrange>
+		<rate type="LogicalTypeShipsAndBuildings">1.0</rate>
+		<attackaction>1</attackaction>
+		<speedboost>1</speedboost>
+		<anim>Raze_attack</anim>
+		<idleanim>Raze_idle</idleanim>
+		<impacteffect>effects\impacts\torch</impacteffect>
+		<projectile>TorchProjectile</projectile>
+	</action>
+	<action>
+		<name stringid="38118">CoverBuildingAttack</name>
+		<type>Attack</type>
+		<rangedlogic>1</rangedlogic>
+		<maxrange>6</maxrange>
+		<rate type="LogicalTypeShipsAndBuildings">1.0</rate>
+		<attackaction>1</attackaction>
+		<speedboost>1</speedboost>
+		<anim>Raze_attack</anim>
+		<idleanim>Raze_idle</idleanim>
+		<impacteffect>effects\impacts\torch</impacteffect>
+		<projectile>TorchProjectile</projectile>
+	</action>
+	<action>
+		<name stringid="69147">Build</name>
+		<type>Build</type>
+		<anim>Build</anim>
+		<active>0</active>
+		<maxrange>0.2</maxrange>
+		<rate type="Building">1.0</rate>
+	</action>
+
+<action>
+        <name stringid="72211">SweepDamage</name>
+        <type>Attack</type>
+        <maxrange>1.75</maxrange>
+        <rate type="Unit">1.0 </rate>
+        <rate type="Guardian">1.0 </rate>
+        <rate type="LogicalTypeShipsAndBuildings">1.0 </rate>
+        <basedamagecap>1</basedamagecap>
+        <attackaction>1</attackaction>
+        <handlogic>1</handlogic>
+        <anim>Charge_attack</anim>
+        <idleanim>CombatIdle</idleanim>
+        <impacteffect>effects\impacts\melee_no_weapon</impacteffect>
+    </action>
+
+	<tactic>
+		Melee
+		<action>AutoGatherFood</action>
+		<action>Build</action>
+		<action priority="100">BuildingAttack</action>
+		<action priority="85">SweepDamage</action>
+		<action priority="25">MeleeHandAttackMuyedobotongji</action>
+		<action priority="24">MeleeHandAttack</action>
+		<speedmodifier>1.0</speedmodifier>
+		<attacktype>LogicalTypeHandUnitsAttack</attacktype>
+		<autoattacktype>LogicalTypeHandUnitsAutoAttack</autoattacktype>
+		<attackresponsetype>LogicalTypeHandUnitsAttack</attackresponsetype>
+		<runaway>1</runaway>
+		<autoretarget>1</autoretarget>
+		<idleanim>Charge_idle</idleanim>
+		<boredanim>Charge_bored</boredanim>
+		<deathanim>Death_by_melee</deathanim>
+		<walkanim>Charge_walk</walkanim>
+		<joganim>Charge_jog</joganim>
+		<runanim>Charge_run</runanim>
+	</tactic>
+	<tactic>
+		Defend
+		<action>AutoGatherFood</action>
+		<action>Build</action>
+		<action priority="100">BuildingAttack</action>
+		<action priority="85">SweepDamage</action>
+		<action priority="25">DefendHandAttackMuyedobotongji</action>
+		<action priority="24">DefendHandAttack</action>
+		<attacktype>LogicalTypeHandUnitsAttack</attacktype>
+		<autoattacktype>LogicalTypeHandUnitsAutoAttack</autoattacktype>
+		<attackresponsetype>LogicalTypeHandUnitsAttack</attackresponsetype>
+		<runaway>0</runaway>
+		<autoretarget>1</autoretarget>
+		<idleanim>Defend_idle</idleanim>
+		<boredanim>Defend_bored</boredanim>
+		<deathanim>Death_by_melee</deathanim>
+		<walkanim>Cover_walk</walkanim>
+		<joganim>Charge_jog</joganim>
+		<runanim>Charge_run</runanim>
+	</tactic>
+	<tactic>
+		Cover
+		<action>AutoGatherFood</action>
+		<action>Build</action>
+		<speedmodifier>0.5</speedmodifier>
+		<action priority="100">CoverBuildingAttack</action>
+		<action priority="85">SweepDamage</action>
+		<action priority="25">CoverHandAttackMuyedobotongji</action>
+		<action priority="24">CoverHandAttack</action>
+		<attacktype>LogicalTypeHandUnitsAttack</attacktype>
+		<autoattacktype>LogicalTypeHandUnitsAutoAttack</autoattacktype>
+		<attackresponsetype>LogicalTypeHandUnitsAttack</attackresponsetype>
+		<runaway>0</runaway>
+		<autoretarget>1</autoretarget>
+		<idleanim>Cover_idle</idleanim>
+		<boredanim>Cover_bored</boredanim>
+		<deathanim>Death_by_melee</deathanim>
+		<walkanim>Cover_walk</walkanim>
+		<joganim>Charge_jog</joganim>
+		<runanim>Charge_run</runanim>
+	</tactic>
+</tactics>

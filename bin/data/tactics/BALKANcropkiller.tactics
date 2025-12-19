@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+    <action>
+        <name stringid="38118">BuildingAttack</name>
+        <type>Attack</type>
+        <rangedlogic>1</rangedlogic>
+        <maxrange>0.5</maxrange>
+        <rate type="AbstractFarm">1.0</rate>
+        <attackaction>1</attackaction>
+        <speedboost>1</speedboost>
+        <anim>Raze_attack</anim>
+        <idleanim>Raze_idle</idleanim>
+        <projectile>InvisibleProjectileNoTracer</projectile>
+    </action>
+    <tactic>
+        Normal
+        <action priority="100">BuildingAttack</action>
+        <idleanim>Volley_standing_idle</idleanim>
+        <attacktype>AbstractFarm</attacktype>
+        <autoattacktype>AbstractFarm</autoattacktype>
+        <attackresponsetype>AbstractFarm</attackresponsetype>
+        <idleanim>Volley_standing_idle</idleanim>
+        <boredanim>Volley_standing_bored</boredanim>
+        <deathanim>Death_by_melee</deathanim>
+        <walkanim>Volley_walk</walkanim>
+        <joganim>Volley_jog</joganim>
+        <runanim>Volley_run</runanim>
+        <runaway>0</runaway>
+        <autoretarget>1</autoretarget>
+    </tactic>
+</tactics>

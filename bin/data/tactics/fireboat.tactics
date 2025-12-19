@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="70308">FlameAttack</name>
+		<type>Attack</type>
+		<attackaction>1</attackaction>
+		<handlogic>1</handlogic>
+		<anim>Bombard_ranged_attack</anim>
+		<idleanim>Bombard_ranged_idle</idleanim>
+		<boredanim>Bombard_bored</boredanim>
+		<maxheight>0</maxheight>
+		<accuracy>1.0</accuracy>
+		<aimbonus>0</aimbonus>
+		<maxspread>5</maxspread>
+		<spreadfactor>0.25</spreadfactor>
+		<trackrating>12</trackrating>
+		<unintentionaldamagemultiplier>1.0</unintentionaldamagemultiplier>
+		<impacteffect>effects\impacts\torch</impacteffect>
+		<rate type="All">1.0 </rate>
+		<perfectaccuracy>1</perfectaccuracy>
+	</action>
+	<action>
+		<name stringid="69148">Discover</name>
+		<type>Discover</type>
+		<anim>GatherFish</anim>
+		<maxrange>0.2</maxrange>
+		<rate type="AbstractNuggetWater">1.0</rate>
+	</action>
+	<action>
+		<dbaction>BoatManager</dbaction>
+		<name stringid="69156">BoatManager</name>
+		<type>BoatManager</type>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="42178">Gather</name>
+		<type>Gather</type>
+		<maxrange>1.0</maxrange>
+		<rate type="AbstractFish">0.4</rate>
+		<rate type="AbstractWhale">0.4</rate>
+	</action>
+	<tactic>
+		Normal
+		<speedmodifier>1.0</speedmodifier>
+		<action priority="100">FlameAttack</action>
+		<action>Discover</action>
+		<action>Gather</action>
+		<action>BoatManager</action>
+		<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
+		<autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype>
+		<attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype>
+		<runaway>1</runaway>
+		<autoretarget>1</autoretarget>
+	</tactic>
+</tactics>

@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="38118">BuildingAttack</name>
+		<type>Attack</type>
+		<rangedlogic>1</rangedlogic>
+		<maxrange>6</maxrange>
+		<rate type="LogicalTypeShipsAndBuildings">1.0 </rate>
+		<attackaction>1</attackaction>
+		<speedboost>1</speedboost>
+		<anim>Raze_attack</anim>
+		<idleanim>Raze_idle</idleanim>
+		<impacteffect>effects\impacts\torch</impacteffect>
+		<projectile>TorchProjectile</projectile>
+	</action>
+	<action>
+		<name stringid="38118">CoverBuildingAttack</name>
+		<type>Attack</type>
+		<rangedlogic>1</rangedlogic>
+		<maxrange>6</maxrange>
+		<rate type="LogicalTypeShipsAndBuildings">1.0 </rate>
+		<attackaction>1</attackaction>
+		<speedboost>1</speedboost>
+		<anim>Raze_attack</anim>
+		<idleanim>Raze_idle</idleanim>
+		<impacteffect>effects\impacts\torch</impacteffect>
+		<projectile>TorchProjectile</projectile>
+	</action>
+	<action>
+		<name stringid="38135">MartialArts</name>
+		<type>Attack</type>
+		<attackaction>1</attackaction>
+		<handlogic>1</handlogic>
+		<active>1</active>
+		<anim>MartialArts</anim>
+		<idleanim>CombatIdle</idleanim>
+		<maxrange>1.75</maxrange>
+		<impacteffect>effects\impacts\melee_no_weapon</impacteffect>
+		<rate type="Unit">1.0 </rate>
+		<targetspeedboost>1</targetspeedboost>
+	</action>
+	<action>
+		<name stringid="48954">PriestHP</name>
+		<type>AutoRangedModify</type>
+		<modifyprotoid>Priest</modifyprotoid>
+		<active>0</active>
+		<maxrange>24</maxrange>
+		<persistent>1</persistent>
+		<modifytype>MaxHP</modifytype>
+		<modifymultiplier>1.05</modifymultiplier>
+		<modelattachment>War of the Triple Alliance\Units\Priest\holyglow.xml</modelattachment>
+	</action>
+<!-- Syncretism Rework (Beabletar) -->
+	<action>
+		<name stringid="38135">HandAttackZuijin</name>
+		<type>Attack</type>
+		<maxrange>1.75</maxrange>
+		<rate type="Unit">1.0</rate>
+		<attackaction>1</attackaction>
+		<handlogic>1</handlogic>
+		<speedboost>1</speedboost>
+		<anim>Charge_attack</anim>
+		<active>0</active>
+		<impacteffect>effects\impacts\melee</impacteffect>
+		<targetspeedboost>1</targetspeedboost>
+		<basedamagecap>1</basedamagecap>
+	</action>
+	<action>
+		<name stringid="38127">RangedAttackZuijin</name>
+		<type>Attack</type>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<anim>RangedAttack</anim>
+		<active>0</active>
+		<accuracy>1.0</accuracy>
+		<accuracyreductionfactor>0.5</accuracyreductionfactor>
+		<aimbonus>0</aimbonus>
+		<maxspread>5</maxspread>
+		<spreadfactor>0.25</spreadfactor>
+		<trackrating>12</trackrating>
+		<unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+		<projectile>Arrow</projectile>
+		<minrange>2</minrange>
+		<rate type="Unit">1.0 </rate>
+	</action>
+	<action>
+		<name stringid="38118">BuildingAttackShikioji</name>
+		<type>Attack</type>
+		<rangedlogic>1</rangedlogic>
+		<maxrange>6</maxrange>
+		<active>0</active>
+		<rate type="LogicalTypeShipsAndBuildings">1.0 </rate>
+		<attackaction>1</attackaction>
+		<speedboost>1</speedboost>
+		<rangedlogic>1</rangedlogic>
+		<anim>Raze_Attack_Shikioji</anim>
+		<idleanim>Idle</idleanim>
+		<accuracy>1.0</accuracy>
+		<perfectaccuracy>1</perfectaccuracy>
+		<aimbonus>0</aimbonus>
+		<maxspread>5</maxspread>
+		<spreadfactor>1.8</spreadfactor>
+		<trackrating>12</trackrating>
+		<unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+		<projectile>ArrowFlaming</projectile>
+		<minrange>2</minrange>
+		<rate type="Unit">1.0</rate>
+		<throw>1</throw>
+	</action>
+	<action>
+		<name stringid="38133">RangedAttackShikioji</name>
+		<type>Attack</type>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<anim>Raze_Attack_Shikioji</anim>
+		<idleanim>Idle</idleanim>
+		<active>0</active>
+		<accuracy>1.0</accuracy>
+		<perfectaccuracy>1</perfectaccuracy>
+		<aimbonus>0</aimbonus>
+		<maxspread>5</maxspread>
+		<spreadfactor>0.25</spreadfactor>
+		<trackrating>12</trackrating>
+		<unintentionaldamagemultiplier>1.0</unintentionaldamagemultiplier>
+		<impacteffect>effects\impacts\hoop</impacteffect>
+		<projectile>ArrowFlaming</projectile>
+		<minrange>2</minrange>
+		<rate type="Unit">1.0</rate>
+		<throw>0</throw>
+		<impactforcemin>450.0</impactforcemin>
+		<impactforcemax>600.0</impactforcemax>
+		<impactlaunchangle>50.0</impactlaunchangle>
+		<areasortmode>Radial</areasortmode>
+		<targetground>1</targetground>
+		<basedamagecap>1</basedamagecap>
+	</action>
+	<tactic>
+		Melee
+		<action>PriestHP</action>
+		<action priority="100">BuildingAttack</action>
+		<action priority="100">RangedAttackZuijin</action>
+		<action priority="100">RangedAttackShikioji</action>
+		<action priority="75">BuildingAttackShikioji</action>
+		<action priority="25">HandAttackZuijin</action>
+		<action priority="25">martialarts</action>
+		<speedmodifier>1.0</speedmodifier>
+		<attacktype>LogicalTypeHandUnitsAttack</attacktype>
+		<autoattacktype>LogicalTypeHandUnitsAutoAttack</autoattacktype>
+		<attackresponsetype>LogicalTypeHandUnitsAttack</attackresponsetype>
+		<runaway>1</runaway>
+		<transition>
+			<tactic>Defend</tactic>
+			<length>0</length>
+			<exit>1</exit>
+		</transition>
+		<transition>
+			<tactic>Stealth</tactic>
+			<length>2</length>
+			<anim>Cover_In</anim>
+			<exit>1</exit>
+		</transition>
+		<autoretarget>1</autoretarget>
+		<idleanim>idle</idleanim>
+		<boredanim>bored</boredanim>
+		<deathanim>Death_by_melee</deathanim>
+		<walkanim>walk</walkanim>
+		<joganim>jog</joganim>
+		<runanim>run</runanim>
+	</tactic>
+	<tactic>
+		Defend
+		<action priority="100">BuildingAttack</action>
+		<action priority="100">RangedAttackZuijin</action>
+		<action priority="100">RangedAttackShikioji</action>
+		<action priority="75">BuildingAttackShikioji</action>
+		<action priority="25">HandAttackZuijin</action>
+		<action priority="25">martialarts</action>
+		<action>PriestHP</action>
+		<attacktype>LogicalTypeHandUnitsAttack</attacktype>
+		<autoattacktype>LogicalTypeHandUnitsAutoAttack</autoattacktype>
+		<attackresponsetype>LogicalTypeHandUnitsAttack</attackresponsetype>
+		<runaway>0</runaway>
+		<autoretarget>1</autoretarget>
+		<transition>
+			<tactic>Normal</tactic>
+			<length>0</length>
+			<exit>1</exit>
+		</transition>
+		<transition>
+			<tactic>Stealth</tactic>
+			<length>2</length>
+			<anim>Cover_In</anim>
+			<exit>1</exit>
+		</transition>
+		<idleanim>idle</idleanim>
+		<boredanim>bored</boredanim>
+		<deathanim>Death_by_melee</deathanim>
+		<walkanim>walk</walkanim>
+		<joganim>jog</joganim>
+		<runanim>run</runanim>
+	</tactic>
+	<tactic>
+		Cover
+		<speedmodifier>0.5</speedmodifier>
+		<action priority="100">BuildingAttack</action>
+		<action priority="100">RangedAttackZuijin</action>
+		<action priority="100">RangedAttackShikioji</action>
+		<action priority="75">BuildingAttackShikioji</action>
+		<action priority="25">HandAttackZuijin</action>
+		<action priority="25">martialarts</action>
+		<action>PriestHP</action>
+		<attacktype>LogicalTypeHandUnitsAttack</attacktype>
+		<autoattacktype>LogicalTypeHandUnitsAutoAttack</autoattacktype>
+		<attackresponsetype>LogicalTypeHandUnitsAttack</attackresponsetype>
+		<runaway>0</runaway>
+		<autoretarget>1</autoretarget>
+		<transition>
+			<tactic>Normal</tactic>
+			<length>0</length>
+			<exit>1</exit>
+		</transition>
+		<transition>
+			<tactic>Stealth</tactic>
+			<length>2</length>
+			<anim>Cover_In</anim>
+			<exit>1</exit>
+		</transition>
+		<idleanim>idle</idleanim>
+		<boredanim>bored</boredanim>
+		<deathanim>Death_by_melee</deathanim>
+		<walkanim>walk</walkanim>
+		<joganim>jog</joganim>
+		<runanim>run</runanim>
+	</tactic>
+</tactics>

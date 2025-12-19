@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tactic>
+	<action>
+		<name stringid="719441">BerserkHandAttack</name>
+		<type>Attack</type>
+		<maxrange>1.75</maxrange>
+		<rate type="Unit">1.0 </rate>
+		<rate type="Guardian">1.0 </rate>
+		<attackaction>1</attackaction>
+		<handlogic>1</handlogic>
+		<anim>Charge_attack</anim>
+		<damage>15</damage>
+		<basedamagecap>1</basedamagecap>
+		<targetspeedboost>1</targetspeedboost>
+	</action>
+		Berserk
+		<speedmodifier>2.0</speedmodifier>
+		<action priority="100">CoverBuildingAttack</action>
+		<action priority="25">BerserkHandAttack</action>
+		<action>Build</action>
+		<attacktype>LogicalTypeHandUnitsAttack</attacktype>
+		<autoattacktype>LogicalTypeHandUnitsAutoAttack</autoattacktype>
+		<attackresponsetype>LogicalTypeHandUnitsAttack</attackresponsetype>
+		<runaway>0</runaway>
+		<autoretarget>1</autoretarget>
+		<transition>
+			<tactic>Normal</tactic>
+			<length>0</length>
+			<exit>1</exit>
+		</transition>
+		<transition>
+			<tactic>Stealth</tactic>
+			<length>2</length>
+			<anim>Cover_In</anim>
+			<exit>1</exit>
+		</transition>
+		<idleanim>Cover_idle</idleanim>
+		<boredanim>Cover_bored</boredanim>
+		<deathanim>Death_by_melee</deathanim>
+		<walkanim>Cover_walk</walkanim>
+		<joganim>Cover_jog</joganim>
+		<runanim>Cover_run</runanim>
+	</tactic>

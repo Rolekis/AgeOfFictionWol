@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<homecityprops>
+	<prop>
+		<name>JapanesePeasantMale</name>
+		<type>Unit</type>
+		<displayname>Peasant Male</displayname>
+		<displaynamestringid/>
+		<description>A Japanese farmer.</description>
+		<descriptionstringid/>
+		<levelprereq>0</levelprereq>
+		<position>
+			<building>Estate</building>
+		</position>
+		<icon>homecity\home_city_props\icons\thug</icon>
+	</prop>
+	<prop>
+		<name>JapanesePeasantFemale</name>
+		<type>Unit</type>
+		<displayname>Peasant Female</displayname>
+		<displaynamestringid/>
+		<description>A Japanese farmer.</description>
+		<descriptionstringid/>
+		<levelprereq>0</levelprereq>
+		<position>
+			<building>Estate</building>
+		</position>
+		<icon>homecity\home_city_props\icons\thug</icon>
+	</prop>
+	<prop>
+		<name>JapaneseLady</name>
+		<type>Unit</type>
+		<displayname>Noblewoman</displayname>
+		<displaynamestringid/>
+		<description>An elegant member of any society.</description>
+		<descriptionstringid/>
+		<levelprereq>0</levelprereq>
+		<position>
+			<building>Academy</building>
+		</position>
+		<icon>homecity\home_city_props\icons\noble_female</icon>
+	</prop>
+	<prop>
+		<name>JapaneseGirl</name>
+		<type>Unit</type>
+		<displayname>City Girl</displayname>
+		<displaynamestringid/>
+		<description>A young girl, new to the city.</description>
+		<descriptionstringid/>
+		<levelprereq>0</levelprereq>
+		<position>
+			<building>Academy</building>
+		</position>
+		<icon>homecity\home_city_props\icons\noble_female</icon>
+	</prop>
+	<prop>
+		<name>JapaneseSamurai</name>
+		<type>Unit</type>
+		<displayname>Nobleman</displayname>
+		<displaynamestringid/>
+		<description>An elite warrior of any society.</description>
+		<descriptionstringid/>
+		<levelprereq>0</levelprereq>
+		<position>
+			<building>Academy</building>
+		</position>
+		<icon>homecity\home_city_props\icons\noble_male</icon>
+	</prop>
+	<prop>
+		<name>JapaneseMonk</name>
+		<type>PerformerUnit</type>
+		<displayname>Monk</displayname>
+		<displaynamestringid/>
+		<description>A Japanese monk.</description>
+		<descriptionstringid/>
+		<levelprereq>0</levelprereq>
+		<position>
+			<building>Cathedral</building>
+		</position>
+		<icon>homecity\home_city_props\icons\preacher</icon>
+	</prop>
+	<prop>
+		<name>JapaneseGeisha</name>
+		<type>Unit</type>
+		<displayname>Nice Lady</displayname>
+		<displaynamestringid/>
+		<description>A female entertainer.</description>
+		<descriptionstringid/>
+		<levelprereq>0</levelprereq>
+		<position>
+			<building>Dock</building>
+		</position>
+		<icon>homecity\home_city_props\icons\nicelady</icon>
+	</prop>
+	<prop>
+		<name>JapaneseRonin</name>
+		<type>Unit</type>
+		<displayname>Thug</displayname>
+		<displaynamestringid/>
+		<description>An exiled or disloyal samurai.</description>
+		<descriptionstringid/>
+		<levelprereq>0</levelprereq>
+		<position>
+			<building>ManufacturingPlant</building>
+		</position>
+		<icon>homecity\home_city_props\icons\thug</icon>
+	</prop>
+	<prop>
+		<name>JapaneseStreetPerformer</name>
+		<type>PerformerUnit</type>
+		<displayname>Street Performer</displayname>
+		<displaynamestringid/>
+		<description>A Japanese performer.</description>
+		<descriptionstringid/>
+		<levelprereq>0</levelprereq>
+		<position>
+			<building>Market</building>
+		</position>
+		<icon>homecity\home_city_props\icons\juggler</icon>
+	</prop>
+	<prop>
+		<name>ChineseMan</name>
+		<type>Unit</type>
+		<displayname>Chinese Man</displayname>
+		<displaynamestringid/>
+		<description>A Chinese man.</description>
+		<descriptionstringid/>
+		<levelprereq>0</levelprereq>
+		<position>
+			<building>Estate</building>
+		</position>
+		<icon>homecity\home_city_props\icons\thug</icon>
+	</prop>
+	<prop>
+		<name>ChineseFarmer</name>
+		<type>Unit</type>
+		<displayname>Farmer</displayname>
+		<displaynamestringid/>
+		<description>A Chinese farmer.</description>
+		<descriptionstringid/>
+		<levelprereq>0</levelprereq>
+		<position>
+			<building>Estate</building>
+		</position>
+		<icon>homecity\home_city_props\icons\thug</icon>
+	</prop>
+	<prop>
+		<name>ChineseWoman</name>
+		<type>Unit</type>
+		<displayname>Chinese Woman</displayname>
+		<displaynamestringid/>
+		<description>A Chinese woman.</description>
+		<descriptionstringid/>
+		<levelprereq>0</levelprereq>
+		<position>
+			<building>ManufacturingPlant</building>
+		</position>
+		<icon>homecity\home_city_props\icons\noble_female</icon>
+	</prop>
+	<prop>
+		<name>ChineseNoblewoman</name>
+		<type>Unit</type>
+		<displayname>Noblewoman</displayname>
+		<displaynamestringid/>
+		<description>An elegant member of any society.</description>
+		<descriptionstringid/>
+		<levelprereq>0</levelprereq>
+		<position>
+			<building>Academy</building>
+		</position>
+		<icon>homecity\home_city_props\icons\noble_female</icon>
+	</prop>
+	<prop>
+		<name>ChineseNobleman</name>
+		<type>Unit</type>
+		<displayname>Nobleman</displayname>
+		<displaynamestringid/>
+		<description>An elegant member of any society.</description>
+		<descriptionstringid/>
+		<levelprereq>0</levelprereq>
+		<position>
+			<building>Dock</building>
+		</position>
+		<icon>homecity\home_city_props\icons\noble_male</icon>
+	</prop>
+	<prop>
+		<name>ChineseMonk</name>
+		<type>PerformerUnit</type>
+		<displayname>Monk</displayname>
+		<displaynamestringid/>
+		<description>A Chinese monk.</description>
+		<descriptionstringid/>
+		<levelprereq>0</levelprereq>
+		<position>
+			<building>Cathedral</building>
+		</position>
+		<icon>homecity\home_city_props\icons\preacher</icon>
+	</prop>
+	<prop>
+		<name>ChineseStreetPerformer</name>
+		<type>PerformerUnit</type>
+		<displayname>Street Performer</displayname>
+		<displaynamestringid/>
+		<description>A Chinese performer.</description>
+		<descriptionstringid/>
+		<levelprereq>0</levelprereq>
+		<position>
+			<building>Market</building>
+		</position>
+		<icon>homecity\home_city_props\icons\juggler</icon>
+	</prop>
+	<prop>
+		<name>IndianGirl</name>
+		<type>Unit</type>
+		<displayname>City Girl</displayname>
+		<displaynamestringid/>
+		<description>A young girl, new to the city.</description>
+		<descriptionstringid/>
+		<levelprereq>0</levelprereq>
+		<position>
+			<building>Academy</building>
+		</position>
+		<icon>homecity\home_city_props\icons\noble_female</icon>
+	</prop>
+	<prop>
+		<name>IndianWoman</name>
+		<type>Unit</type>
+		<displayname>Noblewoman</displayname>
+		<displaynamestringid/>
+		<description>An elegant member of any society.</description>
+		<descriptionstringid/>
+		<levelprereq>0</levelprereq>
+		<position>
+			<building>Academy</building>
+		</position>
+		<icon>homecity\home_city_props\icons\noble_female</icon>
+	</prop>
+	<prop>
+		<name>IndianGentleman</name>
+		<type>Unit</type>
+		<displayname>Nobleman</displayname>
+		<displaynamestringid/>
+		<description>An elegant member of any society.</description>
+		<descriptionstringid/>
+		<levelprereq>0</levelprereq>
+		<position>
+			<building>Dock</building>
+		</position>
+		<icon>homecity\home_city_props\icons\noble_male</icon>
+	</prop>
+	<prop>
+		<name>IndianMan</name>
+		<type>Unit</type>
+		<displayname>Nobleman</displayname>
+		<displaynamestringid/>
+		<description>An Indian man.</description>
+		<descriptionstringid/>
+		<levelprereq>0</levelprereq>
+		<position>
+			<building>Dock</building>
+		</position>
+		<icon>homecity\home_city_props\icons\noble_male</icon>
+	</prop>
+	<prop>
+		<name>IndianMonk</name>
+		<type>PerformerUnit</type>
+		<displayname>Monk</displayname>
+		<displaynamestringid/>
+		<description>A Indian monk.</description>
+		<descriptionstringid/>
+		<levelprereq>0</levelprereq>
+		<position>
+			<building>Cathedral</building>
+		</position>
+		<icon>homecity\home_city_props\icons\preacher</icon>
+	</prop>
+	<prop>
+		<name>IndianSnakecharmer</name>
+		<type>PerformerUnit</type>
+		<displayname>Street Performer</displayname>
+		<displaynamestringid/>
+		<description>A Indian performer.</description>
+		<descriptionstringid/>
+		<levelprereq>0</levelprereq>
+		<position>
+			<building>Market</building>
+		</position>
+		<icon>homecity\home_city_props\icons\juggler</icon>
+	</prop>
+	<prop>
+		<name>Camel</name>
+		<type>Unit</type>
+		<displayname>Camel</displayname>
+		<displaynamestringid/>
+		<description>A camel.</description>
+		<descriptionstringid/>
+		<levelprereq>0</levelprereq>
+		<position>
+			<building>Academy</building>
+		</position>
+		<icon>homecity\home_city_props\icons\noble_female</icon>
+	</prop>
+</homecityprops>

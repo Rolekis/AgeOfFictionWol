@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="38134">HandAttack</name>
+		<type>HandAttack</type>
+		<maxrange>1.0</maxrange>
+		<rate type="Unit">1.0 </rate>
+		<attackaction>1</attackaction>
+		<handlogic>1</handlogic>
+		<anim>Attack</anim>
+		<impacteffect>effects\impacts\melee</impacteffect>
+	</action>
+	<action>
+		<name stringid="69155">Heal</name>
+		<type>Heal</type>
+		<maxrange>12</maxrange>
+		<rate type="LogicalTypeHealed">5.0 </rate>
+		<anim>Heal</anim>
+	</action>
+	<action>
+		<name stringid="48958">ExtraDamage</name>
+		<type>AutoRangedModify</type>
+		<active>0</active>
+		<maxrange>24</maxrange>
+		<persistent>1</persistent>
+		<modifytype>Damage</modifytype>
+		<modifymultiplier>1.05</modifymultiplier>
+		<modelattachment>effects\chiefpower\chiefpower.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+	</action>
+	<action>
+		<name stringid="48957">ConvertGuardian</name>
+		<type>ConvertGuardian</type>
+		<active>0</active>
+		<maxrange>16</maxrange>
+		<anim>AblBeastMaster</anim>
+		<rate type="Guardian">1.0</rate>
+		<rof>1.000000</rof>
+	</action>
+	<!--Armenian Monastery-->
+	<action>
+		<name stringid="2018576">ChaplainATKAura</name>
+		<type>AutoRangedModify</type>
+		<active>0</active>
+		<maxrange>15</maxrange>
+		<modifyprotoid>NatFedayi</modifyprotoid>
+		<modifyprotoid>NatMercFedayi</modifyprotoid>
+		<persistent>1</persistent>
+		<modifytype>Damage</modifytype>
+		<modifymultiplier>1.05</modifymultiplier>
+		<modelattachment>effects\me_auras\aura_warlord.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+	</action>
+	<action>
+		<name stringid="2018577">ChaplainHPAura</name>
+		<type>AutoRangedModify</type>
+		<active>0</active>
+		<maxrange>15</maxrange>
+		<modifyprotoid>NatFedayi</modifyprotoid>
+		<modifyprotoid>NatMercFedayi</modifyprotoid>
+		<persistent>1</persistent>
+		<modifytype>MaxHP</modifytype>
+		<modifymultiplier>1.04</modifymultiplier>
+	</action>
+	<tactic>
+		Normal
+		<action>ChaplainATKAura</action>
+		<action>ChaplainHPAura</action>
+		<action>HandAttack</action>
+		<action>Heal</action>
+		<action>PowerConversion</action>
+		<action>ExtraDamage</action>
+		<attacktype>LogicalTypeHandUnitsAttack</attacktype>
+		<runaway>1</runaway>
+		<autoretarget>1</autoretarget>
+	</tactic>
+</tactics>

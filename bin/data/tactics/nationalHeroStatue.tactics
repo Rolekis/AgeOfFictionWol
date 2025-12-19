@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="6000266">MoralAura</name>
+		<type>AutoRangedModify</type>
+		<active>1</active>
+		<maxrange>25</maxrange>
+		<persistent>1</persistent>
+		<modifyabstracttype>Unit</modifyabstracttype>
+		<modifytype>ROF</modifytype>
+		<modifymultiplier>0.85</modifymultiplier>
+		<modelattachment>effects\ypack_auras\daimyopower.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+	</action>
+	<action>
+		<name stringid="6000321">VelikaSrbijaAura</name>
+		<type>AutoRangedModify</type>
+		<active>0</active>
+		<maxrange>25</maxrange>
+		<persistent>1</persistent>
+		<modifyabstracttype>Unit</modifyabstracttype>
+		<modifytype>MAXHP</modifytype>
+		<modifymultiplier>1.15</modifymultiplier>
+	</action>
+	<action>
+		<name stringid="6000653">CurcaniAura</name>
+		<type>AutoRangedModify</type>
+		<active>0</active>
+		<maxrange>25</maxrange>
+		<persistent>1</persistent>
+		<ModifyProtoID>Dorobant</ModifyProtoID>
+		<modifytype>ROF</modifytype>
+		<modifymultiplier>0.80</modifymultiplier>
+	</action>
+	<tactic>
+		Normal
+		<action>MoralAura</action>
+		<action>VelikaSrbijaAura</action>
+		<action>CurcaniAura</action>
+	</tactic>
+</tactics>

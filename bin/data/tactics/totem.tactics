@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="69149">AutoGatherFame</name>
+		<type>AutoGather</type>
+		<active>1</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="68971">MaintainPriests</name>
+		<type>Maintain</type>
+		<rate type="Priest">1.0</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>SpawnPriestTotem</name>
+		<type>Spawn</type>
+		<rate type="Priest">1.0</rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<!-- action>
+		<name>SpawnTotemGatherer</name>
+		<type>Spawn</type>
+		<rate type="WOLTotemGatherer">1.0</rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>1</active>
+		<persistent>1</persistent>
+	</action -->
+	<tactic>
+		Normal
+		<action>AutoGatherFame</action>
+		<action>MaintainPriests</action>
+		<action>SpawnPriestTotem</action>
+		<!-- action>SpawnTotemGatherer</action -->
+	</tactic>
+</tactics>

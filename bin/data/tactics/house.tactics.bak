@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name>Spawn</name>
+		<type>Spawn</type>
+		<rate type="Settler">1.0</rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="500184">SpawnCrateofXP</name>
+		<type>Maintain</type>
+		<rate type="CrateofXP">1</rate>
+		<active>1</active>
+		<persistent>0</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name>SpawnBritania</name>
+		<type>Spawn</type>
+		<rate type="PeonSpawner">1.0 </rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="35605">Heal</name>
+		<type>Heal</type>
+		<maxrange>12</maxrange>
+		<rate type="LogicalTypeHealed">5.0</rate>
+		<active>0</active>
+		<anim>Heal</anim>
+	</action>
+	<action>
+		<name stringid="61766">AutoGatherXP</name>
+		<type>AutoGather</type>
+		<persistent>1</persistent>
+		<active>0</active>
+	</action>
+	<action>
+		<name stringid="69182">SpawnCanadianTrees</name>
+		<type>Maintain</type>
+		<rate type="TreeCanadian">2.0 </rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name>SpawnFrenchPlus</name>
+		<type>Spawn</type>
+		<rate type="FrHPlus">1.0 </rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="700306">AutoGatherItalianBonus</name>
+		<type>AutoGather</type>
+		<active>0</active>
+		<persistent>1</persistent>
+		<Rate type ='Gold'>0.250001</Rate>
+	</action>
+	<action>
+		<name stringid="68971">SpawnHajduk</name>
+		<type>Maintain</type>
+		<rate type="Hajduk">1</rate>
+		<active>1</active>
+		<persistent>0</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="2040041">SpawnMELevy</name>
+		<type>Maintain</type>
+		<rate type="MELevy">2</rate>
+		<active>1</active>
+		<persistent>0</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="2040041">SpawnMELevyPer</name>
+		<type>Maintain</type>
+		<rate type="MELevy">3</rate>
+		<active>1</active>
+		<persistent>0</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<!-- action>
+		<name>SpawnSettlerBelgian</name>
+		<type>Maintain</type>
+		<rate type="Settler">1.0</rate>
+		<active>1</active>
+		<persistent>0</persistent>
+		<singleuse>1</singleuse>
+	</action -->
+	<action>
+		<name stringid="68971">SpawnSettlerBelgian</name>
+		<type>Maintain</type>
+		<rate type="WOLChildminderSettlerSpawn">1.0</rate>
+		<active>1</active>
+		<persistent>0</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="48954">SwissFear</name>
+		<type>AutoRangedModify</type>
+		<active>0</active>
+		<maxrange>25</maxrange>
+		<targetenemy>1</targetenemy>
+		<persistent>1</persistent>
+		<modifyabstracttype>Unit</modifyabstracttype>
+		<modifytype>Speed</modifytype>
+		<modifymultiplier>0.90</modifymultiplier>
+		<modelattachment>units\attachments\stun_stars.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+	</action>
+	<action>
+		<name stringid="632000">SpawnGrenadierGermans</name>
+		<type>Maintain</type>
+		<rate type="Grenadier">1.0 </rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="632002">SpawnFalconetGermans</name>
+		<type>Maintain</type>
+		<rate type="Falconet">1.0 </rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="632006">SpawnMortarGermans</name>
+		<type>Maintain</type>
+		<rate type="Mortar">1.0 </rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="632008">SpawnHorseArtilleryGermans</name>
+		<type>Maintain</type>
+		<rate type="xpHorseArtillery">1.0 </rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="632010">SpawnPetardGermans</name>
+		<type>Maintain</type>
+		<rate type="xpPetard">1.0 </rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="48955">ExtraSpeedKoreanNavy</name>
+		<type>AutoRangedModify</type>
+		<targetenemy>1</targetenemy>
+		<modifyprotoid>WOLHyeopseon</modifyprotoid>
+		<active>0</active>
+		<maxrange>4096</maxrange>
+		<persistent>1</persistent>
+		<modifytype>Speed</modifytype>
+		<modifymultiplier>1.005</modifymultiplier>
+	</action>
+	<action>
+		<name stringid="68961">EconomicAuraKoreanNavy</name>
+		<type>AutoRangedModify</type>
+		<targetenemy>1</targetenemy>
+		<modifyprotoid>WOLHyeopseon</modifyprotoid>
+		<active>0</active>
+		<maxrange>4096</maxrange>
+		<persistent>1</persistent>
+		<modifytype>GatherRate</modifytype>
+		<modifymultiplier>1.01</modifymultiplier>
+	</action>
+	<action>
+		<name stringid="48958">ExtraDamageKoreanNavy</name>
+		<type>AutoRangedModify</type>
+		<targetenemy>1</targetenemy>
+		<modifyprotoid>WOLPanokseon</modifyprotoid>
+		<active>0</active>
+		<maxrange>4096</maxrange>
+		<persistent>1</persistent>
+		<modifytype>Damage</modifytype>
+		<modifymultiplier>1.01</modifymultiplier>
+	</action>
+	<action>
+		<name stringid="48954">GreatHeartKoreanNavy</name>
+		<type>AutoRangedModify</type>
+		<targetenemy>1</targetenemy>
+		<modifyprotoid>WOLGeobukseon</modifyprotoid>
+		<active>0</active>
+		<maxrange>4096</maxrange>
+		<persistent>1</persistent>
+		<modifytype>MaxHP</modifytype>
+		<modifymultiplier>1.01</modifymultiplier>
+	</action>
+	<action>
+		<name stringid="48954">GreatHeartCroatian</name>
+		<type>AutoRangedModify</type>
+		<modifyprotoid>AbstractWarShip</modifyprotoid>
+		<active>0</active>
+		<maxrange>30</maxrange>
+		<persistent>1</persistent>
+		<modifytype>MaxHP</modifytype>
+		<modifymultiplier>1.05</modifymultiplier>
+	</action>
+	<action>
+		<name stringid="24102">BuildAnnex</name>
+		<type>Build</type>
+		<maxrange>5</maxrange>
+		<rate type="Building">1.0</rate>
+	</action>
+	<action>
+		<name stringid="61766">AutoGatherXPNeoclassicalMedium</name>
+		<type>AutoGather</type>
+		<active>0</active>
+		<persistent>1</persistent>
+		<Rate type ='XP'>0.2500</Rate>
+	</action>
+	<action>
+		<name stringid="61766">AutoGatherXPNeoclassicalSmall</name>
+		<type>AutoGather</type>
+		<active>0</active>
+		<persistent>1</persistent>
+		<Rate type ='XP'>0.1000</Rate>
+	</action>
+	<action>
+		<name>MaintainNordenfelts</name>
+		<type>Maintain</type>
+		<rate type="WOLNordenfeltGun">1.00</rate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="68994">lostEco</name>
+		<type>AutoRangedModify</type>
+		<targetenemy>1</targetenemy>
+		<active>0</active>
+		<maxrange>40</maxrange>
+		<persistent>1</persistent>
+		<modifyabstracttype>AbstractVillager</modifyabstracttype>
+		<modifytype>GATHER</modifytype>
+		<modifymultiplier>0.80</modifymultiplier>
+		<modelattachmentbone>bone_smoke</modelattachmentbone>
+		<modelattachment>effects\ypack_auras\frightpower.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+	</action>
+	<action>
+		<name>Spawntreasure</name>
+		<type>Spawn</type>
+		<rate type="YPNuggetEuropeanWreck">3.0 </rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="69158">SpawnSchneider</name>
+		<type>Maintain</type>
+		<rate type="MuleArtillery">1.0 </rate>
+		<active>0</active>
+		<persistent>1</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="2040078">RangedAttackMahalla</name>
+		<type>Attack</type>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<anim>RangedAttack</anim>
+		<maxheight>0</maxheight>
+		<accuracy>1.0</accuracy>
+		<accuracyreductionfactor>0.01</accuracyreductionfactor>
+		<aimbonus>0</aimbonus>
+		<maxspread>5</maxspread>
+		<spreadfactor>0.25</spreadfactor>
+		<trackrating>12</trackrating>
+		<unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+		<projectile>InvisibleProjectile</projectile>
+		<impacteffect>effects\impacts\gun</impacteffect>
+		<rate type="Unit">1.0 </rate>
+		<rate type="Building">1.0 </rate>
+		<instantballistics>1</instantballistics>
+		<active>0</active>
+	</action>
+	<action>
+		<name stringid="2040078">RangedAttackMahallaIncremental</name>
+		<type>Attack</type>
+		<active>0</active>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<activeifcontainsunits>1</activeifcontainsunits>
+		<damagefactorcap>10</damagefactorcap>
+		<scalebycontainedunits>1</scalebycontainedunits>
+		<anim>RangedAttack</anim>
+		<maxheight>0</maxheight>
+		<accuracy>1.0</accuracy>
+		<aimbonus>0</aimbonus>
+		<maxspread>5</maxspread>
+		<rate type="Building">1.0</rate>
+		<spreadfactor>0.25</spreadfactor>
+		<trackrating>12</trackrating>
+		<unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+		<projectile>InvisibleProjectile</projectile>
+		<impacteffect>effects\impacts\gun</impacteffect>
+		<rate type="Unit">1.0</rate>
+		<instantballistics>1</instantballistics>
+	</action>
+	<action>
+		<name stringid="2030796">PalovCrate</name>
+		<type>Spawn</type>
+		<rate type="CrateofFood">1.0 </rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	
+	<action>
+		<name stringid="2040149">Spawn25Gold</name>
+		<type>Spawn</type>
+		<rate type="DutchgoldIV">1.0 </rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="2040149">Spawn50Gold</name>
+		<type>Spawn</type>
+		<rate type="DutchgoldIV">2.0 </rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="2030468">ExtraDamageConsulateCossack</name>
+		<type>AutoRangedModify</type>
+		<persistent>1</persistent>
+		<active>0</active>
+		<maxrange>20</maxrange>
+		<modifyprotoid>Cossack</modifyprotoid>
+		<modifymultiplier>1.1</modifymultiplier>
+		<ModifyExclusive>1</ModifyExclusive>
+		<modifytype>Damage</modifytype>
+	</action>
+	<action>
+		<name stringid="2030766">TimuridXPTrickle</name>
+		<type>AutoGather</type>
+		<active>0</active>
+		<persistent>1</persistent>
+		<Rate type ='XP'>0.10</Rate>
+	</action>
+	<action>
+		<name stringid="68971">SpawnKellu</name>
+		<type>Maintain</type>
+		<rate type="WOLSarna">1</rate>
+		<active>1</active>
+		<persistent>0</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<tactic>
+		Normal
+		<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
+		<autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype>
+		<attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype>
+		<action priority="80">RangedAttackMahallaIncremental</action>
+		<action priority="75">RangedAttackMahalla</action>
+		<action>TimuridXPTrickle</action>
+		<action>SpawnFrenchPlus</action>
+		<action>SpawnCrateofXP</action>
+		<action>AutoGatherItalianBonus</action>
+		<action>GreatHeartCroatian</action>
+		<action>AutoGatherXP</action>
+		<action>AutoGatherXPMariachi</action>
+		<action>EconomicAuraKoreanNavy</action>
+		<action>ExtraDamageKoreanNavy</action>
+		<action>ExtraSpeedKoreanNavy</action>
+		<action>GreatHeartKoreanNavy</action>
+		<action>ExtraDamageConsulateCossack</action>
+		<action>Spawntreasure</action>
+		<action>Heal</action>
+		<action>lostEco</action>
+		<action>Spawn</action>
+		<action>SpawnCanadianTrees</action>
+		<action>SpawnHajduk</action>
+		<action>SpawnKellu</action>
+		<action>SpawnSettlerBelgian</action>
+		<action>SwissFear</action>
+		<action>SpawnBritania</action>
+		<action>SpawnGrenadierGermans</action>
+		<action>SpawnFalconetGermans</action>
+		<action>SpawnMortarGermans</action>
+		<action>SpawnHorseArtilleryGermans</action>
+		<action>SpawnPetardGermans</action>
+		<action>BuildAnnex</action>
+		<action>AutoGatherXPNeoclassicalMedium</action>
+		<action>AutoGatherXPNeoclassicalSmall</action>
+		<action>MaintainNordenfelts</action>
+		<action>SpawnSchneider</action>
+		<action>SpawnMELevy</action>
+		<action>SpawnMELevyPer</action>
+		<action>PalovCrate</action>
+		<action>Spawn25Gold</action>
+        <action>Spawn50Gold</action>
+	</tactic>
+</tactics>
