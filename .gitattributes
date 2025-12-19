@@ -1,0 +1,5 @@
+*.gxo -text
+*.gr2 -text
+*.ddt -text
+*.mtl -text
+*.obj -text
