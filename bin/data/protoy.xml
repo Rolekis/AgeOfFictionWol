@@ -12462,30 +12462,6 @@
 		<Tech column="0" page="1" row="0">COpoliticianAGE305BOL</Tech>
 		<Tech column="0" page="1" row="0">COpoliticianAGE405BOL</Tech>
 		<Tech column="0" page="1" row="0">COpoliticianAGE505BOL</Tech>
-		<!-- AI Stuff -->
-		<Train column="0" page="255" row="0">WOL_AI_NoItalianWagons</Train>
-		<Tech column="0" page="255" row="0">WOL_AI_BuildLot</Tech>
-		<Train column="0" page="255" row="0">WOL_AI_ZuluMaturing</Train>
-		<Train column="0" page="255" row="0">WOL_AI_BuildLot</Train>
-		<Train column="0" page="255" row="0">WOL_AI_Carretero</Train>
-		<Train column="0" page="255" row="0">WOL_AI_FreePresidio</Train>
-		<Train column="0" page="255" row="0">WOL_AI_BrazilianSlaves</Train>
-		<Train column="0" page="255" row="0">WOL_AI_GreatWarAlternate</Train>
-		<Train column="0" page="255" row="0">WOL_AI_MEAGEUP1</Train>
-		<Train column="0" page="255" row="0">WOL_AI_MEAGEUP2</Train>
-		<Train column="0" page="255" row="0">WOL_AI_MEAGEUP3</Train>
-		<Train column="0" page="255" row="0">WOL_AI_MEAGEUP4</Train>
-		<!-- CitadelTechs -->
-		<Tech column="3" page="1" row="0">MEOralPoetry</Tech>
-		<Tech column="3" page="1" row="0">MECaravanRaid</Tech>
-		<Tech column="4" page="1" row="0">MEBoilingOil</Tech>
-		<Tech column="4" page="1" row="0">MEMurabitun</Tech>
-		<Tech column="5" page="1" row="0">MECeremonialZulfiqar</Tech>
-		<Tech column="5" page="1" row="0">MEBileziqArmlets</Tech>
-		<!-- uzbek nomads -->
-		<Tech column="3" page="0" row="0">MESetSpawnKarakalpak</Tech>
-		<Tech column="4" page="0" row="0">MESetSpawnTurkman</Tech>
-		<Tech column="5" page="0" row="0">MESetSpawnKyrgyz</Tech>
 		<!-- GW -->
 		<Tech column="4" page="2" row="0">GreatWarButton</Tech>
 		<Tech column="4" page="2" row="0">GreatWarButtonTupi</Tech>
@@ -12493,19 +12469,6 @@
 		<!-- LATAM LOS TECH -->
 		<Tech column="1" page="2" row="1">WOTTAgas01LA</Tech>
 		<Tech column="2" page="2" row="1">WOTTAtownwatch01LA</Tech>
-		<!-- Annex -->
-		<Train column="1" page="2" row="0">WOLObservatory</Train>
-		<Train column="5" page="0" row="0">Oasis</Train>
-		<!-- saudi -->
-		<Train column="1" page="0" row="0">Bedouin</Train>
-		<Train column="2" page="0" row="0">MadrasahCaravan</Train>
-		<Train column="3" page="0" row="0">SoukCaravan</Train>
-		<Train column="4" page="0" row="0">RoyalCaravan</Train>
-		<Train column="5" page="0" row="0">TempleCaravan</Train>
-		<Train column="6" page="0" row="0">ForgeCaravan</Train>
-		<Train column="7" page="0" row="0">GunsmithCaravan</Train>
-		<Train column="8" page="0" row="0">FoundryCaravan</Train>
-		<Train column="9" page="0" row="0">HookahCaravan</Train>
 		<!-- Annex -->
 		<Train column="1" page="2" row="0">WOLObservatory</Train>
 		<Flag>ShowGarrisonButton</Flag>
@@ -13338,6 +13301,14 @@
 		<Tech column="3" page="1" row="0">LairdRamsPeru</Tech>
 		<Tech column="2" page="1" row="0">ArmadaRespectablePeru</Tech>
 		<Tech column="2" page="1" row="0">ArmstrongGunPeru</Tech>
+		<!-- MIMI -->
+		<Tech column="0" page="1" row="0">MEGargour</Tech>
+		<Tech column="0" page="1" row="0">MEHadrah</Tech>
+		<Tech column="1" page="1" row="0">MEDamarLuting</Tech>
+		<Tech column="1" page="2" row="0">MENakhuda</Tech>
+		<Tech column="2" page="1" row="0">MESewnPlank</Tech>
+		<Tech column="2" page="2" row="0">MEPrangi</Tech>
+		<Tech column="3" page="1" row="0">MENafta</Tech>
 		<!-- End Peruvian List -->
 		<Flag>CollidesWithProjectiles</Flag>
 		<Flag>StartsAtFullEfficiency</Flag>
@@ -26057,6 +26028,19 @@
 		<Tech column="4" page="1" row="0">AFRICANTECHvillagerhealth1</Tech>
 		<Tech column="4" page="1" row="0">AFRICANTECHvillagerhealth2</Tech>
 		<Tech column="5" page="1" row="0">AFRICANTECHmercantilism</Tech>
+		<!-- MIMIMIMI -->
+		<Tech column="0" page="1" row="0">MESalukis</Tech>
+		<Tech column="0" page="1" row="0">MEFalconry</Tech>
+		<Tech column="1" page="1" row="0">MESharpAxe</Tech>
+		<Tech column="1" page="1" row="0">MELargeSteelSaw</Tech>
+		<Tech column="1" page="1" row="0">MEScaffolding</Tech>
+		<Tech column="2" page="1" row="0">MEPickaxe</Tech>
+		<Tech column="2" page="1" row="0">MEWindlass</Tech>
+		<Tech column="3" page="1" row="0">MEFruitPicking</Tech>
+		<Tech column="3" page="1" row="0">MEPruningShears</Tech>
+		<Tech column="3" page="1" row="0">MEPomology</Tech>
+		<Tech column="4" page="1" row="0">MEKohl</Tech>
+		<Tech column="5" page="1" row="0">MEJambiya</Tech>
 		<!-- Anex -->
 		<Train column="2" page="7" row="0">WOLMaypole</Train>
 		<Flag>CollidesWithProjectiles</Flag>
@@ -64915,6 +64899,10 @@
 		<UnitType>HasBountyValue</UnitType>
 		<UnitType>ConvertsHerds</UnitType>
 
+		<Train column="1" page="0" row="0">Sambuk</Train>
+		<Train column="2" page="0" row="0">Baghlah</Train>
+		<Train column="3" page="0" row="0">Boum</Train>
+
 		<Train column="1" page="0" row="0">Corvette</Train>
 		<Train column="2" page="0" row="0">Frigate</Train>
 		<Train column="3" page="0" row="0">LABombarda</Train>
@@ -64975,6 +64963,17 @@
 		<Tech column="2" page="1" row="0">PercussionLocks</Tech>
 		<Tech column="5" page="1" row="0">ShipHowitzers</Tech>
 		<Train column="5" page="0" row="0">PirateShip</Train>
+		<!--ME-->
+		<Tech column="6" page="1" row="0">VeteranKhalasi</Tech>
+		<Tech column="6" page="1" row="0">GuardKhalasi</Tech>
+		<Tech column="6" page="1" row="0">ImperialKhalasi</Tech>
+		<Tech column="0" page="1" row="0">MEGargour</Tech>
+		<Tech column="0" page="1" row="0">MEHadrah</Tech>
+		<Tech column="1" page="1" row="0">MEDamarLuting</Tech>
+		<Tech column="1" page="2" row="0">MENakhuda</Tech>
+		<Tech column="2" page="1" row="0">MESewnPlank</Tech>
+		<Tech column="2" page="2" row="0">MEPrangi</Tech>
+		<Tech column="3" page="1" row="0">MENafta</Tech>
 		<!-- Korean Ships -->
 		<Train column="1" page="0" row="0">WOLHyeopseon</Train>
 		<Train column="2" page="0" row="0">WOLPanokseon</Train>
@@ -176373,6 +176372,13 @@
 		<PortraitIcon>ui\Buildings\dock_portrait</PortraitIcon>
 		<Flag>NotPlayerPlaceable</Flag>
 	</Unit>
+	<Unit id="20773434" name="IconPortraitrapiredhood">
+		<DBID>20754574</DBID>
+		<AnimFile>units\villagers\envoy.xml</AnimFile>
+		<Icon>WoL\icons\tech\rapiredhoodicon</Icon>
+		<PortraitIcon>WoL\icons\tech\rapiredhoodportrait</PortraitIcon>
+		<Flag>NotPlayerPlaceable</Flag>
+	</Unit>
 	<Unit id="20762" name="IconPortraitNativeMarket">
 		<DBID>20762</DBID>
 		<AnimFile>units\villagers\envoy.xml</AnimFile>
@@ -176483,13 +176489,6 @@
 		<AnimFile>units\villagers\envoy.xml</AnimFile>
 		<Icon>WoL\units\infantry\pikeman\pikeman_euro_icon</Icon>
 		<PortraitIcon>WoL\units\infantry\pikeman\pikeman_euro_portrait</PortraitIcon>
-		<Flag>NotPlayerPlaceable</Flag>
-	</Unit>
-	<Unit id="20773434" name="IconPortraitrapiredhood">
-		<DBID>20754574</DBID>
-		<AnimFile>units\villagers\envoy.xml</AnimFile>
-		<Icon>WoL\icons\tech\rapiredhoodicon</Icon>
-		<PortraitIcon>WoL\icons\tech\rapiredhoodportrait</PortraitIcon>
 		<Flag>NotPlayerPlaceable</Flag>
 	</Unit>
 	<Unit id="20775" name="IconPortraitEuropeanSkirmisher">
@@ -279247,6 +279246,7 @@
 			<Rate type="Gold">3.300000</Rate>
 		</ProtoAction>
 	</Unit>
+	<!-- End Outlaw Rework -->
 	<!-- MIMIMIMIMI -->
 	<Unit id="121894" name="Madrasah">
 		<DBID>121894</DBID>
@@ -299997,6 +299997,4 @@
 		<PortraitIcon>WoL\units\infantry_ranged\iljari\mujahid_portrait</PortraitIcon>
 		<Flag>NotPlayerPlaceable</Flag>
 	</Unit>
-	<!-- End Outlaw Rework -->
-
 </Proto>
