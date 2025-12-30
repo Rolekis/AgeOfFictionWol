@@ -23,6 +23,26 @@
 		</anim>
 	</attachment>
 	<attachment>
+		backpack
+		
+		<component>
+			backpack
+			
+			<assetreference type="GrannyModel">
+				<file>WoL\units\infantry_ranged\redcoat\backpack</file>
+					<replacetexture>
+						<from>WoL\units\infantry_ranged\redcoat\backpack</from>
+						<to>War of the Triple Alliance\gokulegana</to>
+				</replacetexture>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			
+			<component>backpack</component>
+		</anim>
+	</attachment>
+	<attachment>
 		gun
 		<component>
 			gun
@@ -69,22 +89,6 @@
 		</anim>
 	</attachment>
 	<attachment>
-		backpack
-		
-		<component>
-			backpack
-			
-			<assetreference type="GrannyModel">
-				<file>WoL\units\infantry_ranged\redcoat\backpack</file>
-			</assetreference>
-		</component>
-		<anim>
-			Idle
-			
-			<component>backpack</component>
-		</anim>
-	</attachment>
-	<attachment>
 			hat1
 			
 		<component>
@@ -107,7 +111,7 @@
 				hat2
 				
 			<assetreference type="GrannyModel">
-				<file>WoL\units\infantry_ranged\line_infantry\hat_2</file>
+				<file>War of the Triple Alliance\DLC\Fenriz\Units\rupee\hat_2</file>
 			</assetreference>
 		</component>
 		<anim>
@@ -139,7 +143,7 @@
 				hat_deutschmeister
 				
 			<assetreference type="GrannyModel">
-				<file>WoL\units\infantry_ranged\line_infantry\deutschmeister\hat_deutschmeister_4age</file>
+				<file>War of the Triple Alliance\DLC\Fenriz\Units\rupee\deutschmeister\hat_deutschmeister_4age</file>
 			</assetreference>
 		</component>
 		<anim>
@@ -155,7 +159,7 @@
 					hat_maykafer
 				
 			<assetreference type="GrannyModel">
-				<file>WoL\units\infantry_ranged\line_infantry\maykafer\hat_maykafer</file>
+				<file>War of the Triple Alliance\DLC\Fenriz\Units\rupee\maykafer\hat_maykafer</file>
 			</assetreference>
 		</component>
 		<anim>
@@ -171,7 +175,7 @@
 					hat_frontovik
 				
 			<assetreference type="GrannyModel">
-				<file>WoL\units\infantry_ranged\line_infantry\frontovik\hat_frontovik_3age</file>
+				<file>War of the Triple Alliance\DLC\Fenriz\Units\rupee\frontovik\hat_frontovik_3age</file>
 			</assetreference>
 		</component>
 		<anim>
@@ -187,7 +191,7 @@
 				hat_poilu
 				
 			<assetreference type="GrannyModel">
-				<file>WoL\units\infantry_ranged\line_infantry\poilu\hat_poilu_4age</file>
+				<file>War of the Triple Alliance\DLC\Fenriz\Units\rupee\poilu\hat_poilu_4age</file>
 			</assetreference>
 		</component>
 		<anim>
@@ -203,7 +207,7 @@
 				shoulders_poilu
 				
 			<assetreference type="GrannyModel">
-				<file>WoL\units\infantry_ranged\line_infantry\poilu\shoulders_poilu</file>
+				<file>War of the Triple Alliance\DLC\Fenriz\Units\rupee\poilu\shoulders_poilu</file>
 			</assetreference>
 		</component>
 		<anim>
@@ -214,6 +218,7 @@
 	</attachment>
 	<component>
 		ModelComp
+		
 		<logic type="Tech">
 			<none>
 				<logic type="LowPoly">
@@ -237,131 +242,6 @@
 					</normal>
 				</logic>
 			</rapiredhood>
-			<WOLGuardLineInfantry>
-				<logic type="LowPoly">
-					<normal>
-						<assetreference type="GrannyModel">
-							<file>Wol\units\infantry_ranged\rapi\rapiagetwo</file>
-						</assetreference>
-						<attach a="hat3" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
-						<attach a="gun" frombone="bone_gun" tobone="Bip01 Prop1" syncanims="0"/>
-						<attach a="backpack" frombone="bone_backpack" tobone="SPINE1" syncanims="0"/>
-					</normal>
-				</logic>
-			</WOLGuardLineInfantry>
-			<WOLRGImmortals>
-				<logic type="LowPoly">
-					<normal>
-						<assetreference type="GrannyModel">
-							<file>War of the Triple Alliance\DLC\Fenriz\Units\rapi\rapiagetwo</file>
-								<replacetexture>
-									<from>WoL\units\infantry_ranged\line_infantry\poilu\poilu_4age</from>
-									<to>Wol\units\infantry_ranged\rapi\rapiagetwo</to>
-								</replacetexture>
-						</assetreference>
-						<attach a="hat_poilu" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
-						<attach a="gun" frombone="bone_gun" tobone="Bip01 Prop1" syncanims="0"/>
-						<attach a="backpack" frombone="bone_backpack" tobone="SPINE1" syncanims="0"/>
-						<attach a="shoulders_poilu" frombone="bone_backpack" tobone="SPINE1" syncanims="0"/>
-					</normal>
-				</logic>
-			</WOLRGImmortals>
-			<RVDeutschmeister>
-				<logic type="LowPoly">
-					<normal>
-						<assetreference type="GrannyModel">
-							<file>War of the Triple Alliance\DLC\Fenriz\Units\rapi\rapiagetwo</file>
-								<replacetexture>
-									<from>WoL\units\infantry_ranged\line_infantry\deutschmeister\deutschmeister_4age</from>
-									<to>Wol\units\infantry_ranged\rapi\rapiagetwo</to>
-								</replacetexture>
-						</assetreference>
-						<attach a="hat_deutschmeister" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
-						<attach a="gun" frombone="bone_gun" tobone="Bip01 Prop1" syncanims="0"/>
-						<attach a="backpack" frombone="bone_backpack" tobone="SPINE1" syncanims="0"/>
-					</normal>
-				</logic>
-			</RVDeutschmeister>
-			<GuardDeutschmeister>
-				<logic type="LowPoly">
-					<normal>
-						<assetreference type="GrannyModel">
-							<file>War of the Triple Alliance\DLC\Fenriz\Units\rapi\rapiagetwo</file>
-								<replacetexture>
-									<from>WoL\units\infantry_ranged\line_infantry\deutschmeister\deutschmeister_4age</from>
-									<to>Wol\units\infantry_ranged\rapi\rapiagetwo</to>
-								</replacetexture>
-						</assetreference>
-						<attach a="hat_deutschmeister" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
-						<attach a="gun" frombone="bone_gun" tobone="Bip01 Prop1" syncanims="0"/>
-						<attach a="backpack" frombone="bone_backpack" tobone="SPINE1" syncanims="0"/>
-					</normal>
-				</logic>
-			</GuardDeutschmeister>
-			<WOLRGMaykafer>
-				<logic type="LowPoly">
-					<normal>
-						<assetreference type="GrannyModel">
-							<file>War of the Triple Alliance\DLC\Fenriz\Units\rapi\rapiagetwo</file>
-								<replacetexture>
-									<from>WoL\units\infantry_ranged\line_infantry\maykafer\maykafer_3age</from>
-									<to>Wol\units\infantry_ranged\rapi\rapiagetwo</to>
-								</replacetexture>
-						</assetreference>
-						<attach a="hat_maykafer" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
-						<attach a="gun" frombone="bone_gun" tobone="Bip01 Prop1" syncanims="0"/>
-						<attach a="backpack" frombone="bone_backpack" tobone="SPINE1" syncanims="0"/>
-					</normal>
-				</logic>
-			</WOLRGMaykafer>
-			<WOLImperialMaykafer>
-				<logic type="LowPoly">
-					<normal>
-						<assetreference type="GrannyModel">
-							<file>War of the Triple Alliance\DLC\Fenriz\Units\rapi\rapiagetwo</file>
-								<replacetexture>
-									<from>WoL\units\infantry_ranged\line_infantry\maykafer\maykafer_4age</from>
-									<to>Wol\units\infantry_ranged\rapi\rapiagetwo</to>
-								</replacetexture>
-						</assetreference>
-						<attach a="hat_maykafer" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
-						<attach a="gun" frombone="bone_gun" tobone="Bip01 Prop1" syncanims="0"/>
-						<attach a="backpack" frombone="bone_backpack" tobone="SPINE1" syncanims="0"/>
-					</normal>
-				</logic>
-			</WOLImperialMaykafer>
-			<ConsularUpgrader>
-				<logic type="LowPoly">
-					<normal>
-						<assetreference type="GrannyModel">
-							<file>War of the Triple Alliance\DLC\Fenriz\Units\rapi\rapiagetwo</file>
-								<replacetexture>
-									<from>WoL\units\infantry_ranged\line_infantry\maykafer\maykafer_4age</from>
-									<to>Wol\units\infantry_ranged\rapi\rapiagetwo</to>
-								</replacetexture>
-						</assetreference>
-						<attach a="hat_maykafer" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
-						<attach a="gun" frombone="bone_gun" tobone="Bip01 Prop1" syncanims="0"/>
-						<attach a="backpack" frombone="bone_backpack" tobone="SPINE1" syncanims="0"/>
-					</normal>
-				</logic>
-			</ConsularUpgrader>
-			<WOLRGFrontoviki>
-				<logic type="LowPoly">
-					<normal>
-						<assetreference type="GrannyModel">
-							<file>War of the Triple Alliance\DLC\Fenriz\Units\rapi\rapiagetwo</file>
-								<replacetexture>
-									<from>WoL\units\infantry_ranged\line_infantry\frontovik\frontovik_3age</from>
-									<to>Wol\units\infantry_ranged\rapi\rapiagetwo</to>
-								</replacetexture>
-						</assetreference>
-						<attach a="hat_frontovik" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
-						<attach a="gun" frombone="bone_gun" tobone="Bip01 Prop1" syncanims="0"/>
-						<attach a="backpack" frombone="bone_backpack" tobone="SPINE1" syncanims="0"/>
-					</normal>
-				</logic>
-			</WOLRGFrontoviki>
 		</logic>
 		<logic type="tech">
 			<none>
